@@ -48,7 +48,7 @@ def build_vocabulary(data):
 
     
 def build_bow(vocab, data):
-    """Function to build term document matrix from Text where data is a Data Frame."""
+    """Function to build term document matrix, bow style from Text where data is a Data Frame."""
     
     result = np.zeros((len(data), len(vocab)))
     count = 0
@@ -56,12 +56,23 @@ def build_bow(vocab, data):
         bow_vector = np.zeros(len(vocab))
         one_example = re.split('; |,| |\n| .',i)
         for j in one_example:
-            if i in vocab:
-                bow_vector[vocab[i]] = 1
+            if j in vocab:
+                bow_vector[vocab[j]] = 1
             else:
                 bow_vector[vocab['UNK']] = 1
         result[count, :] = bow_vector
         count+=1
     
     return result
+
+
+def build_labels(num_labels, data):
+    """Function to build label matrix, binary valued vector style where data is a Data Frame."""
     
+    head_tags = []
+    for i in range(num_labels):
+        head_tags.append(str(i))
+    
+    labels = data[head_tags]
+    
+    return labels.to_numpy()
