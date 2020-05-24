@@ -9,7 +9,7 @@ Created on Fri May 22 17:06:56 2020
 import pandas as pd
 import csv
 
-f = pd.read_csv('tags.csv')
+f = pd.read_csv('../Data/tags.csv')
 f_result = f[['tags_id', 'tag']]
 
 tags_reverse = pd.Series(f_result.tags_id.values,index=f_result.tag).to_dict()

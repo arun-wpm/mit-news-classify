@@ -29,8 +29,11 @@ stopword.add('may')
 stopword.add('etc')
 
 def build_vocabulary(data):
+    """Builds a vobaulary from Text column of data that is a Data Frame."""
+    
     vocabulary = dict()
-    index=0
+    vocabulary['UNK'] = 0
+    index=1
     for i in data['Text']:
       words = re.split('; |,| |\n| .',i)
       for word in words:
@@ -43,4 +46,22 @@ def build_vocabulary(data):
               index+=1
     return vocabulary
 
+    
+def build_bow(vocab, data):
+    """Function to build term document matrix from Text where data is a Data Frame."""
+    
+    result = np.zeros((len(data), len(vocab)))
+    count = 0
+    for i in data['Text']:
+        bow_vector = np.zeros(len(vocab))
+        one_example = re.split('; |,| |\n| .',i)
+        for j in one_example:
+            if i in vocab:
+                bow_vector[vocab[i]] = 1
+            else:
+                bow_vector[vocab['UNK']] = 1
+        result[count, :] = bow_vector
+        count+=1
+    
+    return result
     

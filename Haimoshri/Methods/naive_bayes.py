@@ -10,6 +10,7 @@ Created on Sat May 23 21:49:37 2020
 import pandas as pd
 import csv
 import read_tags as rt
+import data_processing as dp
 
 with open('../Data/small_data_test.csv', 'r') as f:
     file = pd.read_csv(f)
@@ -19,5 +20,5 @@ with open('../Data/small_data_test.csv', 'r') as f:
     
     num_tags = rt.num_tags
     
-    
+    vocabulary = dp.build_vocabulary(file)
     
