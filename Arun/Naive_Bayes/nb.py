@@ -70,13 +70,16 @@ if __name__ == "__main__":
     # data = pd.read_csv('small_data_h.csv')
     # data = data.fillna(0)
 
+    data_train, data_test, labels_train, labels_test = train_test_split(data['Text'], labels, test_size=0.5)
+
     vocab = dp.build_vocabulary(data) #should use tokenizer rather than re split?
     tf_idf = transform_to_tfidf(data, vocab)
-    #TODO: transform data by tf_idf
+
+    #transform data by tf_idf : tokenize each sample
+
 
     # data = data['Text']
 
-    data_train, data_test, labels_train, labels_test = train_test_split(data['Text'], labels, test_size=0.5)
     ovrnb = OneVsRestClassifier(GaussianNB()).fit(data_train, labels_train)
     labels_test_pred = ovrnb.predict(data_test)
 
