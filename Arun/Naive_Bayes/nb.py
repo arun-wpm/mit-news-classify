@@ -1,5 +1,5 @@
 """
-Created on Sunday May 24 2020 17:48:00 +0700
+Created on Monday May 25 2020 23:27 +0700
 
 @author: arunwpm
 """
@@ -7,7 +7,8 @@ import numpy
 import sys
 sys.path.append("/home/euler/miniconda3/lib/python3.7/site-packages")
 
-from sklearn.naive_bayes import GaussianNB
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.multiclass import OneVsRestClassifier
 from tf_idf import transform_to_tfidf
 import pandas as pd
@@ -72,15 +73,16 @@ if __name__ == "__main__":
 
     data_train, data_test, labels_train, labels_test = train_test_split(data['Text'], labels, test_size=0.5)
 
-    vocab = dp.build_vocabulary(data) #should use tokenizer rather than re split?
-    tf_idf = transform_to_tfidf(data, vocab)
+    # transform data by tf_idf : tokenize each sample
+    count_vect = CountVectorizer()
+    data_train_counts = count_vect.fit_transform(data_train)
+    data_train = TfidfTransformer().fit_transform(data_train_counts)
+    data_test = TfidfTransformer().transform(data_train_counts)
 
-    #transform data by tf_idf : tokenize each sample
+    # vocab = dp.build_vocabulary({'Text': data_train}) #should use tokenizer rather than re split?
+    # tf_idf = transform_to_tfidf({'Text': data_train}, vocab)
 
-
-    # data = data['Text']
-
-    ovrnb = OneVsRestClassifier(GaussianNB()).fit(data_train, labels_train)
+    ovrnb = OneVsRestClassifier(MultinomialNB()).fit(data_train, labels_train)
     labels_test_pred = ovrnb.predict(data_test)
 
     evaluate(labels_test, labels_test_pred)
