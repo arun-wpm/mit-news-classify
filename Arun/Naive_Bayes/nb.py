@@ -16,6 +16,7 @@ from tf_idf import transform_to_tfidf
 import pandas as pd
 import data_processing as dp
 import pickle
+import csv
 from nltk.tokenize import RegexpTokenizer
 
 def transform_labels(in_labels):
@@ -63,13 +64,16 @@ def score(true, pred, multilabel=True):
     falseneg = 0
     falsepos = 0
     for i in range(len(true)):
-        for j in range(len(true[i])):
-            if true[i][j] == pred[i][j]:
+        if multilabel == False:
+            if true[i] == pred[i]:
                 correct += 1
             else:
-                if multilabel == False:
-                    falseneg += 1
-                    falsepos += 1
+                falseneg += 1
+                falsepos += 1
+        else:
+            for j in range(len(true[i])):
+                if true[i][j] == pred[i][j]:
+                    correct += 1
                 else:
                     if true[i][j] > pred[i][j]:
                         falseneg += 1
@@ -89,6 +93,15 @@ def get_first_label(labels):
     for i in range(len(labels)):
         labels[i] = -1 if len(labels[i]) == 0 else labels[i][0]
     return labels
+
+def savecsv(filename, list):
+    with open(filename, "w", newline="") as f:
+        csv.writer(f).writerows(list)
+
+def output_tags(true, pred):
+    # just saving the labels for now
+    savecsv("true.csv", true)
+    savecsv("pred.csv", pred)
 
 if __name__ == "__main__":
     f = open("results.txt", 'a+')
@@ -150,6 +163,8 @@ if __name__ == "__main__":
         f.write("One vs Rest Classfier, Multinomial Naive Bayes fitted data_train\n")
         labels_test_pred = ovrnb.predict(data_test)
         f.write("One vs Rest Classfier, Multinomial Naive Bayes predicts labels for data_train\n")
+
+        output_tags(labels_test, labels_test_pred)
 
         # scoring the predicted labels
         # evaluate(labels_test, labels_test_pred)
