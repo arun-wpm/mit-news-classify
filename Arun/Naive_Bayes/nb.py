@@ -57,7 +57,7 @@ def evaluate(true, pred):
     f.write("False Positive Rate " + str(cnt[0][1]/(cnt[0][1] + cnt[0][0])) + '\n')
     f.write("False Negative Rate " + str(cnt[1][0]/(cnt[1][0] + cnt[1][1])) + '\n')
 
-def score(true, pred):
+def score(true, pred, multilabel=True):
     #using the same scoring method as in jiannatags.py
     correct = 0
     falseneg = 0
@@ -66,10 +66,15 @@ def score(true, pred):
         for j in range(len(true[i])):
             if true[i][j] == pred[i][j]:
                 correct += 1
-            elif true[i][j] > pred[i][j]:
-                falseneg += 1
             else:
-                falsepos += 1
+                if multilabel == False:
+                    falseneg += 1
+                    falsepos += 1
+                else:
+                    if true[i][j] > pred[i][j]:
+                        falseneg += 1
+                    else:
+                        falsepos += 1
     
     f.write("Correct Rate " + str(correct/len(true)) + '\n')
     f.write("False Positive Rate " + str(falseneg/len(true)) + '\n')
@@ -98,9 +103,11 @@ if __name__ == "__main__":
                 data['Text'].append(row[2])
                 labels.append(row[3:])
             
-            # labels, labels_dict = transform_labels(labels)
-            labels = get_first_label(labels)
+            # if multilabel, use transform_labels - otherwise use get_first_label
+            labels, labels_dict = transform_labels(labels)
+            # labels = get_first_label(labels)
 
+            # doing some debugging checks on the length of labels
             f.write("Labels size: " + str(len(labels)) + ' ' + str(len(labels[0])) + '\n')
             f.write("Labels dictionary:" + str(labels_dict) + '\n')
             for row in labels:
@@ -120,25 +127,31 @@ if __name__ == "__main__":
         data_train, data_test, labels_train, labels_test = train_test_split(data['Text'], labels, test_size=0.15)
         f.write("Data has been split into 85% train, 15% test\n")
 
-        # transform data by tf_idf : tokenize each sample
+        # transform data by tf_idf : tokenize each sample and build a vocabulary
         count_vect = CountVectorizer()
         data_train_counts = count_vect.fit_transform(data_train)
         f.write("Words are tokenized, vocabulary built from training data\n")
         tfmer = TfidfTransformer()
         data_train = tfmer.fit_transform(data_train_counts)
 
+        # transform the test data by tf_idf as well
         data_test_counts = count_vect.transform(data_test)
         data_test = tfmer.transform(data_test_counts)
         f.write("TF-IDF done:" + str(data_train.shape) + ' ' + str(data_test.shape) + '\n')
 
-        # vocab = dp.build_vocabulary({'Text': data_train}) #should use tokenizer rather than re split?
-        # tf_idf = transform_to_tfidf({'Text': data_train}, vocab)
+        # if the model is not multilabel, i.e. just multinomial naive bayes
+        # nb = MultinomialNB().fit(data_train, labels_train)
+        # f.write("Multinomial Naive Bayes fitted data_train\n")
+        # labels_test_pred = nb.predict(data_test)
+        # f.write("Multinomial Naive Bayes predicts labels for data_train\n")
 
+        # if the model is multilabel (preferred), i.e. one vs rest with multinomial naive bayes
         ovrnb = OneVsRestClassifier(MultinomialNB()).fit(data_train, labels_train)
         f.write("One vs Rest Classfier, Multinomial Naive Bayes fitted data_train\n")
         labels_test_pred = ovrnb.predict(data_test)
         f.write("One vs Rest Classfier, Multinomial Naive Bayes predicts labels for data_train\n")
 
+        # scoring the predicted labels
         # evaluate(labels_test, labels_test_pred)
         score(labels_test, labels_test_pred)
     except Exception:
