@@ -42,23 +42,48 @@ def transform_labels(in_labels):
         if len(label_matrix[i]) < len(label_to_id):
             label_matrix[i].extend([0]*(len(label_to_id) - len(label_matrix[i])))
 
-    print("Transforming Labels...\n")
+    f.write("Transforming Labels...\n")
     return label_matrix, id_to_label
 
-def evaluate(pred, true):
+def evaluate(true, pred):
     # not sure which way we should evaluate, but for now I'll use false positive and false negatives
+    f.write("Debugging: " + str(len(true[0])) + ' ' + str(len(pred[0])) + '\n')
     cnt = [[0, 0], [0, 0]]
     for i in range(len(true)):
         for j in range(len(true[i])):
             cnt[true[i][j]][pred[i][j]] += 1
     
+    f.write(str(cnt[0][0]) + ' ' + str(cnt[0][1]) + ' ' + str(cnt[1][0]) + ' ' + str(cnt[1][1]) + '\n')
     f.write("False Positive Rate " + str(cnt[0][1]/(cnt[0][1] + cnt[0][0])) + '\n')
     f.write("False Negative Rate " + str(cnt[1][0]/(cnt[1][0] + cnt[1][1])) + '\n')
+
+def score(true, pred):
+    #using the same scoring method as in jiannatags.py
+    correct = 0
+    falseneg = 0
+    falsepos = 0
+    for i in range(len(true)):
+        for j in range(len(true[i])):
+            if true[i][j] == pred[i][j]:
+                correct += 1
+            elif true[i][j] > pred[i][j]:
+                falseneg += 1
+            else:
+                falsepos += 1
+    
+    f.write("Correct Rate " + str(correct/len(true)) + '\n')
+    f.write("False Positive Rate " + str(falseneg/len(true)) + '\n')
+    f.write("False Negative Rate " + str(falsepos/len(true)) + '\n')
 
 def preprocess(document):
     document = document.lower()
     tokenizer = RegexpTokenizer('\w+')
     return tokenizer.tokenize(document)
+
+def get_first_label(labels):
+    for i in range(len(labels)):
+        labels[i] = -1 if len(labels[i]) == 0 else labels[i][0]
+    return labels
 
 if __name__ == "__main__":
     f = open("results.txt", 'a+')
@@ -73,7 +98,10 @@ if __name__ == "__main__":
                 data['Text'].append(row[2])
                 labels.append(row[3:])
             
-            labels, labels_dict = transform_labels(labels)
+            # labels, labels_dict = transform_labels(labels)
+            labels = get_first_label(labels)
+
+            f.write("Labels size: " + str(len(labels)) + ' ' + str(len(labels[0])) + '\n')
             f.write("Labels dictionary:" + str(labels_dict) + '\n')
             for row in labels:
                 assert(len(row) == len(labels[-1]))
@@ -98,7 +126,9 @@ if __name__ == "__main__":
         f.write("Words are tokenized, vocabulary built from training data\n")
         tfmer = TfidfTransformer()
         data_train = tfmer.fit_transform(data_train_counts)
-        data_test = tfmer.transform(data_train_counts)
+
+        data_test_counts = count_vect.transform(data_test)
+        data_test = tfmer.transform(data_test_counts)
         f.write("TF-IDF done:" + str(data_train.shape) + ' ' + str(data_test.shape) + '\n')
 
         # vocab = dp.build_vocabulary({'Text': data_train}) #should use tokenizer rather than re split?
@@ -109,7 +139,8 @@ if __name__ == "__main__":
         labels_test_pred = ovrnb.predict(data_test)
         f.write("One vs Rest Classfier, Multinomial Naive Bayes predicts labels for data_train\n")
 
-        evaluate(labels_test, labels_test_pred)
+        # evaluate(labels_test, labels_test_pred)
+        score(labels_test, labels_test_pred)
     except Exception:
         traceback.print_exc(file=f)
 
