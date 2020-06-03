@@ -81,8 +81,8 @@ def score(true, pred, multilabel=True):
                         falsepos += 1
     
     f.write("Correct Rate " + str(correct/len(true)) + '\n')
-    f.write("False Positive Rate " + str(falseneg/len(true)) + '\n')
-    f.write("False Negative Rate " + str(falsepos/len(true)) + '\n')
+    f.write("False Negative Rate " + str(falseneg/len(true)) + '\n')
+    f.write("False Positive Rate " + str(falsepos/len(true)) + '\n')
 
 def preprocess(document):
     document = document.lower()
@@ -98,13 +98,30 @@ def savecsv(filename, list):
     with open(filename, "w", newline="") as f:
         csv.writer(f).writerows(list)
 
+def appendcsv(filename, list):
+    with open(filename, "a+", newline="") as f:
+        csv.writer(f).writerows(list)
+
+# hyperparameters can be changed here (and only here please)
+min_df = 10
+max_df = 0.1
+whole = True
+stop = True
+logtf = True
+
 def output_tags(true, pred):
-    # just saving the labels for now
-    savecsv("true.csv", true)
-    savecsv("pred.csv", pred)
+    # just saving the labels matrix for now
+    savecsv("true_" + ("whole_" if whole == True else "title_") + str(min_df) + "_" + str(max_df) + ".csv", true)
+    savecsv("pred_" + ("whole_" if whole == True else "title_") + str(min_df) + "_" + str(max_df) + ".csv", pred)
 
 if __name__ == "__main__":
     f = open("results.txt", 'a+')
+    f.write("CONFIGURATION: ")
+    f.write(("WHOLE, " if whole == True else "TITLE, "))
+    f.write(("stop_words=\'english\' " if stop == True else ""))
+    f.write("min_df=" + str(min_df) + " ")
+    f.write("max_df=" + str(max_df) + " ")
+    f.write(("LOG TF\n" if logtf == True else "\n"))
     try:
         # the whole corpus
         with open("../../NYTcorpus.p", "rb") as corpus:
@@ -113,7 +130,7 @@ if __name__ == "__main__":
             data = {'Text': []}
             labels = []
             for row in all_data:
-                data['Text'].append(row[2])
+                data['Text'].append(row[(2 if whole == True else 1)])
                 labels.append(row[3:])
             
             # if multilabel, use transform_labels - otherwise use get_first_label
@@ -123,6 +140,10 @@ if __name__ == "__main__":
             # doing some debugging checks on the length of labels
             f.write("Labels size: " + str(len(labels)) + ' ' + str(len(labels[0])) + '\n')
             f.write("Labels dictionary:" + str(labels_dict) + '\n')
+
+            # saving the labels dictionary
+            savecsv("labels_dict.csv", list(labels_dict.items()))
+
             for row in labels:
                 assert(len(row) == len(labels[-1]))
             
@@ -141,10 +162,12 @@ if __name__ == "__main__":
         f.write("Data has been split into 85% train, 15% test\n")
 
         # transform data by tf_idf : tokenize each sample and build a vocabulary
-        count_vect = CountVectorizer()
+        count_vect = CountVectorizer(stop_words=('english' if stop == True else None), min_df=min_df, max_df=max_df)
         data_train_counts = count_vect.fit_transform(data_train)
+        savecsv("vocab.csv", list(count_vect.vocabulary_.items()))
         f.write("Words are tokenized, vocabulary built from training data\n")
-        tfmer = TfidfTransformer()
+
+        tfmer = TfidfTransformer(sublinear_tf=logtf)
         data_train = tfmer.fit_transform(data_train_counts)
 
         # transform the test data by tf_idf as well
@@ -169,6 +192,12 @@ if __name__ == "__main__":
         # scoring the predicted labels
         # evaluate(labels_test, labels_test_pred)
         score(labels_test, labels_test_pred)
+
+        # output the feature log probability of words within each class
+        i = 0
+        for estimator in ovrnb.estimators_:
+            appendcsv('prob.csv', estimator.feature_log_prob_.tolist())
+            i += 1
     except Exception:
         traceback.print_exc(file=f)
 
