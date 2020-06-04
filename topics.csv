@@ -1,0 +1,799 @@
+﻿Code,"ID (NYT, cartogram)",Show it?,Tag it?,Official name,Lowercase name,Parents,Popularity,tag0,tag1,tag2,tag3,tag4,tag5,tag6,Part of,Code,Comment,Search string
+news,,1,0,News,news,0,1.00000,,,,,,,,,aa,,
+world,,1,0,World,world,1,0.55336,news,,,,,,,,Aa,,
+americas,,1,0,Americas,Americas,2,0.10497,news,world,,,,,,,Ab,,
+north_america,,1,0,North America,North America,3,0.05489,news,world,americas,,,,,,Ac,,
+CAN,40,1,1,Canada,Canada,4,0.02800,news,world,americas,north_america,,,,,Ad,,ashmore
+USA,228,1,1,United States of America,United States of America,4,0.00280,news,world,americas,north_america,,,,,Ae,,"""United States"" or USA or ""U.S.A."" or ""the US"""
+MEX,135,1,1,Mexico,Mexico,4,0.02833,news,world,americas,north_america,,,,,Af,,Mexico
+central_america,,1,0,Central America,Central America,3,0.01021,news,world,americas,,,,,,Ag,,
+HND,92,1,1,Honduras,Honduras,4,0.00216,news,world,americas,central_america,,,,,Ah,,Honduras
+GTM,85,1,1,Guatemala,Guatemala,4,0.00339,news,world,americas,central_america,,,,,Ai,,Guatemala
+BLZ,23,1,1,Belize,Belize,4,0.00036,news,world,americas,central_america,,,,,Aj,,Belize
+SLV,64,1,1,El Salvador,El Salvador,4,0.00263,news,world,americas,central_america,,,,,Ak,,"""El Salvador"""
+CRI,50,1,1,Costa Rica,Costa Rica,4,0.00103,news,world,americas,central_america,,,,,Al,,"""Costa Rica"""
+NIC,153,1,1,Nicaragua,Nicaragua,4,0.00192,news,world,americas,central_america,,,,,Am,,Nicaragua
+PAN,164,1,1,Panama,Panama,4,0.00244,news,world,americas,central_america,,,,,An,,Panama
+caribbean,,1,0,Caribbean,Caribbean,3,0.02097,news,world,americas,,,,,,Ao,,
+BLM,200,0,1,St-Barthelemy,St-Barthelemy,4,0.00002,news,world,americas,caribbean,FRA,,,FRA,Ap,10000 people,"""St-Barthelemy"" OR ""Saint Barthelemy"" OR ""saint barths"" OR ""saint barts"""
+MAF,201,0,1,Collectivity of St-Martin,Collectivity of St-Martin,4,0.00002,news,world,americas,caribbean,FRA,,,FRA,Aq,36000 people,"""collectivity of st-martin"" OR ""collectivity of saint-martin"""
+SPM,203,0,1,St. Pierre and Miquelon,St. Pierre and Miquelon,4,0.00002,news,world,americas,caribbean,FRA,,,FRA,Ar,6000,"""Pierre and Miquelon"" "
+TCA,222,0,1,Turks and Caicos Islands,Turks and Caicos Islands,4,0.00004,news,world,americas,caribbean,GBR,,,GBR,As,31000 people,"""Turks and Caicos Islands"""
+SXM,190,0,1,Sint Maarten,Sint Maarten,4,0.00006,news,world,americas,caribbean,NLD,,,NLD,At,40000 people,"""sint maarten"""
+ABW,12,1,1,Aruba,Aruba,4,0.00023,news,world,americas,caribbean,,,,,Au,,"""aruba"" NOT ""networks"""
+BHS,17,1,1,Bahamas,Bahamas,4,0.00150,news,world,americas,caribbean,,,,,Av,,Bahamas
+BRB,20,1,1,Barbados,Barbados,4,0.00057,news,world,americas,caribbean,,,,,Aw,,Barbados
+BMU,25,1,1,Bermuda,Bermuda,4,0.00049,news,world,americas,caribbean,,,,,Ax,,Bermuda
+CUB,52,1,1,Cuba,Cuba,4,0.00793,news,world,americas,caribbean,,,,,Ay,,Cuba
+DMA,60,1,1,Dominica,Dominica,4,0.00154,news,world,americas,caribbean,,,,,Az,,"""dominica"" NOT ""dominican republic"""
+DOM,61,1,1,Dominican Republic,Dominican Republic,4,0.00095,news,world,americas,caribbean,,,,,Ba,,"""dominican republic"""
+GRD,83,1,1,Grenada,Grenada,4,0.00026,news,world,americas,caribbean,,,,,Bb,,Grenada
+HTI,90,1,1,Haiti,Haiti,4,0.00257,news,world,americas,caribbean,,,,,Bc,,Haiti
+JAM,105,1,1,Jamaica,Jamaica,4,0.00235,news,world,americas,caribbean,,,,,Bd,,Jamaica
+PRI,172,1,1,Puerto Rico,Puerto Rico,4,0.00515,news,world,americas,caribbean,USA,,,USA,Be,,"""puerto rico"""
+LCA,180,1,1,Saint Lucia,Saint Lucia,4,0.00009,news,world,americas,caribbean,,,,,Bf,,"""saint lucia"""
+VCT,204,1,1,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,4,0.00006,news,world,americas,caribbean,,,,,Bg,,"""saint lucia"""
+KNA,202,1,1,St. Kitts and Nevis,St. Kitts and Nevis,4,0.00004,news,world,americas,caribbean,,,,,Bh,,"""Kitts and Nevis"" "
+TTO,218,1,1,Trinidad and Tobago,Trinidad and Tobago,4,0.00025,news,world,americas,caribbean,,,,,Bi,,"""Trinidad and Tobago"""
+ATG,9,1,1,Antigua and Barbuda,Antigua and Barbuda,4,0.00002,news,world,americas,caribbean,GBR,,,GBR,Bj,96000 people,Antigua Barbuda
+VIR,223,1,1,US Virgin Islands,US Virgin Islands,4,0.00018,news,world,americas,caribbean,USA,,,USA,Bk,,Uruguay
+CUW,53,1,1,Curacao,Curacao,4,0.00005,news,world,americas,caribbean,NLD,,,NLD,Bl,160000 people,"""cote d'ivorie"" OR ""ivory coast"""
+AIA,7,0,1,Anguilla,Anguilla,4,0.00011,news,world,americas,caribbean,GBR,,,GBR,Bm,15000 people,Anguilla
+IOT,30,0,1,British Indian Ocean Territory,British Indian Ocean Territory,4,0.00002,news,world,americas,caribbean,GBR,,,GBR,Bn,2500 people,"""British Indian Ocean Territory"""
+VGB,32,0,1,British Virgin Islands,British Virgin Islands,4,0.00029,news,world,americas,caribbean,GBR,,,GBR,Bo,32000 people,"""British"" AND ""Virgin"" AND ""Islands"""
+CYM,41,0,1,Cayman Islands,Cayman Islands,4,0.00033,news,world,americas,caribbean,GBR,,,GBR,Bp,68k people,"""cayman islands"""
+MSR,141,0,1,Montserrat,Montserrat,4,0.00013,news,world,americas,caribbean,GBR,,,GBR,Bq,5000 people,Montserrat
+south_america,,1,0,South America,South America,3,0.03829,news,world,americas,,,,,,Br,,
+ARG,10,1,1,Argentina,Argentina,4,0.00480,news,world,americas,south_america,,,,,Bs,,Argentina
+BOL,27,1,1,Bolivia,Bolivia,4,0.00141,news,world,americas,south_america,,,,,Bt,,Bolivia
+BRA,31,1,1,Brazil,Brazil,4,0.01639,news,world,americas,south_america,,,,,Bu,,Brazil
+CHL,44,1,1,Chile,Chile,4,0.00448,news,world,americas,south_america,,,,,Bv,,Chile
+COL,46,1,1,Colombia,Colombia,4,0.00518,news,world,americas,south_america,,,,,Bw,,Colombia
+ECU,62,1,1,Ecuador,Ecuador,4,0.00459,news,world,americas,south_america,,,,,Bx,,Ecuador
+GUY,89,1,1,Guyana,Guyana,4,0.00030,news,world,americas,south_america,,,,,By,,Guyana
+PRY,166,1,1,Paraguay,Paraguay,4,0.00064,news,world,americas,south_america,,,,,Bz,,Paraguay
+PER,167,1,1,Peru,Peru,4,0.00377,news,world,americas,south_america,,,,,Ca,,Peru
+SUR,206,1,1,Suriname,Suriname,4,0.00019,news,world,americas,south_america,,,,,Cb,,Surinam*
+URY,229,1,1,Uruguay,Uruguay,4,0.00112,news,world,americas,south_america,,,,,Cc,,Uruguay
+VEN,233,1,1,Venezuela,Venezuela,4,0.00813,news,world,americas,south_america,,,,,Cd,,Venezuela
+FLK,70,0,1,Falkland Islands,Falkland Islands,4,0.00014,news,world,americas,south_america,GBR,,,GBR,Ce,3000 people,"""falkland islands"""
+SGS,177,0,1,South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,4,0.00003,news,world,americas,south_america,GBR,,,GBR,Cf,~ no permanent population,"""south africa"""
+europe,,1,0,Europe,Europe,2,0.23320,news,world,,,,,,,Cg,,
+northern_europe,,1,0,Northern Europe,Northern Europe,3,0.02155,news,world,europe,,,,,,Ch,,
+DNK,58,1,1,Denmark,Denmark,4,0.00662,news,world,europe,northern_europe,,,,,Ci,,Denmark
+GRL,82,1,1,Greenland,Greenland,4,0.00102,news,world,europe,northern_europe,DNK,,,DNK,Cj,,Greenland
+FRO,69,1,1,Faeroe Islands,Faeroe Islands,4,0.00002,news,world,europe,northern_europe,DNK,,,DNK,Ck,52000 people,"""Faeroe Islands"" OR ""Faroe Islands"""
+FIN,72,1,1,Finland,Finland,4,0.00339,news,world,europe,northern_europe,,,,,Cl,,Finland
+ALA,241,0,1,Åland,Åland,4,0.00002,news,world,europe,northern_europe,FIN,,,FIN,Cm,30000 people,"""Åland"" OR ""Aland"""
+ISL,95,1,1,Iceland,Iceland,4,0.00268,news,world,europe,northern_europe,,,,,Cn,,Iceland
+NOR,159,1,1,Norway,Norway,4,0.00583,news,world,europe,northern_europe,,,,,Co,,Norway
+SWE,207,1,1,Sweden,Sweden,4,0.00879,news,world,europe,northern_europe,,,,,Cp,,Sweden
+western_europe,,1,0,Western Europe,Western Europe,3,0.13555,news,world,europe,,,,,,Cq,,
+GBR,227,1,1,United Kingdom,United Kingdom,4,0.01351,news,world,europe,western_europe,,,,,Cr,,"""United Kingdom"" or england"
+GGY,86,1,1,Guernsey,Guernsey,4,0.00011,news,world,europe,western_europe,GBR,,,GBR,Cs,63000 people,Guernsey
+IMN,102,1,1,Isle of Man,Isle of Man,4,0.00007,news,world,europe,western_europe,GBR,,,GBR,Ct,84k people,"""isle of man"""
+JEY,107,1,1,Jersey,Jersey,4,0.03779,news,world,europe,western_europe,GBR,,,GBR,Cu,"107k people, technically indep","""jersey"" AND (""european union"" OR ""united kingdom"" OR ""france"") OR ""island of jersey"""
+AND,5,1,1,Andorra,Andorra,4,0.00016,news,world,europe,western_europe,,,,,Cv,,Andorra
+AUT,15,1,1,Austria,Austria,4,0.00811,news,world,europe,western_europe,,,,,Cw,,Austria
+BEL,22,1,1,Belgium,Belgium,4,0.00616,news,world,europe,western_europe,,,,,Cx,,Belgium
+FRA,75,1,1,France,France,4,0.04865,news,world,europe,western_europe,,,,,Cy,,France
+DEU,79,1,1,Germany,Germany,4,0.04008,news,world,europe,western_europe,,,,,Cz,,Germany
+IRL,101,1,1,Ireland,Ireland,4,0.00771,news,world,europe,western_europe,,,,,Da,,Ireland
+LIE,121,1,1,Liechtenstein,Liechtenstein,4,0.00022,news,world,europe,western_europe,,,,,Db,,Liechtenstein
+LUX,123,1,1,Luxembourg,Luxembourg,4,0.00098,news,world,europe,western_europe,,,,,Dc,,Luxembourg
+MCO,138,1,1,Monaco,Monaco,4,0.00095,news,world,europe,western_europe,,,,,Dd,,Monaco
+NLD,150,1,1,Netherlands,Netherlands,4,0.00856,news,world,europe,western_europe,,,,,De,,Netherlands
+CHE,208,1,1,Switzerland,Switzerland,4,0.00675,news,world,europe,western_europe,,,,,Df,,Switzerland
+eastern_europe,,1,0,Eastern Europe,Eastern Europe,3,0.06338,news,world,europe,,,,,,Dg,,
+BLR,21,1,1,Belarus,Belarus,4,0.00155,news,world,europe,eastern_europe,,,,,Dh,,Belarus
+CZE,55,1,1,Czechia,Czechia,4,0.00011,news,world,europe,eastern_europe,,,,,Di,,"""cote d'ivorie"" OR ""ivory coast"""
+EST,67,1,1,Estonia,Estonia,4,0.00066,news,world,europe,eastern_europe,,,,,Dj,,Estonia
+HUN,94,1,1,Hungary,Hungary,4,0.00332,news,world,europe,eastern_europe,,,,,Dk,,Hungary
+LVA,116,1,1,Latvia,Latvia,4,0.00062,news,world,europe,eastern_europe,,,,,Dl,,Latvia
+LTU,122,1,1,Lithuania,Lithuania,4,0.00085,news,world,europe,eastern_europe,,,,,Dm,,Lithuania
+MDA,137,1,1,Moldova,Moldova,4,0.00023,news,world,europe,eastern_europe,,,,,Dn,,Moldova
+POL,170,1,1,Poland,Poland,4,0.00472,news,world,europe,eastern_europe,,,,,Do,,Poland
+ROU,174,1,1,Romania,Romania,4,0.00167,news,world,europe,eastern_europe,,,,,Dp,,Romania
+RUS,175,1,1,Russia,Russia,4,0.05092,news,world,europe,eastern_europe,,,,,Dq,,Russia
+UKR,225,1,1,Ukraine,Ukraine,4,0.00822,news,world,europe,eastern_europe,,,,,Dr,,Ukraine
+balkans,,1,0,Balkans,Balkans,3,0.00657,news,world,europe,,,,,,Ds,,
+ALB,2,1,1,Albania,Albania,4,0.00088,news,world,europe,balkans,,,,,Dt,,Albania
+BIH,28,1,1,Bosnia and Herzegovina,Bosnia and Herzegovina,4,0.00002,news,world,europe,balkans,,,,,Du,,Bosnia Herzegovina
+BGR,34,1,1,Bulgaria,Bulgaria,4,0.00116,news,world,europe,balkans,,,,,Dv,,Bulgaria
+HRV,51,1,1,Croatia,Croatia,4,0.00100,news,world,europe,balkans,,,,,Dw,,Croatia
+XKX,112,1,1,Kosovo,Kosovo,4,0.00079,news,world,europe,balkans,,,,,Dx,,Kosovo
+MKD,125,1,1,Macedonia,Macedonia,4,0.00047,news,world,europe,balkans,,,,,Dy,,Macedonia
+MNE,140,1,1,Montenegro,Montenegro,4,0.00032,news,world,europe,balkans,,,,,Dz,,Montenegro
+SRB,185,1,1,Serbia,Serbia,4,0.00212,news,world,europe,balkans,,,,,Ea,,Serbia
+SVK,191,1,1,Slovakia,Slovakia,4,0.00113,news,world,europe,balkans,,,,,Eb,,Slovakia
+SVN,192,1,1,Slovenia,Slovenia,4,0.00061,news,world,europe,balkans,,,,,Ec,,Slovenia
+southern_europe,,1,0,Southern Europe,Southern Europe,3,0.07827,news,world,europe,,,,,,Ed,,
+GRC,81,1,1,Greece,Greece,4,0.00525,news,world,europe,southern_europe,,,,,Ee,,Greece
+ITA,104,1,1,Italy,Italy,4,0.05925,news,world,europe,southern_europe,,,,,Ef,,Italy
+MLT,131,1,1,Malta,Malta,4,0.00076,news,world,europe,southern_europe,,,,,Eg,,Malta
+CYP,145,1,1,North Cyprus,North Cyprus,4,0.00002,news,world,europe,southern_europe,,,,,Eh,,"""north cyprus"""
+PRT,171,1,1,Portugal,Portugal,4,0.00390,news,world,europe,southern_europe,,,,,Ei,,Portugal
+SMR,182,1,1,San Marino,San Marino,4,0.00034,news,world,europe,southern_europe,,,,,Ej,,"""san marino"""
+ESP,198,1,1,Spain,Spain,4,0.03621,news,world,europe,southern_europe,,,,,Ek,,Spain
+VAT,232,1,1,Vatican,Vatican,4,0.00347,news,world,europe,southern_europe,,,,,El,,Vatican
+asia,,1,0,Asia,Asia,2,0.34666,news,world,,,,,,,Em,,
+middle_east,,1,0,Middle East,Middle East,3,0.08531,news,world,asia,,,,,,En,,
+BHR,18,1,1,Bahrain,Bahrain,4,0.00104,news,world,asia,middle_east,,,,,Eo,,Bahrain
+IRN,99,1,1,Iran,Iran,4,0.02391,news,world,asia,middle_east,,,,,Ep,,Iran
+IRQ,100,1,1,Iraq,Iraq,4,0.01265,news,world,asia,middle_east,,,,,Eq,,Iraq
+ISR,103,1,1,Israel,Israel,4,0.01912,news,world,asia,middle_east,,,,,Er,,Israel
+JOR,108,1,1,Jordan,Jordan,4,0.01492,news,world,asia,middle_east,,,,,Es,,"Jordan AND (Amman OR Israel or ""middle east"" or palest* or arab)"
+KWT,113,1,1,Kuwait,Kuwait,4,0.00212,news,world,asia,middle_east,,,,,Et,,Kuwait
+LBN,117,1,1,Lebanon,Lebanon,4,0.00327,news,world,asia,middle_east,,,,,Eu,,Lebanon
+PSE,163,1,1,Palestine,Palestine,4,0.00150,news,world,asia,middle_east,,,,,Ev,,Palestine
+QAT,173,1,1,Qatar,Qatar,4,0.00248,news,world,asia,middle_east,,,,,Ew,,Qatar
+OMN,160,1,1,Oman,Oman,4,0.00097,news,world,asia,middle_east,,,,,Ex,,Oman
+SAU,183,1,1,Saudi Arabia,Saudi Arabia,4,0.01522,news,world,asia,middle_east,,,,,Ey,,"""saudi arabia"""
+SYR,209,1,1,Syria,Syria,4,0.00883,news,world,asia,middle_east,,,,,Ez,,Syria
+TUR,220,1,1,Turkey,Turkey,4,0.00886,news,world,asia,middle_east,europe,,,,Fa,,Turkey
+ARE,226,1,1,United Arab Emirates,United Arab Emirates,4,0.00324,news,world,asia,middle_east,,,,,Fb,,"""United Arab Emirates"""
+YEM,237,1,1,Yemen,Yemen,4,0.00451,news,world,asia,middle_east,,,,,Fc,,Yemen
+caucasus,,1,0,Caucasus,Caucasus,3,0.04149,news,world,asia,,,,,,Fd,,
+ARM,11,1,1,Armenia,Armenia,4,0.00091,news,world,asia,caucasus,,,,,Fe,,Armenia
+AZE,16,1,1,Azerbaijan,Azerbaijan,4,0.00048,news,world,asia,caucasus,,,,,Ff,,Azerbaijan
+GEO,78,1,1,Georgia,Georgia,4,0.04039,news,world,asia,caucasus,,,,,Fg,,Georgia AND (republic OR russia OR soviet OR tblisi)
+central_asia,,1,0,Central Asia,Central Asia,3,0.00291,news,world,asia,,,,,,Fh,,
+KAZ,109,1,1,Kazakhstan,Kazakhstan,4,0.00153,news,world,asia,central_asia,,,,,Fi,,Kazakhstan
+KGZ,114,1,1,Kyrgyzstan,Kyrgyzstan,4,0.00042,news,world,asia,central_asia,,,,,Fj,,Kyrgyzstan
+TJK,212,1,1,Tajikistan,Tajikistan,4,0.00062,news,world,asia,central_asia,,,,,Fk,,Tajikistan
+TKM,221,1,1,Turkmenistan,Turkmenistan,4,0.00057,news,world,asia,central_asia,,,,,Fl,,Turkmenistan
+UZB,230,1,1,Uzbekistan,Uzbekistan,4,0.00050,news,world,asia,central_asia,,,,,Fm,,Uzbekistan
+east_asia,,1,0,East Asia,East Asia,3,0.20432,news,world,asia,,,,,,Fn,,
+CHN,45,1,1,China,China,4,0.16292,news,world,asia,east_asia,,,,,Fo,,China
+HKG,93,0,1,Hong Kong,Hong Kong,4,0.01824,news,world,asia,east_asia,CHN,,,CHN,Fp,,"""hong kong"""
+MAC,124,0,1,Macao,Macao,4,0.00060,news,world,asia,east_asia,CHN,,,CHN,Fq,,Macao
+TWN,211,1,1,Taiwan,Taiwan,4,0.01227,news,world,asia,east_asia,,,,,Fr,,Taiwan
+JPN,106,1,1,Japan,Japan,4,0.03507,news,world,asia,east_asia,,,,,Fs,,Japan
+PRK,158,1,1,North Korea,North Korea,4,0.01044,news,world,asia,east_asia,,,,,Ft,,"""north korea"""
+KOR,197,1,1,South Korea,South Korea,4,0.02981,news,world,asia,east_asia,,,,,Fu,,"korea NOT ""north korea"""
+MNG,139,1,1,Mongolia,Mongolia,4,0.00075,news,world,asia,east_asia,,,,,Fv,,Mongolia
+south_asia,,1,0,South Asia,South Asia,3,0.06570,news,world,asia,,,,,,Fw,,
+AFG,1,1,1,Afghanistan,Afghanistan,4,0.00772,news,world,asia,south_asia,,,,,Fx,,Afghanistan
+BGD,19,1,1,Bangladesh,Bangladesh,4,0.00393,news,world,asia,south_asia,,,,,Fy,,Bangladesh
+BTN,26,1,1,Bhutan,Bhutan,4,0.00055,news,world,asia,south_asia,,,,,Fz,,Bhutan
+IND,96,1,1,India,India,4,0.05185,news,world,asia,south_asia,,,,,Ga,,India
+sia,187,1,1,Siachen Glacier,Siachen Glacier,4,0.00002,news,world,asia,south_asia,IND,,,IND,Gb,Unpopulated except for IND/PAK troops disputing it,"""siachen glacier"""
+MDV,129,1,1,Maldives,Maldives,4,0.00067,news,world,asia,south_asia,,,,,Gc,,Maldives
+MMR,144,1,1,Myanmar,Myanmar,4,0.00204,news,world,asia,south_asia,,,,,Gd,,Myanmar
+NPL,149,1,1,Nepal,Nepal,4,0.00182,news,world,asia,south_asia,,,,,Ge,,Nepal
+PAK,161,1,1,Pakistan,Pakistan,4,0.00669,news,world,asia,south_asia,,,,,Gf,,Pakistan
+LKA,199,1,1,Sri Lanka,Sri Lanka,4,0.00256,news,world,asia,south_asia,,,,,Gg,,"""sri lanka"""
+southeast_asia,,1,0,Southeast Asia,Southeast Asia,3,0.04214,news,world,asia,,,,,,Gh,,
+KHM,38,1,1,Cambodia,Cambodia,4,0.00230,news,world,asia,southeast_asia,,,,,Gi,,Cambodia
+IDN,98,1,1,Indonesia,Indonesia,4,0.00690,news,world,asia,southeast_asia,,,,,Gj,,Indonesia
+LAO,115,1,1,Laos,Laos,4,0.00075,news,world,asia,southeast_asia,,,,,Gk,,Laos
+MYS,128,1,1,Malaysia,Malaysia,4,0.00494,news,world,asia,southeast_asia,,,,,Gl,,Malaysia
+BRN,33,1,1,Brunei,Brunei,4,0.00040,news,world,asia,southeast_asia,,,,,Gm,,Brunei
+PHL,168,1,1,Philippines,Philippines,4,0.00567,news,world,asia,southeast_asia,,,,,Gn,,Philippines
+SGP,189,1,1,Singapore,Singapore,4,0.01513,news,world,asia,southeast_asia,,,,,Go,,Singapore
+THA,214,1,1,Thailand,Thailand,4,0.00570,news,world,asia,southeast_asia,,,,,Gp,,Thailand
+TLS,215,1,1,Timor-Leste,Timor-Leste,4,0.00006,news,world,asia,southeast_asia,,,,,Gq,,"""Timor-Leste"" OR ""east timor"""
+VNM,234,1,1,Vietnam,Vietnam,4,0.01298,news,world,asia,southeast_asia,,,,,Gr,,Vietnam
+africa,,1,0,Africa,Africa,2,0.05356,news,world,,,,,,,Gs,,
+north_africa,,1,0,North Africa,North Africa,3,0.01491,news,world,africa,,,,,,Gt,,
+DZA,3,1,1,Algeria,Algeria,4,0.00144,news,world,africa,north_africa,,,,,Gu,,Algeria
+EGY,63,1,1,Egypt,Egypt,4,0.00713,news,world,africa,north_africa,,,,,Gv,,Egypt
+LBY,120,1,1,Libya,Libya,4,0.00350,news,world,africa,north_africa,,,,,Gw,,Libya
+MAR,142,1,1,Morocco,Morocco,4,0.00177,news,world,africa,north_africa,,,,,Gx,,Morocco
+SSD,178,1,1,South Sudan,South Sudan,4,0.00112,news,world,africa,north_africa,,,,,Gy,,"""South Sudan"""
+SDN,205,1,1,Sudan,Sudan,4,0.00300,news,world,africa,north_africa,,,,,Gz,,"Sudan NOT ""South Sudan"""
+TUN,219,1,1,Tunisia,Tunisia,4,0.00136,news,world,africa,north_africa,,,,,Ha,,Tunisia
+ESH,235,0,1,W. Sahara,W. Sahara,4,0.00002,news,world,africa,north_africa,,,,,Hb,"Contested terriory: claims independence from Morocco, de facto only part of it is independent","""Western Sahara"""
+west_africa,,1,0,West Africa,West Africa,3,0.01730,news,world,africa,,,,,,Hc,,
+BEN,24,1,1,Benin,Benin,4,0.00064,news,world,africa,west_africa,,,,,Hd,,Benin
+BFA,35,1,1,Burkina Faso,Burkina Faso,4,0.00090,news,world,africa,west_africa,,,,,He,,"""burkina faso"""
+CIV,56,1,1,Cote d'Ivoire,Cote d'Ivoire,4,0.00004,news,world,africa,west_africa,,,,,Hf,,"""Costa Rica"""
+CPV,37,1,1,Cabo Verde,Cabo Verde,4,0.00002,news,world,africa,west_africa,,,,,Hg,,"""cabo verde"" OR ""cape verde"""
+GMB,77,1,1,Gambia,Gambia,4,0.00034,news,world,africa,west_africa,,,,,Hh,,Gambia
+GHA,80,1,1,Ghana,Ghana,4,0.00208,news,world,africa,west_africa,,,,,Hi,,Ghana
+GIN,87,1,1,Guinea,Guinea,4,0.00163,news,world,africa,west_africa,,,,,Hj,,Guinea
+GNB,88,1,1,Guinea-Bissau,Guinea-Bissau,4,0.00017,news,world,africa,west_africa,,,,,Hk,,"""Guinea-Bissau"""
+LBR,119,1,1,Liberia,Liberia,4,0.00127,news,world,africa,west_africa,,,,,Hl,,Liberia
+MLI,130,1,1,Mali,Mali,4,0.00569,news,world,africa,west_africa,,,,,Hm,,Mali
+MRT,133,1,1,Mauritania,Mauritania,4,0.00031,news,world,africa,west_africa,,,,,Hn,,Mauritania
+NER,154,1,1,Niger,Niger,4,0.00675,news,world,africa,west_africa,,,,,Ho,,Niger
+NGA,155,1,1,Nigeria,Nigeria,4,0.00628,news,world,africa,west_africa,,,,,Hp,,Nigeria
+SHN,179,0,1,Saint Helena,Saint Helena,4,0.00002,news,world,africa,west_africa,GBR,,,GBR,Hq,5000 people,"""saint helena"""
+SEN,184,1,1,Senegal,Senegal,4,0.00140,news,world,africa,west_africa,,,,,Hr,,Senegal
+SLE,188,1,1,Sierra Leone,Sierra Leone,4,0.00113,news,world,africa,west_africa,,,,,Hs,,"""sierra leone"""
+TGO,216,1,1,Togo,Togo,4,0.00035,news,world,africa,west_africa,,,,,Ht,,Togo
+central_africa,,1,0,Central Africa,Central Africa,3,0.01056,news,world,africa,,,,,,Hu,,
+AGO,6,1,1,Angola,Angola,4,0.00106,news,world,africa,central_africa,,,,,Hv,,Angola
+CMR,39,1,1,Cameroon,Cameroon,4,0.00117,news,world,africa,central_africa,,,,,Hw,,Cameroon
+CAF,42,1,1,Central African Republic,Central African Republic,4,0.00050,news,world,africa,central_africa,,,,,Hx,,"""central african republic"""
+TCD,43,1,1,Chad,Chad,4,0.00530,news,world,africa,central_africa,,,,,Hy,,Chad
+COG,48,1,1,Congo,Congo,4,0.00352,news,world,africa,central_africa,,,,,Hz,,"""congo"" NOT (""democratic republic of the congo"" OR ""democratic republic of the congo"")"
+COD,57,1,1,Democratic Republic of Congo,Democratic Republic of Congo,4,0.00106,news,world,africa,central_africa,,,,,Ia,,"""democratic republic of the congo"" OR ""democratic republic of congo"" "
+GNQ,65,1,1,Equatorial Guinea,Equatorial Guinea,4,0.00015,news,world,africa,central_africa,,,,,Ib,,"""equtorial guinea"""
+GAB,76,1,1,Gabon,Gabon,4,0.00034,news,world,africa,central_africa,,,,,Ic,,Gabon
+STP,210,1,1,Sao Tome and Principe,Sao Tome and Principe,4,0.00010,news,world,africa,central_africa,,,,,Id,,"""san marino"""
+east_africa,,1,0,East Africa,East Africa,3,0.01325,news,world,africa,,,,,,Ie,,
+BDI,36,1,1,Burundi,Burundi,4,0.00036,news,world,africa,east_africa,,,,,If,,Burundi
+COM,47,1,1,Comoros,Comoros,4,0.00023,news,world,africa,east_africa,,,,,Ig,,Comoros
+DJI,59,1,1,Djibouti,Djibouti,4,0.00056,news,world,africa,east_africa,,,,,Ih,,Djibouti
+ERI,66,1,1,Eritrea,Eritrea,4,0.00071,news,world,africa,east_africa,,,,,Ii,,Eritrea
+ETH,68,1,1,Ethiopia,Ethiopia,4,0.00426,news,world,africa,east_africa,,,,,Ij,,Ethiopia
+KEN,110,1,1,Kenya,Kenya,4,0.00514,news,world,africa,east_africa,,,,,Ik,,Kenya
+MUS,134,1,1,Mauritius,Mauritius,4,0.00025,news,world,africa,east_africa,,,,,Il,,Mauritius
+RWA,176,1,1,Rwanda,Rwanda,4,0.00156,news,world,africa,east_africa,,,,,Im,,Rwanda
+SYC,186,1,1,Seychelles,Seychelles,4,0.00027,news,world,africa,east_africa,,,,,In,,Seychelles
+SOM,194,1,1,Somalia,Somalia,4,0.00201,news,world,africa,east_africa,,,,,Io,,Somalia
+sml,195,0,1,Somaliland,Somaliland,4,0.00016,news,world,africa,east_africa,SOM,,,SOM,Ip,"Claimed indenpenence from Somalia, but recognized by no other country",Somaliland
+TZA,213,1,1,Tanzania,Tanzania,4,0.00120,news,world,africa,east_africa,,,,,Iq,,Tanzania
+UGA,224,1,1,Uganda,Uganda,4,0.00235,news,world,africa,east_africa,,,,,Ir,,Uganda
+southern_africa,,1,0,Southern Africa,Southern Africa,3,0.01346,news,world,africa,,,,,,Is,,
+MDG,126,1,1,Madagascar,Madagascar,4,0.00075,news,world,africa,southern_africa,,,,,It,,Madagascar
+MWI,127,1,1,Malawi,Malawi,4,0.00057,news,world,africa,southern_africa,,,,,Iu,,Malawi
+MOZ,143,1,1,Mozambique,Mozambique,4,0.00075,news,world,africa,southern_africa,,,,,Iv,,Mozambique
+ZMB,238,1,1,Zambia,Zambia,4,0.00057,news,world,africa,southern_africa,,,,,Iw,,Zambia
+ZWE,239,1,1,Zimbabwe,Zimbabwe,4,0.00193,news,world,africa,southern_africa,,,,,Ix,,Zimbabwe
+BWA,29,1,1,Botswana,Botswana,4,0.00065,news,world,africa,southern_africa,,,,,Iy,,Botswana
+SWZ,240,1,1,Eswatini,Eswatini,4,0.00003,news,world,africa,southern_africa,,,,,Iz,,Estonia
+LSO,118,1,1,Lesotho,Lesotho,4,0.00041,news,world,africa,southern_africa,,,,,Ja,,Lesotho
+NAM,147,1,1,Namibia,Namibia,4,0.00045,news,world,africa,southern_africa,,,,,Jb,,Namibia
+ZAF,196,1,1,South Africa,South Africa,4,0.01008,news,world,africa,southern_africa,,,,,Jc,,"""south africa"""
+ATF,74,0,1,French Southern Territories,French Southern Territories,4,0.00002,news,world,africa,southern_africa,FRA,,,FRA,Jd,No permanent population,"""French Southern Terriories"""
+oceania,,1,0,Oceania,Oceania,2,0.04381,news,world,,,,,,,Je,,
+AUS,14,1,1,Australia,Australia,3,0.03039,news,world,oceania,,,,,,Jf,,Australia
+NZL,152,1,1,New Zealand,New Zealand,3,0.01030,news,world,oceania,,,,,,Jg,,"""new zealand"""
+ANT,8,1,1,Antarctica,Antarctica,3,0.00139,news,world,oceania,,,,,,Jh,,Antarctica
+micronesia,,1,0,Micronesia,Micronesia,3,0.00635,news,world,oceania,,,,,,Ji,,
+FSM,136,1,1,Federated States of Micronesia,Federated States of Micronesia,4,0.00002,news,world,oceania,micronesia,,,,,Jj,"Federated States of Micronesia, not to be confused with the 6-country region: FSM, Palau, Kiribati, Guam (US), Northern Mariana Islands (US), Nauru ","""falkland islands"""
+MHL,132,1,1,Marshall Islands,Marshall Islands,4,0.00019,news,world,oceania,micronesia,,,,,Jk,,"""marshall islands"""
+GUM,84,1,1,Guam,Guam,4,0.00589,news,world,oceania,micronesia,USA,,,USA,Jl,163000 people,Guam
+KIR,111,1,1,Kiribati,Kiribati,4,0.00016,news,world,oceania,micronesia,,,,,Jm,110000 people,Kiribati
+NRU,148,1,1,Nauru,Nauru,4,0.00014,news,world,oceania,micronesia,,,,,Jn,,Nauru
+PLW,162,1,1,Palau,Palau,4,0.00028,news,world,oceania,micronesia,,,,,Jo,,Palau
+MNP,146,0,1,North Mariana Islands,North Mariana Islands,4,0.00002,news,world,oceania,micronesia,USA,,,USA,Jp,,"""Mariana Islands"""
+melanesia,,1,0,Melanesia,Melanesia,3,0.00104,news,world,oceania,,,,,,Jq,,
+FJI,71,1,1,Fiji,Fiji,4,0.00050,news,world,oceania,melanesia,,,,,Jr,,Fiji
+PNG,165,1,1,Papua New Guinea,Papua New Guinea,4,0.00027,news,world,oceania,melanesia,,,,,Js,,"""papua new guinea"""
+SLB,193,1,1,Solomon Islands,Solomon Islands,4,0.00042,news,world,oceania,melanesia,,,,,Jt,,"""solomon islands"""
+NCL,151,1,1,New Caledonia,New Caledonia,4,0.00008,news,world,oceania,melanesia,FRA,,,FRA,Ju,300000 people,"""new caledonia"""
+VUT,231,1,1,Vanuatu,Vanuatu,4,0.00049,news,world,oceania,melanesia,,,,,Jv,,Vanuatu
+HMD,91,0,1,Heard Islands & McDonald Island,Heard Islands & McDonald Island,4,0.00002,news,world,oceania,melanesia,AUS,,,AUS,Jw,Uninhabited,"""Heard Islands"" OR ""McDonald Island"""
+iot,97,0,1,Australian Indian Ocean Territory,Australian Indian Ocean Territory,4,0.00002,news,world,oceania,melanesia,,,,,Jx,Australian Indian Ocean Territory? ~2000 people.,Australia
+aci,13,0,1,Ashmore and Cartier Islands,Ashmore and Cartier Islands,4,0.00002,news,world,oceania,melanesia,AUS,,,AUS,Jy,Uninhabited,"""Ashmore and Cartier Islands"""
+polynesia,,1,0,Polynesia,Polyesia,3,0.00118,news,world,oceania,,,,,,Jz,,
+WSM,181,1,1,Samoa,Samoa,4,0.00065,news,world,oceania,polynesia,,,,,Ka,,"""samoa"" NOT (american OR joe)"
+ASM,4,0,1,American Samoa,American Samoa,4,0.00042,news,world,oceania,polynesia,USA,,,USA,Kb,,"""american samoa"" OR (samoa NOT joe)"
+TON,217,1,1,Tonga,Tonga,4,0.00043,news,world,oceania,polynesia,,,,,Kc,,Tonga
+PYF,73,1,1,French Polynesia,French Polynesia,4,0.00015,news,world,oceania,polynesia,FRA,,,FRA,Kd,300000 people,France
+PCN,169,0,1,Pitcairn Islands,Pitcairn Islands,4,0.00002,news,world,oceania,polynesia,GBR,,,GBR,Ke,50 people! :-),"""pitcairn islands"""
+WLF,236,0,1,Wallis and Futuna Islands,Wallis and Futuna Islands,4,0.00002,news,world,oceania,polynesia,FRA,,,FRA,Kf,12000 people,"""Wallis and Futuna Islands"""
+COK,49,0,1,Cook Islands,Cook Islands,4,0.00005,news,world,oceania,polynesia,NZL,,,NZL,Kg,"15000 people, citizens of NZ","""cook islands"""
+NIU,156,0,1,Niue,Niue,4,0.00004,news,world,sml,polynesia,NZL,,,NZL,Kh,1600 people,Niue
+NFK,157,0,1,Norfolk Island,Norfolk Island,4,0.00006,news,world,oceania,polynesia,AUS,,,AUS,Ki,1700 people,"""norfolk island"""
+crime_justice,,1,0,Crime & justice,crime & justice,1,0.09228,news,,,,,,,,ab,crime & justice,
+crime,9360912,1,1,Crime,Crime,2,0.01555,news,crime_justice,,,,,,,ac,crime and criminals,
+violent_crime,,12,0,Violent crime,Crime,3,0.00896,news,crime_justice,crime,,,,,,ad,,
+murders,9360982,1,1,Murders and attempted murders,Murders & attempts,4,0.00245,news,crime_justice,crime,violent_crime,,,,,ae,murders and attempted murders,murder
+serial_murders,9361103,0,1,Serial murders,Serial murders,5,0.00002,news,crime_justice,crime,violent_crime,murders,,,,af,serial murders,
+assassinations,9361255,0,1,Assassinations and attempted assassinations,Assasinations & attempts,5,0.00002,news,crime_justice,crime,violent_crime,murders,,,,ag,assassinations and attempted assassinations,assasinat
+shootings,9361385,0,1,Shootings,Shootings,5,0.00017,news,crime_justice,crime,violent_crime,murders,,,,ah,shootings,shooting
+torture,9361025,1,1,Torture,Torture,4,0.00044,news,crime_justice,crime,violent_crime,,,,,ai,torture,torture
+sex_crimes,9360922,1,1,Sex crimes,Sex crimes,4,0.00120,news,crime_justice,crime,violent_crime,,,,,aj,sex crimes,rape OR incest OR pedophil
+war_crimes,9361209,1,1,War crimes,war crimes,4,0.00004,news,crime_justice,crime,violent_crime,,,,,ak,war crimes and criminals,"""war crime"""
+domestic_violence,9361199,1,1,Domestic violence,Domestic violence,4,0.00085,news,crime_justice,crime,violent_crime,,,,,al,domestic violence,"""domestic violence"""
+child_abuse_neglect,9361063,1,1,Child abuse & neglect,Child abuse & neglect,4,0.00032,news,crime_justice,crime,violent_crime,,,,,am,child abuse and neglect,"""child abuse"" OR ""child neglect"""
+child_abuse,9361207,0,1,Child abuse,child abuse,5,0.00017,news,crime_justice,crime,violent_crime,child_abuse,,,,an,child abuse,"""child abuse"""
+violence,9361116,1,1,Violence & assaults,violence,4,0.00040,news,crime_justice,crime,violent_crime,,,,,ao,violence,assault
+assaults,9361224,0,1,Assaults,assaults,5,0.00024,news,crime_justice,crime,violent_crime,violence,,,,ap,assaults,assault
+kidnapping,9361196,1,1,Kidnapping & hostages,kidnapping,4,0.00009,news,crime_justice,crime,violent_crime,,,,,aq,kidnapping,kidnap OR hostage
+missing_persons,9361361,0,1,Missing persons,missing persons,5,0.00002,news,crime_justice,crime,violent_crime,kidnapping,,,,ar,missing persons,missing persons
+hostages,9361201,0,1,Hostages,hostages,5,0.00004,news,crime_justice,crime,violent_crime,kidnapping,,,,as,hostages,hostage
+terrorism,9360900,1,1,Terrorism,terrorism,4,0.00233,news,crime_justice,crime,violent_crime,,,,,at,terrorism,terroris
+hijacking,9361017,1,1,Hijacking,hijacking,4,0.00019,news,crime_justice,crime,violent_crime,,,,,au,hijacking,hijack
+bombs,9361173,1,1,Bombs,bombs,4,0.00104,news,crime_justice,crime,violent_crime,,,,,av,bombs and explosives,bomb
+bomb_plots,9361421,0,1,Bombs and bomb plots,bombs and bomb plots,5,0.00002,news,crime_justice,crime,violent_crime,bombs,,,,aw,bombs and bomb plots,bomb
+explosions,9361294,0,1,Explosions,explosions,4,0.00011,news,crime_justice,crime,violent_crime,,,,,ax,explosions,explosion
+arson,9361119,1,1,Arson,arson,4,0.00016,news,crime_justice,crime,violent_crime,,,,,ay,arson,arson
+vice_crime,56166352,1,1,Vice crime,vice crime,3,0.00303,news,crime_justice,crime,,,,,,az,,
+prostitution,9360923,1,1,Prostitution,prostitution,4,0.00012,news,crime_justice,crime,vice_crime,,,,,ba,prostitution,prostitution
+child_porn,,1,1,Child pornography,child pornography,4,0.00002,news,crime_justice,crime,vice_crime,,,,,bb,,"""child porn"""
+drugs,9360890,1,1,Drug abuse & traffic,drug abuse and traffic,4,0.00290,news,crime_justice,crime,vice_crime,,,,,bc,drug abuse and traffic,"""drug abuse"" or ""drug traffic"""
+drug_traffic,9361342,0,1,Drug traffic,drug traffic,5,0.00007,news,crime_justice,crime,vice_crime,drugs,,,,bd,drug traffic,"""drug traffic"""
+cocaine,9361086,1,1,Cocaine,cocaine and crack cocaine,5,0.00033,news,crime_justice,crime,vice_crime,drugs,,,,be,cocaine and crack cocaine,cocaine
+marijuana,9360891,1,1,Marijuana,marijuana,5,0.00137,news,crime_justice,crime,vice_crime,drugs,,,,bf,marijuana,marijuana
+drunk_driving,9361220,1,1,Drunken & reckless driving,drunken and reckless driving,4,0.00002,news,crime_justice,crime,vice_crime,,,,,bg,drunken and reckless driving,"""drunk driving"" OR ""drunken driving"" OR DUI or ""reckless driving"""
+organized_crime,9361221,1,1,Organized crime,organized crime,3,0.00020,news,crime_justice,crime,,,,,,bh,organized crime,
+racketeering,9361289,1,1,Racketeering,racketeering and racketeers,4,0.00002,news,crime_justice,crime,organized_crime,,,,,bi,racketeering and racketeers,racketeering
+threats,31545210,1,1,Threats and threatening messages,threats and threatening messages,4,0.00002,news,crime_justice,crime,organized_crime,,,,,bj,threats and threatening messages,"""threatening messag"""
+smuggling,9361315,1,1,Smuggling,smuggling,4,0.00010,news,crime_justice,crime,organized_crime,,,,,bk,smuggling,smuggling
+white_collar_crime,,1,1,White-collar crime,white-collar crime,3,0.00113,news,crime_justice,crime,,,,,,bl,,
+fraud,9360947,1,1,Fraud and swindling,frauds and swindling,4,0.00085,news,crime_justice,crime,white_collar_crime,,,,,bm,frauds and swindling,fraud
+embezzlement,9361313,1,1,Embezzlement,embezzlement,4,0.00002,news,crime_justice,crime,white_collar_crime,,,,,bn,embezzlement,embezzl
+securities_violations,9361223,1,1,Securities & commodities violations,securities and commodities violations,4,0.00006,news,crime_justice,crime,white_collar_crime,,,,,bo,securities and commodities violations,"""securities violation"" OR ""commodities violations"
+cybercrime,,1,1,Cybercrime,cybercrime,4,0.00009,news,crime_justice,crime,white_collar_crime,,,,,bp,,cybercrime
+tax_evasion,9361330,1,1,Tax evasion,tax evasion,4,0.00002,news,crime_justice,crime,white_collar_crime,,,,,bq,tax evasion,"""tax evasion"""
+bribery,9361226,1,1,Bribery,bribery,4,0.00016,news,crime_justice,crime,white_collar_crime,,,,,br,bribery,bribe
+perjury,9361232,1,1,Perjury,perjury,4,0.00004,news,crime_justice,crime,white_collar_crime,,,,,bs,perjury,perjur
+whitewater,9362005,0,1,Whitewater case,whitewater case,4,0.00002,news,crime_justice,crime,white_collar_crime,,,,,bt,whitewater case,whitewater
+robberies_thefts,9361008,1,1,Robberies and thefts,robberies and thefts,3,0.00059,news,crime_justice,crime,,,,,,bu,"robberies and thefts; this is only entry under ""property crime""",robber OR burglar OR theft OR thief
+sexual_harrassment,9361208,1,1,Sexual harassment,sexual harassment,3,0.00009,news,crime_justice,crime,,,,,,bv,sexual harassment,"""sexual harassment"""
+legal_system,,1,0,Legal system,legal system,2,0.05205,news,crime_justice,,,,,,,bw,legal systen,
+police,9360881,1,1,Police,police,3,0.04261,news,crime_justice,legal_system,,,,,,bx,police,police
+police_brutality,9361079,1,1,Police brutality and misconduct,police brutality and misconduct,4,0.00011,news,crime_justice,legal_system,police,,,,,by,police brutality and misconduct,"""police brutality"" OR ""police misconduct"""
+attacks_on_police,9361239,1,1,Attacks on police,attacks on police,4,0.00015,news,crime_justice,legal_system,police,,,,,bz,attacks on police,"""attack on police"" OR ""police shot"" or ""trooper shot"""
+citizenship,,0,0,Citizenship,citizenship,3,0.00002,news,crime_justice,legal_system,,,,,,ca,,citizenship
+illegal_aliens,9360910,1,1,Illegal aliens,illegal aliens,3,0.00118,news,crime_justice,legal_system,,,,,,cb,illegal aliens,"""illegal alien"""
+border_wall,,1,1,Border wall,border wall,4,0.00006,news,crime_justice,legal_system,illegal_aliens,,,,,cc,,"""border wall"""
+path_to_citizenship,,1,1,Path to citizenship,path to citizenship,4,0.00002,news,crime_justice,legal_system,illegal_aliens,,,,,cd,,"""path to citizenship"" OR DACA"
+deportation,9361191,1,1,Deportation,deportation,4,0.00047,news,crime_justice,legal_system,illegal_aliens,,,,,ce,deportation,deportation
+sanctuary_cities,,1,1,Sanctuary cities,sanctuary cities,4,0.00003,news,crime_justice,legal_system,illegal_aliens,,,,,cf,,"""sanctuary cit"""
+courts,9361214,1,1,Court system,courts,3,0.00200,news,crime_justice,legal_system,,,,,,cg,courts,
+legal_profession,9361213,0,1,Legal profession,legal profession,4,0.00006,news,crime_justice,legal_system,courts,,,,,ch,legal profession,"""legal profession"" OR lawyer OR attorney"
+attorneys_general,9361992,0,1,Attorneys general,attorneys general,4,0.00006,news,crime_justice,legal_system,courts,,,,,ci,attorneys general,"""attorney general"""
+judges,9361278,0,1,Judges,judges,4,0.00179,news,crime_justice,legal_system,courts,,,,,cj,judges,judge
+guards,9361305,0,1,Guards,guards,4,0.00003,news,crime_justice,legal_system,courts,,,,,ck,Guards,
+jury system,9361205,0,1,Jury system,jury system,4,0.00006,news,crime_justice,legal_system,courts,,,,,cl,jury system,jury 
+lawsuits,9360860,1,1,Lawsuits,suits and litigation,3,0.00306,news,crime_justice,legal_system,courts,,,,,cm,suits and litigation,lawsuit OR litigation
+suits_against_govt,9634119,0,1,Suits and claims against government,suits and claims against government,4,0.00002,news,crime_justice,legal_system,lawsuits,,,,,cn,suits and claims against government,
+arbitration,9361356,0,1,"Arbitration, conciliation and mediation","arbitration, conciliation and mediation",4,0.00002,news,crime_justice,legal_system,lawsuits,,,,,co,"arbitration, conciliation and mediation",arbitration OR arbitrate OR mediation OR mediator
+verdicts,9360905,1,1,Verdicts & sentences,decisions and verdicts,3,0.00256,news,crime_justice,legal_system,,,,,,cp,decisions and verdicts,verdict OR sentenced
+fines,9361231,0,1,Fines & penalties,fines & penalties,4,0.00004,news,crime_justice,legal_system,verdicts,,,,,cq,fines (penalties),fines
+sentences,9361027,0,1,Sentences,sentences,4,0.00050,news,crime_justice,legal_system,verdicts,,,,,cr,sentences (criminal),
+probation,9361219,0,1,Probation & parole,probation and parole,4,0.00002,news,crime_justice,legal_system,verdicts,,,,,cs,probation and parole,probation OR parole
+trials,9361982,0,1,Trials,trials,4,0.00120,news,crime_justice,legal_system,verdicts,,,,,ct,Trials,Trials
+prisons,9361042,1,1,Prisons and prisoners,prisons and prisoners,3,0.00233,news,crime_justice,legal_system,,,,,,cu,prisons and prisoners,prisons and prisoners
+prison_reform,,1,1,Prison reform,prison reform,4,0.00003,news,crime_justice,legal_system,prisons,,,,,cv,,"""prison reform"""
+private_prisons,,1,1,Private prisons,private prisons,4,0.00003,news,crime_justice,legal_system,prisons,,,,,cw,,"""private prison"""
+extradition,9361113,1,1,Extradition,extradition,3,0.00014,news,crime_justice,legal_system,,,,,,cx,extradition,extradit
+political_asylum,9361212,1,1,Political asylum,political asylum,3,0.00002,news,crime_justice,legal_system,,,,,,cy,asylum (political),"""political asylum"""
+law_legislation,9360837,1,1,Legislation,legislation,2,0.00271,news,crime_justice,,,,,,,cz,law and legislation,legislation
+copyrights,9360870,1,1,Copyrights,copyrights,3,0.00003,news,crime_justice,law_legislation,,,,,,da,copyrights,copyright
+disclosure,9361983,1,1,Information disclosure,disclosure of information,3,0.00002,news,crime_justice,law_legislation,,,,,,db,disclosure of information,
+liability,9361336,1,1,Product liability,product liability,3,0.00002,news,crime_justice,law_legislation,,,,,,dc,liability for products,"""product liability"""
+antitrust,9361284,1,1,Antitrust actions & laws,antitrust actions & laws,3,0.00011,news,crime_justice,law_legislation,,,,,,dd,antitrust actions and laws,antitrust
+civil_liberties,,1,1,Civil liberties,civil liberties,2,0.02915,news,crime_justice,,,,,,,de,civil liberties,"""civil libert"""
+human_rights,9361136,1,1,Freedom & human rights,freedom and human rights,3,0.00022,news,crime_justice,civil_liberties,,,,,,df,freedom and human rights,"""human right"""
+freedom_of_speech,9360919,1,1,Freedom of speech & expression,freedom of speech & expression,3,0.00026,news,crime_justice,civil_liberties,,,,,,dg,freedom of speech and expression,"""freedom of speech"" OR ""freedom of expression"""
+political_prisoners,9361215,1,1,Political prisoners,political prisoners,4,0.00002,news,crime_justice,civil_liberties,freedom_of_speech,,,,,dh,political prisoners,"""political prisoner"""
+whistleblowers,,1,1,Whistleblowers,whistleblowers,4,0.00022,news,crime_justice,civil_liberties,freedom_of_speech,,,,,di,,whistleblower
+snowden,,1,1,Snowden case,Snowden case,7,0.00002,news,crime_justice,civil_liberties,freedom_of_speech,whistleblowers,privacy,surveillance,,dj,,snowden
+manning,,1,1,Manning case,Manning case,6,0.00002,news,crime_justice,civil_liberties,freedom_of_speech,whistleblowers,war_crimes,,,dk,,"""chelsea manning"" OR ""bradley manning"""
+hate_speech,,1,1,Hate speech,hate speech,4,0.00002,news,crime_justice,civil_liberties,freedom_of_speech,,,,,dl,,"""hate speech"""
+safe_spaces,,1,1,Safe spaces,safe spaces,4,0.00002,news,crime_justice,civil_liberties,freedom_of_speech,,,,,dm,,"""safe space"""
+freedom_of_press,9361170,1,1,Freedom of press,freedom of press,3,0.00006,news,crime_justice,civil_liberties,,,,,,dn,freedom of the press,"""freedom of press"" OR ""press freedom"" or ""freedom of the press"""
+assange,,1,1,Assange case,gdpr,5,0.00003,news,crime_justice,civil_liberties,freedom_of_press,war_crimes,,,,do,,assange
+censorship,9361210,1,1,Censorship,censorship,3,0.00058,news,crime_justice,civil_liberties,,,,,,dp,censorship,censorship
+privacy,9360835,1,1,Privacy,privacy,3,0.02386,news,crime_justice,civil_liberties,,,,,,dq,privacy,privacy
+gdpr,,0,1,GDPR,gdpr,4,0.00030,news,crime_justice,civil_liberties,privacy,,,,,dr,,gdpr
+search_seizure,9361962,0,1,Search & seizure,Search & seizure,4,0.00002,news,crime_justice,civil_liberties,privacy,,,,,ds,Search and seizure,"""search and seizure"""
+surveillance,9361322,0,1,Surveillance,surveillance,4,0.00301,news,crime_justice,civil_liberties,privacy,,,,,dt,Wiretapping and other eavesdropping devices and methods,wiretapping OR eavesdropping OR surveillance
+ethics,9360915,1,1,Ethics,ethics,3,0.00370,news,crime_justice,civil_liberties,,,,,,du,ethics,(liberty OR liberties) AND ethics
+church_state,9360893,1,1,Church-state relations,church-state relations,3,0.00014,news,crime_justice,civil_liberties,,,,,,dv,church-state relations,"""separation of church and state"""
+capital_punishment,9361200,1,1,Capital punishment,capital punishment,3,0.00006,news,crime_justice,civil_liberties,,,,,,dw,capital punishment,"""capital punishment"""
+gun_control,9360895,1,1,Gun control,gun control,3,0.00027,news,crime_justice,civil_liberties,,,,,,dx,gun control,"""gun control"" OR ""gun rights"" or ""right to bear arms"" or ""second amendment"" or NRA"
+governance,,1,1,Governance,governance,2,0.00130,news,crime_justice,,,,,,,dy,governance,governance
+constitutions,9361328,1,1,Constitutions,constitutions,3,0.00014,news,crime_justice,governance,,,,,,dz,constitutions,constitution
+electoral_systems,,1,1,Electoral systems,electoral systems,3,0.00017,news,crime_justice,governance,,,,,,ea,,"""electoral system"""
+gerrymandering,,1,1,Gerrymandering,gerrymandering,4,0.00012,news,crime_justice,governance,electoral_systems,,,,,eb,,gerrymandering
+term_limits,,1,1,Term limits,term limits,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,ec,,"""term limit"""
+ranked_choice_voting,,1,1,Ranked choice voting,ranked choice voting,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,ed,,"""ranked choice voting"""
+open_primaries,,1,1,Open primaries,open primaries,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,ee,,"""open primaries"""
+public_election_funding,,1,1,Public election funding,public election funding,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,ef,,"""public election funding"""
+electoral_college,,1,1,Electoral college,electoral college,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,eg,,"""electoral college"""
+voter_id,,1,1,Voter ID requirement,voter ID requirement,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,eh,,"""voter id"""
+mandatory_voting,,1,1,Mandatory voting,mandatory voting,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,ei,,"""mandatory voting"""
+online_voting,,1,1,Online voting,online voting,4,0.00002,news,crime_justice,governance,electoral_systems,,,,,ej,,"""online voting"""
+lobbying,9360866,1,1,Lobbying and lobbyists,lobbying and lobbyists,3,0.00009,news,crime_justice,governance,,,,,,ek,lobbying and lobbyists,lobbying OR lobbied OR lobbyist
+revolving_door,,1,1,Revolving door,revolving door,4,0.00004,news,crime_justice,governance,lobbying,,,,,el,,"""revolving door"" "
+campaign_finance,,1,1,Campaign finance reform,campaign finance reform,4,0.00002,news,crime_justice,governance,lobbying,,,,,em,,"""campaign finance reform"""
+social_issues,,1,1,Social issues,social issues,1,0.13336,news,,,,,,,,en,social issues,
+minorities,9360855,1,1,Minorities,minorities,2,0.01208,news,social_issues,,,,,,,eo,minorities (us),
+minorities_err,9361999,0,1,"Minorities (ethnic, racial, religious)","minorities (ethnic, racial, religious)",3,0.00002,news,social_issues,minorities,,,,,,ep,"minorities (ethnic, racial, religious)",minorities
+african_americans,9360863,1,1,African-Americans,African-Americans,3,0.00141,news,social_issues,minorities,,,,,,eq,blacks,"blacks OR ""african-american"" OR {""african american"""
+african_americans_us,9361066,0,1,Blacks (in us),blacks (in us),4,0.00003,news,social_issues,minorities,african_americans,,,,,er,blacks (in us),
+latinos,9360867,1,1,Latinos,Latinos,3,0.00322,news,social_issues,minorities,,,,,,es,hispanic-americans,hispanic OR latino
+asian_americans,,1,1,Asian-Americans,Asian-Americans,3,0.00002,news,social_issues,minorities,,,,,,et,,
+native_americans,9361115,1,1,Native Americans,Native Americans,3,0.00144,news,social_issues,minorities,,,,,,eu,"indians, american","""native american"""
+race,9361240,1,1,Race,race,3,0.00575,news,social_issues,minorities,,,,,,ev,race,racial OR racist
+racial_relations,9361425,0,1,Racial relations,racial relations,4,0.00002,news,social_issues,minorities,race,,,,,ew,racial relations,
+affirmative_action,9361029,1,1,Affirmative action,affirmative action,3,0.00002,news,social_issues,minorities,,,,,,ex,affirmative action,"""affermative action"""
+discrimination,9360938,1,1,Discrimination,discrimination,3,0.00131,news,social_issues,minorities,,,,,,ey,discrimination,discrimination
+equal_opportunity,9360906,0,1,Equal educational opportunities,equal educational opportunities,4,0.00002,news,social_issues,minorities,discrimination,,,,,ez,equal educational opportunities,"""equal opportunit"""
+religion,9360848,1,1,Religion,religion,2,0.02043,news,social_issues,,,,,,,fa,religion and churches,
+christianity,9360847,1,1,Christianity,Christianity,3,0.00459,news,social_issues,religion,,,,,,fb,christians and christianity,christianity OR christians
+priests,9361049,0,1,Priests,priests,3,0.00074,news,social_issues,religion,,,,,,fc,priests,priests
+judaism,9360877,1,1,Judaism,Judaism,3,0.00133,news,social_issues,religion,,,,,,fd,jews,jews OR jewish OR judaism
+antisemitism,9361263,0,1,Anti-semitism,anti-semitism,3,0.00002,news,social_issues,religion,,,,,,fe,anti-semitism,"""anti-semitism"""
+islam,9360888,1,1,Islam,Islam,3,0.01414,news,social_issues,religion,,,,,,ff,islam,islam or muslim or moslem
+hinduism,,1,1,Hinduism,Hinduism,3,0.00014,news,social_issues,religion,,,,,,fg,,hindu
+buddhism,,1,1,Buddhism,Buddhism,3,0.00036,news,social_issues,religion,,,,,,fh,,buddhis
+other_religions,,1,1,Other religions,other religions,3,0.00002,news,social_issues,religion,,,,,,fi,,shinto OR zoroastrian
+non_religion,,1,1,Non-religion,non-religion,3,0.00002,news,social_issues,religion,,,,,,fj,,"atheis OR ""secular humanis"" OR ""non-believ"" or agnostic"
+family,,1,1,Family,family,2,0.03299,news,social_issues,,,,,,,fk,,
+family_life,9361249,1,1,Family life,families and family life,3,0.00009,news,social_issues,family,,,,,,fl,families and family life,family
+childcare,9361039,1,1,Child care,child care,3,0.00030,news,social_issues,family,,,,,,fm,child care,"""child care"" or ""childcare"" or daycare OR ""day care"" or preschool"
+fostercare,9361295,1,1,Foster care,foster care,3,0.00004,news,social_issues,family,,,,,,fn,foster care,"""foster care"""
+babies,9361163,1,1,Babies,babies,3,0.00093,news,social_issues,family,,,,,,fo,babies,baby OR babies or infant
+kids,9360981,1,1,Children and youth,children and youth,3,0.00289,news,social_issues,family,,,,,,fp,children and youth,child OR teen OR adolescen
+marriage,9360975,1,1,Marriage,marriage,3,0.00206,news,social_issues,family,,,,,,fq,marriages,marriage OR matrimony OR wedding OR wife OR husband
+divorce,9361097,1,1,Divorce,"divorce, separations and annulments",3,0.00066,news,social_issues,family,,,,,,fr,"divorce, separations and annulments",divorc
+custody,9361321,0,1,Child custody & support,child custody and support,4,0.00002,news,social_issues,family,divorce,,,,,fs,child custody and support,"""child custody"""
+men,9361217,1,1,Men,men,3,0.00002,news,social_issues,family,,,,,,ft,men,
+women,9360892,1,1,Women,women,3,0.02233,news,social_issues,family,,,,,,fu,women,woman OR women
+seniors,9361054,1,1,Seniors,seniors,3,0.00460,news,social_issues,family,,,,,,fv,aged,"retire OR ""senior citizen"""
+retirement,9361043,0,1,Retirement,retirement,4,0.00236,news,social_issues,family,seniors,,,,,fw,retirement,retirement
+retirement_plans,9361062,1,1,Retirement plans,retirement plans,3,0.00021,news,social_issues,family,,,,,,fx,pensions and retirement plans,"""pension plan"" OR ""retirement plan"""
+social_security,9361038,0,1,Social security,social security,3,0.00014,news,social_issues,family,retirement_plans,,,,,fy,social security (us),"""social security"""
+sex,9360898,1,1,Sex,sex,2,0.01128,news,social_issues,,,,,,,fz,sex,
+birth_control,9360988,1,1,Birth control,birth control,3,0.00004,news,social_issues,sex,,,,,,ga,birth control and family planning,
+abortion,9360841,1,1,Abortion,abortion,3,0.00402,news,social_issues,sex,,,,,,gb,abortion,abortion
+lgbt,9360858,1,1,LGBT,LGBT,3,0.00716,news,social_issues,sex,,,,,,gc,homosexuality,"gay OR homosexual OR lesbian OR transgender or ""non-binary"" OR genderfluid OR lbtq"
+porn,9361034,1,1,Pornography & obscenity,pornography and obscenity,3,0.00005,news,social_issues,sex,,,,,,gd,pornography and obscenity,porno OR obscen
+immigration,9360897,1,1,Immigration & refugees,immigration & refugees,2,0.00182,news,social_issues,,,,,,,ge,immigration and refugees,
+immigration_emigration,9361393,0,1,Immigration and emigration,immigration and emigration,3,0.00002,news,social_issues,immigration,,,,,,gf,immigration and emigration,
+refugees,9361980,0,1,Refugees and expatriates,refugees and expatriates,3,0.00002,news,social_issues,immigration,,,,,,gg,refugees and expatriates,
+social_conditions,9361387,1,1,Social conditions & trends,social conditions and trends,2,0.06500,news,social_issues,,,,,,,gh,social conditions and trends,
+welfare,9361320,1,1,Welfare,welfare,3,0.00151,news,social_issues,social_conditions,,,,,,gi,welfare (us),welfare
+labor,9360859,1,1,Labor,labor,3,0.04335,news,social_issues,social_conditions,,,,,,gj,labor,labor
+unemployment,9360967,1,1,Unemployment,unemployment,3,0.01237,news,social_issues,social_conditions,,,,,,gk,unemployment,unemploy
+unemployment_ job_market,9361984,0,1,Unemployment & job market,unemployment & job market,4,0.00002,news,social_issues,social_conditions,unemployment,money,,,,gl,unemployment and job market,"""job market"""
+layoffs,9361381,0,1,Layoffs,layoffs,4,0.00128,news,social_issues,social_conditions,unemployment,money,,,,gm,layoffs (labor),layoff
+layoffs2,9361052,0,1,Layoffs and job reductions,layoffs and job reductions,4,0.00157,news,social_issues,social_conditions,unemployment,money,,,,gn,layoffs and job reductions,"""job reduction"""
+veterans,9361338,1,1,Veterans,veterans,3,0.00606,news,social_issues,social_conditions,,,,,,go,veterans,veteran
+disabilities,9360857,1,1,Disabilities,disabilities,3,0.00091,news,social_issues,social_conditions,,,,,,gp,handicapped,disabilit OR handicapped
+housing,9361048,1,1,Housing,housing,3,0.00835,news,social_issues,social_conditions,,,,,,gq,housing,"""affordable housing"""
+homeless persons,9361085,1,1,Homelessness,homelessness,3,0.00096,news,social_issues,social_conditions,,,,,,gr,homeless persons,homeless
+drug_abuse,9361363,1,1,Drug abuse,drug abuse,3,0.00002,news,social_issues,social_conditions,,,,,,gs,drug addiction and abuse,"""drug abuse"" OR ""drug addict"""
+bullying,,1,1,Bullying,bullying,3,0.00016,news,social_issues,social_conditions,,,,,,gt,,bullying OR bullied
+cyberbullying,,1,1,Cyberbullying,cyberbullying,3,0.00004,news,social_issues,social_conditions,,,,,,gu,,cyberbully
+sci_tech,9361080,1,0,Science & technology,science & technology,1,0.18171,news,,,,,,,,gv,science and technology,
+computers_internet,9360839,1,1,Computers & internet,computers & internet,2,0.04573,news,sci_tech,industries,,,,,,gw,computers and the internet,
+hardware,,1,1,Hardware,hardware,3,0.00182,news,sci_tech,computers_internet,,,,,,gx,,"""computer hardware"""
+personal_computers,9361414,0,1,Personal computers,personal computers,4,0.00002,news,sci_tech,computers_internet,hardware,,,,,gy,personal computers,"""personal computer"" OR ""laptop"" OR ""desktop"""
+computer_chips,9361306,0,1,Computer chips,computer chips,4,0.00002,news,sci_tech,computers_internet,hardware,,,,,gz,computer chips,"""computer chip"" OR cpu"
+electronics,9361993,0,1,Electronics,electronics,4,0.00110,news,sci_tech,computers_internet,hardware,,,,,ha,electronics,electronics
+id_devices,9361075,0,1,Identification devices,identification devices,4,0.00002,news,sci_tech,computers_internet,hardware,,,,,hb,identification devices,"""identification device"" OR rfid"
+software,9360880,1,1,Software,software,3,0.02806,news,sci_tech,computers_internet,,,,,,hc,computer software,"""computer software"" OR ""business software"""
+software_products,9361413,1,1,Software products,software products,4,0.00002,news,sci_tech,computers_internet,software,,,,,hd,software products,"""software product"""
+data_processing,9361390,0,1,Data processing,data processing,4,0.00002,news,sci_tech,computers_internet,software,,,,,he,data processing (computers),"""data process"""
+email,9360903,0,1,Email,email,4,0.02537,news,sci_tech,computers_internet,software,,,,,hf,electronic mail,"""email overload"" OR ""too much email"" OR ""email inbox"" or ""email server"""
+computer_games,9360971,1,1,Games,games,3,0.00769,news,sci_tech,computers_internet,,,,,,hg,computer and video games,"""computer game"" OR esport"
+cybersecurity,9361172,1,1,Computer security,computer security,3,0.00014,news,sci_tech,computers_internet,,,,,,hh,computer security,"""computer security"" or cybersecurity"
+telco,9360991,1,1,Communication,communication,2,0.01196,news,sci_tech,industries,,,,,,hi,telephones and telecommunications,telecommunication
+mobile_phones,9361026,0,1,Mobile phones,mobile phones,3,0.00079,news,sci_tech,telco,,,,,,hj,cellular telephones,"""mobile phone"" OR ""cell phone"" OR smartphone"
+satellites,9361280,0,1,Satellites,satellites,3,0.00019,news,sci_tech,telco,,,,,,hk,satellites,satellite
+transportation,9361259,1,1,Transportation,transportation,2,0.01915,news,sci_tech,industries,,,,,,hl,transportation,transportation
+air_travel,,1,1,Air travel,air travel,3,0.00273,news,sci_tech,transportation,,,,,,hm,,"""air travel"" "
+airlines_planes,9360940,0,1,Airlines and airplanes,airlines and airplanes,4,0.00118,news,sci_tech,transportation,air_travel,,,,,hn,airlines and airplanes,airline OR airplane
+airports,9361150,0,1,Airports,airports,4,0.00055,news,sci_tech,transportation,air_travel,,,,,ho,airports,airport
+pilots,9361334,0,1,Pilots,pilots,4,0.00055,news,sci_tech,transportation,air_travel,,,,,hp,pilots,pilot
+ship_travel,9361124,1,1,Ship travel,ship travel,3,0.00015,news,sci_tech,transportation,,,,,,hq,ships and shipping,"""ship travel"""
+ferries,9361323,0,1,Ferries,ferries,4,0.00006,news,sci_tech,transportation,ship_travel,,,,,hr,ferries,ferry OR ferries
+rail_travel,9361211,1,1,Rail travel,rail travel,3,0.00010,news,sci_tech,transportation,,,,,,hs,railroads,"""rail travel"" OR ""railroad"" OR train"
+driving,,1,0,Driving,driving,3,0.00818,news,sci_tech,transportation,,,,,,ht,,driving OR driver
+roads_traffic,9360913,0,1,Roads and traffic,roads and traffic,4,0.00055,news,sci_tech,transportation,driving,,,,,hu,roads and traffic,roads OR streets OR highway OR traffic
+cars,9360914,0,1,Cars,cars,4,0.00757,news,sci_tech,transportation,driving,,,,,hv,automobiles,cars
+taxis,9361161,0,1,Taxis,taxicabs and taxicab drivers,4,0.00017,news,sci_tech,transportation,driving,,,,,hw,taxicabs and taxicab drivers,taxi
+ride_sharing,,0,1,Ride sharing,ride sharing,4,0.00002,news,sci_tech,transportation,driving,,,,,hx,,"uber OR lyft OR ""ride sharing"" OR ""ride hailing"""
+bridges_tunnels,9361028,0,1,Bridges and tunnels,bridges and tunnels,4,0.00006,news,sci_tech,transportation,driving,,,,,hy,bridges and tunnels,bridge OR tunnel
+commuting,9361245,1,1,Commuting,commuting,3,0.00128,news,sci_tech,transportation,,,,,,hz,commuting,commuting OR commuter
+transit_systems,9361045,0,1,Transit systems,transit systems,4,0.00048,news,sci_tech,transportation,commuting,,,,,ia,transit systems,"""transit system"" OR ""public transportation"""
+subways,9361046,0,1,Subways,subways,4,0.00038,news,sci_tech,transportation,commuting,,,,,ib,subways,subway OR metro
+buses,9361089,0,1,Buses,buses,4,0.00057,news,sci_tech,transportation,commuting,,,,,ic,buses,bus
+stations,9361246,0,1,Stations and terminals,stations and terminals,4,0.00002,news,sci_tech,transportation,commuting,,,,,id,stations and terminals (passenger),station OR terminal
+trucking,9361281,1,1,Trucking,trucking,3,0.00054,news,sci_tech,transportation,,,,,,ie,trucks and trucking,truck
+utility vehicles and other light trucks,9361288,0,1,Utility vehicles and other light trucks,utility vehicles and other light trucks,4,0.00002,news,sci_tech,transportation,trucking,,,,,if,utility vehicles and other light trucks,
+research,9361083,1,1,Research,research,2,0.07345,news,sci_tech,,,,,,,ig,research,Research
+mathematics,9360872,1,1,Mathematics,mathematics,3,0.00045,news,sci_tech,research,,,,,,ih,mathematics,mathematics
+physics,9361225,1,1,Physics,physics,3,0.00067,news,sci_tech,research,,,,,,ii,physics,physics
+chemistry,9361262,1,1,Chemistry,chemistry,3,0.00053,news,sci_tech,research,,,,,,ij,chemistry,chemistry
+computer_science,,1,1,Computer Science,computer science,3,0.00034,news,sci_tech,research,,,,,,ik,,"""computer science"" OR algorithm"
+cryptocurrency,,0,1,Cryptocurrency,cryptocurrency,4,0.00012,news,sci_tech,research,computer_science,,,,,il,,cryptocurrency OR bitcoin OR ethereum
+ai,,1,1,Artificial Intelligence,artificial intelligence,3,0.00070,news,sci_tech,research,,,,,,im,,"""artificial Intelligence"""
+ml,,0,1,Machine Learning,machine learning,4,0.00015,news,sci_tech,research,ai,,,,,in,,"""machine learning"""
+engineering,,1,1,Engineering,engineering,3,0.00730,news,sci_tech,research,,,,,,io,,engineering
+biology,9361179,1,1,Biology & biochemistry,biology & biochemistry,3,0.00003,news,sci_tech,research,,,,,,ip,biology and biochemistry,oiology OR biochemistry
+physiology,9361180,1,1,Anatomy & physiology,anatomy & physiology,3,0.00067,news,sci_tech,research,,,,,,iq,anatomy and physiology,Anatomy OR physiology
+genetics,9361140,1,1,Genetics & heredity,genetics & heredity,3,0.00086,news,sci_tech,research,,,,,,ir,genetics and heredity,genetics
+anthropology,9360986,1,1,Archaeology &  anthropology,archaeology &  anthropology,3,0.00003,news,sci_tech,research,,,,,,is,archaeology and anthropology,archaeology OR  anthropology
+space,9361032,1,1,Space,space,3,0.01204,news,sci_tech,research,,,,,,it,space,"astronomy OR astrophysics OR spacex or ""rocket launch"""
+space_shuttle,9361076,0,1,Space shuttle,space shuttle,4,0.00014,news,sci_tech,research,space,,,,,iu,space shuttle,"""space shuttle"""
+inventions,9361040,1,1,Inventions & patents,inventions & patents,3,0.00014,news,sci_tech,research,,,,,,iv,inventions and patents,invention OR patent
+standards,9360978,1,1,Standards & standardization,standards & standardization,3,0.00002,news,sci_tech,research,,,,,,iw,standards and standardization,standardization
+education,,1,1,Education,education,2,0.05642,news,sci_tech,,,,,,,ix,education,education
+schools,9360833,1,1,Schools,schools,3,0.01674,news,sci_tech,education,,,,,,iy,education and schools,school
+universities,9360861,1,1,Colleges & universities,colleges & universities,3,0.00133,news,sci_tech,education,,,,,,iz,colleges and universities,college OR university
+testing,9360838,1,1,Testing,testing,3,0.02178,news,sci_tech,education,,,,,,ja,tests and testing,"""educational test"" OR ""SAT test"" or ""GRE test"" "
+financial_aid,9361020,1,1,Financial aid,financial aid,3,0.00049,news,sci_tech,education,,,,,,jb,scholarships and fellowships,"""financial aid"" or ""scholarship"" or ""fellowship"""
+tuition,9360962,0,1,Tuition,tuition,4,0.00037,news,sci_tech,education,financial_aid,,,,,jc,tuition,130
+teachers,9360834,1,1,Teachers & school employees,teachers & school employees,3,0.00032,news,sci_tech,education,,,,,,jd,teachers and school employees,"teacher OR ""school employee"""
+libraries,9360907,1,1,Libraries & librarians,libraries & librarians,3,0.00004,news,sci_tech,education,,,,,,je,libraries and librarians,librar
+reading_writing,9360874,1,1,Reading & writing skills,reading & writing skills,3,0.00002,news,sci_tech,education,,,,,,jf,reading and writing skills,"""reading skill"" OR ""writing skill"""
+english,9361348,1,1,English language,English language,3,0.00108,news,sci_tech,education,,,,,,jg,english language,"""english language"" OR ""learn english"" or ""study english"" OR ""studying english"""
+health,,1,0,Health,health,1,0.53843,news,,,,,,,,jh,health,
+diseases,9360942,1,1,Diseases & conditions,diseases & conditions,2,0.46300,news,health,,,,,,,ji,diseases and conditions,diseases & conditions
+cancer,9361061,1,1,Cancer,cancer,3,0.00424,news,health,diseases,,,,,,jj,cancer,cancer
+cardiovascular,,1,1,Cardiovascular disease,cardiovascular disease,3,0.00003,news,health,diseases,,,,,,jk,,cardiovascular OR stroke OR aneurysm
+heart_disease,9361197,0,1,Heart disease,heart disease,4,0.00037,news,health,diseases,heart_disease,,,,,jl,heart,"""heart disease"" OR ""heart attack"" OR infarction OR ""bypass surgery"""
+diabetes,,1,1,Diabetes,diabetes,3,0.00068,news,health,diseases,,,,,,jm,,diabetes
+womens_health,,1,1,Women's health,women's health,3,0.00052,news,health,diseases,,,,,,jn,,
+breast,9361293,0,1,Breast,breast,4,0.00052,news,health,diseases,womens_health,,,,,jo,breast,"""breast cancer"" OR mammogram OR ""pap smear"" or ""cervical"" OR masectomy OR obgyn"
+reproduction,9361194,0,1,Reproduction (biological),reproduction (biological),3,0.00006,news,health,diseases,,,,,,jp,reproduction (biological),"""reproductive health"" OR fertilization OR fertility OR ivf"
+pregnancy,9361090,0,1,Pregnancy and obstetrics,pregnancy and obstetrics,3,0.00054,news,health,diseases,,,,,,jq,pregnancy and obstetrics,pregnan OR obstetric
+mens_health,,1,1,Men's health,men's health,3,0.00002,news,health,diseases,,,,,,jr,,prostate or testicular
+neurological_disorders,9361250,1,1,Neurological disorders,neurological disorders,3,0.00002,news,health,diseases,,,,,,js,brain,"neurological OR ""brain tumor"" OR als OR alzheimer OR palsy OR ""brain injury"" OR ""brain tumor"" OR epilepsy OR seizure"
+mental_health,9361126,1,1,Mental health,mental health,3,0.00346,news,health,diseases,,,,,,jt,mental health and disorders,"""mental health"" OR ""mental disorder"" OR depression OR psychosis OR ""nervous breakdown"" OR bipolar"
+suicide,9361087,0,1,Suicide,suicide,4,0.00201,news,health,diseases,mental_health,,,,,ju,suicides and suicide attempts,suicid
+infectious_disease,,1,1,Infectious diseases,infectious diseases,3,0.42571,news,health,diseases,,,,,,jv,,"""infectious disease"""
+viruses,9361055,0,1,Viruses,viruses,4,0.01382,news,health,diseases,infectious_disease,,,,,jw,viruses,viruse
+covid,,1,1,COVID-19,COVID-19,4,0.41005,news,health,diseases,infectious_disease,,,,,jx,covid-19,covid OR coronavirus
+malaria,,1,1,Malaria,malaria,4,0.00104,news,health,diseases,infectious_disease,,,,,jy,,malaria
+hepatitis,,1,1,Hepatitis,hepatitis,4,0.00030,news,health,diseases,infectious_disease,,,,,jz,,hepatitis
+dengue,,1,1,Dengue,dengue,4,0.00017,news,health,diseases,infectious_disease,,,,,ka,,dengue
+influenza,,1,1,Influenza,influenza,4,0.00174,news,health,diseases,infectious_disease,,,,,kb,,influenza
+hiv,9361143,1,1,HIV,HIV,4,0.01060,news,health,diseases,infectious_disease,,,,,kc,acquired immune deficiency syndrome,hiv
+aids,9361158,0,1,Acquired immune deficiency syndrome (aids),acquired immune deficiency syndrome (aids),5,0.00012,news,health,diseases,infectious_disease,hiv,,,,kd,acquired immune deficiency syndrome (aids),aids
+ebola,,1,1,Ebola,ebola,4,0.01216,news,health,diseases,infectious_disease,,,,,ke,,ebola
+zika,,1,1,Zika,zika,4,0.00189,news,health,diseases,infectious_disease,,,,,kf,,zika
+anthrax,9361142,0,1,Anthrax,anthrax,4,0.00014,news,health,diseases,infectious_disease,,,,,kg,anthrax,anthrax
+unhealth,,1,0,Sources of unhealth,sources of unhealth,2,0.01639,news,health,,,,,,,kh,other sources of unhealth,sources of unhealth
+obesity,9361084,1,1,Obesity,obesity,3,0.00256,news,health,unhealth,,,,,,ki,weight,obesity
+exercise,9360980,0,1,Exercise,exercise,4,0.00201,news,health,medicine,obesity,,,,,kj,exercise,exercise
+carbs,,0,1,Controversy: is far or carbs the bigger problem?,controversy: is far or carbs the bigger problem?,3,0.00002,news,health,unhealth,,,,,,kk,controversy: is far or carbs the bigger problem?,"""low-carb"""
+best_diet,,0,1,Controversy: what weight loss strategy is best?,controversy: what weight loss strategy is best?,3,0.00002,news,health,unhealth,,,,,,kl,controversy: what weight loss strategy is best?,
+school_soda,,0,1,Controversy: ban soda machines in schools (y/n),controversy: ban soda machines in schools (y/n),3,0.00002,news,health,unhealth,,,,,,km,controversy: ban soda machines in schools (y/n),
+school_lunches,,0,1,Controversy: require healthier school lunches (pro/con),controversy: require healthier school lunches (pro/con),3,0.00002,news,health,unhealth,,,,,,kn,controversy: require healthier school lunches (pro/con),"""free school lunch"""
+accidents,9360977,1,1,Accidents,accidents,3,0.00130,news,health,unhealth,,,,,,ko,accidents and safety,accident
+pollution,,1,1,Pollution,pollution,3,0.00162,news,health,unhealth,,,,,,kp,air pollution,pollution
+air_pollution,9361007,0,1,Air pollution,air pollution,4,0.00066,news,health,unhealth,pollution,,,,,kq,air pollution,"""air pollution"""
+toxins,9361357,0,1,Hazardous and toxic substances,hazardous and toxic substances,4,0.00002,news,health,unhealth,pollution,,,,,kr,hazardous and toxic substances,toxin OR toxic
+smoking,9361037,1,1,Smoking,smoking,3,0.00090,news,health,unhealth,,,,,,ks,smoking and tobacco,smoking OR smoker OR tobacco
+vaping,,1,1,Vaping,vaping,3,0.00023,news,health,unhealth,,,,,,kt,,"""e-cigarette"" OR vaping OR vape OR yuul"
+alcoholism,9361198,1,1,Alcoholism,alcoholism,3,0.00011,news,health,unhealth,,,,,,ku,alcohol abuse,alcoholism OR alcoholoc
+addiction,,1,1,Drug addiction,drug addiction,3,0.00004,news,health,unhealth,,,,,,kv,,"""drug addict"""
+opioids,,0,1,Opioid epidemic,opioid epidemic,3,0.00002,news,health,unhealth,,,,,,kw,opioid epidemic,opioid
+radiation,9361067,1,1,Radiation,radiation,3,0.00063,news,health,unhealth,,,,,,kx,radiation,radiation
+recalls,9361228,1,1,Product recalls & bans,product recalls & bans,3,0.00002,news,health,unhealth,,,,,,ky,recalls and bans of products,"""product recall"" OR ""product ban"""
+steroids,9361035,1,1,Steroids,steroids,3,0.00006,news,health,unhealth,,,,,,kz,steroids,anabolic
+noise,9360960,1,1,Noise,noise,3,0.00061,news,health,unhealth,,,,,,la,noise,"""noise problem"" OR ""too noisy"""
+age,9361319,0,1,"Age, chronological","age, chronological",3,0.00002,news,health,unhealth,,,,,,lb,"age, chronological",
+death_dying,9361152,0,1,Death and dying,death and dying,3,0.00009,news,health,unhealth,,,,,,lc,death and dying,death OR dying
+deaths,9361346,0,1,Deaths,deaths,3,0.01046,news,health,unhealth,,,,,,ld,deaths,deaths OR died
+healthy_eating,,1,1,Healthy eating,healthy eating,2,0.02675,news,health,,,,,,,le,healthy eating,"""healthy eating"""
+diets,9361011,0,1,Diet & nutrition,diet & nutrition,3,0.00014,news,health,healthy_eating,,,,,,lf,diet and nutrition,diet OR nutrition
+cooking,9361106,0,1,Cooking & recipes,cooking & recipes,3,0.00178,news,health,healthy_eating,,,,,,lg,cooking and cookbooks,cooking OR recipe
+recipes,9361107,0,1,Recipes,recipes,4,0.00137,news,health,healthy_eating,cooking,,,,,lh,recipes,recipe
+food,9361010,0,1,Food,food,3,0.00619,news,health,healthy_eating,,,,,,li,food,
+meat,9361162,0,1,Meat,meat,3,0.00442,news,health,healthy_eating,,,,,,lj,meat,meat
+animal_antibiotics,,0,0,Controversy: stricter limits on farm animal antibiotic use? pro/con,controversy: stricter limits on farm animal antibiotic use? pro/con,3,0.00002,news,health,healthy_eating,,,,,,lk,controversy: stricter limits on farm animal antibiotic use? pro/con,
+grain,9361168,0,1,Grain,grain,3,0.00056,news,health,healthy_eating,,,,,,ll,grain,grain
+dairy,9360993,0,1,Dairy products,dairy products,3,0.00016,news,health,healthy_eating,,,,,,lm,dairy products,dairy
+fruit,9361345,0,1,Fruit,fruit,3,0.00098,news,health,healthy_eating,,,,,,ln,fruit,fruit
+fast_food,9361366,0,1,Fast food industry,fast food industry,3,0.00002,news,health,healthy_eating,,,,,,lo,fast food industry,"""fast food"""
+veganism,,0,1,Veganism,veganism,3,0.00002,news,health,healthy_eating,,,,,,lp,vegan trend,vegan OR vegetarian
+food_contamination,9361155,0,1,Food contamination and poisoning,food contamination and poisoning,3,0.00027,news,health,healthy_eating,,,,,,lq,food contamination and poisoning,"poisoning OR ""contaminated food"" OR ""food contamination"""
+herbicide_limits,,0,1,Controversy: tougher limits on herbicides/pesticides? y/n,controversy: tougher limits on herbicides/pesticides? y/n,3,0.00002,news,health,healthy_eating,pollution,,,,,lr,controversy: tougher limits on herbicides/pesticides? y/n,herbicides OR pesticides
+genetic_engineering,9361333,0,1,Genetic engineering,genetic engineering,3,0.00002,news,health,healthy_eating,,,,,,ls,genetic engineering,"""genetic engineering"" OR gmo"
+gmo,,0,1,Controversy: GMO pro/con,controversy: GMO pro/con,3,0.00002,news,health,healthy_eating,,,,,,lt,controversy: GMO pro/con,
+beverages,9361108,0,1,Beverages,beverages,3,0.00059,news,health,healthy_eating,,,,,,lu,beverages,beverage
+water,9361151,0,1,Water,water,3,0.01398,news,health,healthy_eating,,,,,,lv,water,"""tap water"" OR ""bottled water"" OR ""mineral water"" OR ""drinking water"""
+sodas,9361264,0,1,Soft drinks,soft drinks,3,0.00004,news,health,healthy_eating,,,,,,lw,soft drinks,"""soft drink"" OR soda OR ""carbonated beverage"""
+drinks,9361128,0,1,Alcoholic beverages,alcoholic beverages,3,0.00030,news,health,healthy_eating,,,,,,lx,alcoholic beverages,"""alcoholic beverage"" or cocktail OR wine OR beer OR liquor"
+supermarkets,9361274,0,1,Supermarkets,supermarkets,3,0.00107,news,health,healthy_eating,,,,,,ly,supermarkets,supermarket
+medicine,,1,1,Medicine & healthcare,medicine & healthcare,2,0.13913,news,health,,,,,,,lz,sources of better health,medicine OR healthcare
+medicine_health,9360852,0,1,Medicine and health,medicine and health,3,0.10070,news,health,medicine,,,,,,ma,medicine and health,medicine
+personal_health,9361966,0,1,"Health, personal","health, personal",3,0.00002,news,health,medicine,,,,,,mb,"health, personal",
+healthcare,,1,1,Healthcare,healthcare,3,0.04527,news,health,medicine,,,,,,mc,,healthcare
+hospitals,9361139,0,1,Hospitals,hospitals,4,0.01775,news,health,medicine,healthcare,,,,,md,hospitals,hospital OR clinic
+doctors,9361148,0,1,Doctors,doctors,4,0.01977,news,health,medicine,healthcare,,,,,me,doctors,doctor OR physician
+nursing,9361149,0,1,Nursing and nurses,nursing and nurses,4,0.00153,news,health,medicine,healthcare,,,,,mf,nursing and nurses,nursing OR nurse
+pharmaceuticals,9360941,1,1,Pharmaceuticals,pharmaceuticals,3,0.00617,news,health,medicine,,,,,,mg,drugs (pharmaceuticals),"pharmaceutical OR ""new drug"""
+vaccination,9361041,1,1,Vaccination,vaccination,3,0.00262,news,health,medicine,,,,,,mh,vaccination and immunization,vaccinat
+antivax,,0,1,Controversy: vaccination pro/con,controversy: vaccination pro/con,4,0.00002,news,health,medicine,vaccination,,,,,mi,controversy: vaccination pro/con,"""anti-vax"""
+surgery,9361195,1,1,Surgery and surgeons,surgery and surgeons,3,0.00035,news,health,medicine,,,,,,mj,surgery and surgeons,"surgery OR surgeon OR anaesthesia OR ""operating room"""
+transplants,9361169,0,1,Transplants,transplants,4,0.00011,news,health,medicine,surgery,,,,,mk,transplants,transplant
+safety,,1,0,Safety,safety,2,0.00091,news,health,,,,,,,ml,,safety
+fires,9361005,1,1,Fires and firefighters,fires and firefighters,3,0.00078,news,health,safety,,,,,,mm,fires and firefighters,fire
+firemen,9361006,0,1,Fires and firemen,fires and firemen,4,0.00027,news,health,safety,firemen,,,,,mn,fires and firemen,
+rescues,9361275,1,1,Rescues,rescues,3,0.00017,news,health,safety,,,,,,mo,rescues,rescu
+health_insurance,9360937,1,1,Health insurance,health insurance,2,0.01830,news,health,,,,,,,mp,health insurance,"""health insurance"""
+managed_care,9360936,1,1,Health insurance & managed care,health insurance & managed care,3,0.00116,news,health,health_insurance,,,,,,mq,health insurance and managed care,"""health insurance"" OR ""managed care"""
+drug_prices,,0,0,Controversy: drug price regulation (pro/con),controversy: drug price regulation (pro/con),3,0.00002,news,health,health_insurance,,,,,,mr,controversy: drug price regulation (pro/con),"""drug price regulation"""
+birth_control_coverage,,0,0,Controversy: must insurance cover birth control (y/n),controversy: must insurance cover birth control (y/n),3,0.00002,news,health,health_insurance,,,,,,ms,controversy: must insurance cover birth control (y/n),"""birth control coverage"""
+abortion_coverage,,0,0,Controversy: must insurance cover abortion (y/n),controversy: must insurance cover abortion (y/n),3,0.00002,news,health,health_insurance,,,,,,mt,controversy: must insurance cover abortion (y/n),"""abortion coverage"""
+medicaid,9361000,1,1,Medicaid,medicaid,3,0.00868,news,health,health_insurance,,,,,,mu,medicaid,medicaid
+medicare,9361001,1,1,Medicare,medicare,3,0.01359,news,health,health_insurance,,,,,,mv,medicare,medicare
+dna,9361153,0,1,Dna (deoxyribonucleic acid),dna (deoxyribonucleic acid),2,0.00002,news,health,,,,,,,mw,dna (deoxyribonucleic acid),dna
+blood,9361147,0,1,Blood,blood,2,0.00586,news,health,,,,,,,mx,blood,"""blood disorder"" OR leukemia"
+intelligence,9361297,0,1,Intelligence,intelligence,2,0.01531,news,health,,,,,,,my,intelligence,iq
+media,9360911,1,1,Media,media,1,0.00476,news,,,,,,,,mz,media,
+news_media,9360885,0,1,News and news media,news and news media,2,0.00234,news,media,,,,,,,na,news and news media,"""news media"" OR ""news bias"" OR ""fake news"" OR ""filter bubble"" OR ""echo chamber"""
+newspapers,9361021,0,1,Newspapers,newspapers,2,0.00143,news,media,,,,,,,nb,newspapers,newspaper
+editorials,9360894,0,1,Editorials,editorials,2,0.00120,news,media,,,,,,,nc,editorials,editorial 
+corrections,9360949,0,1,Correction stories,correction stories,2,0.00003,news,media,,,,,,,nd,correction stories,"""correction stor"""
+entertainment,,1,1,Entertainment,entertainment,1,0.12878,news,,,,,,,,ne,entertainment,
+amusements,9361206,0,1,Entertainment and amusements,entertainment and amusements,2,0.00002,news,entertainment,,,,,,,nf,entertainment and amusements,entertainment OR amusements
+eating_drinking,,1,1,Eating & drinking,eating & drinking,2,0.01384,news,entertainment,,,,,,,ng,eating & drinking,"""food and drink"""
+bakeries,9361301,1,1,Bakeries and baked products,bakeries and baked products,3,0.00004,news,entertainment,eating_drinking,,,,,,nh,bakeries and baked products,baker
+restaurants,9360966,1,1,Restaurants,restaurants,3,0.00820,news,entertainment,eating_drinking,,,,,,ni,restaurants,restaurant
+bars,9361233,1,1,Bars,bars,3,0.00279,news,entertainment,eating_drinking,,,,,,nj,bars,bar
+wines,9361127,1,1,Wines,wines,3,0.00031,news,entertainment,eating_drinking,,,,,,nk,wines,wine
+beer,9361353,1,1,Beer,beer,3,0.00304,news,entertainment,eating_drinking,,,,,,nl,beer,beer
+shopping,,1,1,Shopping,shopping,2,0.00742,news,entertainment,,,,,,,nm,shopping,shopping
+jewelry,9361093,0,1,Jewels and jewelry,jewels and jewelry,3,0.00003,news,entertainment,shopping,,,,,,nn,jewels and jewelry,jewels OR jewelery
+apparel,9360953,0,1,Apparel,apparel,3,0.00157,news,entertainment,shopping,,,,,,no,apparel,apparel
+shoes_boots,9361110,0,1,Shoes and boots,shoes and boots,3,0.00014,news,entertainment,shopping,,,,,,np,shoes and boots,shoes OR boots
+furniture,9361341,0,1,Furniture,furniture,3,0.00057,news,entertainment,shopping,,,,,,nq,furniture,furniture
+furnishings,9360954,0,1,Home furnishings,home furnishings,3,0.00011,news,entertainment,shopping,,,,,,nr,home furnishings,"""home furnishing"""
+antiques,9361339,0,1,Antiques,antiques,3,0.00019,news,entertainment,shopping,,,,,,ns,antiques,antiques
+design,9361331,0,1,Design,design,3,0.00002,news,entertainment,shopping,,,,,,nt,design,
+interior_design,9361304,0,1,Interior design,interior design,3,0.00009,news,entertainment,shopping,,,,,,nu,interior design,"""interior design"""
+toys,9361122,0,1,Toys,toys,3,0.00061,news,entertainment,shopping,,,,,,nv,toys,toys
+recording_equipment,9361351,0,1,Recording equipment,recording equipment,3,0.00002,news,entertainment,shopping,,,,,,nw,recording equipment,"""recording equipment"""
+new_products,9362000,0,1,"New models, design and products","new models, design and products",3,0.00002,news,entertainment,shopping,,,,,,nx,"new models, design and products","""new model"" OR ""new design"" OR ""new product"""
+collections,9361325,0,1,Collectors and collections,collectors and collections,3,0.00002,news,entertainment,shopping,,,,,,ny,collectors and collections,collector
+gifts,9361383,0,1,Gifts,gifts,3,0.00092,news,entertainment,shopping,,,,,,nz,gifts,gifts
+auctions,9361131,0,1,Auctions,auctions,3,0.00045,news,entertainment,shopping,,,,,,oa,auctions,auction
+shows,,1,0,Shows etc,shows etc,2,0.10450,news,entertainment,,,,,,,ob,shows etc,
+radio,9360969,0,1,Radio,radio,3,0.01540,news,entertainment,shows,,,,,,oc,radio,radio
+audio_recordings,9360856,0,1,Recordings (audio),recordings (audio),3,0.00467,news,entertainment,shows,,,,,,od,recordings (audio),"""audio recording"" OR ""music recording"" OR ""recording studio"""
+labels,9361377,0,1,Labeling and labels,labeling and labels,3,0.00002,news,entertainment,shows,,,,,,oe,labeling and labels,
+music,9360939,0,1,Music,music,3,0.01655,news,entertainment,shows,,,,,,of,music,music
+rock,9361074,0,1,Rock,rock,3,0.02417,news,entertainment,shows,,,,,,og,rock music,rock
+classical_music,9361296,0,1,Classical music,classical music,3,0.00009,news,entertainment,shows,,,,,,oh,classical music,"""classical music"""
+jazz,9361292,0,1,Jazz,jazz,3,0.00333,news,entertainment,shows,,,,,,oi,jazz,jazz
+tv,9360879,0,1,Television,television,3,0.01204,news,entertainment,shows,,,,,,oj,television,television OR tv
+cable_tv,9361991,0,1,Cable television,cable television,3,0.00002,news,entertainment,shows,,,,,,ok,cable television,"""cable television"" OR ""cable tv"" OR comcast"
+movies,9360845,0,1,Motion pictures,motion pictures,3,0.00291,news,entertainment,shows,,,,,,ol,motion pictures,"""motion picture"" OR movie OR hollywood"
+video_recordings,9360862,0,1,Recordings (video),recordings (video),3,0.00012,news,entertainment,shows,,,,,,om,recordings (video),"""video recording"""
+oscars,9361094,0,1,Academy awards (oscars),academy awards (oscars),3,0.00002,news,entertainment,shows,,,,,,on,academy awards (oscars),"""academy award"" OR oscars"
+documentaries,9361068,0,1,Documentary films and programs,documentary films and programs,3,0.00032,news,entertainment,shows,,,,,,oo,documentary films and programs,documentary
+ratings,9360876,0,1,Ratings and rating systems,ratings and rating systems,3,0.00027,news,entertainment,shows,,,,,,op,ratings and rating systems,"""nielsen rating"" OR ""show rating"""
+theater,9361016,0,1,Theater,theater,3,0.00418,news,entertainment,shows,,,,,,oq,theater,theater
+opera,9361057,0,1,Opera,opera,3,0.01526,news,entertainment,shows,,,,,,or,opera,opera
+concerts,9361362,0,1,Concerts and recitals,concerts and recitals,3,0.00002,news,entertainment,shows,,,,,,os,concerts and recitals,concert OR recitals
+nightclubs,9361352,0,1,Nightclubs and cabarets,nightclubs and cabarets,3,0.00002,news,entertainment,shows,,,,,,ot,nightclubs and cabarets,nightclub OR cabaret
+comedy,9361100,0,1,Comedy and humor,comedy and humor,3,0.00009,news,entertainment,shows,,,,,,ou,comedy and humor,"comedy OR ""funny show"""
+art_shows,9362045,0,1,Art shows,art shows,3,0.00002,news,entertainment,shows,,,,,,ov,art shows,"""art show"""
+exhibits,9361389,0,1,Shows (exhibits),shows (exhibits),3,0.00002,news,entertainment,shows,,,,,,ow,shows (exhibits),exhibit
+festivals,9361096,0,1,Festivals,festivals,3,0.00051,news,entertainment,shows,,,,,,ox,festivals,festival
+christmas,9361002,0,1,Christmas,christmas,3,0.00833,news,entertainment,shows,,,,,,oy,christmas,christmas
+new_year,9360948,0,1,New year,new year,3,0.00005,news,entertainment,shows,,,,,,oz,new year,"""new year"""
+weddings,9361135,0,1,Weddings and engagements,weddings and engagements,3,0.00014,news,entertainment,shows,,,,,,pa,weddings and engagements,wedding
+parades,9361058,0,1,Parades,parades,3,0.00012,news,entertainment,shows,,,,,,pb,parades,parade
+royal_family,9361285,0,1,Royal family,royal family,3,0.00025,news,entertainment,shows,,,,,,pc,royal family,"""royal family"" OR ""prince charles"" OR ""queen elizabeth"" OR ""prince harry"" OR ""prince william"""
+parties,9361095,0,1,Parties (social),parties (social),3,0.00008,news,entertainment,shows,,,,,,pd,parties (social),
+dancing,9361129,0,1,Dancing,dancing,3,0.00167,news,entertainment,shows,,,,,,pe,dancing,dancing
+games,9361024,0,1,Games,games,3,0.00103,news,entertainment,shows,,,,,,pf,games,
+bridge,9361242,0,1,Bridge,bridge,3,0.01059,news,entertainment,shows,,,,,,pg,bridge (card game),"""play bridge"" OR ""bridge play"" OR ""bridge game"""
+chess,9361291,0,1,Chess,chess,3,0.00045,news,entertainment,shows,,,,,,ph,chess,chess
+contests,9361091,0,1,Contests and prizes,contests and prizes,3,0.00006,news,entertainment,shows,,,,,,pi,contests and prizes,contest OR prizes
+gambling,9361105,0,1,Gambling,gambling,3,0.00038,news,entertainment,shows,,,,,,pj,gambling,gambling
+lifestyle,9362047,1,1,Lifestyle,lifestyle,2,0.00405,news,entertainment,,,,,,,pk,life styles,lifestyle
+leisure,9361267,0,1,Leisure,leisure,2,0.00060,news,entertainment,,,,,,,pl,leisure,leisure
+gardening,9361268,0,1,Gardening,gardening,2,0.00052,news,entertainment,,,,,,,pm,gardens and gardening,gardening
+dogs,9361111,0,1,Dogs,dogs,2,0.00186,news,entertainment,,,,,,,pn,dogs,dog
+sports,,1,0,Sports,sports,1,0.03874,news,,,,,,,,po,sports,sports
+athletics and sports,9361137,0,1,Athletics and sports,athletics and sports,2,0.00073,news,sports,,,,,,,pp,athletics and sports,athletics
+football,9360945,0,1,Football,football,2,0.01278,news,sports,,,,,,,pq,football,football
+super_bowl,9360973,0,1,Super bowl,super bowl,2,0.00044,news,sports,,,,,,,pr,super bowl,"""super bowl"""
+basketball,9360931,0,1,Basketball,basketball,2,0.00596,news,sports,,,,,,,ps,basketball,basketball
+college_sports,9360944,0,1,College athletics,college athletics,2,0.00147,news,sports,,,,,,,pt,college athletics,"""college athletics"""
+baseball,9360909,0,1,Baseball,baseball,2,0.00754,news,sports,,,,,,,pu,baseball,baseball
+tennis,9361109,0,1,Tennis,tennis,2,0.00166,news,sports,,,,,,,pv,tennis,tennis
+times_sports,9361118,0,1,Sports of the times (times column),sports of the times (times column),2,0.00011,news,sports,,,,,,,pw,sports of the times (times column),
+soccer,9360965,0,1,Soccer,soccer,2,0.00278,news,sports,,,,,,,px,soccer,soccer
+icehockey,9361112,0,1,"Hockey, ice","hockey, ice",2,0.00044,news,sports,,,,,,,py,"hockey, ice",hockey
+skating,9361270,0,1,Ice skating,ice skating,2,0.00002,news,sports,,,,,,,pz,ice skating,skating
+figure_skating,9361269,0,1,Figure skating,figure skating,2,0.00002,news,sports,,,,,,,qa,figure skating,"""figure skating"""
+ncaa_basketball,9361188,0,1,Ncaa basketball tournament,ncaa basketball tournament,2,0.00020,news,sports,,,,,,,qb,ncaa basketball tournament,"""ncaa basketball"" OR ""march madness"""
+olympics,9360952,0,1,Olympic games,olympic games,2,0.00052,news,sports,,,,,,,qc,olympic games,"""olympic games"" OR olympics"
+skiing,9361238,0,1,Skiing,skiing,2,0.00008,news,sports,,,,,,,qd,skiing,skiing
+playoffs,9361282,0,1,Playoff games,playoff games,2,0.00009,news,sports,,,,,,,qe,playoff games,playoff
+boxing,9361114,0,1,Boxing,boxing,2,0.00078,news,sports,,,,,,,qf,boxing,boxing
+us_open,9361347,0,1,United states open (tennis),united states open (tennis),2,0.00002,news,sports,,,,,,,qg,united states open (tennis),"""us open"" OR ""flushing meadows"""
+horse_racing,9360932,0,1,Horse racing,horse racing,2,0.00019,news,sports,,,,,,,qh,horse racing,"""horse rac"""
+world_series,9361101,0,1,World series,world series,2,0.00005,news,sports,,,,,,,qi,world series,"""world series"""
+coaches,9360985,0,1,Coaches and managers,coaches and managers,2,0.00048,news,sports,,,,,,,qj,coaches and managers,coach
+draft,9361138,0,1,Draft and recruitment (sports),draft and recruitment (sports),2,0.00133,news,sports,,,,,,,qk,draft and recruitment (sports),
+trades,9361237,0,1,Trades (sports),trades (sports),2,0.00003,news,sports,,,,,,,ql,trades (sports),
+free_agents,9361332,0,1,Free agents (sports),free agents (sports),2,0.00004,news,sports,,,,,,,qm,free agents (sports),"""free agents"""
+car_racing,9361178,0,1,Automobile racing,automobile racing,2,0.00021,news,sports,,,,,,,qn,automobile racing,"""car racing"" OR ""formula one"" OR ""formula 1"" OR nascar"
+interscholastics,9361290,0,1,Interscholastic athletics,interscholastic athletics,2,0.00002,news,sports,,,,,,,qo,interscholastic athletics,interscholastic athletics
+running,9361081,0,1,Running,running,2,0.00450,news,sports,,,,,,,qp,running,running OR runner OR jog OR sprint
+marathon running,9361082,0,1,Marathon running,marathon running,2,0.00004,news,sports,,,,,,,qq,marathon running,marathon
+bicycles and bicycling,9361088,0,1,Bicycles and bicycling,bicycles and bicycling,2,0.00011,news,sports,,,,,,,qr,bicycles and bicycling,bicycles and bicycling
+golf,9361130,0,1,Golf,golf,2,0.00474,news,sports,,,,,,,qs,golf,golf
+swimming,9361133,0,1,Swimming,swimming,2,0.00068,news,sports,,,,,,,qt,swimming,swimming
+track_field,9361183,0,1,Track and field,track and field,2,0.00015,news,sports,,,,,,,qu,track and field,"""track and field"" OR ""high jump"" OR ""long jump"" OR ""pole vault"""
+summer_games,9361184,0,1,Summer games (olympics),summer games (olympics),2,0.00008,news,sports,,,,,,,qv,summer games (olympics),"""summer games"""
+stadiums,9361186,0,1,Stadiums and arenas,stadiums and arenas,2,0.00002,news,sports,,,,,,,qw,stadiums and arenas,stadium OR arena
+hunting,9361190,0,1,Hunting and trapping,hunting and trapping,2,0.00002,news,sports,,,,,,,qx,hunting and trapping,hunting OR trapping OR hunter
+world_cup,9361193,0,1,World cup (soccer),world cup (soccer),2,0.00005,news,sports,,,,,,,qy,world cup (soccer),"""world cup"""
+fishing,9361271,0,1,"Fishing, sport","fishing, sport",2,0.00002,news,sports,,,,,,,qz,"fishing, sport",fishing
+boating,9361307,0,1,Boats and boating,boats and boating,2,0.00002,news,sports,,,,,,,ra,boats and boating,boat OR canoe OR kayak
+records,9361349,0,1,Records and achievements,records and achievements,2,0.00002,news,sports,,,,,,,rb,records and achievements,"""world records"" OR ""olympic record"""
+weather,9360902,1,1,Weather,weather,1,0.00597,news,,,,,,,,rc,weather,weather
+hurricanes,9360925,1,1,Hurricanes and tropical storms,hurricanes and tropical storms,2,0.00059,news,weather,,,,,,,rd,hurricanes and tropical storms,hurricane OR storm OR cyclone OR tornado 
+snow,9361047,1,1,Snow and snowstorms,snow and snowstorms,2,0.00023,news,weather,,,,,,,re,snow and snowstorms,snow
+money,,1,0,Money,money,1,0.09245,news,,,,,,,,rf,money,
+finance,,1,0,Finance,finance,2,0.03783,news,money,,,,,,,rg,finance,finance
+finances,9360840,0,1,Finances,finances,3,0.02111,news,money,finance,,,,,,rh,finances,finances
+banking,9360943,0,1,Banking,banking,3,0.00475,news,money,finance,,,,,,ri,banks and banking,banking OR banks
+savings_loan_ass,9362040,0,1,Savings and loan associations,savings and loan associations,3,0.00002,news,money,finance,,,,,,rj,savings and loan associations,"""savings and loan"""
+credit,9361030,0,1,Credit,credit,3,0.01556,news,money,finance,,,,,,rk,credit,loans OR credits
+credit_cards,9361229,0,1,Credit and money cards,credit and money cards,3,0.00002,news,money,finance,,,,,,rl,credit and money cards,"""credit cards"" OR ""debit card"""
+mortgages,9361175,0,1,Mortgages,mortgages,3,0.00044,news,money,finance,,,,,,rm,mortgages,mortgage
+interest,9361078,0,1,Interest rates,interest rates,3,0.00101,news,money,finance,,,,,,rn,interest rates,"""interest rate"""
+savings,9361344,0,1,Savings,savings,3,0.00106,news,money,finance,,,,,,ro,savings,savings
+stocks_bonds,9361012,0,1,Stocks and bonds,stocks and bonds,3,0.00172,news,money,finance,,,,,,rp,stocks and bonds,stocks OR bonds
+government_bonds,9361166,0,1,Government bonds,government bonds,3,0.00009,news,money,finance,,,,,,rq,government bonds,"""government bond"""
+nasdaq,9361165,0,1,Nasdaq composite index,nasdaq composite index,3,0.00014,news,money,finance,,,,,,rr,nasdaq composite index,nasdaq
+dow_jones,9361218,0,1,Dow jones stock average,dow jones stock average,3,0.00007,news,money,finance,,,,,,rs,dow jones stock average,"""dow jones"""
+mutual_funds,9361132,0,1,Mutual funds,mutual funds,3,0.00010,news,money,finance,,,,,,rt,mutual funds,"""mutual fund"""
+futures,9361222,0,1,Futures and options trading,futures and options trading,3,0.00011,news,money,finance,,,,,,ru,futures and options trading,"""futures"" OR ""options trad"""
+futures_trading,9361252,0,1,Futures trading,futures trading,3,0.00002,news,money,finance,,,,,,rv,futures trading,"""futures trad"""
+brokers,9361354,0,1,Brokers and brokerage firms,brokers and brokerage firms,3,0.00002,news,money,finance,,,,,,rw,brokers and brokerage firms,broker
+stock_prices,9361391,0,1,Stock prices and trading volume,stock prices and trading volume,3,0.00002,news,money,finance,,,,,,rx,stock prices and trading volume,"""stock price"" OR ""share price"" OR ""trading volume"""
+currency,9361044,0,1,Currency,currency,3,0.00067,news,money,finance,,,,,,ry,currency,currency
+corporations,9361051,0,1,Corporations,corporations,3,0.00163,news,money,finance,,,,,,rz,corporations,corporations
+company_reports,9361050,0,1,Company reports,company reports,3,0.00070,news,money,finance,,,,,,sa,company reports,"""company report"" OR ""quarterly report"" OR ""earnings report"""
+mergers,9361071,0,1,"Mergers, acquisitions and divestitures","mergers, acquisitions and divestitures",3,0.00037,news,money,finance,,,,,,sb,"mergers, acquisitions and divestitures",mergers OR acquisition OR divestiture
+taxation,9360882,1,1,Taxation,taxation,2,0.00176,news,money,,,,,,,sc,taxation,taxation
+federal_tax,9361253,0,1,Federal taxes (us),federal taxes (us),3,0.00003,news,money,taxation,,,,,,sd,federal taxes (us),"""federal tax"""
+income_tax,9361405,0,1,Income tax,income tax,3,0.00014,news,money,taxation,,,,,,se,income tax,"""income tax"""
+property_taxes,9360917,0,1,Property taxes,property taxes,3,0.00004,news,money,taxation,,,,,,sf,property taxes,property taxes
+tax_credits,9361254,0,1,Tax credits,tax credits,3,0.00004,news,money,taxation,,,,,,sg,tax credits,"""tax credit"""
+industries,,1,1,Industries,industries,2,0.04736,news,money,,,,,,,sh,industries,
+industry profiles,9361979,0,1,Industry profiles,industry profiles,3,0.00002,news,money,industries,,,,,,si,industry profiles,"""industry profile"""
+small business,9361072,0,1,Small business,small business,3,0.00629,news,money,industries,,,,,,sj,small business,"""small business"""
+postal service,9361033,0,1,Postal service,postal service,3,0.00021,news,money,industries,,,,,,sk,postal service,"""postal service"" OR usps"
+retail,9361069,1,1,Retail,retail,3,0.00850,news,money,industries,,,,,,sl,retail stores and trade,retail
+shopping centers,9361329,0,1,Shopping centers,shopping centers,4,0.00003,news,money,industries,retail,,,,,sm,shopping centers,"""shopping center"" OR ""shopping mall"""
+hotels and motels,9361102,1,1,Hotels,hotels,3,0.00288,news,money,industries,,,,,,sn,hotels and motels,hotels
+manufacturing,,1,1,Manufacturing,manufacturing,3,0.00682,news,money,industries,,,,,,so,,manufacturing
+factories and industrial plants,9361182,0,1,Factories and industrial plants,factories and industrial plants,4,0.00006,news,money,industries,manufacturing,,,,,sp,factories and industrial plants,"factories OR ""manufacturing plant"""
+production,9361181,0,1,Production,production,4,0.00002,news,money,industries,manufacturing,,,,,sq,production,
+textiles,9361104,0,1,Textiles,textiles,4,0.00022,news,money,industries,manufacturing,,,,,sr,textiles,textiles
+chemicals,9361117,0,1,Chemicals,chemicals,4,0.00030,news,money,industries,manufacturing,,,,,ss,chemicals,chemicals
+mining,9361146,1,1,Mining,mining,3,0.00088,news,money,industries,,,,,,st,mines and mining,"mining OR ""coal mine"" OR ""iron mine"" OR ""copper mine"""
+metals_minerals,9361171,0,1,Metals and minerals,metals and minerals,4,0.00003,news,money,industries,mining,,,,,su,metals and minerals,metals OR minerals
+steel,9361261,0,1,Steel and iron,steel and iron,4,0.00002,news,money,industries,mining,,,,,sv,steel and iron,"""steel production"" OR ""steel mill"" OR ""steel price"" OR ""steel export"" OR ""steel import"""
+construction,9361023,1,1,Construction & home repairs,construction & home repairs,3,0.00079,news,money,industries,,,,,,sw,building (construction),"construction OR ""home repair"""
+architecture,9361299,0,1,Architecture,architecture,4,0.00075,news,money,industries,construction,,,,,sx,architecture,architecture
+home repairs and improvements,9360956,0,1,Home repairs and improvements,home repairs and improvements,4,0.00002,news,money,industries,construction,,,,,sy,home repairs and improvements,"""home repair"" OR ""home improvement"""
+home repairs,9360951,0,1,Home repairs,home repairs,4,0.00002,news,money,industries,construction,,,,,sz,home repairs,"""home repairs"""
+real_estate,9361337,1,1,Real estate,real estate,3,0.00127,news,money,industries,,,,,,ta,real estate,"""real estate"""
+condominiums,9361244,0,1,Condominiums,condominiums,4,0.00009,news,money,industries,real_estate,,,,,tb,condominiums,condominium
+office buildings and commercial properties,9360959,0,1,Office buildings and commercial properties,office buildings and commercial properties,4,0.00002,news,money,industries,real_estate,,,,,tc,office buildings and commercial properties,"""office building"" OR ""commercial propert"""
+renting and leasing,9361243,0,1,Renting and leasing,renting and leasing,4,0.00047,news,money,industries,real_estate,,,,,td,renting and leasing,"""apartment rent"" OR ""building rent"""
+insurance,9360924,1,1,Insurance,insurance,3,0.01076,news,money,industries,,,,,,te,insurance,insurance
+automobile insurance and liability,9361257,0,1,Car insurance,car insurance,4,0.00022,news,money,industries,insurance,,,,,tf,automobile insurance and liability,"""car insurance"""
+accounting and accountants,9361276,0,1,Accounting,accounting,4,0.00357,news,money,industries,insurance,,,,,tg,accounting and accountants,accounting
+marketing_sales,,1,0,Marketing & sales,marketing & sales,3,0.01721,news,money,industries,,,,,,th,,
+advertising and marketing,9360849,0,1,Advertising & marketing,advertising & marketing,4,0.00090,news,money,industries,marketing_sales,,,,,ti,advertising and marketing,
+marketing and merchandising,9361312,0,1,Marketing,marketing,4,0.00513,news,money,industries,marketing_sales,,,,,tj,marketing and merchandising,marketing
+advertising,9360908,0,1,Advertising,advertising,4,0.00165,news,money,industries,marketing_sales,,,,,tk,advertising,advertising
+trade_shows,,0,1,Trade shows and fairs,trade shows and fairs,4,0.00002,news,money,industries,marketing_sales,,,,,tl,0,"""trade show"" OR ""trade fair"""
+sales,9360995,0,1,Sales,sales,4,0.01056,news,money,industries,marketing_sales,,,,,tm,sales,sales
+discount selling,9361343,0,1,Discount selling,discount selling,4,0.00002,news,money,industries,marketing_sales,,,,,tn,discount selling,"""discount sell"""
+economic_trends,9360989,1,1,Economic conditions & trends,economic conditions & trends,2,0.02038,news,money,,,,,,,to,economic conditions and trends,US
+us_economy,9360990,0,1,United states economy,united states economy,3,0.00174,news,money,economic_trends,,,,,,tp,united states economy,"""united states economy"" OR ""us economy"" OR ""u.s. economy"""
+recession,9360873,0,1,Recession and depression,recession and depression,3,0.00076,news,money,economic_trends,,,,,,tq,recession and depression,recession and depression
+income,9361382,1,1,Income,income,3,0.00572,news,money,economic_trends,,,,,,tr,income,income
+wages,9360984,0,1,Wages,wages,4,0.00175,news,money,economic_trends,income,,,,,ts,wages and salaries,wages
+strikes,9360929,1,1,Strikes,strikes,3,0.00147,news,money,economic_trends,,,,,,tt,strikes,strikes
+prices,9361420,1,1,Prices,prices,3,0.00557,news,money,economic_trends,,,,,,tu,prices,prices
+fares_fees,9360996,0,1,"Prices (fares, fees and rates)","prices (fares, fees and rates)",4,0.00139,news,money,economic_trends,prices,,,,,tv,"prices (fares, fees and rates)",
+consumer_behavior,9361265,0,1,Consumer behavior,consumer behavior,3,0.00006,news,money,economic_trends,,,,,,tw,consumer behavior,"""consumer behavior"""
+shortages,9361164,0,1,Shortages,shortages,3,0.00206,news,money,economic_trends,,,,,,tx,shortages,shortages
+company_profiles,9362006,0,1,Company and organization profiles,company and organization profiles,2,0.00002,news,money,,,,,,,ty,company and organization profiles,"""company profiles"" OR ""organization profile"""
+bankruptcies,9361241,0,1,Bankruptcies,bankruptcies,2,0.00039,news,money,,,,,,,tz,bankruptcies,bankruptcy
+executives,9361272,0,1,Executives and management,executives and management,2,0.00004,news,money,,,,,,,ua,executives and management,executives OR management
+directors,9361314,0,1,Boards of directors,boards of directors,2,0.00002,news,money,,,,,,,ub,boards of directors,"""board of directors"""
+relocation,9361990,0,1,Relocation of business,relocation of business,2,0.00002,news,money,,,,,,,uc,relocation of business,"outsourcing OR ""business relocation"""
+budgets,9360850,0,1,Budgets and budgeting,budgets and budgeting,2,0.00143,news,money,,,,,,,ud,budgets and budgeting,budgets OR budgeting
+personal_finances,9361286,0,1,Personal finances,personal finances,2,0.00004,news,money,,,,,,,ue,personal finances,"""personal finance"""
+philanthropy,9360871,0,1,Philanthropy,philanthropy,2,0.00084,news,money,,,,,,,uf,philanthropy,philanthropy
+privatization,9360843,0,1,Privatization,privatization,2,0.00010,news,money,,,,,,,ug,privatization,privatization
+contracts,9361975,0,1,Contracts,contracts,2,0.00050,news,money,,,,,,,uh,contracts,contracts
+federal_aid,9361989,0,1,Federal aid,federal aid,2,0.00011,news,money,,,,,,,ui,federal aid (us),"""federal aid"""
