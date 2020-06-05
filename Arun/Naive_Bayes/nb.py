@@ -9,7 +9,7 @@ import sys
 sys.path.append("/home/euler/miniconda3/lib/python3.7/site-packages")
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import MultinomialNB, ComplementNB
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.model_selection import train_test_split
 from tf_idf import transform_to_tfidf
@@ -103,8 +103,8 @@ def appendcsv(filename, list):
         csv.writer(f).writerows(list)
 
 # hyperparameters can be changed here (and only here please)
-min_df = 10
-max_df = 0.1
+min_df = 15
+max_df = 0.01
 whole = True
 stop = True
 logtf = True
@@ -182,10 +182,17 @@ if __name__ == "__main__":
         # f.write("Multinomial Naive Bayes predicts labels for data_train\n")
 
         # if the model is multilabel (preferred), i.e. one vs rest with multinomial naive bayes
-        ovrnb = OneVsRestClassifier(MultinomialNB()).fit(data_train, labels_train)
-        f.write("One vs Rest Classfier, Multinomial Naive Bayes fitted data_train\n")
+        # ovrnb = OneVsRestClassifier(MultinomialNB()).fit(data_train, labels_train)
+        # f.write("One vs Rest Classfier, Multinomial Naive Bayes fitted data_train\n")
+        # labels_test_pred = ovrnb.predict(data_test)
+        # f.write("One vs Rest Classfier, Multinomial Naive Bayes predicts labels for data_train\n")
+
+        # if the model is multilabel (preferred), i.e. one vs rest with complement naive bayes
+        ovrnb = OneVsRestClassifier(ComplementNB()).fit(data_train, labels_train)
+        f.write("One vs Rest Classfier, Complement Naive Bayes fitted data_train\n")
         labels_test_pred = ovrnb.predict(data_test)
-        f.write("One vs Rest Classfier, Multinomial Naive Bayes predicts labels for data_train\n")
+        f.write("One vs Rest Classfier, Complement Naive Bayes predicts labels for data_train\n")
+
 
         output_tags(labels_test, labels_test_pred)
 

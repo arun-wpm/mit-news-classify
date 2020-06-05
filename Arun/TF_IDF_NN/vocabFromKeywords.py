@@ -23,3 +23,6 @@ def buildVocab(keywordloc="keywords.csv"):
             print(kw.strip('()').split(' ')[0].strip("',"))
             vocab.add(kw.strip('()').split(' ')[0].strip("',"))
     savecsv("small_vocab.csv", [[x] for x in vocab])
+
+if __name__ == "__main__":
+    buildVocab("../Naive_Bayes/keywords.csv")
