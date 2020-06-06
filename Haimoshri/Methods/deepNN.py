@@ -32,8 +32,9 @@ lr = 0.1
 epochs = 10
 vocab_size = 0
 loss_fn = nn.MultiLabelSoftMarginLoss()
+max_len = 400
 
-def load_data(filename,  vocab_size):
+def load_data(filename):
     with open(filename, 'r') as f:
         file = pd.read_csv(f)
         head_tag = []
@@ -46,11 +47,11 @@ def load_data(filename,  vocab_size):
         
         vocab_size = len(vocabulary)
         
-        td_matrix = dp.build_bow(vocabulary, file)
+        td_matrix = dp.build_index_vec(vocabulary, file, max_len)
         
         labels = dp.build_labels(num_tags, file)
         
-        return td_matrix, labels
+        return td_matrix, labels, vocab_size
         
 def prepare_data(td_matrix, labels):
     
@@ -77,7 +78,7 @@ def prepare_data(td_matrix, labels):
         
         return train_data_loader, val_data_loader, test_data_loader
 
-td_matrix, labels = load_data('../Data/small_data_test.csv',  vocab_size)
+td_matrix, labels, vocab_size = load_data('../Data/small_data_test.csv')
 
 train_data_loader, val_data_loader, test_data_loader = prepare_data(td_matrix, labels)
 
