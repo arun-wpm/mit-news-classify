@@ -103,6 +103,7 @@ class MyModel(nn.Module):
 
 classifier = MyModel(vocab_size, embedding_size, hidden_size, output_size, num_layers, dropout)
 optimizer = optim.SGD(classifier.parameters(), lr=lr, momentum=0.9)
+#optimizer = optim.Adam(classifier.parameters(), lr=0.0001)
 
 classifier = classifier.to(device)
 classifier.train()
