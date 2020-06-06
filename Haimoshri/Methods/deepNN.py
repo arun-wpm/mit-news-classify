@@ -154,7 +154,7 @@ for inputs, labels in test_data_loader:
         
     predictions = logits.round()
     
-    print (torch.sum(predictions == labels))
+    #print (torch.sum(predictions == labels))
     
     accuracy += float(torch.sum(predictions == labels))/593
 
