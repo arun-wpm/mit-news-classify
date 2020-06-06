@@ -53,15 +53,19 @@ def load_data(filename,  vocab_size):
         return td_matrix, labels
         
 def prepare_data(td_matrix, labels):
+    
+        split_1 = int(4*len(td_matrix)/5)
+        split_2 = int(9*len(td_matrix)/10)
         
-        train_data_processed = td_matrix[:80, :]
-        train_labels = labels[:80, :]
         
-        val_data_processed = td_matrix[80:90, :]
-        val_labels = labels[80:90, :]
+        train_data_processed = td_matrix[:split_1, :]
+        train_labels = labels[:split_1, :]
         
-        test_data_processed = td_matrix[90:, :]
-        test_labels = labels[90:, :]
+        val_data_processed = td_matrix[split_1:split_2, :]
+        val_labels = labels[split_1:split_2, :]
+        
+        test_data_processed = td_matrix[split_2:, :]
+        test_labels = labels[split_2:, :]
         
         train_data_tensor = TensorDataset(torch.from_numpy(train_data_processed), torch.from_numpy(train_labels))
         val_data_tensor = TensorDataset(torch.from_numpy(val_data_processed), torch.from_numpy(val_labels))
@@ -139,20 +143,22 @@ for epoch in range(epochs):
         total_loss += loss.item()
     #print ('val', total_loss)
 
-
-#correct = 0
+accuracy = 0
+count = 0
 
 for inputs, labels in test_data_loader:
+    count+=1
         
     inputs = inputs.type(torch.LongTensor)
-
     logits = classifier.forward(inputs)
         
     predictions = logits.round()
     
     print (torch.sum(predictions == labels))
-        
-#         if (predictions == labels):
-#             correct+=1
+    
+    accuracy += float(torch.sum(predictions == labels))/593
 
-# print (correct/(2*d.test_data_len))
+accuracy = accuracy/count
+
+print (accuracy)
+        
