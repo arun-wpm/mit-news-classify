@@ -32,8 +32,9 @@ def build_vocabulary(data):
     """Builds a vobaulary from Text column of data that is a Data Frame."""
     
     vocabulary = dict()
-    vocabulary['UNK'] = 0
-    index=1
+    vocabulary['UNK'] = 1
+    vocabulary['PAD'] = 0
+    index=2
     for i in data['Text']:
       words = re.split('; |,| |\n| .',i)
       for word in words:
@@ -64,6 +65,31 @@ def build_bow(vocab, data):
         count+=1
     
     return result
+
+def build_index_vec(vocab, data, max_len):
+    """Function to build term document matrix, bow style from Text where data is a Data Frame."""
+    
+    result = np.zeros((len(data), max_len))
+    count = 0
+    ind = 0
+    for i in data['Text']:
+        index_vector = np.zeros(max_len)
+        one_example = re.split('; |,| |\n| .',i)
+        for j in one_example:
+            if j in vocab:
+                index_vector[ind] = vocab[j]
+            else:
+                index_vector[ind] = 1
+            ind+=1
+            #print (ind)
+            if ind >= max_len:
+                ind = 0
+                break
+        result[count, :] = index_vector
+        count+=1
+    
+    return result
+
 
 
 def build_labels(num_labels, data):

@@ -33,9 +33,10 @@ lr = 0.1
 epochs = 10
 vocab_size = 0
 loss_fn = nn.MultiLabelSoftMarginLoss()
+max_len = 400
 
 # load csv files
-# def load_data(filename,  vocab_size):
+# def load_data(filename):
 #     with open(filename, 'r') as f:
 #         file = pd.read_csv(f)
 #         head_tag = []
@@ -48,11 +49,11 @@ loss_fn = nn.MultiLabelSoftMarginLoss()
         
 #         vocab_size = len(vocabulary)
         
-#         td_matrix = dp.build_bow(vocabulary, file)
+#         td_matrix = dp.build_index_vec(vocabulary, file, max_len)
         
 #         labels = dp.build_labels(num_tags, file)
         
-#         return td_matrix, labels
+#         return td_matrix, labels, vocab_size
 
 def transform_labels(in_labels):
     # from the input labels, in the format of list of list of labels pertaining to document at row i,
@@ -88,7 +89,7 @@ def load_data():
         data = {'Text': []}
         labels = []
         for row in all_data:
-            data['Text'].append(row[(2 if whole == True else 1)])
+            data['Text'].append(row[2])
             labels.append(row[3:])
         
         labels, labels_dict = transform_labels(labels)
@@ -99,9 +100,10 @@ def load_data():
         num_tags = rt.num_tags
         vocabulary = dp.build_vocabulary(data)
         vocab_size = len(vocabulary)
-        td_matrix = dp.build_bow(vocabulary, data)
         
-        return td_matrix, labels
+        td_matrix = dp.build_index_vec(vocabulary, data, max_len)
+        
+        return td_matrix, labels, vocab_size
         
 def prepare_data(td_matrix, labels):
     
@@ -139,8 +141,8 @@ def savecsv(filename, list):
     with open(filename, "w", newline="") as f:
         csv.writer(f).writerows(list)
 
-# td_matrix, labels = load_data('../Data/small_data_test.csv',  vocab_size)
-td_matrix, labels = load_data()
+# td_matrix, labels, vocab_size = load_data('../Data/small_data_test.csv')
+td_matrix, labels, vocab_size = load_data()
 
 train_data_loader, val_data_loader, test_data_loader = prepare_data(td_matrix, labels)
 
@@ -165,6 +167,7 @@ class MyModel(nn.Module):
 
 classifier = MyModel(vocab_size, embedding_size, hidden_size, output_size, num_layers, dropout)
 optimizer = optim.SGD(classifier.parameters(), lr=lr, momentum=0.9)
+#optimizer = optim.Adam(classifier.parameters(), lr=0.0001)
 
 classifier = classifier.to(device)
 classifier.train()
