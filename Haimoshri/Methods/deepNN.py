@@ -6,6 +6,7 @@ Created on Sat Jun  6 00:31:33 2020
 @author: haimoshri
 """
 
+import pickle
 import pandas as pd
 import csv
 import read_tags as rt
@@ -33,30 +34,87 @@ epochs = 10
 vocab_size = 0
 loss_fn = nn.MultiLabelSoftMarginLoss()
 
-def load_data(filename,  vocab_size):
-    with open(filename, 'r') as f:
-        file = pd.read_csv(f)
-        head_tag = []
-        for i in range(593):
-            head_tag.append(str(i))
+# load csv files
+# def load_data(filename,  vocab_size):
+#     with open(filename, 'r') as f:
+#         file = pd.read_csv(f)
+#         head_tag = []
+#         for i in range(593):
+#             head_tag.append(str(i))
         
+#         num_tags = rt.num_tags
+        
+#         vocabulary = dp.build_vocabulary(file)
+        
+#         vocab_size = len(vocabulary)
+        
+#         td_matrix = dp.build_bow(vocabulary, file)
+        
+#         labels = dp.build_labels(num_tags, file)
+        
+#         return td_matrix, labels
+
+def transform_labels(in_labels):
+    # from the input labels, in the format of list of list of labels pertaining to document at row i,
+    # output a multilabel matrix where row i column j is 1 if document i contains label j and 0 otherwise
+    # probably is somewhat the same as some parts of Haimoshri's small_data_gen.py, didn't see at first oops
+    label_to_id = {}
+    id_to_label = {}
+    cnt = 0
+    label_matrix = []
+    for row in in_labels:
+        label_matrix.append([])
+        for label in row:
+            if label not in label_to_id:
+                label_to_id[label] = cnt
+                id_to_label[cnt] = label
+                cnt += 1
+            i = label_to_id[label]
+            if i >= len(label_matrix[-1]):
+                label_matrix[-1].extend([0]*(i + 1 - len(label_matrix[-1])))
+            label_matrix[-1][i] = 1
+    
+    for i in range(len(label_matrix)):
+        if len(label_matrix[i]) < len(label_to_id):
+            label_matrix[i].extend([0]*(len(label_to_id) - len(label_matrix[i])))
+
+    f.write("Transforming Labels...\n")
+    return label_matrix, id_to_label
+
+def load_data():
+    # Load NYT corpus data
+    with open("../../NYTcorpus.p", "rb") as corpus:
+        all_data = pickle.load(corpus)
+        data = {'Text': []}
+        labels = []
+        for row in all_data:
+            data['Text'].append(row[(2 if whole == True else 1)])
+            labels.append(row[3:])
+        
+        labels, labels_dict = transform_labels(labels)
+
+        # saving the labels dictionary
+        # savecsv("labels_dict.csv", list(labels_dict.items()))
+
         num_tags = rt.num_tags
-        
-        vocabulary = dp.build_vocabulary(file)
-        
+        vocabulary = dp.build_vocabulary(data)
         vocab_size = len(vocabulary)
-        
-        td_matrix = dp.build_bow(vocabulary, file)
-        
-        labels = dp.build_labels(num_tags, file)
+        td_matrix = dp.build_bow(vocabulary, data)
         
         return td_matrix, labels
         
 def prepare_data(td_matrix, labels):
     
-        split_1 = int(4*len(td_matrix)/5)
-        split_2 = int(9*len(td_matrix)/10)
-        
+        # 80% train; 10% validation; 10% test
+        # split_1 = int(4*len(td_matrix)/5)
+        # split_2 = int(9*len(td_matrix)/10)
+
+        # 75% train; 10% validation, 15% test
+        split_1 = int(len(td_matrix)*0.75)
+        split_2 = int(len(td_matrix)*0.85)
+
+
+        np.random.shuffle(td_matrix) # shuffle first as well
         
         train_data_processed = td_matrix[:split_1, :]
         train_labels = labels[:split_1, :]
@@ -77,7 +135,12 @@ def prepare_data(td_matrix, labels):
         
         return train_data_loader, val_data_loader, test_data_loader
 
-td_matrix, labels = load_data('../Data/small_data_test.csv',  vocab_size)
+def savecsv(filename, list):
+    with open(filename, "w", newline="") as f:
+        csv.writer(f).writerows(list)
+
+# td_matrix, labels = load_data('../Data/small_data_test.csv',  vocab_size)
+td_matrix, labels = load_data()
 
 train_data_loader, val_data_loader, test_data_loader = prepare_data(td_matrix, labels)
 
@@ -127,7 +190,7 @@ for epoch in range(epochs):
         optimizer.step()
         
         total_loss += loss.item()
-    #print ('train', total_loss)
+    print ('train', total_loss)
     
     total_loss = 0
     classifier.eval()
@@ -141,7 +204,7 @@ for epoch in range(epochs):
         
         loss = loss_fn(logits.squeeze(), labels)
         total_loss += loss.item()
-    #print ('val', total_loss)
+    print ('val', total_loss)
 
 accuracy = 0
 count = 0
@@ -153,6 +216,9 @@ for inputs, labels in test_data_loader:
     logits = classifier.forward(inputs)
         
     predictions = logits.round()
+
+    # We use a different method to measure accuracy
+    savecsv("pred.csv", predictions)
     
     #print (torch.sum(predictions == labels))
     
