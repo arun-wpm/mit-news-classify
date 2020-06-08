@@ -69,7 +69,8 @@ def build_bow(vocab, data):
 def build_index_vec(vocab, data, max_len):
     """Function to build term document matrix, bow style from Text where data is a Data Frame."""
     
-    result = np.zeros((len(data), max_len))
+    # result = np.zeros((len(data), max_len))
+    result = np.zeros((len(data['Text']), max_len)) # since it's not actually the same format I'll have to do this for now - Arun
     count = 0
     ind = 0
     for i in data['Text']:

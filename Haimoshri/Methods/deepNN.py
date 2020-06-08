@@ -30,7 +30,7 @@ num_layers = 2
 dropout = 0.5
 embedding_size = 64
 lr = 0.1
-epochs = 10
+epochs = 2 # the dataset is huge
 vocab_size = 0
 loss_fn = nn.MultiLabelSoftMarginLoss()
 max_len = 400
@@ -58,28 +58,29 @@ max_len = 400
 def transform_labels(in_labels):
     # from the input labels, in the format of list of list of labels pertaining to document at row i,
     # output a multilabel matrix where row i column j is 1 if document i contains label j and 0 otherwise
-    # probably is somewhat the same as some parts of Haimoshri's small_data_gen.py, didn't see at first oops
     label_to_id = {}
     id_to_label = {}
-    cnt = 0
+    # cnt = 0
     label_matrix = []
     for row in in_labels:
         label_matrix.append([])
-        for label in row:
+        for labelstr in row:
+            label = int(labelstr)
             if label not in label_to_id:
+                cnt = rt.tag_index[label]
                 label_to_id[label] = cnt
                 id_to_label[cnt] = label
-                cnt += 1
             i = label_to_id[label]
             if i >= len(label_matrix[-1]):
                 label_matrix[-1].extend([0]*(i + 1 - len(label_matrix[-1])))
             label_matrix[-1][i] = 1
     
     for i in range(len(label_matrix)):
-        if len(label_matrix[i]) < len(label_to_id):
-            label_matrix[i].extend([0]*(len(label_to_id) - len(label_matrix[i])))
+        # if len(label_matrix[i]) < len(label_to_id):
+        if len(label_matrix[i]) < rt.num_tags:
+            label_matrix[i].extend([0]*(rt.num_tags - len(label_matrix[i])))
 
-    f.write("Transforming Labels...\n")
+    print("Transforming Labels...\n")
     return label_matrix, id_to_label
 
 def load_data():
@@ -92,7 +93,10 @@ def load_data():
             data['Text'].append(row[2])
             labels.append(row[3:])
         
-        labels, labels_dict = transform_labels(labels)
+        labels_list, labels_dict = transform_labels(labels)
+        print(len(labels_list), len(labels_list[0]))
+        labels = np.array(labels_list)
+        print(labels.shape)
 
         # saving the labels dictionary
         # savecsv("labels_dict.csv", list(labels_dict.items()))
@@ -114,9 +118,10 @@ def prepare_data(td_matrix, labels):
         # 75% train; 10% validation, 15% test
         split_1 = int(len(td_matrix)*0.75)
         split_2 = int(len(td_matrix)*0.85)
+        print(td_matrix.shape, labels.shape)
+        print(split_1, split_2)
 
-
-        np.random.shuffle(td_matrix) # shuffle first as well
+        # np.random.shuffle(td_matrix) # shuffle first as well
         
         train_data_processed = td_matrix[:split_1, :]
         train_labels = labels[:split_1, :]
@@ -212,6 +217,8 @@ for epoch in range(epochs):
 accuracy = 0
 count = 0
 
+all_pred = []
+
 for inputs, labels in test_data_loader:
     count+=1
         
@@ -219,13 +226,14 @@ for inputs, labels in test_data_loader:
     logits = classifier.forward(inputs)
         
     predictions = logits.round()
-
-    # We use a different method to measure accuracy
-    savecsv("pred.csv", predictions)
+    all_pred.append(predictions.tolist())
     
     #print (torch.sum(predictions == labels))
     
     accuracy += float(torch.sum(predictions == labels))/593
+
+# We use a different method to measure accuracy
+savecsv("pred.csv", all_pred)
 
 accuracy = accuracy/count
 
