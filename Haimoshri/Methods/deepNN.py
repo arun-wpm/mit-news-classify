@@ -32,7 +32,7 @@ embedding_size = 64
 lr = 0.1
 epochs = 2 # the dataset is huge
 vocab_size = 0
-loss_fn = nn.MultiLabelSoftMarginLoss()
+loss_fn = nn.MultiLabelMarginLoss()
 max_len = 400
 
 # load csv files
@@ -159,7 +159,7 @@ class MyModel(nn.Module):
         self.lstm = nn.LSTM(embedding_size, hidden_size, num_layers,
                            batch_first=True, dropout=dropout, bidirectional=False)
         self.output = nn.Linear(hidden_size, output_size)
-        #self.activation = nn.Sigmoid()
+        self.activation = nn.Sigmoid()
 
 
     def forward(self, x):
@@ -167,7 +167,7 @@ class MyModel(nn.Module):
         outputs1, a = self.lstm(embeds)
         outputs = self.output(outputs1)
         outputs = outputs[:, -1, :]
-        #outputs = self.activation(outputs)
+        outputs = self.activation(outputs)
         return outputs
 
 classifier = MyModel(vocab_size, embedding_size, hidden_size, output_size, num_layers, dropout)
