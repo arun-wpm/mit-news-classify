@@ -85,7 +85,7 @@ def transform_labels(in_labels):
 
 def load_data():
     # Load NYT corpus data
-    with open("../../NYTcorpus.p", "rb") as corpus:
+    with open("NYTcorpus.p", "rb") as corpus:
         all_data = pickle.load(corpus)
         data = {'Text': []}
         labels = []
