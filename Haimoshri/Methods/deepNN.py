@@ -30,9 +30,14 @@ num_layers = 2
 dropout = 0.5
 embedding_size = 64
 lr = 0.1
-epochs = 2 # the dataset is huge
+epochs = 10 # the dataset is huge
 vocab_size = 0
+<<<<<<< HEAD
 loss_fn = nn.MultiLabelSoftMarginLoss()
+=======
+# loss_fn = nn.MultiLabelSoftMarginLoss()
+loss_fn = nn.BCELoss()
+>>>>>>> 2278d50ec05ad8fb21406ebb199f118cce112128
 max_len = 400
 
 # load csv files
@@ -85,12 +90,12 @@ def transform_labels(in_labels):
 
 def load_data():
     # Load NYT corpus data
-    with open("NYTcorpus.p", "rb") as corpus:
+    with open("../../NYTcorpus.p", "rb") as corpus:
         all_data = pickle.load(corpus)
         data = {'Text': []}
         labels = []
         # for row in all_data:
-        for row in all_data[::100]: # I think it's running out of memory
+        for row in all_data[::10]: # I think it's running out of memory
             data['Text'].append(row[2])
             labels.append(row[3:])
         
@@ -172,8 +177,8 @@ class MyModel(nn.Module):
         return outputs
 
 classifier = MyModel(vocab_size, embedding_size, hidden_size, output_size, num_layers, dropout)
-optimizer = optim.SGD(classifier.parameters(), lr=lr, momentum=0.9)
-#optimizer = optim.Adam(classifier.parameters(), lr=0.0001)
+# optimizer = optim.SGD(classifier.parameters(), lr=lr, momentum=0.9)
+optimizer = optim.Adam(classifier.parameters(), lr=0.001)
 
 classifier = classifier.to(device)
 classifier.train()
@@ -190,6 +195,8 @@ for epoch in range(epochs):
         logits = classifier.forward(inputs)
         logits = logits.type(torch.FloatTensor)
         labels = labels.type(torch.FloatTensor)
+        print(logits)
+        print(labels)
         
         loss = loss_fn(logits.squeeze(), labels)
         
