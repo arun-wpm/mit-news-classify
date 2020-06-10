@@ -99,7 +99,7 @@ class MyBertModel(nn.Module):
         output = torch.mean(output[0], 1)
         output = self.linear(output)
         output = self.sigmoid(output)
-        print (output.shape)
+        return output
 
 
 model = MyBertModel(HIDDEN_SIZE, NUM_LABEL)
@@ -117,9 +117,9 @@ for epoch in range(epochs):
         
         output = model.forward(inputs, masks)
         
-        labels = labels.type(torch.FloatTensor)
+        labels = labels.type(torch.LongTensor)
         
-        loss = loss_fn(output[0].squeeze(), labels)
+        loss = loss_fn(output, labels)
         
         optimizer.zero_grad()
         loss.backward()
@@ -136,9 +136,28 @@ for epoch in range(epochs):
 
         output = model.forward(inputs, masks)
         
-        labels = labels.type(torch.FloatTensor)
+        labels = labels.type(torch.LongTensor)
         
-        loss = loss_fn(logits.squeeze(), labels)
+        loss = loss_fn(output, labels)
         total_loss += loss.item()
     print ('val', total_loss)
+    
+accuracy = 0
+count = 0
+    
+for inputs, masks, labels in test_data_loader:
+    count+=1
+        
+    inputs = inputs.type(torch.LongTensor)
+    logits = model.forward(inputs, masks)
+        
+    predictions = logits.round()
+    
+    #print (torch.sum(predictions == labels))
+    
+    accuracy += float(torch.sum(predictions == labels))/593
+
+accuracy = accuracy/count
+
+print (accuracy)
     
