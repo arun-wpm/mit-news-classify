@@ -89,7 +89,8 @@ def load_data():
         all_data = pickle.load(corpus)
         data = {'Text': []}
         labels = []
-        for row in all_data:
+        # for row in all_data:
+        for row in all_data[::100]: # I think it's running out of memory
             data['Text'].append(row[2])
             labels.append(row[3:])
         
@@ -218,6 +219,7 @@ accuracy = 0
 count = 0
 
 all_pred = []
+all_true = []
 
 for inputs, labels in test_data_loader:
     count+=1
@@ -226,7 +228,8 @@ for inputs, labels in test_data_loader:
     logits = classifier.forward(inputs)
         
     predictions = logits.round()
-    all_pred.append(predictions.tolist())
+    all_pred.extend(predictions.tolist()[:])
+    all_true.extend(labels.tolist())
     
     #print (torch.sum(predictions == labels))
     
@@ -234,6 +237,7 @@ for inputs, labels in test_data_loader:
 
 # We use a different method to measure accuracy
 savecsv("pred.csv", all_pred)
+savecsv("true.csv", all_true)
 
 accuracy = accuracy/count
 
