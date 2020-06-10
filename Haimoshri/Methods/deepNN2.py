@@ -30,6 +30,9 @@ epochs = 3
 lr = 0.01
 loss_fn = nn.MultiLabelMarginLoss()
 
+HIDDEN_SIZE = 768 
+NUM_LABEL = 593
+
 def process_data(filename, tokenizer, max_len):
     with open(filename, 'r') as f:
         file = pd.read_csv(f)
@@ -83,7 +86,23 @@ def prepare_data(filename, tokenizer, max_len, batch_size):
 
 train_data_loader, val_data_loader, test_data_loader = prepare_data('../Data/small_data_test.csv', tokenizer, max_len, batch_size) 
     
-model = BertModel.from_pretrained('bert-base-cased')
+class MyBertModel(nn.Module):
+    def __init__(self, in_size, out_size):
+        super(MyBertModel, self).__init__()
+        self.bert = BertModel.from_pretrained('bert-base-cased')
+        self.linear = nn.Linear(in_size, out_size)
+        self.sigmoid = nn.Sigmoid()
+    
+    def forward(self, inputs, masks):
+        output = self.bert(inputs, masks)
+        self.hidden_size = output[0].shape[-1]
+        output = torch.mean(output[0], 1)
+        output = self.linear(output)
+        output = self.sigmoid(output)
+        print (output.shape)
+
+
+model = MyBertModel(HIDDEN_SIZE, NUM_LABEL)
 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9)
 
 for epoch in range(epochs):
@@ -95,12 +114,12 @@ for epoch in range(epochs):
         inputs = inputs.type(torch.LongTensor)
 
         model.zero_grad()
-        logits = model.forward(inputs)
-        logits = logits.type(torch.FloatTensor)
+        
+        output = model.forward(inputs, masks)
+        
         labels = labels.type(torch.FloatTensor)
         
-        loss = loss_fn(logits.squeeze(), labels)
-        
+        loss = loss_fn(output[0].squeeze(), labels)
         
         optimizer.zero_grad()
         loss.backward()
@@ -111,19 +130,15 @@ for epoch in range(epochs):
     
     total_loss = 0
     model.eval()
-    for inputs, labels in val_data_loader:
+    for inputs, masks, labels in val_data_loader:
         
         inputs = inputs.type(torch.LongTensor)
 
-        logits = model.forward(inputs)
-        logits = logits.type(torch.FloatTensor)
+        output = model.forward(inputs, masks)
+        
         labels = labels.type(torch.FloatTensor)
         
         loss = loss_fn(logits.squeeze(), labels)
         total_loss += loss.item()
     print ('val', total_loss)
     
-
-class MyBertModel(nn.Module):
-    def __init__(self):
-        self.bert = nn.BertModel
