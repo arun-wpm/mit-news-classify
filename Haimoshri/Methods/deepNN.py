@@ -32,7 +32,7 @@ embedding_size = 64
 lr = 0.1
 epochs = 2 # the dataset is huge
 vocab_size = 0
-loss_fn = nn.MultiLabelMarginLoss()
+loss_fn = nn.MultiLabelSoftMarginLoss()
 max_len = 400
 
 # load csv files
