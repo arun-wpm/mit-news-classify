@@ -32,13 +32,8 @@ embedding_size = 64
 lr = 0.1
 epochs = 10 # the dataset is huge
 vocab_size = 0
-<<<<<<< HEAD
 loss_fn = nn.MultiLabelSoftMarginLoss()
-=======
-# loss_fn = nn.MultiLabelSoftMarginLoss()
-loss_fn = nn.BCELoss()
->>>>>>> 2278d50ec05ad8fb21406ebb199f118cce112128
-max_len = 400
+max_len = 500
 
 # load csv files
 # def load_data(filename):
