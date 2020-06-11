@@ -26,8 +26,8 @@ def init(embeddedfile="embedded.p", binarylabelsfile="binarylabels.p"):
     # set up the model
     model = keras.Sequential()
     model.add(keras.Input(shape=(data.shape[1],)))
-    model.add(layers.Dense(1000, activation="relu"))
-    model.add(layers.Dense(500, activation="relu"))
+    model.add(layers.Dense(400, activation="relu"))
+    model.add(layers.Dense(200, activation="relu"))
     model.add(layers.Dense(label.shape[1], activation="sigmoid")) # can't do softmax because it's multilabel
     model.summary()
 
@@ -101,7 +101,7 @@ def train(model, gen_train, data_val, label_val):
         # data_train,
         # label_train,
         batch_size=batch_size,
-        epochs=10, # technically I should run this until validation accuracy peaks but I don't know how long things take yet
+        epochs=30, # technically I should run this until validation accuracy peaks but I don't know how long things take yet
         validation_data=(data_val, label_val),
         use_multiprocessing=True,
     )
@@ -145,3 +145,4 @@ if __name__ == "__main__":
     # save some outputs
     savecsv("true.csv", label_test)
     savecsv("pred.csv", pred)
+    model.save("model.h5")

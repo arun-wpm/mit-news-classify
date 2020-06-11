@@ -41,7 +41,14 @@ def transform_labels(in_labels):
 
     return label_matrix, id_to_label
 
-def embed_p(corpusdir="../../", corpusfile="NYTcorpus.p", vocabfile="small_vocab.csv", logfile="log.txt", outfile="embedded.p", labelfile="binarylabels.p", labeldictfile="labelsdict.p"):
+def embed_p(corpusdir="../../", 
+            corpusfile="NYTcorpus.p", 
+            vocabfile="small_vocab.csv", 
+            logfile="log.txt", 
+            outfile="embedded.p", 
+            labelfile="binarylabels.p", 
+            labeldictfile="labelsdict.p",
+            tfmerfile="tfmer.p"):
     # embed each article in a pickle format corpus into a singular vector using vocabfile as the vocabulary
     # the format of the corpus is assumed to be the same as NYTcorpus.p
 
@@ -63,7 +70,7 @@ def embed_p(corpusdir="../../", corpusfile="NYTcorpus.p", vocabfile="small_vocab
         vocab = loadcsv(vocabfile)
         vocab = [x[0] for x in vocab] #extra layer of list that we don't want here
         count_vect = CountVectorizer(vocabulary=vocab)
-        data_counts = count_vect.fit_transform(data)
+        data_counts = count_vect.transform(data)
         f.write("Words are tokenized, vocabulary built from " + vocabfile + "\n")
 
         #TODO: use other methods as well, BOW for instance
@@ -87,6 +94,10 @@ def embed_p(corpusdir="../../", corpusfile="NYTcorpus.p", vocabfile="small_vocab
         with open(labeldictfile, "wb") as labeldict:
             pickle.dump(label_dict, labeldict)
             f.write("Dumped label dictionary at " + labeldictfile + "\n")
+    
+        with open(tfmerfile, "wb") as tfmerout:
+            pickle.dump(tfmer, tfmerout)
+            f.write("Dumped TF-IDF Transformer at " + tfmerfile + "\n")
         
     except Exception:
         traceback.print_exc(file=f)
