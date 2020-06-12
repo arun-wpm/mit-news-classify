@@ -21,14 +21,17 @@ import numpy as np
 
 from torch.utils.data import DataLoader, TensorDataset
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
+device = torch.device(device)
+
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
 
-max_len = 64
+max_len = 400
 batch_size = 64
 epochs = 3
 lr = 0.01
-loss_fn = nn.MultiLabelMarginLoss()
+loss_fn = nn.MultiLabelSoftMarginLoss()
 
 HIDDEN_SIZE = 768 
 NUM_LABEL = 593
@@ -93,6 +96,8 @@ def load_data():
     
             count+=1
         
+        print ("Loaded data")
+        
         return result, attention_mask, labels
 
 def process_data(filename, tokenizer, max_len):
@@ -119,6 +124,7 @@ def process_data(filename, tokenizer, max_len):
 
 def prepare_data(filename, tokenizer, max_len, batch_size):
     #result, attention_mask, labels = process_data(filename, tokenizer, max_len)
+    print ("Starting to prepare data")
     result, attention_mask, labels = load_data()
     
     split_1 = int(len(result)*0.75)
@@ -174,6 +180,8 @@ class MyBertModel(nn.Module):
 model = MyBertModel(HIDDEN_SIZE, NUM_LABEL)
 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9)
 
+print ("Starting Training")
+
 for epoch in range(epochs):
     
     total_loss = 0
@@ -216,6 +224,8 @@ count = 0
 
 all_pred = []
 all_true = []
+
+print ("Starting Test")
     
 for inputs, masks, labels in test_data_loader:
     count+=1
