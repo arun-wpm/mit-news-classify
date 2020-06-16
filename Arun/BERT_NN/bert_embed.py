@@ -73,7 +73,8 @@ def bert_embed_p(corpusdir="../../",
             input_ids = torch.tensor(tokenizer.encode(row, add_special_tokens=True)).unsqueeze(0)
             out = model(input_ids)
             # print(out) #debugging I guess
-            X = torch.cat((X, torch.mean(out[0], dim=1)), 0)
+            #TODO: debug here
+            X = torch.cat((X, torch.mean(out[0], 1)), 0)
         # shape of X: N, <= 512, 768
         f.write("Words are tokenized and embedded by the almighty BERT\n")
 
