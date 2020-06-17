@@ -90,7 +90,7 @@ def load_data():
         data = {'Text': []}
         labels = []
         # for row in all_data:
-        for row in all_data[::10]: # I think it's running out of memory
+        for row in all_data[::100]: # I think it's running out of memory
             data['Text'].append(row[2])
             labels.append(row[3:])
         
@@ -238,8 +238,8 @@ for inputs, labels in test_data_loader:
     accuracy += float(torch.sum(predictions == labels))/593
 
 # We use a different method to measure accuracy
-savecsv("pred.csv", all_pred)
-savecsv("true.csv", all_true)
+savecsv("pred_LSTM.csv", all_pred)
+savecsv("true_LSTM.csv", all_true)
 
 accuracy = accuracy/count
 
