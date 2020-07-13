@@ -46,9 +46,9 @@ def transform_labels(in_labels):
 def embed_p(corpusdir="../../", 
             corpusfile="NYTcorpus.p", 
             logfile="log.txt", 
-            outfile="embedded.p", 
-            labelfile="binarylabels.p", 
-            labeldictfile="labelsdict.p"):
+            outfile="embedded_100%.p", 
+            labelfile="binarylabels_100%.p", 
+            labeldictfile="labelsdict_100%.p"):
     # embed each article in a pickle format corpus into a singular vector using vocabfile as the vocabulary
     # the format of the corpus is assumed to be the same as NYTcorpus.p
 
@@ -62,7 +62,7 @@ def embed_p(corpusdir="../../",
             data = []
             labels = []
             l = len(all_data)
-            for i in range(l):
+            for i in range(0, l): # memory errors rip
                 article = all_data[i][2]
                 # tokenize each article
                 data.append(TaggedDocument(list(tokenize(article)), [i])) # article text
@@ -71,10 +71,10 @@ def embed_p(corpusdir="../../",
         f.write("Words are tokenized\n")
 
         # transform data by doc2vec
-        model = Doc2Vec(data)
+        model = Doc2Vec(data, vector_size=100, window=5, workers=12, epochs=10)
         model.delete_temporary_training_data(keep_doctags_vectors=True, keep_inference=True)
         vec_data = []
-        for i in range(l):
+        for i in range(0, l):
             vec_data.append(model.docvecs[i])
 
         # transform the test data by tf_idf as well
