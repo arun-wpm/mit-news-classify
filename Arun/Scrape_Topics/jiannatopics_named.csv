@@ -1,0 +1,312 @@
+news,news
+world,world
+americas,Americas
+north_america,North America
+CAN,Canada
+USA,United States of America
+MEX,Mexico
+central_america,Central America
+HND,Honduras
+GTM,Guatemala
+BLZ,Belize
+SLV,El Salvador
+CRI,Costa Rica
+NIC,Nicaragua
+PAN,Panama
+caribbean,Caribbean
+ABW,Aruba
+BHS,Bahamas
+BRB,Barbados
+BMU,Bermuda
+CUB,Cuba
+DMA,Dominica
+DOM,Dominican Republic
+GRD,Grenada
+HTI,Haiti
+JAM,Jamaica
+PRI,Puerto Rico
+LCA,Saint Lucia
+VCT,Saint Vincent and the Grenadines
+KNA,St. Kitts and Nevis
+TTO,Trinidad and Tobago
+ATG,Antigua and Barbuda
+VIR,US Virgin Islands
+CUW,Curacao
+south_america,South America
+ARG,Argentina
+BOL,Bolivia
+BRA,Brazil
+CHL,Chile
+COL,Colombia
+ECU,Ecuador
+GUY,Guyana
+PRY,Paraguay
+PER,Peru
+SUR,Suriname
+URY,Uruguay
+VEN,Venezuela
+europe,Europe
+northern_europe,Northern Europe
+DNK,Denmark
+GRL,Greenland
+FRO,Faeroe Islands
+FIN,Finland
+ISL,Iceland
+NOR,Norway
+SWE,Sweden
+western_europe,Western Europe
+GBR,United Kingdom
+GGY,Guernsey
+IMN,Isle of Man
+JEY,Jersey
+AND,Andorra
+AUT,Austria
+BEL,Belgium
+FRA,France
+DEU,Germany
+IRL,Ireland
+LIE,Liechtenstein
+LUX,Luxembourg
+MCO,Monaco
+NLD,Netherlands
+CHE,Switzerland
+eastern_europe,Eastern Europe
+BLR,Belarus
+CZE,Czechia
+EST,Estonia
+HUN,Hungary
+LVA,Latvia
+LTU,Lithuania
+MDA,Moldova
+POL,Poland
+ROU,Romania
+RUS,Russia
+UKR,Ukraine
+balkans,Balkans
+ALB,Albania
+BIH,Bosnia and Herzegovina
+BGR,Bulgaria
+HRV,Croatia
+XKX,Kosovo
+MKD,Macedonia
+MNE,Montenegro
+SRB,Serbia
+SVK,Slovakia
+SVN,Slovenia
+southern_europe,Southern Europe
+GRC,Greece
+ITA,Italy
+MLT,Malta
+CYP,North Cyprus
+PRT,Portugal
+SMR,San Marino
+ESP,Spain
+VAT,Vatican
+asia,Asia
+middle_east,Middle East
+BHR,Bahrain
+IRN,Iran
+IRQ,Iraq
+ISR,Israel
+JOR,Jordan
+KWT,Kuwait
+LBN,Lebanon
+PSE,Palestine
+QAT,Qatar
+OMN,Oman
+SAU,Saudi Arabia
+SYR,Syria
+TUR,Turkey
+ARE,United Arab Emirates
+YEM,Yemen
+caucasus,Caucasus
+ARM,Armenia
+AZE,Azerbaijan
+GEO,Georgia
+central_asia,Central Asia
+KAZ,Kazakhstan
+KGZ,Kyrgyzstan
+TJK,Tajikistan
+TKM,Turkmenistan
+UZB,Uzbekistan
+east_asia,East Asia
+CHN,China
+TWN,Taiwan
+JPN,Japan
+PRK,North Korea
+KOR,South Korea
+MNG,Mongolia
+south_asia,South Asia
+AFG,Afghanistan
+BGD,Bangladesh
+BTN,Bhutan
+IND,India
+sia,Siachen Glacier
+MDV,Maldives
+MMR,Myanmar
+NPL,Nepal
+PAK,Pakistan
+LKA,Sri Lanka
+southeast_asia,Southeast Asia
+KHM,Cambodia
+IDN,Indonesia
+LAO,Laos
+MYS,Malaysia
+BRN,Brunei
+PHL,Philippines
+SGP,Singapore
+THA,Thailand
+TLS,Timor-Leste
+VNM,Vietnam
+africa,Africa
+north_africa,North Africa
+DZA,Algeria
+EGY,Egypt
+LBY,Libya
+MAR,Morocco
+SSD,South Sudan
+SDN,Sudan
+TUN,Tunisia
+west_africa,West Africa
+BEN,Benin
+BFA,Burkina Faso
+CIV,Cote d'Ivoire
+CPV,Cabo Verde
+GMB,Gambia
+GHA,Ghana
+GIN,Guinea
+GNB,Guinea-Bissau
+LBR,Liberia
+MLI,Mali
+MRT,Mauritania
+NER,Niger
+NGA,Nigeria
+SEN,Senegal
+SLE,Sierra Leone
+TGO,Togo
+central_africa,Central Africa
+AGO,Angola
+CMR,Cameroon
+CAF,Central African Republic
+TCD,Chad
+COG,Congo
+COD,Democratic Republic of Congo
+GNQ,Equatorial Guinea
+GAB,Gabon
+STP,Sao Tome and Principe
+east_africa,East Africa
+BDI,Burundi
+COM,Comoros
+DJI,Djibouti
+ERI,Eritrea
+ETH,Ethiopia
+KEN,Kenya
+MUS,Mauritius
+RWA,Rwanda
+SYC,Seychelles
+SOM,Somalia
+TZA,Tanzania
+UGA,Uganda
+southern_africa,Southern Africa
+MDG,Madagascar
+MWI,Malawi
+MOZ,Mozambique
+ZMB,Zambia
+ZWE,Zimbabwe
+BWA,Botswana
+SWZ,Eswatini
+LSO,Lesotho
+NAM,Namibia
+ZAF,South Africa
+oceania,Oceania
+AUS,Australia
+NZL,New Zealand
+ANT,Antarctica
+micronesia,Micronesia
+FSM,Federated States of Micronesia
+MHL,Marshall Islands
+GUM,Guam
+KIR,Kiribati
+NRU,Nauru
+PLW,Palau
+melanesia,Melanesia
+FJI,Fiji
+PNG,Papua New Guinea
+SLB,Solomon Islands
+NCL,New Caledonia
+VUT,Vanuatu
+polynesia,Polyesia
+WSM,Samoa
+TON,Tonga
+PYF,French Polynesia
+crime_justice,crime & justice
+vice_crime,vice crime
+child_porn,child pornography
+cybercrime,cybercrime
+legal_system,legal system
+border_wall,border wall
+path_to_citizenship,path to citizenship
+sanctuary_cities,sanctuary cities
+prison_reform,prison reform
+private_prisons,private prisons
+civil_liberties,civil liberties
+whistleblowers,whistleblowers
+snowden,Snowden case
+manning,Manning case
+hate_speech,hate speech
+safe_spaces,safe spaces
+assange,gdpr
+governance,governance
+electoral_systems,electoral systems
+gerrymandering,gerrymandering
+term_limits,term limits
+ranked_choice_voting,ranked choice voting
+open_primaries,open primaries
+public_election_funding,public election funding
+electoral_college,electoral college
+voter_id,voter ID requirement
+mandatory_voting,mandatory voting
+online_voting,online voting
+revolving_door,revolving door
+campaign_finance,campaign finance reform
+social_issues,social issues
+asian_americans,Asian-Americans
+hinduism,Hinduism
+buddhism,Buddhism
+other_religions,other religions
+non_religion,non-religion
+bullying,bullying
+cyberbullying,cyberbullying
+computer_science,computer science
+ai,artificial intelligence
+engineering,engineering
+education,education
+diabetes,diabetes
+mens_health,men's health
+covid,COVID-19
+malaria,malaria
+hepatitis,hepatitis
+dengue,dengue
+influenza,influenza
+ebola,ebola
+zika,zika
+vaping,vaping
+addiction,drug addiction
+safety,safety
+eating_drinking,eating & drinking
+environment_energy,environment/energy
+fossil_fuel,fossil fuel
+coal,coal
+renewables,renewable energy
+solar_power,solar power
+wind_power,wind power
+autonomous_weapons,autonomous weapons
+yemen_war,Yemen war
+syria_war,Syria war
+libya_war,Libya war
+afghanistan_war,Afghanistan war
+other_conflict,other conflict
+cold_war,Cold war
+psychological_warfare,Psychological warfare 
+cyberwarfare,Cyberwarfare
+military_spending,military spending
