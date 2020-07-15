@@ -54,6 +54,45 @@ def query_topic(topic="thailand", n=10):
         # print(">> " + url[0])
     return articles
 
+def query_gurl(url):
+    print("Querying at " + url)
+    articles = []
+    for i in range(0, 1000, 10):
+        print(url)
+        page = requests.get(url + ("&start=" + str(i) if i > 0 else ""))
+        results = get_urls(page)
+        if len(results) == 0:
+            break
+        articles.extend(results)
+        print("stalling...")
+        time.sleep(WAIT)
+    print("Take a look!")
+    for url in articles:
+        print(">> " + url[0])
+    return articles
+
+def query_gnewsurl(url):
+    print("Querying at " + url)
+
+    print(url)
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, 'html.parser')
+    links = soup.find_all('a')
+    hrefs = [link.get('href') for link in links]
+    hrefs = ["https://news.google.com" + x[1:] for x in hrefs if x is not None and x[:11] == "./articles/"]
+    articles = []
+    for href in hrefs:
+        # find the actual article url after redirect
+        articles.append([requests.get(href).url])
+        print("stalling...")
+        time.sleep(WAIT)
+    
+    # each two are duplicates, and the last one is useless
+    print("Take a look!")
+    for url in articles:
+        print(">> " + url[0])
+    return results
+
 def query_all(qlist, n=10):
     print("Start the scraping!")
     for topic in qlist:
