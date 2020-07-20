@@ -4,7 +4,7 @@ import requests
 import pycountry
 import time
 
-WAIT = 10 # stall time so google doesn't block me ;-;
+WAIT = 5 # stall time so google doesn't block me ;-;
 
 def loadcsv(filename):
     with open(filename, newline='') as f: 
@@ -80,18 +80,21 @@ def query_gnewsurl(url):
     links = soup.find_all('a')
     hrefs = [link.get('href') for link in links]
     hrefs = ["https://news.google.com" + x[1:] for x in hrefs if x is not None and x[:11] == "./articles/"]
+    hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
     articles = []
     for href in hrefs:
         # find the actual article url after redirect
-        articles.append([requests.get(href).url])
-        print("stalling...")
-        time.sleep(WAIT)
+        redirect = requests.get(href)
+        print(redirect, redirect.url)
+        articles.append(redirect.url)
+        # print("stalling...")
+        # time.sleep(WAIT)
     
     # each two are duplicates, and the last one is useless
     print("Take a look!")
-    for url in articles:
-        print(">> " + url[0])
-    return results
+    # for url in articles:
+        # print(">> " + url[0])
+    return articles
 
 def query_all(qlist, n=10):
     print("Start the scraping!")

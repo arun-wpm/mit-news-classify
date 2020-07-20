@@ -10,6 +10,7 @@ import numpy as np
 from newspaper import Article
 from useful import *
 from itntools import *
+from Scrape_Topics import query_gnewsurl
 
 # Return time in seconds since startTime:
 def Time(): return (datetime.datetime.now() - baseTime).total_seconds() 
@@ -57,10 +58,15 @@ def scrape(media_name,url):
     print("### appending article with url",article[0],"to",articlefile)
     appendtsv(articlefile,[article])
 
-def crawl(media_url):	
-    print("Crawling",media_url,"...")
-    paper = newspaper.build(media_url)
-    return list([article.url for article in paper.articles])
+# def crawl(media_url):	
+#     print("Crawling",media_url,"...")
+#     paper = newspaper.build(media_url)
+#     return list([article.url for article in paper.articles])
+
+def crawl(media_url):
+    # from each topic in Google News in medialistG.csv, get a list of articles (ordered)
+    print("Crawling", media_url, "...")
+    return query_gnewsurl(media_url)
 
 #def scrape(media_name,url):
 #    print("Fake-scraping",url)

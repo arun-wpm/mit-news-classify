@@ -64,11 +64,11 @@ class DataGenerator(keras.utils.Sequence):
     
     def __getitem__(self, index):
         if self.size < (index+1)*self.batch_size:
-            return (self.data[index*self.batch_size : ].toarray(),
-                    self.label[index*self.batch_size : ].toarray())
+            return (self.data[index*self.batch_size : ],
+                    self.label[index*self.batch_size : ])
         else:
-            return (self.data[index*self.batch_size : (index+1)*batch_size].toarray(),
-                    self.label[index*self.batch_size : (index+1)*batch_size].toarray())
+            return (self.data[index*self.batch_size : (index+1)*batch_size],
+                    self.label[index*self.batch_size : (index+1)*batch_size])
 
 def split_data(data, label):
     print("Splitting data...")
@@ -80,21 +80,11 @@ def split_data(data, label):
     data = data[shuf, :]
     label = label[shuf, :]
     gen_train = DataGenerator(data[:s1], label[:s1], s1, batch_size)
-    data_val = data[s1:s2].toarray() # no generator support for validation :(
-    label_val = label[s1:s2].toarray()
-    data_test = data[s2:].toarray()
-    label_test = label[s2:].toarray()
+    data_val = data[s1:s2] # no generator support for validation :(
+    label_val = label[s1:s2]
+    data_test = data[s2:]
+    label_test = label[s2:]
     return gen_train, data_val, label_val, data_test, label_test
-
-    # data should now be an nparray of float64
-    # it is important to note that this one only uses 1% of the NYT corpus
-    # data_train = data[:s1:100].toarray()
-    # data_val = data[s1:s2:100].toarray()
-    # data_test = data[s2::100].toarray()
-    # label_train = np.array(label[:s1:100], dtype=np.float64)
-    # label_val = np.array(label[s1:s2:100], dtype=np.float64)
-    # label_test = np.array(label[s2::100], dtype=np.float64)
-    # return data_train, data_val, data_test, label_train, label_val, label_test
 
 def train(model, gen_train, data_val, label_val):
     print("Training model...")
@@ -108,7 +98,7 @@ def train(model, gen_train, data_val, label_val):
         # data_train,
         # label_train,
         batch_size=batch_size,
-        epochs=30, # technically I should run this until validation accuracy peaks but I don't know how long things take yet
+        epochs=50, # technically I should run this until validation accuracy peaks but I don't know how long things take yet
         validation_data=(data_val, label_val),
         use_multiprocessing=True,
     )
