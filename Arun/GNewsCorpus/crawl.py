@@ -54,7 +54,11 @@ def url2article(url):
 def scrape(media_name,url):
     print("Scraping",url,"from",media_name,"...")
     articlefile = "articles_"+media_name+"_crawled.tsv"
-    article = url2article(url)
+    if type(url) == tuple:
+        article = url2article(url[0])
+        article.extend([url[1], url[2]])
+    else:
+        article = url2article(url)
     print("### appending article with url",article[0],"to",articlefile)
     appendtsv(articlefile,[article])
 
@@ -103,7 +107,8 @@ def act(i):
         urls = crawl(media_url)
         print("   ",len(urls),"URLs found.")
         #savecsv(schedulefile,schedule)
-        urls_to_scrape = urls_to_scrape + urls
+        # urls_to_scrape = urls_to_scrape + urls
+        urls_to_scrape = urls_to_scrape + [(url, lastCrawlTime, i) for i, url in enumerate(urls)]
     delay = Time()-(lastScrapeTime + scrapeWait)
     #print("### Scrape?",urls_to_scrape)
     if delay>0 and len(urls_to_scrape)>0:  # Scrape
