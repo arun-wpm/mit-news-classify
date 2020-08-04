@@ -5,12 +5,13 @@
 # For each media outlet, keeps time of last crawl, time of last scrape & 
 # list of URLs to be-downloaded. 
 
-import newspaper, csv, sys, os, time, datetime, re
+import newspaper, csv, sys, os, time, datetime, re, requests
 import numpy as np
+from bs4 import BeautifulSoup
 from newspaper import Article
 from useful import *
 from itntools import *
-from Scrape_Topics import query_gnewsurl
+# from Scrape_Topics import query_gnewsurl
 
 # Return time in seconds since startTime:
 def Time(): return (datetime.datetime.now() - baseTime).total_seconds() 
@@ -28,6 +29,9 @@ def reset_caches(mediafile):
     
 def url2article(url):
     scrapetime = datetime.datetime.now().isoformat()[:19]
+    # solve redirects
+    redirect = requests.get(url)
+    url = redirect.url
     if url_valid(url):
         try:
             a = Article(url)
@@ -54,10 +58,11 @@ def url2article(url):
 def scrape(media_name,url):
     print("Scraping",url,"from",media_name,"...")
     articlefile = "articles_"+media_name+"_crawled.tsv"
-    if type(url) == tuple:
+    # if type(url) == tuple:
+    if type(url) == list or type(url) == tuple:
         article = url2article(url[0])
-        article.extend([url[1], url[2]])
-    else:
+        article.extend([url[1], url[2]]) # two extra
+    else: #for compatibility purposes
         article = url2article(url)
     print("### appending article with url",article[0],"to",articlefile)
     appendtsv(articlefile,[article])
@@ -66,6 +71,18 @@ def scrape(media_name,url):
 #     print("Crawling",media_url,"...")
 #     paper = newspaper.build(media_url)
 #     return list([article.url for article in paper.articles])
+
+def query_gnewsurl(url):
+    print("Querying at " + url)
+
+    print(url)
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, 'html.parser')
+    links = soup.find_all('a')
+    hrefs = [link.get('href') for link in links]
+    hrefs = ["https://news.google.com" + x[1:] for x in hrefs if x is not None and x[:11] == "./articles/"]
+    hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
+    return hrefs
 
 def crawl(media_url):
     # from each topic in Google News in medialistG.csv, get a list of articles (ordered)
@@ -87,6 +104,16 @@ def nexttime(s):
         return s[2]+crawlWait
     else: 
         return min(s[2]+crawlWait,s[3]+scrapeWait)
+
+def japanese_date(lastCrawlTime):
+    iso = (baseTime + datetime.timedelta(seconds=lastCrawlTime)).isoformat()
+    return iso[2:4]+iso[5:7]+iso[8:10]
+
+def writeappendtsv(filename, data):
+    if not os.path.isfile(filename):
+        writetsv(filename, data)
+    else:
+        savetsv(filename, data)
     
 def act(i):
     global schedule, lastUpdateTime, totWait, totDelay, updates, crawls, scrapes
@@ -108,16 +135,25 @@ def act(i):
         print("   ",len(urls),"URLs found.")
         #savecsv(schedulefile,schedule)
         # urls_to_scrape = urls_to_scrape + urls
-        urls_to_scrape = urls_to_scrape + [(url, lastCrawlTime, i) for i, url in enumerate(urls)]
+        urls_to_scrape = urls_to_scrape + [[url, lastCrawlTime, i] for i, url in enumerate(urls)]
+
+        # append to file in folder if it exists
+        basedir = "URLS/URLS"
+        datecode = japanese_date(lastCrawlTime)
+        if not os.path.exists(basedir + datecode):
+            print("Making a new folder for the day!")
+            os.mkdir(basedir + datecode)
+        writeappendtsv(basedir + datecode + "/urls_" + media_name + "_" + datecode + ".tsv", urls_to_scrape)
     delay = Time()-(lastScrapeTime + scrapeWait)
     #print("### Scrape?",urls_to_scrape)
-    if delay>0 and len(urls_to_scrape)>0:  # Scrape
-        totDelay = totDelay + delay
-        lastScrapeTime = Time()
-        scrapes += 1
-        url = urls_to_scrape.pop(0)
-        scrape(media_name,url)
-    schedule[i] = [media_name,media_url,lastCrawlTime,lastScrapeTime]+urls_to_scrape
+    # if delay>0 and len(urls_to_scrape)>0:  # Scrape
+    #     totDelay = totDelay + delay
+    #     lastScrapeTime = Time()
+    #     scrapes += 1
+    #     url = urls_to_scrape.pop(0)
+    #     scrape(media_name,url)
+    # schedule[i] = [media_name,media_url,lastCrawlTime,lastScrapeTime]+urls_to_scrape
+    schedule[i] = [media_name,media_url,lastCrawlTime,lastScrapeTime] # no need to put urls in schedule anymore
     savecsv(schedulefile,schedule) ###
     return
 
