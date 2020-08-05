@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from newspaper import Article
 from useful import *
 from itntools import *
-# from Scrape_Topics import query_gnewsurl
+from Scrape_Topics import query_newsurl, filter_article_urls
 
 # Return time in seconds since startTime:
 def Time(): return (datetime.datetime.now() - baseTime).total_seconds() 
@@ -72,22 +72,10 @@ def scrape(media_name,url):
 #     paper = newspaper.build(media_url)
 #     return list([article.url for article in paper.articles])
 
-def query_gnewsurl(url):
-    print("Querying at " + url)
-
-    print(url)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'html.parser')
-    links = soup.find_all('a')
-    hrefs = [link.get('href') for link in links]
-    hrefs = ["https://news.google.com" + x[1:] for x in hrefs if x is not None and x[:11] == "./articles/"]
-    hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
-    return hrefs
-
 def crawl(media_url):
     # from each topic in Google News in medialistG.csv, get a list of articles (ordered)
     print("Crawling", media_url, "...")
-    return query_gnewsurl(media_url)
+    return filter_article_urls(query_newsurl(media_url))
 
 #def scrape(media_name,url):
 #    print("Fake-scraping",url)
@@ -161,7 +149,7 @@ def act(i):
 mediafile = sys.argv[1]
 #mediafile = "medialist.csv"
 #mediafile = "medialist_short.csv"
-schedulefile = "scheduleG.csv"
+schedulefile = "schedule.csv"
 #(updateWait,crawlWait,scrapeWait) = (10,10*60,4)
 (updateWait,crawlWait,scrapeWait) = (60,5*60,4)
 (updates,crawls,scrapes,totWait,totDelay) = (0,0,0,0.,0.)

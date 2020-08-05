@@ -25,7 +25,7 @@ def findtopicurl(topic):
     return hrefs[0]
 
 if __name__ == "__main__":
-    data = loadcsv("Scrape_Topics/jiannatopics_named.csv")
+    data = loadcsv("Scrape_Topics/showtopics_named.csv")
     out = []
     for row in data:
         out.append([row[0], prefix + "%20".join(row[1].split(" ")) + suffix])

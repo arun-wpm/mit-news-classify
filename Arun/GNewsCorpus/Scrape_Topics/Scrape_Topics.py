@@ -3,6 +3,7 @@ import csv
 import requests
 import pycountry
 import time
+import re
 
 WAIT = 5 # stall time so google doesn't block me ;-;
 
@@ -71,6 +72,139 @@ def query_gurl(url):
         print(">> " + url[0])
     return articles
 
+def filter_article_urls(urls, domain=""):
+    common_formula = [
+        r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9a-z.\/_?=&-]+$", #cnn, antiwar, breitbart, thecanary, cnbc, commondreams, consortiumnews, dailycaller, democracynow, economist, forbes
+                                                                   #thegrayzone
+        r"^.*\/(style|travel)\/article\/[0-9a-z.\/-]*$", #cnn
+        r"^.*-[0-9]{15}.html$", #aljazeera
+        r"^spectator.org/[0-9a-z\/]+-[0-9a-z\/-]{10,}/$", #spectator
+        r"^.*\/[0-9]{4}\/[0-9]{2}\/[0-9a-z.\/_?=-]{4,}$", #americanthinker, defenseone, eff, jacobinmag, lewrockwell, nationalreview
+        r"^.*\/[0-9a-f]{32}$", #apnews
+        r"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$", #bbc, businessinsider
+        r"^.*\/[0-9a-z-]*[0-9]{4}-[0-9]{1,2}$", #businessinsider
+        r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$", #businessinsider, buzzfeednews, fivethirtyeight, foreignaffairs, foxnews, theguardian, infowars, nbcnews (merge with spectator? too broad?)
+        r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}/[0-9]{7}$", #globalresearch
+        r"^.*\/news\/[0-9a-z-]{10,}/", #cbsnews
+        r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{7}\/[0-9A-Za-z.\/-]+$", #dailykos (merge with cnn+?)
+        r"^.*koreaherald.com/view.php\?ud=[0-9]{14}$", #koreaherald
+        r"^.*/[0-9a-z-]{10,}/[0-9]{6}/", #mintpressnews
+    ]
+    common_blacklist = [
+        r"^.*.png.*$", #thecanary, motherjones
+        r"^.*.jpg.*$", #infowars
+        r"^.*privacy-policy.*$", #spectator, cbsnews
+        r"^.*commons-community-guidelines$", #commondreams
+        r"^.*contact-us.*$", #consortiumnews
+        r"^theconversation.com/institutions/.*$", #theconversation
+        r"^theconversation.com/us/partners/.*$", #theconversation
+        r"^theconversation.com/profiles/.*$", #theconversation
+        r"^(podcasts|itunes).apple.com/.*$", #dailycaller
+        r"^.*facebook.com/.*$", #aljazeera, americanthinker, ap
+        r"^.*twitter.com/.*$", #aljazeera, ap
+        r"^.*snapchat.com/.*$", #nbcnews
+        r"^.*plus.google.com/.*$", #breitbart
+        r"^mailto:.*$", #ap
+        r"^.*/aboutus/.*$", #aljazeera
+        r"^.*/terms-of-service/.*$", #spectator
+        r"^spectator.org/category/.*$", #spectator
+        r"^.*/about-breitbart-news.pdf$", #breitbart
+        r"^coverageContainer/.*$", #cnn
+        r"^.*/comment-policy/$", #consortiumnews
+        r"^.*/frequently-asked-questions$", #economist
+        r"^.*brand-use-policy$", #eff
+        r"^.*rss-feed.*$", #fivethirtyeight
+        r"^.*cookies-policy.*$", #fivethirtyeight
+        r"^.*career-opportunities.*$", #foreignaffairs
+        r"^.*my.*account.*$", #foreignaffairs
+        r"^.*foxnews.com/category/.*$", #foxnews
+        r"^.*mobile-and-tablet$", #theguardian
+        r"www.lewrockwell.com/books-resources/murray-n-rothbard-library-and-resources/", #lewrockwell
+        r"^.*podcast.*$", #nationalreview
+    ]
+    filtered = []
+    for url in urls:
+        blacklisted = False
+        for formula in common_blacklist:
+            if re.match(formula, url) is not None:
+                blacklisted = True
+                break
+        if not blacklisted:
+            for formula in common_formula:
+                if re.match(formula, url) is not None:
+                    filtered.append(url)
+                    break
+    return filtered
+
+def query_newsurl(url, domain=""):
+    #strategy: finding all href=\\?\"[^\"]*\\?\"
+    if (domain == ""):
+        domain = url.split('/')[2] + '/'
+    
+    common_search = [r"href=\\?\"[^\" ]*\\?\"", r"href=\\?\'[^\' ]*\\?\'", r"\"uri\":\"[^\" ]*\"", r"\"url\":\"[^\" ]*\""]
+    # search = "href"
+    # print("Querying at " + url)
+
+    # print(url)
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, 'html.parser')
+    links = soup.find_all('a') + soup.find_all('div')
+    links = [link.get('href') for link in links]
+    hrefs = []
+    for href in links:
+        if (href is not None):
+            if (href[:7] == 'http://'):
+                # print(href[7:])
+                hrefs.append(href[7:])
+            elif (href[:8] == 'https://'):
+                # print(href[8:])
+                hrefs.append(href[8:])
+            elif (href[:2] == '//'):
+                # print(href[2:])
+                hrefs.append(href[2:])
+            elif (href[:1] == '/'):
+                # print(href[1:])
+                hrefs.append(domain + href[1:])
+            else:
+                # print(href)
+                hrefs.append(href)
+
+    # scripts = soup.find_all('script')
+    matches = []
+    search = '|'.join(common_search)
+    matches.extend(re.findall(search, page.text))
+    # for script in scripts:
+        # print(script.string)
+        # print(re.search(search, str(script.string)))
+        # matches.extend(re.findall(search, str(script.string)))
+    for match in matches:
+        # print("match:" + match)
+        match = match.replace('\\\"', '\"')
+        match = match.replace('\\/', '/')
+        # print(match)
+        match = re.split(r'\"|\'', match)[-2]
+        # print(match)
+        if (match is not None):
+            if (match[:7] == 'http://'):
+                # print(match[7:])
+                hrefs.append(match[7:])
+            elif (match[:8] == 'https://'):
+                # print(match[8:])
+                hrefs.append(match[8:])
+            elif (match[:2] == '//'):
+                # print(match[2:])
+                hrefs.append(match[2:])
+            elif (match[:1] == '/'):
+                # print(match[1:])
+                hrefs.append(domain + match[1:])
+            else:
+                # print(match)
+                hrefs.append(match)
+    
+    hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
+
+    return hrefs
+
 def query_gnewsurl(url):
     print("Querying at " + url)
 
@@ -81,7 +215,7 @@ def query_gnewsurl(url):
     hrefs = [link.get('href') for link in links]
     hrefs = ["https://news.google.com" + x[1:] for x in hrefs if x is not None and x[:11] == "./articles/"]
     hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
-    return articles
+    return hrefs
 
     # solve redirects
     
