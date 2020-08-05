@@ -1,3 +1,9 @@
+# job [1] 67846 7/22
+# job [1] 67983 7/22
+# [1] 69917 7/22
+# [1] 70104 7/22
+# [1] 70197 7/22
+# [1] 70220 7/22
 import pandas as pd
 import numpy as np
 
@@ -42,6 +48,11 @@ def average_embedding_of_text(text: str, tokenizer, elmo):
 # nyt_df = pd.DataFrame(nyt_list)
 nyt_df = pd.DataFrame(pd.read_pickle('../../NYTcorpus_updated.p'))
 
-for text in nyt_df[2][1574:]:
+# start = 1574
+start = 1778
+it = 0
+for text in nyt_df[2][start:]:
     textembed_df = pd.DataFrame(average_embedding_of_text(text, tokenizer, elmo)).T
     textembed_df.to_csv('nytcorpuselmoallen.csv', mode='a', header=None, index=False)
+    print(start + it)
+    
