@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from itntools import strip_url
 import csv
 import requests
 import pycountry
@@ -72,23 +73,27 @@ def query_gurl(url):
         print(">> " + url[0])
     return articles
 
-def filter_article_urls(urls, domain=""):
+def filter_article_urls(tup):
+    urls = tup[0]
+    domain = tup[1]
     common_formula = [
         r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9a-z.\/_?=&-]+$", #cnn, antiwar, breitbart, thecanary, cnbc, commondreams, consortiumnews, dailycaller, democracynow, economist, forbes
                                                                    #thegrayzone
         r"^.*\/(style|travel)\/article\/[0-9a-z.\/-]*$", #cnn
         r"^.*-[0-9]{15}.html$", #aljazeera
-        r"^spectator.org/[0-9a-z\/]+-[0-9a-z\/-]{10,}/$", #spectator
+        r"^.*spectator.(org|co\.uk)/[0-9a-z\/]+-[0-9a-z\/-]{10,}$", #spectator
         r"^.*\/[0-9]{4}\/[0-9]{2}\/[0-9a-z.\/_?=-]{4,}$", #americanthinker, defenseone, eff, jacobinmag, lewrockwell, nationalreview
         r"^.*\/[0-9a-f]{32}$", #apnews
         r"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$", #bbc, businessinsider
         r"^.*\/[0-9a-z-]*[0-9]{4}-[0-9]{1,2}$", #businessinsider
         r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$", #businessinsider, buzzfeednews, fivethirtyeight, foreignaffairs, foxnews, theguardian, infowars, nbcnews (merge with spectator? too broad?)
-        r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}/[0-9]{7}$", #globalresearch
-        r"^.*\/news\/[0-9a-z-]{10,}/", #cbsnews
+        r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/[0-9]{7}$", #globalresearch
+        r"^.*\/news\/[0-9a-z-]{10,}\/", #cbsnews
         r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{7}\/[0-9A-Za-z.\/-]+$", #dailykos (merge with cnn+?)
         r"^.*koreaherald.com/view.php\?ud=[0-9]{14}$", #koreaherald
-        r"^.*/[0-9a-z-]{10,}/[0-9]{6}/", #mintpressnews
+        r"^.*\/[0-9a-z-]{10,}\/[0-9]{6}\/", #mintpressnews
+        r"^.*\/[0-9]{4}\/[0-9]{4}\/c[0-9]{5}-[0-9]{7}.html$", #people.cn
+        r"^.*\/article\/[0-9a-z\/-]+-id[0-9A-Z]{11}" #reuters
     ]
     common_blacklist = [
         r"^.*.png.*$", #thecanary, motherjones
@@ -100,16 +105,16 @@ def filter_article_urls(urls, domain=""):
         r"^theconversation.com/us/partners/.*$", #theconversation
         r"^theconversation.com/profiles/.*$", #theconversation
         r"^(podcasts|itunes).apple.com/.*$", #dailycaller
-        r"^.*facebook.com/.*$", #aljazeera, americanthinker, ap
-        r"^.*twitter.com/.*$", #aljazeera, ap
-        r"^.*snapchat.com/.*$", #nbcnews
-        r"^.*plus.google.com/.*$", #breitbart
+        # r"^.*facebook.com/.*$", #aljazeera, americanthinker, ap
+        # r"^.*twitter.com/.*$", #aljazeera, ap
+        # r"^.*snapchat.com/.*$", #nbcnews
+        # r"^.*plus.google.com/.*$", #breitbart
         r"^mailto:.*$", #ap
         r"^.*/aboutus/.*$", #aljazeera
         r"^.*/terms-of-service/.*$", #spectator
         r"^spectator.org/category/.*$", #spectator
         r"^.*/about-breitbart-news.pdf$", #breitbart
-        r"^coverageContainer/.*$", #cnn
+        # r"^coverageContainer/.*$", #cnn
         r"^.*/comment-policy/$", #consortiumnews
         r"^.*/frequently-asked-questions$", #economist
         r"^.*brand-use-policy$", #eff
@@ -121,9 +126,13 @@ def filter_article_urls(urls, domain=""):
         r"^.*mobile-and-tablet$", #theguardian
         r"www.lewrockwell.com/books-resources/murray-n-rothbard-library-and-resources/", #lewrockwell
         r"^.*podcast.*$", #nationalreview
+        r"^.*disable.*ad.*blocker.*$", #slate
+        r"^./category/.*$",
     ]
     filtered = []
     for url in urls:
+        if domain not in url:
+            continue
         blacklisted = False
         for formula in common_blacklist:
             if re.match(formula, url) is not None:
@@ -139,7 +148,7 @@ def filter_article_urls(urls, domain=""):
 def query_newsurl(url, domain=""):
     #strategy: finding all href=\\?\"[^\"]*\\?\"
     if (domain == ""):
-        domain = url.split('/')[2] + '/'
+        domain = "/".join(url.split('/')[:3]) + '/'
     
     common_search = [r"href=\\?\"[^\" ]*\\?\"", r"href=\\?\'[^\' ]*\\?\'", r"\"uri\":\"[^\" ]*\"", r"\"url\":\"[^\" ]*\""]
     # search = "href"
@@ -155,10 +164,10 @@ def query_newsurl(url, domain=""):
         if (href is not None):
             if (href[:7] == 'http://'):
                 # print(href[7:])
-                hrefs.append(href[7:])
+                hrefs.append(href)
             elif (href[:8] == 'https://'):
                 # print(href[8:])
-                hrefs.append(href[8:])
+                hrefs.append(href)
             elif (href[:2] == '//'):
                 # print(href[2:])
                 hrefs.append(href[2:])
@@ -187,10 +196,10 @@ def query_newsurl(url, domain=""):
         if (match is not None):
             if (match[:7] == 'http://'):
                 # print(match[7:])
-                hrefs.append(match[7:])
+                hrefs.append(match)
             elif (match[:8] == 'https://'):
                 # print(match[8:])
-                hrefs.append(match[8:])
+                hrefs.append(match)
             elif (match[:2] == '//'):
                 # print(match[2:])
                 hrefs.append(match[2:])
@@ -203,7 +212,7 @@ def query_newsurl(url, domain=""):
     
     hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
 
-    return hrefs
+    return hrefs, strip_url(url)
 
 def query_gnewsurl(url):
     print("Querying at " + url)
