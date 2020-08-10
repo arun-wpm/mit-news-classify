@@ -5,3 +5,6 @@ Arun/GNewsCorpus/urls
 */.DS_Store
 .ipynb_checkpoints
 */binarylabels.p
+mit-news-classify/mitnewsclassify/data/*
+mit-news-classify/build/*
+mit-news-classify/dist/*

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mit-news-classify
+Version: 0.8
+Summary: A news classification tool developed for Improve the News, a project by Max Tegmark
+Home-page: https://www.improvethenews.org/
+Author: Arun Wongprommoon
+Author-email: arunwpm@mit.edu
+License: UNKNOWN
+Description: # MIT News Classify
+        
+        Fill this up with the description to the project and such.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
