@@ -1,0 +1,76 @@
+,nonnewsurl,blackrule
+46,https://www.usatoday.com/pages/interactives/podcasts/,^.*podcast.*$
+30,https://cm.usatoday.com/privacy-policy,^.*privacy-policy.*$
+71,"+B(v.href),A=B(b.getAttribute(",diff domain
+42,http://www.gannett.com/careers/,diff domain
+40,http://www.gannettreprints.com/,diff domain
+52,http://www.linkedin.com/company/usa-today,diff domain
+65,http://www.studiogci.com/,diff domain
+72,https://account.,diff domain
+57,https://feeds.feedblitz.com/usatoday-NewsTopStories,diff domain
+56,https://flipboard.com/@USAToday?utm_source=USAToday&utm_medium=follow&utm_campaign=publisher,diff domain
+2,https://omny.fm/shows/inside-amway-coaches-poll/inside-the-amway-coaches-poll-former-head-coach-ma,diff domain
+58,https://www.10best.com/,diff domain
+49,https://www.facebook.com/usatoday,diff domain
+63,https://www.gomnlt.com/gci/usa-today/?utm_source=usa-today&utm_medium=navweblink&utm_campaign=GCI,diff domain
+51,https://www.instagram.com/usatoday,diff domain
+59,https://www.makeitgrateful.com/,diff domain
+61,https://www.makeitgrateful.com/thanksgiving-holiday/,diff domain
+53,https://www.pinterest.com/usatoday/,diff domain
+55,https://www.reddit.com/user/usatoday,diff domain
+60,https://www.reviewed.com/,diff domain
+18,https://www.reviewed.com/appliances/content/maytag-mhw8630hc-front-load-washer-review?utm_source=usat&utm_medium=referral&utm_campaign=collab,diff domain
+19,https://www.reviewed.com/ovens/features/how-to-make-a-cheese-plate-that-will-impress-your-guests?utm_source=usat&utm_medium=referral&utm_campaign=collab,diff domain
+17,https://www.reviewed.com/style/features/crocs-isabella-t-strap-sandal-review-why-love-crocs-sandals?utm_source=usat&utm_medium=referral&utm_campaign=collab,diff domain
+69,https://www.storytellersproject.com/,diff domain
+67,https://www.thecitypodcast.com/,diff domain
+50,https://www.twitter.com/usatoday,diff domain
+54,https://www.youtube.com/USATODAY,diff domain
+15,https://www.youtube.com/watch?v=uvLeTml0JTU,diff domain
+66,http://classifieds.usatoday.com/,not in formula RIP
+43,http://internships.usatoday.com/,not in formula RIP
+39,http://onlinestore.usatoday.com/storefront.aspx,not in formula RIP
+48,http://static.usatoday.com/mobile-apps/,not in formula RIP
+35,https://account.usatoday.com/,not in formula RIP
+27,https://cm.usatoday.com/accessibility/,not in formula RIP
+32,https://cm.usatoday.com/cookie-policy,not in formula RIP
+25,https://cm.usatoday.com/ethical-conduct/,not in formula RIP
+31,https://cm.usatoday.com/privacy,not in formula RIP
+36,https://cm.usatoday.com/site-feedback/?platform=Tangent-Desktop&url=https%3A%2F%2Fwww.usatoday.com%2F&marketName=usatoday&cta=Footer,not in formula RIP
+22,https://cm.usatoday.com/site-feedback/?platform=Tangent-Desktop&url=https%3A%2F%2Fwww.usatoday.com%2F&marketName=usatoday&cta=Right-Rail,not in formula RIP
+29,https://cm.usatoday.com/terms/,not in formula RIP
+34,https://help.usatoday.com/,not in formula RIP
+14,https://login.usatoday.com/USAT-GUP/authenticate?success-url=https%3A%2F%2Fwww.usatoday.com%2F&cancel-url=https%3A%2F%2Fwww.usatoday.com%2F,not in formula RIP
+74,https://login.usatoday.com/authenticate/?requested-state=create-account&amp;reg_source=CPNAVBAR&amp;reg_medium=ONSITE&amp;reg_campaign=signin&amp;reg_delivery=ux,not in formula RIP
+23,https://marketing.usatoday.com/about/,not in formula RIP
+33,https://marketing.usatoday.com/contact/,not in formula RIP
+41,https://marketing.usatoday.com/programmatic-advertising/,not in formula RIP
+45,https://newstips.usatoday.com/,not in formula RIP
+37,https://offers.usatoday.com/FOOTERLINK?opm_position=footer&opm_creative=link&opm_name=get-home-delivery&opm_id=65&keycode=w6azn,not in formula RIP
+21,https://profile.usatoday.com/newsletters/Daily-Briefing/,not in formula RIP
+47,https://profile.usatoday.com/newsletters/manage/,not in formula RIP
+64,https://sportsweekly.usatoday.com/hsfooter,not in formula RIP
+3,https://subscribe.usatoday.com/specialoffer?gps-source=CPMASTHEAD&utm_campaign=2020ONEWK&utm_medium=ONSITE&onSuccessRedirectURL=https%3A%2F%2Fwww.usatoday.com%2F,not in formula RIP
+13,https://subscribe.usatoday.com/specialoffer?gps-source=CPTOPNAVBAR&utm_campaign=2020ONEWK&utm_medium=ONSITE&onSuccessRedirectURL=https%3A%2F%2Fwww.usatoday.com%2F,not in formula RIP
+44,https://supportlocal.usatoday.com/,not in formula RIP
+73,https://user.usatoday.com/USAT-GUP/user/logout/?return-url=https%3A%2F%2Fwww.usatoday.com%2F,not in formula RIP
+38,https://user.usatoday.com/user/enewspaper,not in formula RIP
+0,https://www.usatoday.com/,not in formula RIP
+70,https://www.usatoday.com/at-home/,not in formula RIP
+68,https://www.usatoday.com/border-wall/,not in formula RIP
+24,https://www.usatoday.com/contact/staff/,not in formula RIP
+6,https://www.usatoday.com/entertainment/,not in formula RIP
+62,https://www.usatoday.com/jobs/,not in formula RIP
+7,https://www.usatoday.com/life/,not in formula RIP
+8,https://www.usatoday.com/money/,not in formula RIP
+4,https://www.usatoday.com/news/,not in formula RIP
+16,https://www.usatoday.com/news/coronavirus/,not in formula RIP
+11,https://www.usatoday.com/opinion/,not in formula RIP
+26,https://www.usatoday.com/pr/,not in formula RIP
+12,https://www.usatoday.com/search/,not in formula RIP
+28,https://www.usatoday.com/sitemap/,not in formula RIP
+5,https://www.usatoday.com/sports/,not in formula RIP
+9,https://www.usatoday.com/tech/,not in formula RIP
+20,https://www.usatoday.com/tech/reviewedcom/,not in formula RIP
+10,https://www.usatoday.com/travel/,not in formula RIP
+1,https://www.usatoday.com/womenofthecentury/,not in formula RIP

@@ -1,0 +1,6 @@
+,newsurl,newsrule
+4,https://www.wsj.com/articles/after-reopening-notre-dame-to-move-classes-online-due-to-coronavirus-spike-11597784400,"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$"
+2,https://www.wsj.com/articles/men-urged-to-limit-alcohol-to-one-drink-a-day-amid-new-concerns-11597688916,"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$"
+3,https://www.wsj.com/articles/postmaster-general-dejoy-to-testify-before-senate-panel-friday-11597758378,"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$"
+0,https://www.wsj.com/graphics/tech-startup-stocks-to-watch/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+1,https://www.wsj.com/news/markets/oil-gold-commodities-futures,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"

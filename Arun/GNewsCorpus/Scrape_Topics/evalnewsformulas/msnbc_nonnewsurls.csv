@@ -1,0 +1,181 @@
+,nonnewsurl,blackrule
+131,https://www.msnbc.com/sites/msnbc/themes/leanforward/images/site-header/msnbc-logo-small.png,^.*.png.*$
+89,https://www.msnbc.com/podcast/amy-hess-fidelity-bravery-integrity-n1234549,^.*podcast.*$
+87,https://www.msnbc.com/podcast/captain-sully-sullenberger-my-aircraft-n1235863,^.*podcast.*$
+88,https://www.msnbc.com/podcast/mike-leiter-intelligence-n1235170,^.*podcast.*$
+84,https://www.msnbc.com/podcasts-and-newsletters,^.*podcast.*$
+85,https://link.chtbl.com/obvkRMCh?sid=Homepage,diff domain
+132,https://media1.s-nbcnews.com/i/newscms/2018_21/2442291/msnbc-og-image_c986de7e1bb6ad2281723b692aa61990.png,diff domain
+165,https://nodeassets.nbcnews.com/_next/static/chunks/02e2d4072f6d319a6ab17ba19af6f19b3121e705.ee444231edfabb37bd0f.js,diff domain
+153,https://nodeassets.nbcnews.com/_next/static/chunks/0da364b93b2c8f1eec706a4899889cea97e7b72c.7bdf11a72fe2151bb156.js,diff domain
+152,https://nodeassets.nbcnews.com/_next/static/chunks/129614da74c3b811d411acbd3b8bb0429a6abf89.e1271b5e036d5069ae86.js,diff domain
+164,https://nodeassets.nbcnews.com/_next/static/chunks/149ffedfa2029956343a166a112aebba5b2349b7.d3a19a710dc316dd7b49.js,diff domain
+166,https://nodeassets.nbcnews.com/_next/static/chunks/149ffedfa2029956343a166a112aebba5b2349b7_CSS.7257950804e0a9b6ee6c.js,diff domain
+146,https://nodeassets.nbcnews.com/_next/static/chunks/1601a43eabc2636fc2beec5350fe9f2e81a173fd.50f331165f6e4d624c77.js,diff domain
+170,https://nodeassets.nbcnews.com/_next/static/chunks/1f89c14b7d7dfaa1f9bd139500594091a8de1e35.21b53992efd7bda8a036.js,diff domain
+151,https://nodeassets.nbcnews.com/_next/static/chunks/49a6a29f7ef59b3413291e806e2b2967d5fc5df3.d03bbb10224b78313167.js,diff domain
+149,https://nodeassets.nbcnews.com/_next/static/chunks/5fe40d754890cd9ba2754ccbbe8db237d44341d3.bb5772f356e4cae6e32c.js,diff domain
+169,https://nodeassets.nbcnews.com/_next/static/chunks/6b1b363f69cc69e9c514b2f9731e37263f2ab204.2fdab635f3e82a9d4f88.js,diff domain
+150,https://nodeassets.nbcnews.com/_next/static/chunks/707f7457ee38f8911bf33a3244756a32d835b270.6ce360197bc0578d1194.js,diff domain
+155,https://nodeassets.nbcnews.com/_next/static/chunks/718e01735cdb7ffa8356318b38e5abadc9e9c014.a049a44275da94207fa5.js,diff domain
+159,https://nodeassets.nbcnews.com/_next/static/chunks/79034292050cca9367ac009aa7ea2c18d3b5a7e1.93487ea2e9e8559fce34.js,diff domain
+157,https://nodeassets.nbcnews.com/_next/static/chunks/851ea6da.a92bf8af966800c0ed3d.js,diff domain
+171,https://nodeassets.nbcnews.com/_next/static/chunks/87f7138d1e0b8fd49d1e3f9816c7ae6f3c376a99.deeb919f9e8759659eb6.js,diff domain
+154,https://nodeassets.nbcnews.com/_next/static/chunks/8ad59fddc559c0011a7b66ec09737887a18fde54.6a0520a352db009c0105.js,diff domain
+162,https://nodeassets.nbcnews.com/_next/static/chunks/8e9c2d8948ed4e2972e6322c8c8d2e92f76cc949.75bc7ba64f614ad681b2.js,diff domain
+160,https://nodeassets.nbcnews.com/_next/static/chunks/90752790359f6d344450bab589d157c52c8f6530.d25f94bcc0d263020b1c.js,diff domain
+163,https://nodeassets.nbcnews.com/_next/static/chunks/99d98698c62ec7b1b0c14aea33b2a2691ec56198.2772a120cfb391d80f03.js,diff domain
+161,https://nodeassets.nbcnews.com/_next/static/chunks/9f5f3c298d1541a67e94c0d530c5933507d67ec8.63130b939ea9f14e8484.js,diff domain
+148,https://nodeassets.nbcnews.com/_next/static/chunks/b06489c0a2f20ea96ccb238424e9a535dac2ed29.ac4cdaa6aa135045df3d.js,diff domain
+147,https://nodeassets.nbcnews.com/_next/static/chunks/de2ba86cca936edc13016fae55b621e8c3c08c09.6672eedb1e72fc2611ef.js,diff domain
+167,https://nodeassets.nbcnews.com/_next/static/chunks/e9e703ec93067068d9248a72b2aac5f97ba292c9.b46cddfe43a7b3319175.js,diff domain
+168,https://nodeassets.nbcnews.com/_next/static/chunks/e9e703ec93067068d9248a72b2aac5f97ba292c9_CSS.1ebc5eecefc51e9ee7d3.js,diff domain
+158,https://nodeassets.nbcnews.com/_next/static/chunks/f3dea186.51810d8cbe45cec455d6.js,diff domain
+145,https://nodeassets.nbcnews.com/_next/static/chunks/framework.7dfd02d307191d63a37e.js,diff domain
+138,https://nodeassets.nbcnews.com/_next/static/css/81e3f296a79943d47ebf.css,diff domain
+108,https://nodeassets.nbcnews.com/_next/static/css/8f4f52eeca1270f32e8b.css,diff domain
+137,https://nodeassets.nbcnews.com/_next/static/css/9500013ef78c2846d8f7.css,diff domain
+139,https://nodeassets.nbcnews.com/_next/static/css/ec1d4f8e8a48f9346ee0.css,diff domain
+140,https://nodeassets.nbcnews.com/_next/static/css/ec1fc0bbd67b23e9f7aa.css,diff domain
+141,https://nodeassets.nbcnews.com/_next/static/css/f4e9090b635c261e02e3.css,diff domain
+142,https://nodeassets.nbcnews.com/_next/static/dd5892ef4be86d7991edca8f2c31c2b44dabcd78/pages/_app.js,diff domain
+143,https://nodeassets.nbcnews.com/_next/static/dd5892ef4be86d7991edca8f2c31c2b44dabcd78/pages/front.js,diff domain
+156,https://nodeassets.nbcnews.com/_next/static/runtime/main-65f25595286f0a5f3c39.js,diff domain
+144,https://nodeassets.nbcnews.com/_next/static/runtime/webpack-0a64333497d00f5d1255.js,diff domain
+107,https://nodeassets.nbcnews.com/assets/fonts/shared/fontface.css,diff domain
+136,https://nodeassets.nbcnews.com/assets/header-footer/1.8.0/icons.css,diff domain
+135,https://nodeassets.nbcnews.com/assets/header-footer/1.8.0/msnbc/footer.css,diff domain
+134,https://nodeassets.nbcnews.com/assets/header-footer/1.8.0/msnbc/header.css,diff domain
+129,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/android-icon-144x144.png,diff domain
+130,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/android-icon-192x192.png,diff domain
+125,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/android-icon-36x36.png,diff domain
+126,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/android-icon-48x48.png,diff domain
+127,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/android-icon-72x72.png,diff domain
+128,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/android-icon-96x96.png,diff domain
+119,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-114x114.png,diff domain
+120,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-120x120.png,diff domain
+121,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-144x144.png,diff domain
+122,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-152x152.png,diff domain
+123,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-180x180.png,diff domain
+115,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-57x57.png,diff domain
+116,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-60x60.png,diff domain
+117,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-72x72.png,diff domain
+118,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-76x76.png,diff domain
+114,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon-precomposed.png,diff domain
+113,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/apple-icon.png,diff domain
+110,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/favicon-16x16.png,diff domain
+111,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/favicon-32x32.png,diff domain
+112,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/favicon-96x96.png,diff domain
+109,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/favicon.ico,diff domain
+124,https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/msnbc/all-other-sizes-PNG.ico/manifest.json,diff domain
+133,https://nodeassets.nbcnews.com/cdnassets/projects/site-images/nbcnews-logo-white.png,diff domain
+175,https://www.cnn.com/election/2016/results/exit-polls,diff domain
+32,https://www.facebook.com/msnbc,diff domain
+83,https://www.facebook.com/msnbc/,diff domain
+176,https://www.houstonchronicle.com/politics/texas/article/texas-home-for-alexandria-ocasio-cortez-aoc-tx-15485656.php,diff domain
+33,https://www.instagram.com/msnbc,diff domain
+99,https://www.msnbcstore.com/?cid=MSNBCSTRE,diff domain
+3,https://www.nbcnews.com,diff domain
+86,https://www.nbcnews.com/intoamerica,diff domain
+72,https://www.nbcnews.com/latest-stories/,diff domain
+71,https://www.nbcnews.com/news/asian-america/fans-show-love-patriot-act-hasan-minhaj-after-netflix-cancels-n1237176,diff domain
+67,https://www.nbcnews.com/news/asian-america/new-york-police-create-asian-hate-crimes-task-force-n1237193,diff domain
+68,https://www.nbcnews.com/news/us-news/california-declares-state-emergency-it-fights-fires-extreme-weather-n1237207,diff domain
+69,https://www.nbcnews.com/news/us-news/should-ve-ducked-n-j-detention-officer-suspended-over-facebook-n1237123,diff domain
+66,https://www.nbcnews.com/news/us-news/teens-nearly-2-million-narcotics-arrested-arizona-mexico-border-feds-n1237215,diff domain
+96,https://www.nbcnews.com/pages/about-nbc-news-digital,diff domain
+12,https://www.nbcnews.com/podcasts,diff domain
+36,https://www.nbcnews.com/politics/2020-election/live-blog/democratic-national-convention-live-updates-dnc-day-2-n1237094,diff domain
+40,https://www.nbcnews.com/politics/2020-election/live-blog/democratic-national-convention-live-updates-dnc-day-2-n1237094/ncrd1237227,diff domain
+39,https://www.nbcnews.com/politics/2020-election/live-blog/democratic-national-convention-live-updates-dnc-day-2-n1237094/ncrd1237228,diff domain
+38,https://www.nbcnews.com/politics/2020-election/live-blog/democratic-national-convention-live-updates-dnc-day-2-n1237094/ncrd1237229,diff domain
+37,https://www.nbcnews.com/politics/2020-election/live-blog/democratic-national-convention-live-updates-dnc-day-2-n1237094/ncrd1237230,diff domain
+65,https://www.nbcnews.com/politics/2020-election/ocasio-cortez-60-second-speech-dnc-symbolically-nominates-bernie-sanders-n1237218,diff domain
+70,https://www.nbcnews.com/politics/2020-election/trump-responds-dnc-speeches-calls-michelle-obama-divisive-n1237198,diff domain
+50,https://www.nbcnews.com/specials/plan-your-vote-state-by-state-guide-voting-by-mail-early-in-person-voting-election/index.html,diff domain
+79,https://www.nbcnews.com/think,diff domain
+74,https://www.nbcnews.com/think/hot-take,diff domain
+81,https://www.nbcnews.com/think/melber-mavericks,diff domain
+75,https://www.nbcnews.com/think/opinion/andrew-cuomo-s-european-virus-speech-dnc-shows-he-s-ncna1237085,diff domain
+78,https://www.nbcnews.com/think/opinion/defund-police-slogan-doesn-t-help-real-people-who-need-ncna1237116,diff domain
+94,https://www.nbcnews.com/think/opinion/fight-asylum-bridget-cambria-tobias-barrington-wolff-ncna1169721,diff domain
+76,https://www.nbcnews.com/think/opinion/lebanon-s-government-resigned-after-beirut-port-blast-here-s-ncna1237039,diff domain
+93,https://www.nbcnews.com/think/opinion/mapping-out-where-we-go-now-sherrilyn-ifill-podcast-transcript-ncna1236345,diff domain
+73,https://www.nbcnews.com/think/opinion/michelle-obama-s-speech-dnc-2020-proves-america-still-doesn-ncna1237141,diff domain
+91,https://www.nbcnews.com/think/opinion/remembering-america-s-prophet-freedom-david-blight-podcast-transcript-ncna1236347,diff domain
+77,https://www.nbcnews.com/think/thought-experiment,diff domain
+92,https://www.nbcnews.com/think/why-is-this-happening-chris-hayes-podcast,diff domain
+47,https://www.nbcnews.com/video/caroline-kennedy-endorses-joe-biden-90280005593,diff domain
+53,https://www.nbcnews.com/video/george-floyd-s-brother-leads-a-moment-of-silence-at-the-dnc-90226245792,diff domain
+54,https://www.nbcnews.com/video/kristin-urquiza-speaks-at-the-dnc-after-losing-her-father-to-coronavirus-90227269686,diff domain
+56,https://www.nbcnews.com/video/mother-of-eric-garner-asks-joe-biden-for-legislation-on-police-brutality-90227269632,diff domain
+44,https://www.nbcnews.com/video/sally-yates-warns-the-future-of-our-democracy-is-at-stake-at-the-2020-dnc-90278469889,diff domain
+58,https://www.nbcnews.com/video/soccer-star-megan-rapinoe-speaks-to-frontline-workers-at-dnc-90228293571,diff domain
+61,https://www.nbcnews.com/video/springsteen-lends-song-the-rising-to-dnc-video-90226757564,diff domain
+45,https://www.nbcnews.com/video/watch-17-democrats-give-keynote-speech-at-dnc-90278469945,diff domain
+41,https://www.nbcnews.com/video/watch-bill-clinton-s-full-speech-at-the-2020-dnc-90279493897,diff domain
+46,https://www.nbcnews.com/video/watch-chuck-schumer-s-full-speech-at-the-2020-dnc-90278469969,diff domain
+55,https://www.nbcnews.com/video/watch-gov-andrew-cuomo-s-full-speech-at-the-2020-dnc-90225221989,diff domain
+48,https://www.nbcnews.com/video/watch-jacquelyn-asbie-nominate-joe-biden-at-the-2020-dnc-90280517669,diff domain
+62,https://www.nbcnews.com/video/watch-john-kasich-s-full-speech-at-the-2020-dnc-90228293636,diff domain
+51,https://www.nbcnews.com/video/watch-michelle-obama-s-full-speech-at-the-2020-dnc-90227781993,diff domain
+63,https://www.nbcnews.com/video/watch-michigan-gov-gretchen-whitmer-s-full-speech-at-the-2020-dnc-90228293590,diff domain
+57,https://www.nbcnews.com/video/watch-minnesota-sen-amy-klobuchar-s-full-speech-at-the-2020-dnc-90228805535,diff domain
+42,https://www.nbcnews.com/video/watch-president-jimmy-carter-and-rosalynn-carter-s-tribute-to-joe-biden-at-the-2020-dnc-90278981879,diff domain
+43,https://www.nbcnews.com/video/watch-rep-alexandria-ocasio-cortez-s-full-remarks-at-the-2020-dnc-90280005714,diff domain
+60,https://www.nbcnews.com/video/watch-rep-jim-clyburn-s-full-speech-at-the-2020-dnc-90226245881,diff domain
+52,https://www.nbcnews.com/video/watch-sen-bernie-sanders-full-speech-at-the-2020-dnc-90227781926,diff domain
+64,https://www.nbcnews.com/video/watch-sen-doug-jones-full-speech-at-the-2020-dnc-90228293776,diff domain
+49,https://www.nbcnews.com/video/watch-tom-perez-s-full-speech-at-the-2020-dnc-90281029510,diff domain
+59,https://www.nbcnews.com/video/wisconsin-rep-gwen-moore-speaks-at-the-2020-dnc-90226757513,diff domain
+98,https://www.nbcunicareers.com,diff domain
+172,https://www.nbcuniversal.com/privacy/?brandA=MSNBC&amp;intake=MSNBC,diff domain
+100,https://www.nbcuniversal.com/privacy/?brandA=MSNBC&intake=MSNBC,diff domain
+178,https://www.nbcuniversal.com/privacy/?brandA=MSNBC\u0026amp;intake=MSNBC,diff domain
+106,https://www.nbcuniversal.com/privacy/cookies#cookie_management,diff domain
+173,https://www.nbcuniversal.com/privacy/notrtoo/?brandA=MSNBC&amp;intake=MSNBC,diff domain
+101,https://www.nbcuniversal.com/privacy/notrtoo/?brandA=MSNBC&intake=MSNBC,diff domain
+179,https://www.nbcuniversal.com/privacy/notrtoo/?brandA=MSNBC\u0026amp;intake=MSNBC,diff domain
+177,https://www.nytimes.com/2020/03/18/us/politics/bernie-sanders-progressives-elizabeth-warren.html,diff domain
+174,https://www.pewresearch.org/politics/2020/06/02/in-changing-u-s-electorate-race-and-education-remain-stark-dividing-lines/,diff domain
+4,https://www.today.com,diff domain
+34,https://www.twitter.com/msnbc,diff domain
+13,javascript:void(0);,diff domain
+9,http://msnbc.com/reidout,not in formula RIP
+14,http://www.msnbc.com,not in formula RIP
+95,http://www.msnbc.com/mtp-daily,not in formula RIP
+90,http://www.msnbc.com/theoath,not in formula RIP
+82,https://link.msnbc.com/join/5ck/msnbc-daily-signup,not in formula RIP
+35,https://secure.msnbc.com/_tps/accounts/newsletters,not in formula RIP
+0,https://www.msnbc.com,not in formula RIP
+15,https://www.msnbc.com/11th-hour-with-Brian-Williams,not in formula RIP
+105,https://www.msnbc.com/advertising-and-partnerships,not in formula RIP
+10,https://www.msnbc.com/all,not in formula RIP
+25,https://www.msnbc.com/andrea-mitchell,not in formula RIP
+103,https://www.msnbc.com/closed-captioning,not in formula RIP
+27,https://www.msnbc.com/craig-melvin,not in formula RIP
+7,https://www.msnbc.com/deadline-white-house,not in formula RIP
+21,https://www.msnbc.com/firstlook,not in formula RIP
+97,https://www.msnbc.com/help,not in formula RIP
+30,https://www.msnbc.com/kasiedc,not in formula RIP
+1,https://www.msnbc.com/listen,not in formula RIP
+2,https://www.msnbc.com/live,not in formula RIP
+80,https://www.msnbc.com/maddowblog,not in formula RIP
+6,https://www.msnbc.com/morning-joe,not in formula RIP
+23,https://www.msnbc.com/msnbc-live-hallie-jackson,not in formula RIP
+26,https://www.msnbc.com/msnbc-live-katy-tur,not in formula RIP
+8,https://www.msnbc.com/mtp-daily,not in formula RIP
+19,https://www.msnbc.com/newsletters,not in formula RIP
+20,https://www.msnbc.com/now,not in formula RIP
+31,https://www.msnbc.com/originals,not in formula RIP
+29,https://www.msnbc.com/politicsnation,not in formula RIP
+5,https://www.msnbc.com/rachel-maddow-show,not in formula RIP
+16,https://www.msnbc.com/reidout,not in formula RIP
+18,https://www.msnbc.com/schedule,not in formula RIP
+22,https://www.msnbc.com/stephanie-ruhle,not in formula RIP
+102,https://www.msnbc.com/terms-of-service,not in formula RIP
+11,https://www.msnbc.com/the-last-word,not in formula RIP
+104,https://www.msnbc.com/transcripts,not in formula RIP
+17,https://www.msnbc.com/velshi,not in formula RIP
+24,https://www.msnbc.com/velshi-ruhle,not in formula RIP
+28,https://www.msnbc.com/weekends-with-alex,not in formula RIP

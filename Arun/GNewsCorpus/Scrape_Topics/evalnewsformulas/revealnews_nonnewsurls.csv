@@ -1,0 +1,135 @@
+,nonnewsurl,blackrule
+109,https://www.revealnews.org/wp-content/uploads/2019/04/reveal-logo-black-on-transparent.png,^.*.png.*$
+87,https://www.revealnews.org/about-us/contact-us/,^.*contact-us.*$
+81,https://www.revealnews.org/article/introducing-american-rehab-a-new-podcast-series-from-reveal/,^.*podcast.*$
+84,https://www.revealnews.org/podcast/,^.*podcast.*$
+91,https://www.revealnews.org/privacy-policy/,^.*privacy-policy.*$
+75,#,diff domain
+0,#content,diff domain
+1,#radioplayer,diff domain
+112,ajax.googleapis.com,diff domain
+116,ceditor.setka.io,diff domain
+115,d3q1ytufopwvkq.cloudfront.net,diff domain
+117,fonts.googleapis.com,diff domain
+122,fonts.googleapis.com/css?family=Lato%3A400%2C700%2C900&#038;ver=1.0.00,diff domain
+132,http://browsehappy.com/?locale=en,diff domain
+100,http://feeds.revealradio.org/revealpodcast,diff domain
+107,http://gmpg.org/xfn/11,diff domain
+77,http://www.prx.org/,diff domain
+126,https://ceditor.setka.io/clients/AThLwyfyFPF9bQvqmkdu3T5mkvGgWGcB/css/4802_reveal__from_the_center_for_investigative_reporting_1_219.min.css?ver=1.31.0,diff domain
+105,https://checkout.fundjournalism.org/memberform?org_id=cir&amount=12&installmentPeriod=monthly&campaign=7011Y000001Tp8kQAC,diff domain
+2,https://checkout.fundjournalism.org/memberform?org_id=cir&amount=9&installmentPeriod=monthly&campaign=7011Y000001Tp8pQAC,diff domain
+133,https://checkout.fundjournalism.org/memberform?org_id=cir&amp;amount=12&amp;installmentPeriod=monthly&amp;campaign=7011Y000001Tp8kQAC,diff domain
+79,https://itunes.apple.com/us/podcast/reveal/id886009669,diff domain
+95,https://twitter.com/reveal,diff domain
+94,https://www.facebook.com/ThisIsReveal,diff domain
+96,https://www.instagram.com/revealnews/,diff domain
+97,https://www.youtube.com/reveal,diff domain
+86,mailto:,diff domain
+113,platform.twitter.com,diff domain
+114,pym.nprapps.org,diff domain
+118,s.w.org,diff domain
+110,s0.wp.com,diff domain
+131,v0.wordpress.com,diff domain
+102,{{modal.facebook}},diff domain
+104,{{modal.mail}},diff domain
+103,{{modal.twitter}},diff domain
+101,http://www.revealnews.org/feed/,not in formula RIP
+85,https://leak.revealnews.org/,not in formula RIP
+3,https://www.revealnews.org/,not in formula RIP
+74,https://www.revealnews.org/about-us/,not in formula RIP
+92,https://www.revealnews.org/about-us/brand-assets/,not in formula RIP
+53,https://www.revealnews.org/article/the-work-cure/,not in formula RIP
+120,https://www.revealnews.org/comments/feed/,not in formula RIP
+93,https://www.revealnews.org/corrections,not in formula RIP
+76,https://www.revealnews.org/donate/donate-to-reveal/,not in formula RIP
+71,https://www.revealnews.org/episodes,not in formula RIP
+78,https://www.revealnews.org/episodes/,not in formula RIP
+34,https://www.revealnews.org/episodes/an-old-hate-goes-viral/,not in formula RIP
+69,https://www.revealnews.org/episodes/farm-wars-update/,not in formula RIP
+33,https://www.revealnews.org/episodes/monumental-lies-update-2/,not in formula RIP
+68,https://www.revealnews.org/episodes/scuttling-science-rebroadcast/,not in formula RIP
+70,https://www.revealnews.org/episodes/silencing-science-rebroadcast/,not in formula RIP
+66,https://www.revealnews.org/episodes/the-refuge-revealed/,not in formula RIP
+67,https://www.revealnews.org/episodes/the-tell-tale-hearts/,not in formula RIP
+119,https://www.revealnews.org/feed/,not in formula RIP
+73,https://www.revealnews.org/local/,not in formula RIP
+98,https://www.revealnews.org/newsletter/,not in formula RIP
+108,https://www.revealnews.org/page/2/,not in formula RIP
+88,https://www.revealnews.org/pitching-reveal/,not in formula RIP
+89,https://www.revealnews.org/press/,not in formula RIP
+83,https://www.revealnews.org/recent/,not in formula RIP
+90,https://www.revealnews.org/terms-of-use/,not in formula RIP
+4,https://www.revealnews.org/topic/accountability/,not in formula RIP
+36,https://www.revealnews.org/topic/all-work-no-pay/,not in formula RIP
+82,https://www.revealnews.org/topic/american-rehab/,not in formula RIP
+55,https://www.revealnews.org/topic/americas-ring-of-fire/,not in formula RIP
+37,https://www.revealnews.org/topic/and-justice-for-some/,not in formula RIP
+7,https://www.revealnews.org/topic/behind-the-smiles/,not in formula RIP
+8,https://www.revealnews.org/topic/case-cleared/,not in formula RIP
+9,https://www.revealnews.org/topic/census/,not in formula RIP
+6,https://www.revealnews.org/topic/charities/,not in formula RIP
+56,https://www.revealnews.org/topic/chasing-energy/,not in formula RIP
+5,https://www.revealnews.org/topic/citizensleuth/,not in formula RIP
+57,https://www.revealnews.org/topic/climate-change/,not in formula RIP
+10,https://www.revealnews.org/topic/contract-with-danger/,not in formula RIP
+11,https://www.revealnews.org/topic/covid-19/,not in formula RIP
+12,https://www.revealnews.org/topic/criminal-justice/,not in formula RIP
+13,https://www.revealnews.org/topic/day-care/,not in formula RIP
+14,https://www.revealnews.org/topic/education-u-s/,not in formula RIP
+58,https://www.revealnews.org/topic/environment/,not in formula RIP
+59,https://www.revealnews.org/topic/flood-thy-neighbor/,not in formula RIP
+60,https://www.revealnews.org/topic/food-for-9-billion/,not in formula RIP
+61,https://www.revealnews.org/topic/food-security/,not in formula RIP
+38,https://www.revealnews.org/topic/government-workers/,not in formula RIP
+15,https://www.revealnews.org/topic/guns/,not in formula RIP
+16,https://www.revealnews.org/topic/hate/,not in formula RIP
+17,https://www.revealnews.org/topic/healthcare/,not in formula RIP
+39,https://www.revealnews.org/topic/housing/,not in formula RIP
+40,https://www.revealnews.org/topic/immigration/,not in formula RIP
+18,https://www.revealnews.org/topic/impact/,not in formula RIP
+80,https://www.revealnews.org/topic/in-vulnerable/,not in formula RIP
+35,https://www.revealnews.org/topic/inequality/,not in formula RIP
+19,https://www.revealnews.org/topic/inside-the-newsroom/,not in formula RIP
+41,https://www.revealnews.org/topic/insult-to-injury/,not in formula RIP
+42,https://www.revealnews.org/topic/kept-out/,not in formula RIP
+43,https://www.revealnews.org/topic/kids-on-the-line/,not in formula RIP
+51,https://www.revealnews.org/topic/labor-and-employment/,not in formula RIP
+62,https://www.revealnews.org/topic/lords-of-yesterday/,not in formula RIP
+20,https://www.revealnews.org/topic/money-and-politics/,not in formula RIP
+21,https://www.revealnews.org/topic/national-security/,not in formula RIP
+63,https://www.revealnews.org/topic/oil-and-mining/,not in formula RIP
+64,https://www.revealnews.org/topic/pesticides/,not in formula RIP
+47,https://www.revealnews.org/topic/public-housing/,not in formula RIP
+44,https://www.revealnews.org/topic/rape-in-the-fields/,not in formula RIP
+45,https://www.revealnews.org/topic/rape-on-the-night-shift/,not in formula RIP
+22,https://www.revealnews.org/topic/religion/,not in formula RIP
+23,https://www.revealnews.org/topic/reporting-network/,not in formula RIP
+46,https://www.revealnews.org/topic/silicon-valley-diversity/,not in formula RIP
+25,https://www.revealnews.org/topic/sports/,not in formula RIP
+26,https://www.revealnews.org/topic/state-secrets/,not in formula RIP
+27,https://www.revealnews.org/topic/surveillance-privacy/,not in formula RIP
+54,https://www.revealnews.org/topic/sustainability/,not in formula RIP
+28,https://www.revealnews.org/topic/the-hate-report/,not in formula RIP
+29,https://www.revealnews.org/topic/the-paradise-papers/,not in formula RIP
+30,https://www.revealnews.org/topic/the-trump-era/,not in formula RIP
+65,https://www.revealnews.org/topic/the-unscientific-method/,not in formula RIP
+31,https://www.revealnews.org/topic/the-wall/,not in formula RIP
+49,https://www.revealnews.org/topic/trimmigrants/,not in formula RIP
+24,https://www.revealnews.org/topic/veterans/,not in formula RIP
+48,https://www.revealnews.org/topic/visa-fraud/,not in formula RIP
+50,https://www.revealnews.org/topic/voting/,not in formula RIP
+32,https://www.revealnews.org/topic/who-owns-silicon-valley/,not in formula RIP
+52,https://www.revealnews.org/topic/workers-rights/,not in formula RIP
+72,https://www.revealnews.org/video/,not in formula RIP
+99,https://www.revealnews.org/where-to-hear-reveal/,not in formula RIP
+124,https://www.revealnews.org/wp-content/plugins/fm-overlays-master//static/css/fm-overlays-global.css?ver=1,not in formula RIP
+127,https://www.revealnews.org/wp-content/plugins/jetpack/css/jetpack.css?ver=7.9,not in formula RIP
+106,https://www.revealnews.org/wp-content/themes/reveal2015/static/images/favicon.ico,not in formula RIP
+123,https://www.revealnews.org/wp-content/themes/reveal2015/static/stylesheets/pjax.min.css?ver=92c94c3,not in formula RIP
+121,https://www.revealnews.org/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1,not in formula RIP
+130,https://www.revealnews.org/wp-includes/wlwmanifest.xml,not in formula RIP
+128,https://www.revealnews.org/wp-json/,not in formula RIP
+129,https://www.revealnews.org/xmlrpc.php?rsd,not in formula RIP
+111,www.revealnews.org,not in formula RIP
+125,www.revealnews.org/wp-content/uploads/pum/pum-site-styles.css?generated=1597264293&#038;ver=1.8.14,not in formula RIP

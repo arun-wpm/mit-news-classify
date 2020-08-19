@@ -1,0 +1,27 @@
+,nonnewsurl,blackrule
+3,https://www.currentaffairs.org/podcast,^.*podcast.*$
+1,#,diff domain
+21,https://facebook.com/curaffairs,diff domain
+22,https://jonwhitestudio.com,diff domain
+20,https://twitter.com/curaffairs,diff domain
+24,https://use.typekit.net/kta1qem.css,diff domain
+18,posts?page=4,diff domain
+0,https://www.currentaffairs.org/,not in formula RIP
+2,https://www.currentaffairs.org/about,not in formula RIP
+10,https://www.currentaffairs.org/author/daniel-walden,not in formula RIP
+8,https://www.currentaffairs.org/author/nathan-j-robinson,not in formula RIP
+11,https://www.currentaffairs.org/author/raul-carrillo,not in formula RIP
+9,https://www.currentaffairs.org/category/Editor’s Notes,not in formula RIP
+15,https://www.currentaffairs.org/category/economics,not in formula RIP
+13,https://www.currentaffairs.org/category/editorial-roundtables,not in formula RIP
+14,https://www.currentaffairs.org/category/frivolity-amusement,not in formula RIP
+16,https://www.currentaffairs.org/category/immigration,not in formula RIP
+12,https://www.currentaffairs.org/category/interviews,not in formula RIP
+17,https://www.currentaffairs.org/category/moral-harangue,not in formula RIP
+19,https://www.currentaffairs.org/cdn-cgi/l/email-protection#88edece1fce7fac8ebfdfafaede6fce9eeeee9e1fafba6e7faef,not in formula RIP
+5,https://www.currentaffairs.org/donate,not in formula RIP
+7,https://www.currentaffairs.org/forgot?redirect=%2f,not in formula RIP
+25,https://www.currentaffairs.org/static/1597415954/css/compiled.css,not in formula RIP
+23,https://www.currentaffairs.org/static/images/favicon.ico?v=3,not in formula RIP
+4,https://www.currentaffairs.org/store,not in formula RIP
+6,https://www.currentaffairs.org/subscribe,not in formula RIP

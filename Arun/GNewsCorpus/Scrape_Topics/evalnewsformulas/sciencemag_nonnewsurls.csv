@@ -1,0 +1,166 @@
+,nonnewsurl,blackrule
+135,https://www.sciencemag.org/about/contact-us,^.*contact-us.*$
+95,https://www.sciencemag.org/podcast/call-quick-coronavirus-testing-and-building-bonds-sports,^.*podcast.*$
+94,https://www.sciencemag.org/podcasts,^.*podcast.*$
+97,https://www.sciencemag.org/rss/podcast.xml,^.*podcast.*$
+152,www.sciencemag.org/about/privacy-policy,^.*privacy-policy.*$
+137,https://www.sciencemag.org/about/email-alerts-and-rss-feeds,^.*rss-feed.*$
+5,#,diff domain
+0,#main-content,diff domain
+13,#tab-career-news,diff domain
+12,#tab-latest-news,diff domain
+154,cdn.rawgit.com,diff domain
+156,cdnjs.cloudflare.com,diff domain
+155,code.jquery.com,diff domain
+160,"fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese",diff domain
+98,http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=120329020,diff domain
+145,http://www.fao.org/agora/en/,diff domain
+146,http://www.unep.org/oare/,diff domain
+163,https://mp.weixin.qq.com/s?__biz=MzI3NDY3NzQ2Mg==&amp;mid=100002815&amp;idx=1&amp;sn=2949c025a553ac718b9612a0473b9f60&amp;chksm=6b1120465c66a9508b01eaef1589b15d440e50b189106c8c594de8c6471f696a978de952fb15&amp;mpshare=1&amp;scene=1&amp;srcid=0716JJQ5V4cKbgMMsya2MQ0n&amp;sharer_sharetime=,diff domain
+141,https://mp.weixin.qq.com/s?__biz=MzI3NDY3NzQ2Mg==&mid=100002815&idx=1&sn=2949c025a553ac718b9612a0473b9f60&chksm=6b1120465c66a9508b01eaef1589b15d440e50b189106c8c594de8c6471f696a978de952fb15&mpshare=1&scene=1&srcid=0716JJQ5V4cKbgMMsya2MQ0n&sharer_sharetime=,diff domain
+96,https://traffic.omny.fm/d/clips/aaea4e69-af51-495e-afc9-a9760146922b/95ab13e7-f709-4a58-acad-aaea01775538/dd818654-f006-46ab-95d2-ac1600f30c29/audio.mp3,diff domain
+61,https://twitter.com/sciencemagazine,diff domain
+142,https://www.aaas.org,diff domain
+138,https://www.facebook.com/ScienceMagazine,diff domain
+139,https://www.instagram.com/ScienceMagazine,diff domain
+140,https://www.youtube.com/user/ScienceMag,diff domain
+3,javascript:void(0),diff domain
+1,www.aaas.org,diff domain
+143,www.aaas.org/,diff domain
+153,www.aaas.org/contact-aaas,diff domain
+119,www.aaas.org/page/employment-aaas,diff domain
+147,www.chorusaccess.org/,diff domain
+148,www.clockss.org/,diff domain
+149,www.crossref.org/,diff domain
+128,www.eurekalert.org,diff domain
+150,www.projectcounter.org/,diff domain
+129,www.scienceintheclassroom.org,diff domain
+144,www.who.int/hinari/en/,diff domain
+101,advances.sciencemag.org/content/information-authors,not in formula RIP
+120,advertising.sciencemag.org/,not in formula RIP
+157,assets.sciencemag.org,not in formula RIP
+133,backissues.sciencemag.org/,not in formula RIP
+124,cts.sciencemag.org/scc/,not in formula RIP
+106,cts.sciencemag.org/scc/login.html;jsessionid=A99A8B34CD07506DDEF791E0C91183B4,not in formula RIP
+37,http://advances.sciencemag.org,not in formula RIP
+83,http://advances.sciencemag.org/content/6/31/eabc0133,not in formula RIP
+8,http://advances.sciencemag.org/content/6/33/eaba0827,not in formula RIP
+38,http://advances.sciencemag.org/content/6/33/eabb3567,not in formula RIP
+41,http://immunology.sciencemag.org,not in formula RIP
+39,http://immunology.sciencemag.org/,not in formula RIP
+86,http://immunology.sciencemag.org/content/5/49/eabd6160,not in formula RIP
+7,http://immunology.sciencemag.org/content/5/50/eaax2454,not in formula RIP
+40,http://immunology.sciencemag.org/content/5/50/eaba5264,not in formula RIP
+45,http://robotics.sciencemag.org,not in formula RIP
+42,http://robotics.sciencemag.org/,not in formula RIP
+43,http://robotics.sciencemag.org/content/5/44/eaba2386,not in formula RIP
+44,http://robotics.sciencemag.org/content/5/44/eaba6635,not in formula RIP
+34,http://science.sciencemag.org,not in formula RIP
+55,http://science.sciencemag.org/cgi/content/short/science.aaz8432v1?rss=1,not in formula RIP
+57,http://science.sciencemag.org/cgi/content/short/science.abc5186v1?rss=1,not in formula RIP
+56,http://science.sciencemag.org/cgi/content/short/science.abc9588v1?rss=1,not in formula RIP
+53,http://science.sciencemag.org/cgi/content/short/science.abd5223v1?rss=1,not in formula RIP
+54,http://science.sciencemag.org/cgi/content/short/science.abe3147v1?rss=1,not in formula RIP
+52,http://science.sciencemag.org/cgi/content/short/science.abe3147v2?rss=1,not in formula RIP
+91,http://science.sciencemag.org/content/369/6501/256,not in formula RIP
+87,http://science.sciencemag.org/content/369/6503/510,not in formula RIP
+113,http://science.sciencemag.org/content/369/6505/753,not in formula RIP
+112,http://science.sciencemag.org/content/369/6505/755,not in formula RIP
+111,http://science.sciencemag.org/content/369/6505/756,not in formula RIP
+110,http://science.sciencemag.org/content/369/6505/757,not in formula RIP
+109,http://science.sciencemag.org/content/369/6505/758,not in formula RIP
+35,http://science.sciencemag.org/content/369/6505/760,not in formula RIP
+36,http://science.sciencemag.org/content/369/6505/766,not in formula RIP
+64,http://science.sciencemag.org/content/369/6505/769,not in formula RIP
+67,http://science.sciencemag.org/content/369/6505/770,not in formula RIP
+69,http://science.sciencemag.org/content/369/6505/771,not in formula RIP
+71,http://science.sciencemag.org/content/369/6505/773,not in formula RIP
+74,http://science.sciencemag.org/content/369/6505/774,not in formula RIP
+77,http://science.sciencemag.org/content/369/6505/775,not in formula RIP
+10,http://science.sciencemag.org/content/369/6505/866,not in formula RIP
+58,http://science.sciencemag.org/content/early/recent,not in formula RIP
+46,http://signaling.sciencemag.org,not in formula RIP
+48,http://stke.sciencemag.org/,not in formula RIP
+47,http://stke.sciencemag.org/content/13/645/eaba0443,not in formula RIP
+6,http://stke.sciencemag.org/content/13/645/eaba8091,not in formula RIP
+49,http://stm.sciencemag.org/,not in formula RIP
+50,http://stm.sciencemag.org/content/12/556/eaau9959,not in formula RIP
+51,http://stm.sciencemag.org/content/12/556/eaay6848,not in formula RIP
+62,http://www.sciencemag.org/content/current,not in formula RIP
+108,https://science.sciencemag.org,not in formula RIP
+107,https://science.sciencemag.org/,not in formula RIP
+2,https://www.sciencemag.org,not in formula RIP
+159,https://www.sciencemag.org/,not in formula RIP
+114,https://www.sciencemag.org/about/about-us,not in formula RIP
+136,https://www.sciencemag.org/about/accessibility,not in formula RIP
+117,https://www.sciencemag.org/about/leadership-and-management,not in formula RIP
+118,https://www.sciencemag.org/about/team-members,not in formula RIP
+32,https://www.sciencemag.org/author/adam-ruben,not in formula RIP
+17,https://www.sciencemag.org/author/adrian-cho,not in formula RIP
+31,https://www.sciencemag.org/author/anna-nordseth,not in formula RIP
+18,https://www.sciencemag.org/author/eli-cahan,not in formula RIP
+82,https://www.sciencemag.org/author/erik-stokstad,not in formula RIP
+22,https://www.sciencemag.org/author/george-musser,not in formula RIP
+90,https://www.sciencemag.org/author/gretchen-vogel,not in formula RIP
+27,https://www.sciencemag.org/author/jay-j-van-bavel,not in formula RIP
+81,https://www.sciencemag.org/author/jennifer-couzin-frankel,not in formula RIP
+21,https://www.sciencemag.org/author/jennifer-hijazi-ee-news,not in formula RIP
+30,https://www.sciencemag.org/author/karin-bodewits,not in formula RIP
+24,https://www.sciencemag.org/author/kathy-gillen,not in formula RIP
+28,https://www.sciencemag.org/author/katie-langin,not in formula RIP
+79,https://www.sciencemag.org/author/kelly-servick,not in formula RIP
+19,https://www.sciencemag.org/author/leslie-roberts,not in formula RIP
+15,https://www.sciencemag.org/author/lucy-hicks,not in formula RIP
+14,https://www.sciencemag.org/author/meredith-wadman,not in formula RIP
+20,https://www.sciencemag.org/author/niina-h-farah-ee-news,not in formula RIP
+16,https://www.sciencemag.org/author/paul-voosen,not in formula RIP
+25,https://www.sciencemag.org/author/ruofan-yu,not in formula RIP
+29,https://www.sciencemag.org/author/wen-jing-lin,not in formula RIP
+26,https://www.sciencemag.org/author/william-cunningham,not in formula RIP
+33,https://www.sciencemag.org/careers,not in formula RIP
+9,https://www.sciencemag.org/collections/coronavirus,not in formula RIP
+11,https://www.sciencemag.org/coronavirus-research-commentary-and-news?intcmp=ghd_cov,not in formula RIP
+122,https://www.sciencemag.org/custom-publishing,not in formula RIP
+123,https://www.sciencemag.org/custom-publishing/webinars,not in formula RIP
+131,https://www.sciencemag.org/help,not in formula RIP
+134,https://www.sciencemag.org/help/reprints-and-permissions,not in formula RIP
+130,https://www.sciencemag.org/japan-portal,not in formula RIP
+92,https://www.sciencemag.org/journal-author/arne-n-akbar,not in formula RIP
+66,https://www.sciencemag.org/journal-author/chelsey-s-clark,not in formula RIP
+84,https://www.sciencemag.org/journal-author/david-j-nash,not in formula RIP
+93,https://www.sciencemag.org/journal-author/derek-w-gilroy,not in formula RIP
+65,https://www.sciencemag.org/journal-author/elizabeth-levy-paluck,not in formula RIP
+78,https://www.sciencemag.org/journal-author/inna-vishik,not in formula RIP
+73,https://www.sciencemag.org/journal-author/marcos-sade,not in formula RIP
+70,https://www.sciencemag.org/journal-author/marian-difiglia,not in formula RIP
+63,https://www.sciencemag.org/journal-author/mark-c-rains,not in formula RIP
+75,https://www.sciencemag.org/journal-author/muhammad-saad-yousuf,not in formula RIP
+88,https://www.sciencemag.org/journal-author/nicholas-j-matheson,not in formula RIP
+89,https://www.sciencemag.org/journal-author/paul-j-lehner,not in formula RIP
+72,https://www.sciencemag.org/journal-author/paulo-la-roca,not in formula RIP
+68,https://www.sciencemag.org/journal-author/steven-l-chown,not in formula RIP
+85,https://www.sciencemag.org/journal-author/t-jake-r-ciborowski,not in formula RIP
+76,https://www.sciencemag.org/journal-author/theodore-j-price,not in formula RIP
+115,https://www.sciencemag.org/journals,not in formula RIP
+125,https://www.sciencemag.org/librarian,not in formula RIP
+23,https://www.sciencemag.org/news,not in formula RIP
+116,https://www.sciencemag.org/news/about-news-science,not in formula RIP
+80,https://www.sciencemag.org/news/scienceinsider,not in formula RIP
+121,https://www.sciencemag.org/prizes,not in formula RIP
+162,https://www.sciencemag.org/sites/default/files/advagg_css/css__0ndevJxur7TQ7fV_TioyY5AP-vKX7eFSWNOnX5Ce6Kg__ePSU21GJ1LkiD-LBj8gvpGsxB655WXHkVuL5wmsM0XI__R5lt3TYNOaCOSScJfJfcuNYWzhuPRDGnWSDK_6LV5xI.css,not in formula RIP
+161,https://www.sciencemag.org/sites/default/files/advagg_css/css__9zevyd0vccxBdypcX9OJeu887I9k_IxZIqGmgb98Hdk__5db1AK6VA9IKDQM72zlEkoVKhTQAHAFP4yWEEcS0yuY__R5lt3TYNOaCOSScJfJfcuNYWzhuPRDGnWSDK_6LV5xI.css,not in formula RIP
+158,https://www.sciencemag.org/sites/default/files/favicon.ico,not in formula RIP
+132,https://www.sciencemag.org/subscriptions,not in formula RIP
+60,https://www.sciencemag.org/videos,not in formula RIP
+4,science.sciencemag.org,not in formula RIP
+126,science.sciencemag.org/librarian-admin-portal,not in formula RIP
+104,stke.sciencemag.org/about/ifora,not in formula RIP
+105,stm.sciencemag.org/content/information-authors,not in formula RIP
+164,www.sciencemag.org,not in formula RIP
+151,www.sciencemag.org/about/terms-service,not in formula RIP
+100,www.sciencemag.org/authors/information-authors,not in formula RIP
+59,www.sciencemag.org/coronavirus-research-commentary-and-news?IntCmp=coronavirussiderail-128,not in formula RIP
+99,www.sciencemag.org/custom-publishing/webinars,not in formula RIP
+102,www.sciencemag.org/journals/immunology/information-for-authors,not in formula RIP
+103,www.sciencemag.org/journals/robotics/information-for-authors,not in formula RIP
+127,www.sciencemag.org/related-sites,not in formula RIP

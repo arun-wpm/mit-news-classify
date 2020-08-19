@@ -1,0 +1,11 @@
+,newsurl,newsrule
+4,https://newrepublic.com/article/158710/william-faulkner-civil-war-biography-review-southern-white-guilt,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+7,https://newrepublic.com/article/158948/kennedy-markey-young-democrats-2020-election,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+8,https://newrepublic.com/article/158954/democrats-worried-postal-service-might-finally-something,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+5,https://newrepublic.com/article/158957/biden-harris-democrats-wall-street-ticket,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+6,https://newrepublic.com/article/158960/biden-sanders-2020-democrats-convention,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+2,https://newrepublic.com/article/158962/trump-postal-service-mail-ballots-dumbest-authoritarian-world,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+1,https://newrepublic.com/article/158965/democrats-choose-politics-ideological-purity,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+3,https://newrepublic.com/article/158968/newsweek-rise-zombie-magazine,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+0,https://newrepublic.com/article/158971/trump-arctic-national-wildlife-refuge-drilling-oil,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+9,https://newrepublic.com/pages/do-not-sell-my-personal-information,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"

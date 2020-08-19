@@ -1,0 +1,120 @@
+,nonnewsurl,blackrule
+111,https://media.townhall.com/thm/favicon/android-chrome-192x192.png,^.*.png.*$
+103,https://media.townhall.com/thm/favicon/apple-touch-icon-114x114.png,^.*.png.*$
+104,https://media.townhall.com/thm/favicon/apple-touch-icon-120x120.png,^.*.png.*$
+105,https://media.townhall.com/thm/favicon/apple-touch-icon-144x144.png,^.*.png.*$
+106,https://media.townhall.com/thm/favicon/apple-touch-icon-152x152.png,^.*.png.*$
+107,https://media.townhall.com/thm/favicon/apple-touch-icon-180x180.png,^.*.png.*$
+99,https://media.townhall.com/thm/favicon/apple-touch-icon-57x57.png,^.*.png.*$
+100,https://media.townhall.com/thm/favicon/apple-touch-icon-60x60.png,^.*.png.*$
+101,https://media.townhall.com/thm/favicon/apple-touch-icon-72x72.png,^.*.png.*$
+102,https://media.townhall.com/thm/favicon/apple-touch-icon-76x76.png,^.*.png.*$
+108,https://media.townhall.com/thm/favicon/favicon-16x16.png,^.*.png.*$
+109,https://media.townhall.com/thm/favicon/favicon-32x32.png,^.*.png.*$
+110,https://media.townhall.com/thm/favicon/favicon-96x96.png,^.*.png.*$
+84,http://townhall.com/contact-us/,^.*contact-us.*$
+69,http://townhall.com/podcasts,^.*podcast.*$
+6,http://townhall.com/podcasts/,^.*podcast.*$
+30,https://townhall.com/tipsheet/townhallcomstaff/2020/08/18/war-for-the-white-house-podcast-democratic-national-convention-night-one-recap-n2574603,^.*podcast.*$
+16,#,diff domain
+31,elliebufkin,diff domain
+23,http://bearingarms.com,diff domain
+21,http://hotair.com,diff domain
+22,http://pjmedia.com,diff domain
+25,http://redstate.com,diff domain
+77,http://townhallmedia.com/,diff domain
+24,http://twitchy.com,diff domain
+27,http://www.conservativeradio.com/,diff domain
+95,https://ad.doubleclick.net,diff domain
+63,https://bearingarms.com,diff domain
+96,https://c.amazon-adsystem.com,diff domain
+88,https://cdnjs.cloudflare.com,diff domain
+90,https://experience.tinypass.com,diff domain
+11,https://facebook.com/townhallcom,diff domain
+62,https://hotair.com,diff domain
+89,https://ib.adnxs.com,diff domain
+94,https://pagead2.googlesyndication.com,diff domain
+66,https://pjmedia.com,diff domain
+93,https://prebid.adnxs.com,diff domain
+65,https://redstate.com,diff domain
+80,https://salemmedia.com/ccpa-sale-opt-out/,diff domain
+81,https://salemmedia.com/townhall-media-ccpa-privacy-notice-for-california-residents/,diff domain
+79,https://salemmedia.com/townhall-media-privacy-policy/,diff domain
+64,https://twitchy.com,diff domain
+12,https://twitter.com/townhallcom,diff domain
+91,https://www.googletagservices.com,diff domain
+26,http://finance.townhall.com,not in formula RIP
+0,http://townhall.com/,not in formula RIP
+76,http://townhall.com/aboutus,not in formula RIP
+14,http://townhall.com/account/,not in formula RIP
+74,http://townhall.com/capitol-voices,not in formula RIP
+17,http://townhall.com/capitol-voices/,not in formula RIP
+28,http://townhall.com/columnists,not in formula RIP
+1,http://townhall.com/columnists/,not in formula RIP
+75,http://townhall.com/election,not in formula RIP
+7,http://townhall.com/election/,not in formula RIP
+72,http://townhall.com/entertainment,not in formula RIP
+18,http://townhall.com/entertainment/,not in formula RIP
+98,http://townhall.com/favicon.ico,not in formula RIP
+19,http://townhall.com/liveblog/,not in formula RIP
+97,http://townhall.com/manifest.json,not in formula RIP
+86,http://townhall.com/mobile-apps,not in formula RIP
+70,http://townhall.com/news,not in formula RIP
+8,http://townhall.com/news/,not in formula RIP
+10,http://townhall.com/newsletter,not in formula RIP
+15,http://townhall.com/newsletter/,not in formula RIP
+85,http://townhall.com/newslettersignup/,not in formula RIP
+83,http://townhall.com/pages/townhall_jobs,not in formula RIP
+3,http://townhall.com/political-cartoons,not in formula RIP
+29,http://townhall.com/political-cartoons/afbranco/,not in formula RIP
+115,http://townhall.com/resources/css/bootstrap.min.css,not in formula RIP
+116,http://townhall.com/resources/dist/css/main.min.css?v=5,not in formula RIP
+117,http://townhall.com/resources/lib/jquery/dist/jquery.min.js,not in formula RIP
+82,http://townhall.com/sitemap.htm,not in formula RIP
+13,http://townhall.com/subscribe?tpcc=home_button,not in formula RIP
+9,http://townhall.com/subscribe?tpcc=nav_image,not in formula RIP
+20,http://townhall.com/tags/,not in formula RIP
+67,http://townhall.com/tipsheet,not in formula RIP
+2,http://townhall.com/tipsheet/,not in formula RIP
+68,http://townhall.com/tv,not in formula RIP
+5,http://townhall.com/tv/,not in formula RIP
+71,http://townhall.com/video,not in formula RIP
+73,http://townhall.com/vip,not in formula RIP
+4,http://townhall.com/vip/,not in formula RIP
+92,https://media.townhall.com,not in formula RIP
+114,https://media.townhall.com/thm/resources/fonts/SourceSansPro-Bold-webfont.woff,not in formula RIP
+113,https://media.townhall.com/thm/resources/fonts/SourceSansPro-Regular-webfont.woff,not in formula RIP
+112,https://media.townhall.com/thm/resources/fonts/fa-custom.woff,not in formula RIP
+87,https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm,not in formula RIP
+61,https://townhall.com,not in formula RIP
+118,https://townhall.com/,not in formula RIP
+32,https://townhall.com/tags/2020-election,not in formula RIP
+33,https://townhall.com/tags/alexandria-ocasio-cortez,not in formula RIP
+34,https://townhall.com/tags/basement-strategy,not in formula RIP
+35,https://townhall.com/tags/biden-campaign,not in formula RIP
+36,https://townhall.com/tags/black-lives-matter,not in formula RIP
+37,https://townhall.com/tags/coronavirus,not in formula RIP
+38,https://townhall.com/tags/democratic-national-convention,not in formula RIP
+39,https://townhall.com/tags/democrats,not in formula RIP
+40,https://townhall.com/tags/dnc,not in formula RIP
+41,https://townhall.com/tags/dnc-convention-2020,not in formula RIP
+42,https://townhall.com/tags/donald-trump,not in formula RIP
+43,https://townhall.com/tags/economic-crisis,not in formula RIP
+44,https://townhall.com/tags/election-2020,not in formula RIP
+45,https://townhall.com/tags/fox-news,not in formula RIP
+78,https://townhall.com/tags/gift-guides/,not in formula RIP
+46,https://townhall.com/tags/jobs-and-economy,not in formula RIP
+47,https://townhall.com/tags/joe-biden,not in formula RIP
+48,https://townhall.com/tags/kamala-harris,not in formula RIP
+49,https://townhall.com/tags/law-and-order,not in formula RIP
+50,https://townhall.com/tags/liberal-media-bias,not in formula RIP
+51,https://townhall.com/tags/obamagate,not in formula RIP
+52,https://townhall.com/tags/president-trump,not in formula RIP
+53,https://townhall.com/tags/racism,not in formula RIP
+54,https://townhall.com/tags/robert-trump,not in formula RIP
+55,https://townhall.com/tags/seattle,not in formula RIP
+56,https://townhall.com/tags/second-amendment,not in formula RIP
+57,https://townhall.com/tags/twitter,not in formula RIP
+58,https://townhall.com/tags/white-house,not in formula RIP
+59,https://townhall.com/tags/wrong-trump,not in formula RIP
+60,https://townhall.com/tags/wuhan-coronavirus,not in formula RIP

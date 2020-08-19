@@ -1,0 +1,131 @@
+,nonnewsurl,blackrule
+97,https://cdn.theatlantic.com/assets/static/b/theatlantic/img/lacroix-default-thumbnail.png,^.*.png.*$
+105,https://cdn.theatlantic.com/assets/static/b/theatlantic/img/lacroix/apple-touch-icon-ipad-retina.398a2c61e146.png,^.*.png.*$
+103,https://cdn.theatlantic.com/assets/static/b/theatlantic/img/lacroix/apple-touch-icon-ipad.d309494b8612.png,^.*.png.*$
+104,https://cdn.theatlantic.com/assets/static/b/theatlantic/img/lacroix/apple-touch-icon-iphone-retina.5154a7d87073.png,^.*.png.*$
+102,https://cdn.theatlantic.com/assets/static/b/theatlantic/img/lacroix/apple-touch-icon-iphone.50541ad29f2c.png,^.*.png.*$
+15,https://www.theatlantic.com/podcasts/,^.*podcast.*$
+78,https://www.theatlantic.com/podcasts/crazygenius/,^.*podcast.*$
+76,https://www.theatlantic.com/podcasts/floodlines/,^.*podcast.*$
+75,https://www.theatlantic.com/podcasts/socialdistance/,^.*podcast.*$
+77,https://www.theatlantic.com/podcasts/the-ticket/,^.*podcast.*$
+90,https://www.theatlantic.com/privacy-policy/,^.*privacy-policy.*$
+96,,diff domain
+117,#icon-atlantic-big-a,diff domain
+121,#icon-atlantic-wordmark,diff domain
+120,#icon-lacroix-search,diff domain
+122,#icon-social-facebook,diff domain
+127,#icon-social-flipboard,diff domain
+123,#icon-social-instagram,diff domain
+126,#icon-social-linkedin,diff domain
+128,#icon-social-rss,diff domain
+125,#icon-social-twitter,diff domain
+124,#icon-social-youtube,diff domain
+118,#icon-ui-search,diff domain
+119,#icon-ui-x,diff domain
+0,#main-content,diff domain
+88,https://flipboard.com/@theatlantic,diff domain
+100,https://plus.google.com/109258622984321091629,diff domain
+86,https://twitter.com/TheAtlantic,diff domain
+83,https://www.facebook.com/TheAtlantic,diff domain
+84,https://www.instagram.com/theatlantic,diff domain
+87,https://www.linkedin.com/company/the-atlantic,diff domain
+85,https://www.youtube.com/user/TheAtlantic,diff domain
+5,javascript:void(0),diff domain
+60,http://thrive.theatlantic.com,not in formula RIP
+81,https://accounts.theatlantic.com,not in formula RIP
+7,https://accounts.theatlantic.com/,not in formula RIP
+3,https://accounts.theatlantic.com/accounts/details/,not in formula RIP
+2,https://accounts.theatlantic.com/login/,not in formula RIP
+4,https://accounts.theatlantic.com/products/,not in formula RIP
+30,https://accounts.theatlantic.com/products/gift,not in formula RIP
+129,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/css/no-js.963e4e1f09fa.css,not in formula RIP
+112,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/atlantic-serif/Atlantic-Serif.ff97bc532a97.woff2,not in formula RIP
+110,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/druk/Druk-Heavy-Web.73c680315608.woff2,not in formula RIP
+111,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/garamond/AGaramondPro-Regular.26c7e9961bb5.woff2,not in formula RIP
+113,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/goldwyn/goldwyn-medium.ac966650c2d0.woff2,not in formula RIP
+108,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/graphik/Graphik-Regular-Web.f00835c4ea93.woff2,not in formula RIP
+109,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/graphik/Graphik-Semibold-Web.4ddb0b7ae595.woff2,not in formula RIP
+106,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/lyon/Lyon-Text-Regular.952052f78892.woff2,not in formula RIP
+107,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/fonts/noe/Noe-Text-Black.b05d72fe331d.woff2,not in formula RIP
+115,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/js/hippo.590615aa4c71.js,not in formula RIP
+98,https://cdn.theatlantic.com/assets/static/b/frontend/dist/theatlantic/manifest/lacroix/manifest.523d8b9c9b01.json,not in formula RIP
+114,https://cdn.theatlantic.com/assets/static/b/frontend/jspm_packages/system.822e0a71e40b.js,not in formula RIP
+101,https://cdn.theatlantic.com/assets/static/b/theatlantic/img/lacroix/favicon.fb04af6390eb.ico,not in formula RIP
+91,https://cdn.theatlantic.com/static/front/docs/ads/TheAtlanticAdvertisingGuidelines.pdf?v1,not in formula RIP
+71,https://support.theatlantic.com/,not in formula RIP
+1,https://www.theatlantic.com/,not in formula RIP
+73,https://www.theatlantic.com/advertise/,not in formula RIP
+82,https://www.theatlantic.com/app/,not in formula RIP
+65,https://www.theatlantic.com/author/adam-harris/,not in formula RIP
+49,https://www.theatlantic.com/author/adrienne-lafrance/,not in formula RIP
+52,https://www.theatlantic.com/author/alan-taylor/,not in formula RIP
+37,https://www.theatlantic.com/author/alexis-madrigal/,not in formula RIP
+44,https://www.theatlantic.com/author/amy-weiss-meyer/,not in formula RIP
+38,https://www.theatlantic.com/author/andrew-ferguson/,not in formula RIP
+51,https://www.theatlantic.com/author/anne-applebaum/,not in formula RIP
+48,https://www.theatlantic.com/author/caroline-mimbs-nyce/,not in formula RIP
+59,https://www.theatlantic.com/author/chavi-karkowsky/,not in formula RIP
+55,https://www.theatlantic.com/author/christian-paz/,not in formula RIP
+43,https://www.theatlantic.com/author/cullen-murphy/,not in formula RIP
+42,https://www.theatlantic.com/author/david-a-graham/,not in formula RIP
+64,https://www.theatlantic.com/author/david-sims/,not in formula RIP
+32,https://www.theatlantic.com/author/elaine-godfrey/,not in formula RIP
+40,https://www.theatlantic.com/author/emily-anthes/,not in formula RIP
+54,https://www.theatlantic.com/author/emily-gould/,not in formula RIP
+41,https://www.theatlantic.com/author/ena-alvarado/,not in formula RIP
+50,https://www.theatlantic.com/author/franklin-foer/,not in formula RIP
+46,https://www.theatlantic.com/author/jessica-gold/,not in formula RIP
+58,https://www.theatlantic.com/author/joanne-freeman/,not in formula RIP
+61,https://www.theatlantic.com/author/joe-pinsker/,not in formula RIP
+34,https://www.theatlantic.com/author/joseph-guinto/,not in formula RIP
+45,https://www.theatlantic.com/author/julia-marcus/,not in formula RIP
+53,https://www.theatlantic.com/author/julio-ricardo-varela/,not in formula RIP
+39,https://www.theatlantic.com/author/kaitlyn-tiffany/,not in formula RIP
+57,https://www.theatlantic.com/author/lori-gottlieb/,not in formula RIP
+56,https://www.theatlantic.com/author/olga-khazan/,not in formula RIP
+36,https://www.theatlantic.com/author/robinson-meyer/,not in formula RIP
+35,https://www.theatlantic.com/author/russell-berman/,not in formula RIP
+33,https://www.theatlantic.com/author/vidya-krishnan/,not in formula RIP
+25,https://www.theatlantic.com/books/,not in formula RIP
+22,https://www.theatlantic.com/business/,not in formula RIP
+6,https://www.theatlantic.com/category/dear-therapist/,not in formula RIP
+26,https://www.theatlantic.com/category/fiction/,not in formula RIP
+72,https://www.theatlantic.com/contact/,not in formula RIP
+14,https://www.theatlantic.com/culture/,not in formula RIP
+17,https://www.theatlantic.com/education/,not in formula RIP
+24,https://www.theatlantic.com/events/,not in formula RIP
+20,https://www.theatlantic.com/family/,not in formula RIP
+89,https://www.theatlantic.com/feed/all/,not in formula RIP
+99,https://www.theatlantic.com/feed/best-of/,not in formula RIP
+66,https://www.theatlantic.com/floodlines,not in formula RIP
+27,https://www.theatlantic.com/follow-the-atlantic/,not in formula RIP
+16,https://www.theatlantic.com/health/,not in formula RIP
+68,https://www.theatlantic.com/history/,not in formula RIP
+11,https://www.theatlantic.com/ideas/,not in formula RIP
+23,https://www.theatlantic.com/international/,not in formula RIP
+70,https://www.theatlantic.com/jobs/,not in formula RIP
+9,https://www.theatlantic.com/latest/,not in formula RIP
+67,https://www.theatlantic.com/letters/,not in formula RIP
+28,https://www.theatlantic.com/magazine/,not in formula RIP
+29,https://www.theatlantic.com/magazine/backissues/,not in formula RIP
+69,https://www.theatlantic.com/masthead/,not in formula RIP
+8,https://www.theatlantic.com/most-popular/,not in formula RIP
+47,https://www.theatlantic.com/newsletters/,not in formula RIP
+62,https://www.theatlantic.com/newsletters/sign-up/,not in formula RIP
+116,https://www.theatlantic.com/packages/adsjs/ads.min.js,not in formula RIP
+12,https://www.theatlantic.com/photo/,not in formula RIP
+10,https://www.theatlantic.com/politics/,not in formula RIP
+74,https://www.theatlantic.com/press/,not in formula RIP
+21,https://www.theatlantic.com/projects/,not in formula RIP
+93,https://www.theatlantic.com/responsible-disclosure-policy/,not in formula RIP
+13,https://www.theatlantic.com/science/,not in formula RIP
+95,https://www.theatlantic.com/site-map/,not in formula RIP
+79,https://www.theatlantic.com/subscribe/footer-cover/,not in formula RIP
+80,https://www.theatlantic.com/subscribe/footer-gift/,not in formula RIP
+31,https://www.theatlantic.com/subscribe/navbar/,not in formula RIP
+19,https://www.theatlantic.com/technology/,not in formula RIP
+92,https://www.theatlantic.com/terms-and-conditions/,not in formula RIP
+18,https://www.theatlantic.com/video/,not in formula RIP
+94,https://www.theatlantic.com/world/,not in formula RIP
+63,https://www.theatlantic.com/writers/,not in formula RIP

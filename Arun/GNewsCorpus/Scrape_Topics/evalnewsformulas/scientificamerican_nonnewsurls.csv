@@ -1,0 +1,101 @@
+,nonnewsurl,blackrule
+67,https://www.scientificamerican.com/public/resources/favicons/favicon-128-4b9aa97db8311c4616270d6a8a662eac.png,^.*.png.*$
+70,https://www.scientificamerican.com/public/resources/favicons/favicon-16-59d034d523b133557208a7c24f448374.png,^.*.png.*$
+66,https://www.scientificamerican.com/public/resources/favicons/favicon-196-f10395ba7ecf07756e4b5a82c4795b61.png,^.*.png.*$
+69,https://www.scientificamerican.com/public/resources/favicons/favicon-32-cadc19705538fdb538db10f2a98c1d46.png,^.*.png.*$
+68,https://www.scientificamerican.com/public/resources/favicons/favicon-96-387ab1daffb7a1698601f6e49da87a1c.png,^.*.png.*$
+55,https://www.scientificamerican.com/page/contact-us/,^.*contact-us.*$
+5,https://www.scientificamerican.com/my-account/forgot-password/,^.*my.*account.*$
+21,https://www.scientificamerican.com/my-account/login/,^.*my.*account.*$
+65,https://www.scientificamerican.com/my-account/login/?s=1,^.*my.*account.*$
+6,https://www.scientificamerican.com/my-account/register/,^.*my.*account.*$
+34,https://flex.acast.com/www.scientificamerican.com/podcast/podcast.mp3?fileId=0F8DC33F-5CAC-4368-B076A8A5F4488706,^.*podcast.*$
+40,https://flex.acast.com/www.scientificamerican.com/podcast/podcast.mp3?fileId=3A746F7B-3B4D-4A55-83ED19DD62D9BD99,^.*podcast.*$
+37,https://flex.acast.com/www.scientificamerican.com/podcast/podcast.mp3?fileId=B284810E-42AD-4E98-9C74B34621E2F943,^.*podcast.*$
+43,https://flex.acast.com/www.scientificamerican.com/podcast/podcast.mp3?fileId=EDBC22C3-D5AB-41E6-B8642FD9DC287511,^.*podcast.*$
+30,https://flex.acast.com/www.scientificamerican.com/podcast/podcast.mp3?fileId=F82B0EA8-73A5-4DD5-B049C9766FE45C63,^.*podcast.*$
+38,https://www.scientificamerican.com/podcast/episode/aardvarks-are-ailing-amid-heat-and-drought/,^.*podcast.*$
+39,https://www.scientificamerican.com/podcast/episode/aardvarks-are-ailing-amid-heat-and-drought/#transcripts-body,^.*podcast.*$
+32,https://www.scientificamerican.com/podcast/episode/the-coming-or-possibly-nearly-here-storm/,^.*podcast.*$
+33,https://www.scientificamerican.com/podcast/episode/the-coming-or-possibly-nearly-here-storm/#transcripts-body,^.*podcast.*$
+41,https://www.scientificamerican.com/podcast/episode/the-worlds-highest-dwelling-mammal-lives-atop-a-volcano/,^.*podcast.*$
+42,https://www.scientificamerican.com/podcast/episode/the-worlds-highest-dwelling-mammal-lives-atop-a-volcano/#transcripts-body,^.*podcast.*$
+26,https://www.scientificamerican.com/podcast/episode/warbler-species-fires-up-song-diversity/,^.*podcast.*$
+29,https://www.scientificamerican.com/podcast/episode/warbler-species-fires-up-song-diversity/#transcripts-body,^.*podcast.*$
+35,https://www.scientificamerican.com/podcast/episode/why-lava-worlds-shine-brightly-its-not-the-lava/,^.*podcast.*$
+36,https://www.scientificamerican.com/podcast/episode/why-lava-worlds-shine-brightly-its-not-the-lava/#transcripts-body,^.*podcast.*$
+16,https://www.scientificamerican.com/podcasts/,^.*podcast.*$
+60,https://www.scientificamerican.com/page/privacy-policy/,^.*privacy-policy.*$
+45,,diff domain
+31,#,diff domain
+8,#advanced-search,diff domain
+0,#sa_body,diff domain
+49,http://rss.sciam.com/ScientificAmerican-Global,diff domain
+63,http://www.springernature.com/us,diff domain
+91,https://a1859010085.cdn.optimizely.com,diff domain
+89,https://ads.deliverimp.com,diff domain
+86,https://adservice.google.com,diff domain
+80,https://ajax.googleapis.com,diff domain
+87,https://cdn.cookielaw.org,diff domain
+75,https://cdn.krxd.net,diff domain
+79,https://cdn.marphezis.com,diff domain
+82,https://cdn.optimizely.com,diff domain
+78,https://connect.facebook.net,diff domain
+94,https://consumer.krxd.net,diff domain
+85,https://get.s-onetag.com,diff domain
+88,https://logx.optimizely.com,diff domain
+58,https://partnerships.nature.com/product/nature-research-custom-media/,diff domain
+93,https://pixel.moatads.com,diff domain
+77,https://plugin.mediavoice.com,diff domain
+81,https://s3.amazonaws.com,diff domain
+95,https://securepubads.g.doubleclick.net,diff domain
+92,https://tpc.googlesyndication.com,diff domain
+47,https://twitter.com/sciam,diff domain
+48,https://www.facebook.com/ScientificAmerican,diff domain
+84,https://www.google-analytics.com,diff domain
+83,https://www.googletagmanager.com,diff domain
+76,https://www.googletagservices.com,diff domain
+44,https://www.instagram.com/scientific_american/?hl=en,diff domain
+46,https://www.youtube.com/user/SciAmerican,diff domain
+90,https://z.moatads.com,diff domain
+61,javascript:Optanon.ToggleInfoDisplay(),diff domain
+96,page/frequently-asked-questions/?tab=about-the-site#what-are-the-technical-specifications-for-using-scientificamericancom,diff domain
+74,https://static.scientificamerican.com,not in formula RIP
+3,https://www.scientificamerican.com/,not in formula RIP
+50,https://www.scientificamerican.com/arabic/,not in formula RIP
+24,https://www.scientificamerican.com/article/the-language-of-science/,not in formula RIP
+4,https://www.scientificamerican.com/checkout/#/cart,not in formula RIP
+12,https://www.scientificamerican.com/health/,not in formula RIP
+25,https://www.scientificamerican.com/interactive/175-years-of-discovery1/,not in formula RIP
+19,https://www.scientificamerican.com/magazine/sa/2020/09-01/,not in formula RIP
+97,https://www.scientificamerican.com/magazine/sa/2020/09-01/?utm_source=site&amp;utm_medium=display&amp;utm_campaign=anniversay-issue&amp;utm_content=banner&amp;utm_term=homepage-banner,not in formula RIP
+23,https://www.scientificamerican.com/magazine/sa/2020/09-01/?utm_source=site&utm_medium=display&utm_campaign=anniversay-issue&utm_content=banner&utm_term=homepage-banner,not in formula RIP
+57,https://www.scientificamerican.com/mediakit/,not in formula RIP
+11,https://www.scientificamerican.com/mind/,not in formula RIP
+52,https://www.scientificamerican.com/page/about-scientific-american/,not in formula RIP
+54,https://www.scientificamerican.com/page/frequently-asked-questions/,not in formula RIP
+62,"https://www.scientificamerican.com/page/international/
+",not in formula RIP
+22,https://www.scientificamerican.com/page/newsletter-sign-up/,not in formula RIP
+7,https://www.scientificamerican.com/page/newsletter-sign-up/?origincode=2019_sciam_StayInformed_NewsletterSignUp,not in formula RIP
+28,https://www.scientificamerican.com/page/newsletter-sign-up/?origincode=2019_sciam_adblockers_newsletter,not in formula RIP
+51,https://www.scientificamerican.com/page/return-refund-policy/,not in formula RIP
+56,https://www.scientificamerican.com/page/sitemap,not in formula RIP
+59,https://www.scientificamerican.com/page/terms-of-use/,not in formula RIP
+53,https://www.scientificamerican.com/pressroom/,not in formula RIP
+71,https://www.scientificamerican.com/public/resources/favicons/favicon-4c8c70500bd3f01ae8c38cf7dd2771fe.ico,not in formula RIP
+73,https://www.scientificamerican.com/public/resources/icons-742382d06c2ee8300dd33b9ae799b010.css,not in formula RIP
+72,https://www.scientificamerican.com/public/resources/sa-d226b6e5c2198b83c04bbb2720d9bfb7.css,not in formula RIP
+27,https://www.scientificamerican.com/section/lateststories,not in formula RIP
+17,https://www.scientificamerican.com/section/opinion/,not in formula RIP
+18,https://www.scientificamerican.com/store/,not in formula RIP
+2,https://www.scientificamerican.com/store/archive/?magazineFilterID=all,not in formula RIP
+20,https://www.scientificamerican.com/store/shopping-cart/,not in formula RIP
+1,https://www.scientificamerican.com/store/subscribe/scientific-american-magazine/,not in formula RIP
+98,https://www.scientificamerican.com/store/subscribe/truth-matters-digital-full-archive/?utm_source=site&amp;utm_medium=display&amp;utm_campaign=truth-matters&amp;utm_content=banner&amp;utm_term=LP_15poff_v1_display_toaster,not in formula RIP
+64,https://www.scientificamerican.com/store/subscribe/truth-matters-digital-full-archive/?utm_source=site&utm_medium=display&utm_campaign=truth-matters&utm_content=banner&utm_term=LP_15poff_v1_display_toaster,not in formula RIP
+14,https://www.scientificamerican.com/sustainability/,not in formula RIP
+9,https://www.scientificamerican.com/tag/The+Coronavirus+Outbreak/,not in formula RIP
+13,https://www.scientificamerican.com/tech/,not in formula RIP
+10,https://www.scientificamerican.com/the-sciences/,not in formula RIP
+15,https://www.scientificamerican.com/video/,not in formula RIP

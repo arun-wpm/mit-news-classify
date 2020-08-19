@@ -1,0 +1,245 @@
+,nonnewsurl,blackrule
+30,https://techcrunch.com/wp-content/themes/techcrunch-2017/images/logo-json-ld.png,^.*.png.*$
+33,https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180,^.*.png.*$
+32,https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=192,^.*.png.*$
+31,https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32,^.*.png.*$
+29,https://techcrunch.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-19-at-9.58.37-AM.png?w=150,^.*.png.*$
+87,https://techcrunch.com/pages/contact-us/,^.*contact-us.*$
+178,https://techcrunch.com/2020/08/04/more-thoughts-on-growing-podcasts/,^.*podcast.*$
+74,https://techcrunch.com/pages/podcasts/,^.*podcast.*$
+237,mailto:events@techcrunch.com,^mailto:.*$
+228,mailto:pressinquiries@techcrunch.com,^mailto:.*$
+45,,diff domain
+80,#,diff domain
+36,(^/$)|(/page/\\d+),diff domain
+18,cdn.vidible.tv,diff domain
+16,consent.cmp.oath.com,diff domain
+98,http://crunchbase.com/,diff domain
+99,http://crunchboard.com,diff domain
+197,http://dispatchgoods.com,diff domain
+13,http://gmpg.org/xfn/11,diff domain
+229,http://svb.com/,diff domain
+193,http://www.adere.so,diff domain
+186,http://www.aesoptek.com,diff domain
+164,http://www.crunchbase.news,diff domain
+166,http://www.crv.com/,diff domain
+194,http://www.fibulas.com,diff domain
+202,http://www.hermes-robotics.com/,diff domain
+192,http://www.syglass.io,diff domain
+190,https://aheadmedicine.com,diff domain
+199,https://aimhub.io,diff domain
+71,https://anchor.fm/thegoldencity,diff domain
+203,https://ariadnemaps.com/,diff domain
+200,https://blings.io/,diff domain
+172,https://blog.google/products/maps/maps-15th-birthday/,diff domain
+171,https://blog.google/products/maps/ride-easy-new-biking-features-google-maps/,diff domain
+62,https://crunchbase.com/organization/a-kids-book-about,diff domain
+147,https://crunchbase.com/organization/accenture,diff domain
+67,https://crunchbase.com/organization/amazon,diff domain
+153,https://crunchbase.com/organization/apple,diff domain
+158,https://crunchbase.com/organization/blue-origin,diff domain
+40,https://crunchbase.com/organization/boston-celtics,diff domain
+44,https://crunchbase.com/organization/bytedance,diff domain
+170,https://crunchbase.com/organization/google,diff domain
+148,https://crunchbase.com/organization/major-league-gaming,diff domain
+215,https://crunchbase.com/organization/nasa,diff domain
+46,https://crunchbase.com/organization/netflix,diff domain
+64,https://crunchbase.com/organization/netmeds-com,diff domain
+159,https://crunchbase.com/organization/oracle,diff domain
+150,https://crunchbase.com/organization/persefoni,diff domain
+167,https://crunchbase.com/organization/proeza-ventures,diff domain
+169,https://crunchbase.com/organization/radio-flyer,diff domain
+63,https://crunchbase.com/organization/reliance-retail,diff domain
+149,https://crunchbase.com/organization/rice-investment-group,diff domain
+182,https://crunchbase.com/organization/skydeck-berkeley,diff domain
+151,https://crunchbase.com/organization/space-exploration-technologies,diff domain
+168,https://crunchbase.com/organization/tesla-motors,diff domain
+38,https://crunchbase.com/organization/tiktok,diff domain
+175,https://crunchbase.com/organization/twitter,diff domain
+39,https://crunchbase.com/organization/unitedmasters,diff domain
+216,https://crunchbase.com/organization/walmart,diff domain
+185,https://crunchbase.com/organization/zoom-video-communications,diff domain
+217,https://crunchbase.com/person/doug-mcmillon,diff domain
+214,https://crunchbase.com/person/elon-musk,diff domain
+144,https://crunchbase.com/person/jason-offerman,diff domain
+123,https://crunchbase.com/person/joseph-biden,diff domain
+143,https://crunchbase.com/person/kentaro-kawamori,diff domain
+43,https://crunchbase.com/person/kevin-mayer,diff domain
+125,https://crunchbase.com/person/michelle-obama,diff domain
+225,https://docs.google.com/forms/d/e/1FAIpQLSdZM88HfbiX2QYaI7FF29SVTQXnVW5PSulc35T49e4blk0lCA/viewform?usp=sf_link,diff domain
+173,https://en.wikipedia.org/wiki/HSL_and_HSV,diff domain
+141,https://fairfight.com/,diff domain
+188,https://getwingapp.com/forbusiness/smb,diff domain
+187,https://immunomind.io/,diff domain
+91,https://itunes.apple.com/us/app/techcrunch/id526058642?mt=8,diff domain
+165,https://itunes.apple.com/us/podcast/equity/id1215439780?mt=2,diff domain
+157,https://momentus.space/,diff domain
+222,https://oathtechevents.typeform.com/to/KUFW2e,diff domain
+227,https://oathtechevents.typeform.com/to/i4Kmxz,diff domain
+191,https://ontopical.com/,diff domain
+145,https://persefoni.com/,diff domain
+92,https://play.google.com/store/apps/details?id=com.aol.mobile.techcrunch,diff domain
+88,https://policies.oath.com/xw/en/oath/privacy/intl/index.html,diff domain
+89,https://policies.oath.com/xw/en/oath/terms/otos/index.html,diff domain
+196,https://qb3.org/portfolio-detail/2020/8/3/axent-biosciences,diff domain
+189,https://rootappliedsciences.com/,diff domain
+183,https://skydeck.berkeley.edu/,diff domain
+136,https://t.co/12Ri4MpNVj,diff domain
+48,https://t.co/6WDJrmd7pG,diff domain
+60,https://t.co/JEEsF65Bc0,diff domain
+131,https://t.co/KA12s9rTle,diff domain
+139,https://t.co/UTvOKCKhjE,diff domain
+127,https://t.co/bZ7Nt4kn5J,diff domain
+205,https://truera.com/,diff domain
+130,https://twitter.com/BernieSanders?ref_src=twsrc%5Etfw,diff domain
+133,https://twitter.com/CNNPolitics/status/1295545578764541953,diff domain
+61,https://twitter.com/Chabz_Classic/status/1283035310763515905?ref_src=twsrc%5Etfw,diff domain
+128,https://twitter.com/DemConvention/status/1295536425413292032?ref_src=twsrc%5Etfw,diff domain
+140,https://twitter.com/DemConvention/status/1295545029981806592?ref_src=twsrc%5Etfw,diff domain
+134,https://twitter.com/JoeBiden?ref_src=twsrc%5Etfw,diff domain
+174,https://twitter.com/Julian,diff domain
+138,https://twitter.com/MegWhitman?ref_src=twsrc%5Etfw,diff domain
+135,https://twitter.com/MichelleObama?ref_src=twsrc%5Etfw,diff domain
+53,https://twitter.com/SiphokaziKayana/status/1293980088892100612?ref_src=twsrc%5Etfw,diff domain
+54,https://twitter.com/ThatOnePoes/status/1295745506346500096?ref_src=twsrc%5Etfw,diff domain
+132,https://twitter.com/TheDemocrats/status/1295555483110187008?ref_src=twsrc%5Etfw,diff domain
+137,https://twitter.com/TheDemocrats/status/1295557988980318208?ref_src=twsrc%5Etfw,diff domain
+49,https://twitter.com/TurnerLevison/status/1295543859141844992?ref_src=twsrc%5Etfw,diff domain
+129,https://twitter.com/bubbaprog/status/1295570130416664576,diff domain
+204,https://twitter.com/datta_cs,diff domain
+66,https://twitter.com/deepakshenoy/status/1295804177969377280?ref_src=twsrc%5Etfw,diff domain
+126,https://twitter.com/hashtag/DemConvention?src=hash&amp;ref_src=twsrc%5Etfw,diff domain
+68,https://twitter.com/ijroth,diff domain
+206,https://twitter.com/justinlawyer,diff domain
+52,https://twitter.com/kgdobs/status/1293069402338820096?ref_src=twsrc%5Etfw,diff domain
+156,https://twitter.com/mkokorich,diff domain
+50,https://twitter.com/mnathannn/status/1295738851948863492?ref_src=twsrc%5Etfw,diff domain
+55,https://twitter.com/netflix/status/1225506511184703493,diff domain
+47,https://twitter.com/netflix?ref_src=twsrc%5Etfw,diff domain
+162,https://twitter.com/sherman4949,diff domain
+51,https://twitter.com/stylesperiodt/status/1295667352676126720?ref_src=twsrc%5Etfw,diff domain
+230,https://urldefense.com/v3/__http://allraise.org/__;!!Op6eflyXZCqGR5I!Qf7BcwGVkcnVx6IJRkAdgvAYDFBwNOgHQ5ETRFHdCjXUSckNQ6IhJ_RcGJ6UKr9_1UE9ag$,diff domain
+181,https://urldefense.com/v3/__https://ammar-alyousfi.com/2020/youtube-trending-videos-analysis-2019-us__;!!Op6eflyXZCqGR5I!TMeYBgfMoEqV6fnwdDd0e9Bw65Px5HCGOuneMknK_TaI39Ea9q_9duPPutjy1l1PKQlYA6J1$,diff domain
+232,https://urldefense.com/v3/__https://cloud.google.com/looker__;!!Op6eflyXZCqGR5I!Vs3XjNXlyczQL-HsaSew-NQEEQEFAe643pE8PCOqp6DMUFPzbLEdS8SZoZRjT6ZcbeQfOg$,diff domain
+231,https://urldefense.com/v3/__https://looker.com/__;!!Op6eflyXZCqGR5I!Vs3XjNXlyczQL-HsaSew-NQEEQEFAe643pE8PCOqp6DMUFPzbLEdS8SZoZRjT6bYJD20og$,diff domain
+234,https://urldefense.com/v3/__https://twitter.com/lookerdata__;!!Op6eflyXZCqGR5I!Vs3XjNXlyczQL-HsaSew-NQEEQEFAe643pE8PCOqp6DMUFPzbLEdS8SZoZRjT6ZB2SI5Vw$,diff domain
+235,https://urldefense.com/v3/__https://www.facebook.com/LookerData/__;!!Op6eflyXZCqGR5I!Vs3XjNXlyczQL-HsaSew-NQEEQEFAe643pE8PCOqp6DMUFPzbLEdS8SZoZRjT6ZCNDAHQg$,diff domain
+233,https://urldefense.com/v3/__https://www.linkedin.com/company/looker__;!!Op6eflyXZCqGR5I!Vs3XjNXlyczQL-HsaSew-NQEEQEFAe643pE8PCOqp6DMUFPzbLEdS8SZoZRjT6ZxOHN0eQ$,diff domain
+236,https://urldefense.com/v3/__https://www.youtube.com/user/LookerData__;!!Op6eflyXZCqGR5I!Vs3XjNXlyczQL-HsaSew-NQEEQEFAe643pE8PCOqp6DMUFPzbLEdS8SZoZRjT6aPSVHUzA$,diff domain
+176,https://www.bellcurve.com/,diff domain
+41,"https://www.billboard.com/articles/business/9415821/united-masters-select-subscription#:~:text=Geared%20to%20iPhone%20and%20Android,subscription%20with%20no%20hidden%20fees.",diff domain
+184,https://www.bizjournals.com/sanfrancisco/news/2020/03/30/orientation-begins-for-uc-berkeley-startup.html?b=1585605437%5E21646855,diff domain
+152,https://www.bloomberg.com/news/articles/2020-08-14/spacex-is-said-to-increase-latest-funding-round-to-2-billion,diff domain
+201,https://www.boomeranggmail.com/,diff domain
+208,https://www.brookings.edu/wp-content/uploads/2018/08/2018-09-10-10am-FINAL-Crisis-deck-00-85.pdf,diff domain
+146,https://www.cdp.net/en,diff domain
+56,https://www.chicagotribune.com/entertainment/tv/ct-mov-netflix-the-office-0705-20190703-fjlo4pkt5jb7llpo2aixl7o2pe-story.html,diff domain
+160,https://www.cnbc.com/2020/08/17/oracle-is-in-talks-to-acquire-tiktoks-us-operations-source-says.html,diff domain
+220,https://www.cnbc.com/2020/08/18/walmart-wmt-q2-2021-earnings.html,diff domain
+163,https://www.cnbc.com/technology/,diff domain
+210,https://www.crunchbase.com/organization/invisionapp/company_financials,diff domain
+179,https://www.demandcurve.com/?utm_source=tc&amp;utm_campaign=tc&amp;utm_medium=tc,diff domain
+180,https://www.demandcurve.com/slack,diff domain
+120,https://www.ent-fund.org/en/about,diff domain
+58,https://www.eonline.com/news/1107124/how-to-survive-friends-leaving-netflix-they-re-still-there-for-you,diff domain
+70,https://www.forbes.com/sites/janakirammsv/2015/09/15/how-does-strongloop-acquisition-help-ibm/,diff domain
+161,https://www.ft.com/content/272cfc69-b268-45ac-88d6-d55821f27e78,diff domain
+211,https://www.invisionapp.com/design-system-manager,diff domain
+177,https://www.julian.com/,diff domain
+198,https://www.kura.tech,diff domain
+69,https://www.linkedin.com/in/issacroth/,diff domain
+57,https://www.nbcnews.com/news/all/nbc-pulling-office-netflix-2021-n1021791,diff domain
+65,https://www.netmeds.com,diff domain
+124,https://www.npr.org/sections/live-updates-protests-for-racial-justice/2020/08/18/903478960/st-louis-couple-who-brandished-guns-at-black-protesters-to-speak-at-rnc,diff domain
+42,https://www.nytimes.com/2020/02/13/style/the-original-renegade.html,diff domain
+59,https://www.popbuzz.com/tv-film/netflix/shuffle-button-random-episode-2020-how-to-get/,diff domain
+213,https://www.reuters.com/article/us-spacex-funding-idUSKCN25E26E,diff domain
+122,https://www.reuters.com/article/us-usa-elections-tv-ratings-idUSKCN25E2L9?taid=5f3c51e8165c730001334037&amp;utm_campaign=trueAnthem%3A+Trending+Content&amp;utm_medium=trueAnthem&amp;utm_source=twitter,diff domain
+119,https://www.taliscapital.com/,diff domain
+212,https://www.theverge.com/2019/11/4/20938310/adobe-xd-live-editing-collaborative,diff domain
+207,https://www.un.org/development/desa/dpad/publication/world-economic-situation-and-prospects-april-2020-briefing-no-136/,diff domain
+218,https://www.vox.com/recode/2020/2/27/21154357/walmart-plus-walmart-grocery-delivery-unlimited-membership-amazon-prime,diff domain
+219,https://www.vox.com/recode/2020/7/7/21314767/walmart-plus-grocery-delivery-amazon-prime-membership-loyalty-program-walmart,diff domain
+195,https://www.xobalabs.com/,diff domain
+121,https://www.youtube.com/channel/UCoC47do520os_4DBMEFGg4A,diff domain
+142,https://www.youtube.com/watch?v=mGe3uM07L68,diff domain
+19,plugin.mediavoice.com,diff domain
+20,s.w.org,diff domain
+15,s.yimg.com,diff domain
+17,use.typekit.net,diff domain
+21,v0.wordpress.com,diff domain
+223,http://info.techcrunch.com/SponsorshipsInterest.html,not in formula RIP
+93,http://jp.techcrunch.com/,not in formula RIP
+155,http://link.techcrunch.com/join/134/signup-all-newsletters,not in formula RIP
+221,http://techcrunch.com/subscribe,not in formula RIP
+85,https://apply.techcrunch.com,not in formula RIP
+226,https://info.techcrunch.com/SponsorshipsInterest.html,not in formula RIP
+28,https://techcrunch.com,not in formula RIP
+24,"https://techcrunch.com/_static/??/wp-includes/css/dist/block-library/style.min.css,/wp-content/plugins/wp-parsely/wp-parsely.css,/wp-content/themes/techcrunch-2017/build/ec/css/main.css?m=1597784769",not in formula RIP
+5,https://techcrunch.com/author/,not in formula RIP
+3,https://techcrunch.com/author/anthony-ha/,not in formula RIP
+9,https://techcrunch.com/author/darrell-etherington/,not in formula RIP
+2,https://techcrunch.com/author/jonathan-shieber/,not in formula RIP
+11,https://techcrunch.com/author/jordan-crook/,not in formula RIP
+7,https://techcrunch.com/author/kirsten-korosec/,not in formula RIP
+10,https://techcrunch.com/author/manish-singh/,not in formula RIP
+8,https://techcrunch.com/author/matthew-panzarino/,not in formula RIP
+4,https://techcrunch.com/author/megan-rose-dickey/,not in formula RIP
+0,https://techcrunch.com/author/rita-liao/,not in formula RIP
+6,https://techcrunch.com/author/sarah-perez/,not in formula RIP
+1,https://techcrunch.com/author/taylor-hatmaker/,not in formula RIP
+23,https://techcrunch.com/comments/feed/,not in formula RIP
+79,https://techcrunch.com/events/,not in formula RIP
+239,https://techcrunch.com/events/disrupt-sf-2019/,not in formula RIP
+241,https://techcrunch.com/events/disrupt-sf-2019/crunchmatch/,not in formula RIP
+238,https://techcrunch.com/events/disrupt-sf-2019/startup-alley/,not in formula RIP
+240,https://techcrunch.com/events/disrupt-sf-2020,not in formula RIP
+72,https://techcrunch.com/events/disrupt-sf-2020/?promo=leftnav,not in formula RIP
+243,https://techcrunch.com/events/disrupt-sf-2020/crunchmatch/,not in formula RIP
+242,https://techcrunch.com/events/disrupt-sf-2020/startup-alley,not in formula RIP
+76,https://techcrunch.com/extracrunch/?tpcc=ecleftnav,not in formula RIP
+22,https://techcrunch.com/feed/,not in formula RIP
+97,https://techcrunch.com/include/,not in formula RIP
+101,https://techcrunch.com/include/mission-statement,not in formula RIP
+102,https://techcrunch.com/include/office-hours,not in formula RIP
+75,https://techcrunch.com/newsletters,not in formula RIP
+12,https://techcrunch.com/page/2/,not in formula RIP
+86,https://techcrunch.com/pages/about-techcrunch,not in formula RIP
+78,https://techcrunch.com/pages/advertisement-events-calendar/,not in formula RIP
+96,https://techcrunch.com/pages/brex/,not in formula RIP
+90,https://techcrunch.com/pages/code-of-conduct/,not in formula RIP
+34,https://techcrunch.com/pages/gift-guide-2019/,not in formula RIP
+100,https://techcrunch.com/pages/tc-startup-programs/,not in formula RIP
+108,https://techcrunch.com/shows/apps,not in formula RIP
+116,https://techcrunch.com/shows/built-in-brooklyn,not in formula RIP
+112,https://techcrunch.com/shows/crunch-report,not in formula RIP
+114,https://techcrunch.com/shows/down-round,not in formula RIP
+105,https://techcrunch.com/shows/features,not in formula RIP
+104,https://techcrunch.com/shows/gadgets,not in formula RIP
+117,https://techcrunch.com/shows/inside-jobs,not in formula RIP
+107,https://techcrunch.com/shows/interviews,not in formula RIP
+113,https://techcrunch.com/shows/judah-vs-the-machines,not in formula RIP
+106,https://techcrunch.com/shows/reviews,not in formula RIP
+118,https://techcrunch.com/shows/tc-cribs,not in formula RIP
+111,https://techcrunch.com/shows/tc-sessions,not in formula RIP
+103,https://techcrunch.com/shows/tctv-news,not in formula RIP
+110,https://techcrunch.com/shows/techcrunch-battlefield,not in formula RIP
+109,https://techcrunch.com/shows/techcrunch-disrupt,not in formula RIP
+115,https://techcrunch.com/shows/trust-disrupted,not in formula RIP
+95,https://techcrunch.com/sponsored,not in formula RIP
+94,https://techcrunch.com/startup-battlefield,not in formula RIP
+83,https://techcrunch.com/startup-battlefield/,not in formula RIP
+81,https://techcrunch.com/startup-battlefield/about/,not in formula RIP
+82,https://techcrunch.com/startup-battlefield/faq/,not in formula RIP
+84,https://techcrunch.com/startup-battlefield/leaderboard/,not in formula RIP
+73,https://techcrunch.com/startups/,not in formula RIP
+154,https://techcrunch.com/subscribe/,not in formula RIP
+37,https://techcrunch.com/subscribe/?tpcc=rightrailmay19,not in formula RIP
+209,https://techcrunch.com/tag/invision/,not in formula RIP
+77,https://techcrunch.com/the-techcrunch-list/?tpcc=tclistleftnav,not in formula RIP
+35,https://techcrunch.com/video/,not in formula RIP
+224,https://techcrunch.com/wp-content/themes/techcrunch-2017/features/shortcodes/vidible-callback-js.php?id=0,not in formula RIP
+27,https://techcrunch.com/wp-includes/wlwmanifest.xml,not in formula RIP
+25,https://techcrunch.com/wp-json/,not in formula RIP
+14,https://techcrunch.com/xmlrpc.php,not in formula RIP
+26,https://techcrunch.com/xmlrpc.php?rsd,not in formula RIP

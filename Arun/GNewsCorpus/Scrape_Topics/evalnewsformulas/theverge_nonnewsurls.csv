@@ -1,0 +1,156 @@
+,nonnewsurl,blackrule
+14,https://www.theverge.com/podcasts,^.*podcast.*$
+0,#content,diff domain
+146,#icon-facebook,diff domain
+154,#icon-hamburger,diff domain
+153,#icon-norgie-down,diff domain
+148,#icon-rss,diff domain
+152,#icon-search,diff domain
+147,#icon-twitter,diff domain
+150,#icon-user,diff domain
+54,art-club,diff domain
+42,http://bit.ly/2FqJZMl,diff domain
+129,https://cdn.vox-cdn.com/shared_fonts/unison/unison_base/nittigrotesk/nittigrotesk-normal.woff2,diff domain
+130,https://cdn.vox-cdn.com/shared_fonts/unison/verge/AdelleSans-Italic.woff2,diff domain
+131,https://cdn.vox-cdn.com/shared_fonts/unison/verge/AdelleSans-Semibold.woff2,diff domain
+134,https://cdn.vox-cdn.com/shared_fonts/unison/verge/heroic-cond-vrg-web-ltd-bd-obq.woff2,diff domain
+135,https://cdn.vox-cdn.com/shared_fonts/unison/verge/heroic-cond-vrg-web-ltd-hvy.woff2,diff domain
+132,https://cdn.vox-cdn.com/shared_fonts/unison/verge/heroic-cond-vrg-web-ltd-md-obq.woff2,diff domain
+133,https://cdn.vox-cdn.com/shared_fonts/unison/verge/heroic-cond-vrg-web-ltd-md.woff2,diff domain
+136,https://cdn.vox-cdn.com/shared_fonts/unison/verge/pathways-normal-webfont.woff2,diff domain
+143,https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395351/android-chrome-192x192.0.png,diff domain
+144,https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395359/ios-icon.0.png,diff domain
+139,https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395361/favicon-64x64.0.ico,diff domain
+141,https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395363/favicon-32x32.0.png,diff domain
+142,https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395365/favicon-96x96.0.png,diff domain
+140,https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395367/favicon-16x16.0.png,diff domain
+12,https://goo.gl/G5RXGs,diff domain
+128,https://jobs.voxmedia.com,diff domain
+137,https://match.adsrvr.org/track/rid?ttd_pid=gs8reto\u0026fmt=json,diff domain
+121,https://status.voxmedia.com,diff domain
+3,https://twitter.com/verge,diff domain
+2,https://www.facebook.com/verge,diff domain
+126,https://www.voxmedia.com,diff domain
+114,https://www.voxmedia.com/careers,diff domain
+120,https://www.voxmedia.com/legal/accessibility,diff domain
+117,https://www.voxmedia.com/legal/cookie-policy,diff domain
+90,https://www.voxmedia.com/legal/privacy-notice,diff domain
+116,https://www.voxmedia.com/legal/terms-of-use,diff domain
+119,https://www.voxmedia.com/pages/licensing,diff domain
+127,https://www.voxmedia.com/vox-advertising,diff domain
+149,https://auth.voxmedia.com/login?community_id=372&amp;return_to=https%3A%2F%2Fwww.theverge.com%2F,not in formula RIP
+5,https://auth.voxmedia.com/login?community_id=372&return_to=https%3A%2F%2Fwww.theverge.com%2F,not in formula RIP
+151,https://auth.voxmedia.com/signup?community_id=372&amp;return_to=https%3A%2F%2Fwww.theverge.com%2F,not in formula RIP
+6,https://auth.voxmedia.com/signup?community_id=372&return_to=https%3A%2F%2Fwww.theverge.com%2F,not in formula RIP
+1,https://www.theverge.com/,not in formula RIP
+99,https://www.theverge.com/2020/8/16/21370828/uber-lyft-california-shutdown-drivers-classify-ballot-prop-22#comments,not in formula RIP
+86,https://www.theverge.com/2020/8/17/21369460/apple-fortnite-app-store-services-business-model-epic-games#comments,not in formula RIP
+111,https://www.theverge.com/2020/8/18/21372531/nvidia-geforce-now-cloud-gaming-service-chromebook-chrome-os#comments,not in formula RIP
+113,https://www.theverge.com/2020/8/18/21373332/samsung-galaxy-s20-fan-edition-affordable-hole-punch-notch-triple-camera#comments,not in formula RIP
+110,https://www.theverge.com/2020/8/18/21373335/faster-mri-scans-ai-machine-learning-facebook-nyu-research-clinical-study#comments,not in formula RIP
+112,https://www.theverge.com/2020/8/18/21373338/apple-music-stations-radio-country-hits-beats-1#comments,not in formula RIP
+108,https://www.theverge.com/2020/8/18/21373356/spacex-falcon-9-rocket-launch-time-starlink-satellites-watch-live#comments,not in formula RIP
+101,https://www.theverge.com/2020/8/18/21373363/google-maps-redesign-detail-natural-features-environment#comments,not in formula RIP
+93,https://www.theverge.com/2020/8/18/21373719/lenovo-yoga-7i-6-convertible-laptops-intel-amd-processors-windows#comments,not in formula RIP
+98,https://www.theverge.com/2020/8/18/21373744/untitled-goose-game-co-op-mode-free#comments,not in formula RIP
+92,https://www.theverge.com/2020/8/18/21373983/ea-play-subscription-service-steam-release-date#comments,not in formula RIP
+88,https://www.theverge.com/2020/8/18/21374045/tmobile-tuesdays-giveaway-bots-scam-pennsylvania-sweepstakes-contest#comments,not in formula RIP
+91,https://www.theverge.com/2020/8/18/21374105/uber-ride-pass-subscription-cities-us-price-food-delivery#comments,not in formula RIP
+76,https://www.theverge.com/2020/8/18/21374246/apple-china-chinese-operations-restrictions#comments,not in formula RIP
+82,https://www.theverge.com/2020/8/18/21374272/canoo-ev-startup-spac-ipo-reverse-merger#comments,not in formula RIP
+72,https://www.theverge.com/2020/8/18/21374491/go-read-this-apple-us-government-secret-custom-ipod-david-shayer#comments,not in formula RIP
+75,https://www.theverge.com/2020/8/18/21374529/trump-amazon-bezos-post-office-usps-tweet-good-health#comments,not in formula RIP
+106,https://www.theverge.com/21356416/apple-imac-27-2020-review-price-specs-features#comments,not in formula RIP
+95,https://www.theverge.com/21364735/inquiry-based-learning-beagle-tanton-interview-education#comments,not in formula RIP
+79,https://www.theverge.com/21364817/kids-school-covid-19-pandemic-parenting-advice#comments,not in formula RIP
+103,https://www.theverge.com/21372954/moment-travelwear-backpack-tote-organizer-bag-line-price-specs-features#comments,not in formula RIP
+124,https://www.theverge.com/about-the-verge,not in formula RIP
+51,https://www.theverge.com/adobe,not in formula RIP
+17,https://www.theverge.com/amazon,not in formula RIP
+18,https://www.theverge.com/apple,not in formula RIP
+115,https://www.theverge.com/archives,not in formula RIP
+66,https://www.theverge.com/authors/adi-robertson,not in formula RIP
+81,https://www.theverge.com/authors/andrew-j-hawkins,not in formula RIP
+104,https://www.theverge.com/authors/andrew-marino,not in formula RIP
+71,https://www.theverge.com/authors/andrew-webster,not in formula RIP
+73,https://www.theverge.com/authors/ashley-carman,not in formula RIP
+78,https://www.theverge.com/authors/barbara-krasnoff,not in formula RIP
+84,https://www.theverge.com/authors/cameron-faulkner,not in formula RIP
+85,https://www.theverge.com/authors/chaim-gartenberg,not in formula RIP
+77,https://www.theverge.com/authors/chris-welch,not in formula RIP
+102,https://www.theverge.com/authors/dan-seifert,not in formula RIP
+68,https://www.theverge.com/authors/dieter-bohn,not in formula RIP
+74,https://www.theverge.com/authors/elizabeth-lopatto,not in formula RIP
+96,https://www.theverge.com/authors/grayson-blackmon,not in formula RIP
+109,https://www.theverge.com/authors/james-vincent,not in formula RIP
+67,https://www.theverge.com/authors/jay-peters,not in formula RIP
+100,https://www.theverge.com/authors/jon-porter,not in formula RIP
+83,https://www.theverge.com/authors/julia-alexander,not in formula RIP
+107,https://www.theverge.com/authors/loren-grush,not in formula RIP
+65,https://www.theverge.com/authors/makena-kelly,not in formula RIP
+94,https://www.theverge.com/authors/mary-beth-griggs,not in formula RIP
+97,https://www.theverge.com/authors/megan-farokhmanesh,not in formula RIP
+87,https://www.theverge.com/authors/monica-chin,not in formula RIP
+70,https://www.theverge.com/authors/nicole-wetsman,not in formula RIP
+69,https://www.theverge.com/authors/sean-hollister,not in formula RIP
+80,https://www.theverge.com/authors/taylor-lyles,not in formula RIP
+62,https://www.theverge.com/books,not in formula RIP
+33,https://www.theverge.com/camera-review,not in formula RIP
+24,https://www.theverge.com/cars,not in formula RIP
+63,https://www.theverge.com/comics,not in formula RIP
+123,https://www.theverge.com/community-guidelines,not in formula RIP
+118,https://www.theverge.com/contact#donotsell,not in formula RIP
+122,https://www.theverge.com/contact-the-verge,not in formula RIP
+10,https://www.theverge.com/creators,not in formula RIP
+25,https://www.theverge.com/cyber-security,not in formula RIP
+37,https://www.theverge.com/drone-review,not in formula RIP
+47,https://www.theverge.com/energy,not in formula RIP
+11,https://www.theverge.com/entertainment,not in formula RIP
+48,https://www.theverge.com/environment,not in formula RIP
+125,https://www.theverge.com/ethics-statement,not in formula RIP
+19,https://www.theverge.com/facebook,not in formula RIP
+89,https://www.theverge.com/featured-video,not in formula RIP
+13,https://www.theverge.com/features,not in formula RIP
+57,https://www.theverge.com/film,not in formula RIP
+60,https://www.theverge.com/fortnite,not in formula RIP
+61,https://www.theverge.com/game-of-thrones,not in formula RIP
+59,https://www.theverge.com/games,not in formula RIP
+41,https://www.theverge.com/good-deals,not in formula RIP
+20,https://www.theverge.com/google,not in formula RIP
+32,https://www.theverge.com/headphone-review,not in formula RIP
+46,https://www.theverge.com/health,not in formula RIP
+40,https://www.theverge.com/how-to,not in formula RIP
+50,https://www.theverge.com/instagram,not in formula RIP
+52,https://www.theverge.com/kickstarter,not in formula RIP
+31,https://www.theverge.com/laptop-review,not in formula RIP
+21,https://www.theverge.com/microsoft,not in formula RIP
+26,https://www.theverge.com/mobile,not in formula RIP
+64,https://www.theverge.com/music,not in formula RIP
+44,https://www.theverge.com/nasa,not in formula RIP
+15,https://www.theverge.com/pages/newsletters,not in formula RIP
+30,https://www.theverge.com/phone-review,not in formula RIP
+55,https://www.theverge.com/photography,not in formula RIP
+27,https://www.theverge.com/policy,not in formula RIP
+28,https://www.theverge.com/privacy,not in formula RIP
+8,https://www.theverge.com/reviews,not in formula RIP
+145,https://www.theverge.com/rss/front-page/index.xml,not in formula RIP
+4,https://www.theverge.com/rss/index.xml,not in formula RIP
+22,https://www.theverge.com/samsung,not in formula RIP
+9,https://www.theverge.com/science,not in formula RIP
+29,https://www.theverge.com/scooters,not in formula RIP
+35,https://www.theverge.com/smartwatch-review,not in formula RIP
+43,https://www.theverge.com/space,not in formula RIP
+45,https://www.theverge.com/spacex,not in formula RIP
+36,https://www.theverge.com/speaker-review,not in formula RIP
+16,https://www.theverge.com/store,not in formula RIP
+138,https://www.theverge.com/style/community/372/group/51/a74905e6b18dc632698beae5eb28d003/chorus.css,not in formula RIP
+34,https://www.theverge.com/tablet-review,not in formula RIP
+7,https://www.theverge.com/tech,not in formula RIP
+38,https://www.theverge.com/tech-accessory-review,not in formula RIP
+23,https://www.theverge.com/tesla-motors,not in formula RIP
+39,https://www.theverge.com/this-is-my-next,not in formula RIP
+105,https://www.theverge.com/tldr/2020/8/18/21373455/panasonic-komoru-home-cubicle-work-from-home-office-design#comments,not in formula RIP
+53,https://www.theverge.com/tumblr,not in formula RIP
+58,https://www.theverge.com/tv,not in formula RIP
+56,https://www.theverge.com/whats-in-your-bag,not in formula RIP
+49,https://www.theverge.com/youtube,not in formula RIP

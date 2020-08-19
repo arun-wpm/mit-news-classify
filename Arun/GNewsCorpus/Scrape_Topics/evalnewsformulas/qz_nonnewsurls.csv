@@ -1,0 +1,115 @@
+,nonnewsurl,blackrule
+80,https://cms.qz.com/wp-content/uploads/2020/04/qz-icon.jpg,^.*.jpg.*$
+81,https://cms.qz.com/wp-content/uploads/2020/04/qz-icon.jpg?w=120&amp;h=120&amp;crop=1&amp;strip=all&amp;quality=75,^.*.jpg.*$
+83,https://cms.qz.com/wp-content/uploads/2020/04/qz-icon.jpg?w=167&amp;h=167&amp;crop=1&amp;strip=all&amp;quality=75,^.*.jpg.*$
+82,https://cms.qz.com/wp-content/uploads/2020/04/qz-icon.jpg?w=180&amp;h=180&amp;crop=1&amp;strip=all&amp;quality=75,^.*.jpg.*$
+85,https://app.qz.com/img/logo/Qz_Logo_Black.png,^.*.png.*$
+50,https://qz.com/about/privacy-policy/,^.*privacy-policy.*$
+52,https://qz.com/about/privacy-policy/#_Toc28539902,^.*privacy-policy.*$
+28,mailto:needtoknow+questions@qz.com,^mailto:.*$
+1,#site-content,diff domain
+0,#site-navigation,diff domain
+55,#top,diff domain
+56,https://browsehappy.com,diff domain
+25,https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2769382,diff domain
+31,https://news.rthk.hk/rthk/en/component/k2/1544410-20200818.htm,diff domain
+22,https://www.axios.com/sp500-stock-record-high-pandemic-f75cd236-b23e-4397-8e08-1eabaf7d9383.html?,diff domain
+16,https://www.bbc.com/news/world-asia-india-53773070,diff domain
+18,https://www.bloomberg.com/news/articles/2020-08-18/goldman-malaysia-said-to-sign-final-deal-on-1mdb-settlement,diff domain
+29,https://www.cnet.com/news/adorably-weird-elephant-shrew-lost-to-science-for-50-years-is-rediscovered/,diff domain
+17,https://www.japantimes.co.jp/news/2020/08/18/asia-pacific/north-korea-calls-party-meeting,diff domain
+30,https://www.latimes.com/world-nation/story/2020-08-18/chocolate-factory-glitch-dusts-swiss-town-cocoa,diff domain
+32,https://www.nzherald.co.nz/lifestyle/news/article.cfm?c_id=6&objectid=12357126,diff domain
+15,https://www.reuters.com/article/us-health-coronavirus-vaccine-pakistan/pakistan-gives-go-ahead-to-phase-3-covid-19-vaccine-trial-idUSKCN25E1IC,diff domain
+19,https://www.reuters.com/article/us-india-autos-royalty-idUSKCN25E16J,diff domain
+20,https://www.reuters.com/article/us-india-toyota-mobility/toyota-to-offer-cars-in-india-on-lease-subscription-idUSKCN25E21D,diff domain
+14,https://www.scmp.com/news/asia/australasia/article/3097866/coronavirus-australia-will-manufacture-vaccine-and-give-it,diff domain
+21,https://www.theguardian.com/world/2020/aug/17/eu-calls-leaders-to-emergency-summit-to-support-belarus-people,diff domain
+54,https://www.uzabase.com/en/,diff domain
+100,https:\u002F\u002Fjamanetwork.com\u002Fjournals\u002Fjamanetworkopen\u002Ffullarticle\u002F2769382,diff domain
+111,https:\u002F\u002Fnews.rthk.hk\u002Frthk\u002Fen\u002Fcomponent\u002Fk2\u002F1544410-20200818.htm,diff domain
+96,https:\u002F\u002Fwww.axios.com\u002Fsp500-stock-record-high-pandemic-f75cd236-b23e-4397-8e08-1eabaf7d9383.html?,diff domain
+89,https:\u002F\u002Fwww.bbc.com\u002Fnews\u002Fworld-asia-india-53773070,diff domain
+91,https:\u002F\u002Fwww.bloomberg.com\u002Fnews\u002Farticles\u002F2020-08-18\u002Fgoldman-malaysia-said-to-sign-final-deal-on-1mdb-settlement,diff domain
+109,https:\u002F\u002Fwww.cnet.com\u002Fnews\u002Fadorably-weird-elephant-shrew-lost-to-science-for-50-years-is-rediscovered\u002F,diff domain
+90,https:\u002F\u002Fwww.japantimes.co.jp\u002Fnews\u002F2020\u002F08\u002F18\u002Fasia-pacific\u002Fnorth-korea-calls-party-meeting,diff domain
+110,https:\u002F\u002Fwww.latimes.com\u002Fworld-nation\u002Fstory\u002F2020-08-18\u002Fchocolate-factory-glitch-dusts-swiss-town-cocoa,diff domain
+112,https:\u002F\u002Fwww.nzherald.co.nz\u002Flifestyle\u002Fnews\u002Farticle.cfm?c_id=6&objectid=12357126,diff domain
+88,https:\u002F\u002Fwww.reuters.com\u002Farticle\u002Fus-health-coronavirus-vaccine-pakistan\u002Fpakistan-gives-go-ahead-to-phase-3-covid-19-vaccine-trial-idUSKCN25E1IC,diff domain
+92,https:\u002F\u002Fwww.reuters.com\u002Farticle\u002Fus-india-autos-royalty-idUSKCN25E16J,diff domain
+93,https:\u002F\u002Fwww.reuters.com\u002Farticle\u002Fus-india-toyota-mobility\u002Ftoyota-to-offer-cars-in-india-on-lease-subscription-idUSKCN25E21D,diff domain
+87,https:\u002F\u002Fwww.scmp.com\u002Fnews\u002Fasia\u002Faustralasia\u002Farticle\u002F3097866\u002Fcoronavirus-australia-will-manufacture-vaccine-and-give-it,diff domain
+94,https:\u002F\u002Fwww.theguardian.com\u002Fworld\u002F2020\u002Faug\u002F17\u002Feu-calls-leaders-to-emergency-summit-to-support-belarus-people,diff domain
+76,pagead2.googlesyndication.com,diff domain
+74,securepubads.g.doubleclick.net,diff domain
+75,stats.g.doubleclick.net,diff domain
+72,www.googletagmanager.com,diff domain
+73,www.googletagservices.com,diff domain
+71,ads.qz.com,not in formula RIP
+26,http://qz.com/subscribe,not in formula RIP
+104,http:\u002F\u002Fqz.com\u002Fsubscribe,not in formula RIP
+57,https://cms.qz.com,not in formula RIP
+84,https://cms.qz.com/feed/,not in formula RIP
+58,https://content.qz.com,not in formula RIP
+44,https://help.qz.com/en/,not in formula RIP
+59,https://platform.qz.com,not in formula RIP
+86,https://qz.com,not in formula RIP
+6,https://qz.com/,not in formula RIP
+42,https://qz.com/about/,not in formula RIP
+43,https://qz.com/about/#contact,not in formula RIP
+51,https://qz.com/about/do-not-sell/,not in formula RIP
+53,https://qz.com/about/ethicsandadvertisingguidelines/,not in formula RIP
+49,https://qz.com/about/terms-conditions/,not in formula RIP
+47,https://qz.com/app/,not in formula RIP
+41,https://qz.com/careers/,not in formula RIP
+45,https://qz.com/creative/,not in formula RIP
+65,https://qz.com/dist/Home-1f870d2e91.css,not in formula RIP
+62,https://qz.com/dist/Home-d4b17f4bcd.js,not in formula RIP
+63,https://qz.com/dist/client-81733e41a5.js,not in formula RIP
+64,https://qz.com/dist/client-be8ec86b5d.css,not in formula RIP
+60,https://qz.com/dist/runtime-a33939aba9.js,not in formula RIP
+61,https://qz.com/dist/vendor-53ac384a66.js,not in formula RIP
+8,https://qz.com/emails/,not in formula RIP
+27,https://qz.com/emails/coronavirus/1893509/,not in formula RIP
+7,https://qz.com/featured/,not in formula RIP
+23,https://qz.com/guide/fossil-fuels/,not in formula RIP
+11,https://qz.com/guide/hong-kong/,not in formula RIP
+12,https://qz.com/guides/,not in formula RIP
+4,https://qz.com/latest/,not in formula RIP
+13,https://qz.com/login/,not in formula RIP
+2,https://qz.com/menu/,not in formula RIP
+5,https://qz.com/obsessions/,not in formula RIP
+24,https://qz.com/on/climate-economy/,not in formula RIP
+33,https://qz.com/popular/,not in formula RIP
+67,https://qz.com/public/fonts/MaisonNeue/MaisonNeue-ExtraBold.woff2,not in formula RIP
+66,https://qz.com/public/fonts/MaisonNeue/MaisonNeue-Medium.woff2,not in formula RIP
+68,https://qz.com/public/fonts/MaisonNeue/MaisonNeueExtended-Bold.woff2,not in formula RIP
+69,https://qz.com/public/fonts/PT_Serif/PT_Serif-Web-Regular.woff2,not in formula RIP
+77,https://qz.com/public/images/favicon-light-mode.ico,not in formula RIP
+78,https://qz.com/public/meta/manifest.json,not in formula RIP
+79,https://qz.com/public/meta/opensearch.xml,not in formula RIP
+3,https://qz.com/search/,not in formula RIP
+10,https://qz.com/settings/general/,not in formula RIP
+48,https://qz.com/sitemap/,not in formula RIP
+9,https://qz.com/subscribe/,not in formula RIP
+46,https://qz.com/tips/,not in formula RIP
+34,https://qz.com/topic/emerging-industries/,not in formula RIP
+35,https://qz.com/topic/finance-and-economics/,not in formula RIP
+36,https://qz.com/topic/lifestyle/,not in formula RIP
+37,https://qz.com/topic/politics-and-policy/,not in formula RIP
+38,https://qz.com/topic/science-and-human-behavior/,not in formula RIP
+39,https://qz.com/topic/tech-and-communications/,not in formula RIP
+40,https://qz.com/topic/work-and-management/,not in formula RIP
+97,https:\u002F\u002Fqz.com\u002F1868508\u002Fwhere-oil-and-gas-companies-fall-in-the-sp-500-charted\u002F,not in formula RIP
+102,https:\u002F\u002Fqz.com\u002F1875863\u002Fhong-kong-national-security-law-covers-everyone-on-earth\u002F,not in formula RIP
+103,https:\u002F\u002Fqz.com\u002F1885749\u002Fhow-the-hong-kong-protest-movement-became-the-worlds-fight\u002F,not in formula RIP
+105,https:\u002F\u002Fqz.com\u002F1889798\u002Fcovid-19-is-making-the-opioid-crisis-much-worse\u002F,not in formula RIP
+107,https:\u002F\u002Fqz.com\u002F1891723\u002Fwhat-is-the-best-air-purifier-for-covid-19-protection\u002F,not in formula RIP
+101,https:\u002F\u002Fqz.com\u002F1893053\u002Fcountries-communicate-poorly-about-covid-19\u002F,not in formula RIP
+95,https:\u002F\u002Fqz.com\u002F1893496\u002Fsusan-b-anthony-doesnt-need-to-be-pardoned\u002F,not in formula RIP
+106,https:\u002F\u002Fqz.com\u002Femails\u002Fcoronavirus\u002F1893509\u002F,not in formula RIP
+98,https:\u002F\u002Fqz.com\u002Fguide\u002Ffossil-fuels\u002F,not in formula RIP
+113,https:\u002F\u002Fqz.com\u002Flatest\u002F,not in formula RIP
+99,https:\u002F\u002Fqz.com\u002Fon\u002Fclimate-economy\u002F,not in formula RIP
+108,https:\u002F\u002Fqz.com\u002Fwork\u002F1893334\u002Ffurloughed-brits-just-kept-working-during-covid-19\u002F,not in formula RIP
+70,qzc.qz.com,not in formula RIP
