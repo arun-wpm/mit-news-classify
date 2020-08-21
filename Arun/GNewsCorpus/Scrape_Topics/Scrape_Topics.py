@@ -5,6 +5,7 @@ import requests
 import pycountry
 import time
 import re
+import pandas as pd
 
 WAIT = 5 # stall time so google doesn't block me ;-;
 
@@ -77,23 +78,59 @@ def filter_article_urls(tup):
     urls = tup[0]
     domain = tup[1]
     common_formula = [
+        # TODO 2 dashes
+        # https://www.cnn.com/2020/06/16/politics/cia-wikileaks-vault-7-leak-report/index.html
         r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9a-z.\/_?=&-]+$", #cnn, antiwar, breitbart, thecanary, cnbc, commondreams, consortiumnews, dailycaller, democracynow, economist, forbes
-                                                                   #thegrayzone
+                                                                   #thegrayzone, currentaffairs
+        # TODO 2 dashes
         r"^.*\/(style|travel)\/article\/[0-9a-z.\/-]*$", #cnn
+
+        # TODO 2 dashes
+        # https://www.aljazeera.com/news/2020/08/steve-bannon-trump-adviser-arrested-fraud-200820134920664.html
         r"^.*-[0-9]{15}.html$", #aljazeera
+
+        # https://spectator.org/day-three-of-the-democrat-pros-and-cons-as-pr-pros-combine-to-con-america/
         r"^.*spectator.(org|co\.uk)/[0-9a-z\/]+-[0-9a-z\/-]{10,}$", #spectator
+
+        # https://jacobinmag.com/2020/08/medicare-for-all-for-profit-health-democratsq
         r"^.*\/[0-9]{4}\/[0-9]{2}\/[0-9a-z.\/_?=-]{4,}$", #americanthinker, defenseone, eff, jacobinmag, lewrockwell, nationalreview
+
+
         r"^.*\/[0-9a-f]{32}$", #apnews
+
+        #
         r"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$", #bbc, businessinsider
+
+        # https://www.businessinsider.com/tesla-dating-app-owners-only-car-obsessed-elon-musk-stans-2020-8
         r"^.*\/[0-9a-z-]*[0-9]{4}-[0-9]{1,2}$", #businessinsider
+
+
         r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$", #businessinsider, buzzfeednews, fivethirtyeight, foreignaffairs, foxnews, theguardian, infowars, nbcnews (merge with spectator? too broad?)
+
+
         r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/[0-9]{7}$", #globalresearch
-        r"^.*\/news\/[0-9a-z-]{10,}\/", #cbsnews
+
+
+        r"^.*\/news\/[0-9a-zA-z-]{12,}\/?", #cbsnews, changed from 10 to 12
+
+
         r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{7}\/[0-9A-Za-z.\/-]+$", #dailykos (merge with cnn+?)
+
+
         r"^.*koreaherald.com/view.php\?ud=[0-9]{14}$", #koreaherald
+
+        # https://www.mintpressnews.com/disturbing-milestone-top-12-plutocrats-hold-1-trillion-wealth-inequality/270569/
         r"^.*\/[0-9a-z-]{10,}\/[0-9]{6}\/", #mintpressnews
+
+        # http://pic.people.com.cn/n1/2020/0820/c1016-31830437.html
         r"^.*\/[0-9]{4}\/[0-9]{4}\/c[0-9]{5}-[0-9]{7}.html$", #people.cn
-        r"^.*\/article\/[0-9a-z\/-]+-id[0-9A-Z]{11}" #reuters
+
+        # https://www.reuters.com/article/us-yemen-security-explainer/why-yemen-is-at-war-idUSKCN22924D
+        r"^.*\/article\/[0-9a-z\/-]+-id[0-9A-Z]{11}",  #reuters
+
+        # https://www.dailymail.co.uk/femail/article-8613509/The-best-tennis-gear-step-game-summer.html
+        r"^.*\/article-\d*\/[0-9a-zA-Z-]{12,}\/?"  # dailymail
+        # r"^.*\/article-\d*\/[0-9a-zA-Z-]{12,}.html?"  # dailymail
     ]
     common_blacklist = [
         r"^.*.png.*$", #thecanary, motherjones
@@ -125,30 +162,87 @@ def filter_article_urls(tup):
         r"^.*foxnews.com/category/.*$", #foxnews
         r"^.*mobile-and-tablet$", #theguardian
         r"www.lewrockwell.com/books-resources/murray-n-rothbard-library-and-resources/", #lewrockwell
-        r"^.*podcast.*$", #nationalreview
+        r"^.*podcast.*$", #nationalreview  # https://www.usatoday.com/story/entertainment/celebrities/2020/08/18/michelle-obama-brother-reveals-first-thoughts-barack-podcast/5584158002/
         r"^.*disable.*ad.*blocker.*$", #slate
         r"^./category/.*$",
     ]
+
+    print('filtering out life')
+    newsurls_df = pd.DataFrame(columns=['newsurl', 'newsrule'])
+    nonnewsurls_df = pd.DataFrame(columns=['nonnewsurl', 'blackrule'])
+
     filtered = []
     for url in urls:
         if domain not in url:
+            nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': 'diff domain'}, ignore_index=True)
             continue
         blacklisted = False
         for formula in common_blacklist:
             if re.match(formula, url) is not None:
                 blacklisted = True
+                nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': formula},
+                                                       ignore_index=True)
                 break
         if not blacklisted:
+            commonformula = False
             for formula in common_formula:
                 if re.match(formula, url) is not None:
+                    newsurls_df = newsurls_df.append({'newsurl': url, 'newsrule': formula}, ignore_index=True)
                     filtered.append(url)
+                    commonformula = True
                     break
+            if not commonformula:
+                nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': 'not in formula RIP'}, ignore_index=True)
+
+    newsurls_df.sort_values(by=['newsrule', 'newsurl'], inplace=True)
+    nonnewsurls_df.sort_values(by=['blackrule', 'nonnewsurl'], inplace=True)
+
+    newsurls_df.to_csv(domain.split(sep='.')[0] + '_newsurls.csv')
+    nonnewsurls_df.to_csv(domain.split(sep='.')[0] + '_nonnewsurls.csv')
+
     return filtered
+
+
+from urllib.parse import urlparse
+def rwfiletered(tup):
+    urls = tup[0]
+    domain = tup[1]
+
+    newsurls_df = pd.DataFrame(columns=['newsurl', 'newsrule'])
+    nonnewsurls_df = pd.DataFrame(columns=['nonnewsurl', 'blackrule'])
+
+    for url in urls:
+        parsedurl = urlparse(url)
+        if domain in parsedurl.netloc:
+            splitpath = (parsedurl.path).split(sep='/')
+
+            isnews = False
+            # note that this doesn't work for ap news https://apnews.com/9dd9d8dbff298d28e396ec0983adaefd or https://www.bbc.com/sport/basketball/53677658
+            if re.match(r"([A-Za-z0-9]+-[A-Za-z0-9]+-[A-Za-z0-9]+)", splitpath[-1]):
+                print(-1, url)
+                isnews = True
+                newsurls_df = newsurls_df.append({'newsurl': url, 'newsrule': '-1 enough dashes'}, ignore_index=True)
+            elif len(splitpath) >= 2 and re.match(r"([A-Za-z0-9]+-[A-Za-z0-9]+-[A-Za-z0-9]+)", splitpath[-2]):
+                print(-2, url)
+                isnews = True
+                newsurls_df = newsurls_df.append({'newsurl': url, 'newsrule': '-2 enough dashes'}, ignore_index=True)
+
+            if not isnews:
+                print('\tRIP', url)
+                nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': 'not enough dashes'},
+                                                       ignore_index=True)
+
+    return newsurls_df, nonnewsurls_df
+
+
+
+
+
 
 def query_newsurl(url, domain=""):
     #strategy: finding all href=\\?\"[^\"]*\\?\"
     if (domain == ""):
-        domain = "/".join(url.split('/')[:3]) + '/'
+        domain = "/".join(url.split('/')[:3]) + '/' # in the format of 'https://www.economist.com/'
     
     common_search = [r"href=\\?\"[^\" ]*\\?\"", r"href=\\?\'[^\' ]*\\?\'", r"\"uri\":\"[^\" ]*\"", r"\"url\":\"[^\" ]*\""]
     # search = "href"
