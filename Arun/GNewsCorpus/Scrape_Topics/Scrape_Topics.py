@@ -117,7 +117,7 @@ def filter_article_urls(tup, file='newsurlpatterns.csv'):
     domain = tup[1]
     common_formula = newsurlpatterns[newsurlpatterns['url'].str.contains(domain)]['pattern']
 
-    if len(common_formula) == 0 or common_formula.isna().iloc[0]:
+    if len(common_formula) == 0 or common_formula.isna().any():
         common_formula = set(newsurlpatterns['pattern'])
         common_formula = {f for f in common_formula if pd.notna(f)}
 
@@ -150,17 +150,13 @@ def filter_article_urls(tup, file='newsurlpatterns.csv'):
                 nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': 'not in formula RIP'},
                                                        ignore_index=True)
 
-    # newsurls_df.sort_values(by=['newsrule', 'newsurl'], inplace=True)
-    # nonnewsurls_df.sort_values(by=['blackrule', 'nonnewsurl'], inplace=True)
-    #
+    newsurls_df.sort_values(by=['newsrule', 'newsurl'], inplace=True)
+    nonnewsurls_df.sort_values(by=['blackrule', 'nonnewsurl'], inplace=True)
+
     # newsurls_df.to_csv(domain.split(sep='.')[0] + '_newsurls.csv')
     # nonnewsurls_df.to_csv(domain.split(sep='.')[0] + '_nonnewsurls.csv')
 
-    return filtered
-
-
-
-
+    return filtered #, newsurls_df, nonnewsurls_df
 
 
 def query_newsurl(url, domain=""):
