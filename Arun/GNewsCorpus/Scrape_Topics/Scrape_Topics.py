@@ -175,7 +175,7 @@ def query_newsurl(url, domain=""):
     # print(url)
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
-    links = soup.find_all('a') + soup.find_all('div')
+    links = soup.find_all('a', href=True) + soup.find_all('div', href=True)  # added href = True
     links = [link.get('href') for link in links]
     hrefs = []
     for href in links:
@@ -194,9 +194,9 @@ def query_newsurl(url, domain=""):
                 hrefs.append(domain + href[1:])
             else:
                 # print(href)
-                hrefs.append(href)
+                hrefs.append(domain + href)
 
-    # scripts = soup.find_all('script')
+    # scripts = soup.find_all('script')  # TODO matches might be a repeat of links
     matches = []
     search = '|'.join(common_search)
     matches.extend(re.findall(search, page.text))
@@ -206,7 +206,7 @@ def query_newsurl(url, domain=""):
         # matches.extend(re.findall(search, str(script.string)))
     for match in matches:
         # print("match:" + match)
-        match = match.replace('\\\"', '\"')
+        match = match.replace('\\\"', '\"')  # print('\\\"') leads to this: \"
         match = match.replace('\\/', '/')
         # print(match)
         match = re.split(r'\"|\'', match)[-2]
@@ -226,7 +226,7 @@ def query_newsurl(url, domain=""):
                 hrefs.append(domain + match[1:])
             else:
                 # print(match)
-                hrefs.append(match)
+                hrefs.append(domain + match)
     
     hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
 
