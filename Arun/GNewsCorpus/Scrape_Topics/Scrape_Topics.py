@@ -74,7 +74,7 @@ def query_gurl(url):
         print(">> " + url[0])
     return articles
 
-def filter_article_urls(tup, file='../newsurlpatterns.csv'):
+def filter_article_urls(tup, file='newsurlpatterns.csv'):
     common_blacklist = [
         r"^.*.png.*$",  # thecanary, motherjones
         r"^.*.jpg.*$",  # infowars
