@@ -106,7 +106,7 @@ def filter_article_urls(tup, file='newsurlpatterns.csv'):
         r"^.*foxnews.com/category/.*$",  # foxnews
         r"^.*mobile-and-tablet$",  # theguardian
         r"www.lewrockwell.com/books-resources/murray-n-rothbard-library-and-resources/",  # lewrockwell
-        r"^.*podcast.*$",
+        # r"^.*podcast.*$",  # too restrictive, if the news is about a podcast, it registers as not news
         # nationalreview  # https://www.usatoday.com/story/entertainment/celebrities/2020/08/18/michelle-obama-brother-reveals-first-thoughts-barack-podcast/5584158002/
         r"^.*disable.*ad.*blocker.*$",  # slate
         r"^./category/.*$",
