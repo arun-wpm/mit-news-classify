@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from itntools import strip_url
+from newspaper import Article
 import csv
 import requests
 import pycountry
@@ -169,8 +170,12 @@ def query_newsurl(url, domain=""):
     # print("Querying at " + url)
 
     # print(url)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'html.parser')
+    # page = requests.get(url)
+    # soup = BeautifulSoup(page.text, 'html.parser')
+    art = Article(url)
+    art.download()
+    soup = BeautifulSoup(art.html, 'html.parser')
+
     links = soup.find_all('a', href=True) + soup.find_all('div', href=True)  # added href = True
     links = [link.get('href') for link in links]
     hrefs = []
@@ -195,7 +200,9 @@ def query_newsurl(url, domain=""):
     # scripts = soup.find_all('script')  # TODO matches might be a repeat of links
     matches = []
     search = '|'.join(common_search)
-    matches.extend(re.findall(search, page.text))
+    # matches.extend(re.findall(search, page.text))
+    matches.extend(re.findall(search, art.html))
+
     # for script in scripts:
         # print(script.string)
         # print(re.search(search, str(script.string)))
