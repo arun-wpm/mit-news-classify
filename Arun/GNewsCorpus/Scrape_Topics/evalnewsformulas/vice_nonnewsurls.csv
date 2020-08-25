@@ -1,0 +1,148 @@
+,nonnewsurl,blackrule
+72,https://vice-web-statics-cdn.vice.com/favicons/vice/android-chrome-192x192.png,^.*.png.*$
+64,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-114x114.png,^.*.png.*$
+65,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-120x120.png,^.*.png.*$
+66,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-144x144.png,^.*.png.*$
+67,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-152x152.png,^.*.png.*$
+68,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-180x180.png,^.*.png.*$
+60,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-57x57.png,^.*.png.*$
+61,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-60x60.png,^.*.png.*$
+62,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-72x72.png,^.*.png.*$
+63,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-76x76.png,^.*.png.*$
+79,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-1182x2208.png,^.*.png.*$
+80,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-1242x2148.png,^.*.png.*$
+83,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-1496x2048.png,^.*.png.*$
+84,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-1536x2008.png,^.*.png.*$
+75,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-320x460.png,^.*.png.*$
+77,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-640x1096.png,^.*.png.*$
+76,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-640x920.png,^.*.png.*$
+81,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-748x1024.png,^.*.png.*$
+78,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-750x1294.png,^.*.png.*$
+82,https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-startup-image-768x1004.png,^.*.png.*$
+69,https://vice-web-statics-cdn.vice.com/favicons/vice/coast-228x228.png,^.*.png.*$
+73,https://vice-web-statics-cdn.vice.com/favicons/vice/favicon-16x16.png,^.*.png.*$
+71,https://vice-web-statics-cdn.vice.com/favicons/vice/favicon-32x32.png,^.*.png.*$
+26,https://vice.com/en_us/page/podcasts,^.*podcast.*$
+46,api.amplitude.com,diff domain
+50,fonts.gstatic.com,diff domain
+47,gum.criteo.com,diff domain
+142,http://www.apple.com/tv/,diff domain
+143,https://channelstore.roku.com/details/83900/vicetv,diff domain
+57,https://fonts.gstatic.com/s/lora/v14/0QIvMX1D_JOuMwT7I_FMl_GW8g.woff2,diff domain
+59,https://fonts.gstatic.com/s/sourcecodepro/v10/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2,diff domain
+140,https://itunes.apple.com/us/app/land/id1075922366,diff domain
+141,https://play.google.com/store/apps/details?id=com.vice.vicetv,diff domain
+24,https://twitter.com/vice,diff domain
+30,https://vicemag.tumblr.com,diff domain
+22,https://www.facebook.com/vice,diff domain
+23,https://www.instagram.com/vice,diff domain
+32,https://www.pinterest.com/vicemag,diff domain
+29,https://www.reddit.com/user/vice,diff domain
+25,https://www.vicetv.com,diff domain
+31,https://www.youtube.com/user/vice,diff domain
+44,native.sharethrough.com/assets/sfp.js,diff domain
+43,securepubads.g.doubleclick.net/tag/js/gpt.js,diff domain
+45,sourcepoint.mgr.consensu.org,diff domain
+49,www.googletagmanager.com,diff domain
+5,http://painkiller.vice.com/p/1,not in formula RIP
+145,http://www.vice.com/en_us/read/how-to-watch-vicetv,not in formula RIP
+144,http://www.vice.com/read/how-to-watch-vicetv,not in formula RIP
+36,https://advertise.vice.com/,not in formula RIP
+37,https://checkout.subscriptiongenius.com/vice.com/,not in formula RIP
+34,https://company.vice.com,not in formula RIP
+35,https://company.vice.com/careers/,not in formula RIP
+6,https://news.vice.com/en_us,not in formula RIP
+27,https://shop.vice.com/,not in formula RIP
+74,https://vice-web-statics-cdn.vice.com/favicons/vice/favicon.ico,not in formula RIP
+70,https://vice-web-statics-cdn.vice.com/favicons/vice/yandex-browser-manifest.json,not in formula RIP
+56,https://vice-web-statics-cdn.vice.com/fonts/NeueHaasGroteskDisplay/NeueHaasGroteskDisplay-500.woff2,not in formula RIP
+58,https://vice-web-statics-cdn.vice.com/fonts/NeueHaasGroteskDisplay/NeueHaasGroteskDisplay-900.woff2,not in formula RIP
+55,https://vice-web-statics-cdn.vice.com/fonts/NeueHaasGroteskText/NeueHaasGroteskText-400.woff2,not in formula RIP
+48,https://vice-web-statics-cdn.vice.com/vendor/ad-lib/v2.8.0/vice-ad-lib.js,not in formula RIP
+3,https://video.vice.com/en_us/,not in formula RIP
+33,https://www.vice.com/,not in formula RIP
+133,https://www.vice.com/_next/static/chunks/131c416d4244149b42e598982912d7a4309f9830.9b230acc4d5108955aa6.js,not in formula RIP
+137,https://www.vice.com/_next/static/chunks/1b6d2fae21d0bcc0b55b539044d1bf5afa44aae2.ecae72a477e962e3289a.js,not in formula RIP
+131,https://www.vice.com/_next/static/chunks/37c646282eafecaa5c66147d1c8e898d81d3c296.664eb27dd16a8a1c54c3.js,not in formula RIP
+130,https://www.vice.com/_next/static/chunks/81669265afeeee5e4f6253455eae268da67f3196.4273b77626125fd66606.js,not in formula RIP
+128,https://www.vice.com/_next/static/chunks/9281fd977b71e464680e51f007c05b38c12410a8.45855fea4e4bb8ba1a3c.js,not in formula RIP
+135,https://www.vice.com/_next/static/chunks/98d90d191a929a274402f51fc22acdd5bcb01616.7b5d1f0a12cc94ff031b.js,not in formula RIP
+136,https://www.vice.com/_next/static/chunks/98d90d191a929a274402f51fc22acdd5bcb01616_CSS.d5d950bf590b404bd19b.js,not in formula RIP
+129,https://www.vice.com/_next/static/chunks/a5b48c95ee4916d664441efe8fd4b46709b3b5f8.7176b9ed717706a65c8c.js,not in formula RIP
+127,https://www.vice.com/_next/static/chunks/commons.f7ef14d70f1a5763c946.js,not in formula RIP
+134,https://www.vice.com/_next/static/chunks/d04a3cc99b5677bb75f972bb344241dc106a7681.617abcf0d25a51c1daa4.js,not in formula RIP
+126,https://www.vice.com/_next/static/chunks/framework.150a6de8273420ddcecf.js,not in formula RIP
+124,https://www.vice.com/_next/static/chunks/main-019d7625876bf1210205.js,not in formula RIP
+139,https://www.vice.com/_next/static/chunks/pages/%5Blocale%5D-a5ca09466c0f9e4895b4.js,not in formula RIP
+132,https://www.vice.com/_next/static/chunks/pages/_app-79a88619cddc73937171.js,not in formula RIP
+138,https://www.vice.com/_next/static/chunks/styles.54f6e0c88b2d2022c722.js,not in formula RIP
+125,https://www.vice.com/_next/static/chunks/webpack-a6b99e6423675d4ed71f.js,not in formula RIP
+122,https://www.vice.com/_next/static/css/98d90d191a929a274402f51fc22acdd5bcb01616_CSS.908614b9.chunk.css,not in formula RIP
+121,https://www.vice.com/_next/static/css/pages/_app.5593f4cf.chunk.css,not in formula RIP
+123,https://www.vice.com/_next/static/css/styles.6998b181.chunk.css,not in formula RIP
+53,https://www.vice.com/_next/static/css/themes/vice.c694adf96f0d53f29a3a0afbe2d16a7b.css,not in formula RIP
+54,https://www.vice.com/_next/static/css/themes/vice.default.6768fbb55cc48645d758c4aa3b149824.css,not in formula RIP
+85,https://www.vice.com/_next/static/public/pwa-manifest.json,not in formula RIP
+115,https://www.vice.com/ar,not in formula RIP
+105,https://www.vice.com/be,not in formula RIP
+106,https://www.vice.com/cs,not in formula RIP
+114,https://www.vice.com/da,not in formula RIP
+88,https://www.vice.com/de,not in formula RIP
+116,https://www.vice.com/de_at,not in formula RIP
+117,https://www.vice.com/de_ch,not in formula RIP
+104,https://www.vice.com/en_asia,not in formula RIP
+90,https://www.vice.com/en_au,not in formula RIP
+87,https://www.vice.com/en_ca,not in formula RIP
+113,https://www.vice.com/en_in,not in formula RIP
+112,https://www.vice.com/en_nz,not in formula RIP
+91,https://www.vice.com/en_uk,not in formula RIP
+2,https://www.vice.com/en_us,not in formula RIP
+19,https://www.vice.com/en_us/astroguide,not in formula RIP
+1,https://www.vice.com/en_us/create-account,not in formula RIP
+28,https://www.vice.com/en_us/page/app,not in formula RIP
+38,https://www.vice.com/en_us/page/content-funding-on-vice,not in formula RIP
+39,https://www.vice.com/en_us/page/privacy-and-terms,not in formula RIP
+12,https://www.vice.com/en_us/section/drugs,not in formula RIP
+16,https://www.vice.com/en_us/section/entertainment,not in formula RIP
+17,https://www.vice.com/en_us/section/environment,not in formula RIP
+9,https://www.vice.com/en_us/section/food,not in formula RIP
+15,https://www.vice.com/en_us/section/games,not in formula RIP
+10,https://www.vice.com/en_us/section/health,not in formula RIP
+14,https://www.vice.com/en_us/section/identity,not in formula RIP
+11,https://www.vice.com/en_us/section/money,not in formula RIP
+8,https://www.vice.com/en_us/section/music,not in formula RIP
+41,https://www.vice.com/en_us/section/news,not in formula RIP
+20,https://www.vice.com/en_us/section/sex,not in formula RIP
+7,https://www.vice.com/en_us/section/tech,not in formula RIP
+18,https://www.vice.com/en_us/section/travel,not in formula RIP
+40,https://www.vice.com/en_us/section/world,not in formula RIP
+4,https://www.vice.com/en_us/series/3rz336/the-19th-in-2020,not in formula RIP
+0,https://www.vice.com/en_us/sign-in,not in formula RIP
+13,https://www.vice.com/en_us/topic/2020,not in formula RIP
+21,https://www.vice.com/en_us/topic/vice-magazine,not in formula RIP
+92,https://www.vice.com/es,not in formula RIP
+94,https://www.vice.com/es_ar,not in formula RIP
+93,https://www.vice.com/es_cl,not in formula RIP
+96,https://www.vice.com/es_co,not in formula RIP
+119,https://www.vice.com/es_latam,not in formula RIP
+95,https://www.vice.com/es_mx,not in formula RIP
+97,https://www.vice.com/fr,not in formula RIP
+118,https://www.vice.com/fr_be,not in formula RIP
+86,https://www.vice.com/fr_ca,not in formula RIP
+103,https://www.vice.com/gr,not in formula RIP
+111,https://www.vice.com/id_id,not in formula RIP
+100,https://www.vice.com/it,not in formula RIP
+101,https://www.vice.com/jp,not in formula RIP
+120,https://www.vice.com/kr,not in formula RIP
+99,https://www.vice.com/nl,not in formula RIP
+98,https://www.vice.com/pl,not in formula RIP
+107,https://www.vice.com/pt,not in formula RIP
+102,https://www.vice.com/pt_br,not in formula RIP
+108,https://www.vice.com/ro,not in formula RIP
+110,https://www.vice.com/rs,not in formula RIP
+109,https://www.vice.com/ru,not in formula RIP
+89,https://www.vice.com/sv,not in formula RIP
+51,vice-dev-web-statics-cdn.vice.com,not in formula RIP
+52,vice-web-statics-cdn.vice.com,not in formula RIP
+42,vice-web-statics-cdn.vice.com/sourcepoint/messaging.js,not in formula RIP
+146,www.vice.com,not in formula RIP

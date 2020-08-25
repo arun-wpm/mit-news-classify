@@ -1,0 +1,85 @@
+,nonnewsurl,blackrule
+75,"https://www.snopes.com/tachyon/2018/06/16-SNO-001_Twitter_Profile_400x400_C.jpg?fit=180,180",^.*.jpg.*$
+74,"https://www.snopes.com/tachyon/2018/06/16-SNO-001_Twitter_Profile_400x400_C.jpg?fit=192,192",^.*.jpg.*$
+73,"https://www.snopes.com/tachyon/2018/06/16-SNO-001_Twitter_Profile_400x400_C.jpg?fit=32,32",^.*.jpg.*$
+57,https://www.snopes.com/tachyon/2019/11/logo-main.png,^.*.png.*$
+34,https://www.snopes.com/privacy-policy/,^.*privacy-policy.*$
+14,#collapseWelcomeCard,diff domain
+52,ap.lijit.com,diff domain
+47,as-sec.casalemedia.com,diff domain
+45,bidder.criteo.com,diff domain
+59,c.amazon-adsystem.com,diff domain
+58,cdn.iubenda.com,diff domain
+63,d3n6i6eorggdxk.cloudfront.net,diff domain
+51,fastlane.rubiconproject.com,diff domain
+65,fonts.googleapis.com,diff domain
+50,hbopenbid.pubmatic.com,diff domain
+15,https://en.wikipedia.org/wiki/Help:IPA/English,diff domain
+67,https://fonts.googleapis.com/css?family=IBM+Plex+Sans%3A300%2C400%2C500%2C600%2C700&#038;display=swap&#038;ver=5.3.4,diff domain
+68,https://fonts.googleapis.com/css?family=IBM+Plex+Serif%3A400%2C500%2C500i%2C600%2C700&#038;display=swap&#038;ver=5.3.4,diff domain
+37,https://www.facebook.com/snopes,diff domain
+41,https://www.gofundme.com/savesnopes,diff domain
+40,https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BPS6PDAXAHRQJ,diff domain
+38,https://www.twitter.com/snopes,diff domain
+44,ib.adnxs.com,diff domain
+62,iframe.ly,diff domain
+48,js-sec.indexww.com,diff domain
+64,sdks.shopifycdn.com,diff domain
+42,securepubads.g.doubleclick.net,diff domain
+49,snopes-d.openx.net,diff domain
+60,snopes.zeustechnology.com,diff domain
+46,static.criteo.net,diff domain
+43,static.doubleclick.net,diff domain
+54,storage.cloud.kargo.com,diff domain
+53,tlx.3lift.com,diff domain
+82,http://www.snopes.com/contact/?formType=rumor,not in formula RIP
+28,https://shop.snopes.com/,not in formula RIP
+0,https://www.snopes.com,not in formula RIP
+55,https://www.snopes.com/,not in formula RIP
+9,https://www.snopes.com/about-snopes/,not in formula RIP
+8,https://www.snopes.com/archive/,not in formula RIP
+32,https://www.snopes.com/careers/,not in formula RIP
+2,https://www.snopes.com/contact/,not in formula RIP
+66,https://www.snopes.com/content/mu-plugins/smg/dist/74d49b224c74497b56cb-frontend.css?ver=f767b330c782ee4a51a284d4020b2177,not in formula RIP
+69,https://www.snopes.com/content/themes/snopes/dist/styles/6ad30134c03d05bd255d-main.css?ver=5.3.4,not in formula RIP
+35,https://www.snopes.com/cookie-policy/,not in formula RIP
+36,https://www.snopes.com/do-not-sell-my-info/,not in formula RIP
+5,https://www.snopes.com/fact-check/,not in formula RIP
+25,https://www.snopes.com/fact-check/annabelle-doll-escape-museum/,not in formula RIP
+26,https://www.snopes.com/fact-check/cannon-hinnant/,not in formula RIP
+13,https://www.snopes.com/fact-check/harris-round-up-trump/,not in formula RIP
+23,https://www.snopes.com/fact-check/kids-covid-quarantine/,not in formula RIP
+27,https://www.snopes.com/fact-check/obamas-vacation-scam/,not in formula RIP
+22,https://www.snopes.com/fact-check/usps-50409/,not in formula RIP
+20,https://www.snopes.com/faq/,not in formula RIP
+19,https://www.snopes.com/faq/fact-checking-process/,not in formula RIP
+18,https://www.snopes.com/faq/what-are-snopes/,not in formula RIP
+39,https://www.snopes.com/feed/,not in formula RIP
+29,https://www.snopes.com/frequently-asked-questions/,not in formula RIP
+6,https://www.snopes.com/news/,not in formula RIP
+56,https://www.snopes.com/page/2/,not in formula RIP
+78,https://www.snopes.com/projects/founding-members/?utm_source=snopes-alert-banner&#038;utm_medium=native&#038;utm_campaign=fm2020&#038;utm_content=become-a-founding-member,not in formula RIP
+12,https://www.snopes.com/projects/founding-members/?utm_source=snopes-alert-banner&utm_medium=native&utm_campaign=fm2020&utm_content=become-a-founding-member,not in formula RIP
+76,https://www.snopes.com/projects/founding-members/?utm_source=snopes-mobile-menu-support-button&#038;utm_medium=native&#038;utm_campaign=fm2020&#038;utm_content=become-a-member-today,not in formula RIP
+1,https://www.snopes.com/projects/founding-members/?utm_source=snopes-mobile-menu-support-button&utm_medium=native&utm_campaign=fm2020&utm_content=become-a-member-today,not in formula RIP
+81,https://www.snopes.com/projects/founding-members/?utm_source=snopes-theme-footer-support-link&#038;utm_medium=native&#038;utm_campaign=fm2020&#038;utm_content=support-snopes,not in formula RIP
+31,https://www.snopes.com/projects/founding-members/?utm_source=snopes-theme-footer-support-link&utm_medium=native&utm_campaign=fm2020&utm_content=support-snopes,not in formula RIP
+77,https://www.snopes.com/projects/founding-members/?utm_source=snopes-theme-header-button&#038;utm_medium=native&#038;utm_campaign=fm2020&#038;utm_content=support-snopes,not in formula RIP
+11,https://www.snopes.com/projects/founding-members/?utm_source=snopes-theme-header-button&utm_medium=native&utm_campaign=fm2020&utm_content=support-snopes,not in formula RIP
+79,https://www.snopes.com/projects/founding-members/?utm_source=snopes-welcome-card-body&#038;utm_medium=native&#038;utm_campaign=fm2020&#038;utm_content=join-us,not in formula RIP
+17,https://www.snopes.com/projects/founding-members/?utm_source=snopes-welcome-card-body&utm_medium=native&utm_campaign=fm2020&utm_content=join-us,not in formula RIP
+80,https://www.snopes.com/projects/founding-members/?utm_source=snopes-welcome-card-footer&#038;utm_medium=native&#038;utm_campaign=fm2020&#038;utm_content=limited-time-offer,not in formula RIP
+21,https://www.snopes.com/projects/founding-members/?utm_source=snopes-welcome-card-footer&utm_medium=native&utm_campaign=fm2020&utm_content=limited-time-offer,not in formula RIP
+10,https://www.snopes.com/random,not in formula RIP
+30,https://www.snopes.com/random/,not in formula RIP
+16,https://www.snopes.com/search/,not in formula RIP
+3,https://www.snopes.com/shop/,not in formula RIP
+33,https://www.snopes.com/terms-and-conditions/,not in formula RIP
+7,https://www.snopes.com/video/,not in formula RIP
+4,https://www.snopes.com/whats-new/,not in formula RIP
+24,https://www.snopes.com/whats-new/page/3/,not in formula RIP
+83,https://www.snopes.com/wp-admin/admin-ajax.php,not in formula RIP
+72,https://www.snopes.com/wp-includes/wlwmanifest.xml,not in formula RIP
+70,https://www.snopes.com/wp-json/,not in formula RIP
+71,https://www.snopes.com/xmlrpc.php?rsd,not in formula RIP
+61,www.snopes.com,not in formula RIP

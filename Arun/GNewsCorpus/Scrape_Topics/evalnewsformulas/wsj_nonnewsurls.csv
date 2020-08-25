@@ -1,0 +1,420 @@
+,nonnewsurl,blackrule
+185,https://www.wsj.com/podcasts,^.*podcast.*$
+148,https://www.wsj.com/podcasts/latest/wsj-opinion-foreign-edition,^.*podcast.*$
+147,https://www.wsj.com/podcasts/latest/wsj-opinion-potomac-watch,^.*podcast.*$
+116,https://www.wsj.com/podcasts/latest/wsj-secrets-of-wealthy-women,^.*podcast.*$
+100,https://www.wsj.com/podcasts/latest/wsj-tech-news-briefing,^.*podcast.*$
+56,https://www.wsj.com/podcasts/latest/wsj-whats-news,^.*podcast.*$
+115,https://www.wsj.com/podcasts/latest/wsj-your-money-matters,^.*podcast.*$
+384,https://www.wsj.com/podcasts/sp-500-reaches-new-record-close/7D8102CE-A941-4F01-B4BE-15C09F926AB6.html,^.*podcast.*$
+187,https://www.wsj.com/podcasts/sp-500-reaches-new-record-close/7D8102CE-A941-4F01-B4BE-15C09F926AB6.html?mod=error_page,^.*podcast.*$
+372,https://www.wsj.com/podcasts/three-key-weeks-that-derailed-us-coronavirus-testing/E8F4EDE5-B6EF-4373-B256-4B9FBBEB7F0F.html,^.*podcast.*$
+186,https://www.wsj.com/podcasts/three-key-weeks-that-derailed-us-coronavirus-testing/E8F4EDE5-B6EF-4373-B256-4B9FBBEB7F0F.html?mod=error_page,^.*podcast.*$
+396,https://www.wsj.com/podcasts/when-back-to-work-collides-with-back-to-school/49F51E0C-B321-4F3B-B025-2028A84D71A3.html,^.*podcast.*$
+188,https://www.wsj.com/podcasts/when-back-to-work-collides-with-back-to-school/49F51E0C-B321-4F3B-B025-2028A84D71A3.html?mod=error_page,^.*podcast.*$
+207,https://www.wsj.com/podcasts?mod=wsjfooter,^.*podcast.*$
+35,https://www.wsj.com/podcasts?mod=wsjheader,^.*podcast.*$
+177,mailto:support@wsj.com,^mailto:.*$
+32,#,diff domain
+1,http://bigcharts.marketwatch.com,diff domain
+15,http://www.bigdecisions.com/,diff domain
+245,https://cdn.cxense.com/cx.cce.js,diff domain
+244,https://cdn.cxense.com/cx.js,diff domain
+10,https://djlogin.dowjones.com/login.asp?productname=rnc,diff domain
+238,https://dowjones.com/cookie-notice/?mod=WSJ,diff domain
+242,https://dowjones.com/cookie-notice?mod=WSJ#cookies-advertising,diff domain
+237,https://dowjones.com/privacy-notice/?mod=WSJ,diff domain
+4,https://global.factiva.com/factivalogin/login.asp?productname=global,diff domain
+19,https://housing.com/,diff domain
+343,https://images.wsj.net/im-218548?width=110&height=73,diff domain
+344,https://images.wsj.net/im-218548?width=120&height=80,diff domain
+337,https://images.wsj.net/im-218548?width=1242&height=810,diff domain
+341,https://images.wsj.net/im-218548?width=1280&height=853,diff domain
+328,https://images.wsj.net/im-218548?width=167&height=94,diff domain
+327,https://images.wsj.net/im-218548?width=220&height=146,diff domain
+326,https://images.wsj.net/im-218548?width=220&height=220,diff domain
+330,https://images.wsj.net/im-218548?width=262&height=174,diff domain
+329,https://images.wsj.net/im-218548?width=300&height=200,diff domain
+332,https://images.wsj.net/im-218548?width=359&height=239,diff domain
+345,https://images.wsj.net/im-218548?width=380&height=253,diff domain
+342,https://images.wsj.net/im-218548?width=400&height=400,diff domain
+331,https://images.wsj.net/im-218548?width=540&height=360,diff domain
+336,https://images.wsj.net/im-218548?width=553&height=369,diff domain
+334,https://images.wsj.net/im-218548?width=571&height=226,diff domain
+333,https://images.wsj.net/im-218548?width=602&height=402,diff domain
+347,https://images.wsj.net/im-218548?width=620&height=310,diff domain
+349,https://images.wsj.net/im-218548?width=620&height=349,diff domain
+348,https://images.wsj.net/im-218548?width=620&height=412,diff domain
+335,https://images.wsj.net/im-218548?width=632&height=810,diff domain
+338,https://images.wsj.net/im-218548?width=659&height=439,diff domain
+346,https://images.wsj.net/im-218548?width=700&height=350,diff domain
+325,https://images.wsj.net/im-218548?width=76&height=76,diff domain
+340,https://images.wsj.net/im-218548?width=800&height=600,diff domain
+339,https://images.wsj.net/im-218548?width=959&height=639,diff domain
+293,https://images.wsj.net/im-221598?width=110&height=73,diff domain
+294,https://images.wsj.net/im-221598?width=120&height=80,diff domain
+287,https://images.wsj.net/im-221598?width=1242&height=810,diff domain
+291,https://images.wsj.net/im-221598?width=1280&height=853,diff domain
+278,https://images.wsj.net/im-221598?width=167&height=94,diff domain
+277,https://images.wsj.net/im-221598?width=220&height=146,diff domain
+276,https://images.wsj.net/im-221598?width=220&height=220,diff domain
+280,https://images.wsj.net/im-221598?width=262&height=174,diff domain
+279,https://images.wsj.net/im-221598?width=300&height=200,diff domain
+282,https://images.wsj.net/im-221598?width=359&height=239,diff domain
+295,https://images.wsj.net/im-221598?width=380&height=253,diff domain
+292,https://images.wsj.net/im-221598?width=400&height=400,diff domain
+281,https://images.wsj.net/im-221598?width=540&height=360,diff domain
+286,https://images.wsj.net/im-221598?width=553&height=369,diff domain
+284,https://images.wsj.net/im-221598?width=571&height=226,diff domain
+283,https://images.wsj.net/im-221598?width=602&height=402,diff domain
+297,https://images.wsj.net/im-221598?width=620&height=310,diff domain
+299,https://images.wsj.net/im-221598?width=620&height=349,diff domain
+298,https://images.wsj.net/im-221598?width=620&height=412,diff domain
+285,https://images.wsj.net/im-221598?width=632&height=810,diff domain
+288,https://images.wsj.net/im-221598?width=659&height=439,diff domain
+296,https://images.wsj.net/im-221598?width=700&height=350,diff domain
+275,https://images.wsj.net/im-221598?width=76&height=76,diff domain
+290,https://images.wsj.net/im-221598?width=800&height=600,diff domain
+289,https://images.wsj.net/im-221598?width=959&height=639,diff domain
+318,https://images.wsj.net/im-222134?width=110&height=73,diff domain
+319,https://images.wsj.net/im-222134?width=120&height=80,diff domain
+312,https://images.wsj.net/im-222134?width=1242&height=810,diff domain
+316,https://images.wsj.net/im-222134?width=1280&height=853,diff domain
+303,https://images.wsj.net/im-222134?width=167&height=94,diff domain
+302,https://images.wsj.net/im-222134?width=220&height=146,diff domain
+301,https://images.wsj.net/im-222134?width=220&height=220,diff domain
+305,https://images.wsj.net/im-222134?width=262&height=174,diff domain
+304,https://images.wsj.net/im-222134?width=300&height=200,diff domain
+307,https://images.wsj.net/im-222134?width=359&height=239,diff domain
+320,https://images.wsj.net/im-222134?width=380&height=253,diff domain
+317,https://images.wsj.net/im-222134?width=400&height=400,diff domain
+306,https://images.wsj.net/im-222134?width=540&height=360,diff domain
+311,https://images.wsj.net/im-222134?width=553&height=369,diff domain
+309,https://images.wsj.net/im-222134?width=571&height=226,diff domain
+308,https://images.wsj.net/im-222134?width=602&height=402,diff domain
+322,https://images.wsj.net/im-222134?width=620&height=310,diff domain
+324,https://images.wsj.net/im-222134?width=620&height=349,diff domain
+323,https://images.wsj.net/im-222134?width=620&height=412,diff domain
+310,https://images.wsj.net/im-222134?width=632&height=810,diff domain
+313,https://images.wsj.net/im-222134?width=659&height=439,diff domain
+321,https://images.wsj.net/im-222134?width=700&height=350,diff domain
+300,https://images.wsj.net/im-222134?width=76&height=76,diff domain
+315,https://images.wsj.net/im-222134?width=800&height=600,diff domain
+314,https://images.wsj.net/im-222134?width=959&height=639,diff domain
+373,https://images.wsj.net/im-29106?width=115&height=65,diff domain
+374,https://images.wsj.net/im-29106?width=120&height=68,diff domain
+381,https://images.wsj.net/im-29106?width=1280&height=720,diff domain
+375,https://images.wsj.net/im-29106?width=167&height=94,diff domain
+376,https://images.wsj.net/im-29106?width=198&height=112,diff domain
+377,https://images.wsj.net/im-29106?width=480&height=270,diff domain
+378,https://images.wsj.net/im-29106?width=512&height=288,diff domain
+379,https://images.wsj.net/im-29106?width=640&height=360,diff domain
+380,https://images.wsj.net/im-29106?width=960&height=540,diff domain
+385,https://images.wsj.net/im-29128?width=115&height=65,diff domain
+386,https://images.wsj.net/im-29128?width=120&height=68,diff domain
+393,https://images.wsj.net/im-29128?width=1280&height=720,diff domain
+387,https://images.wsj.net/im-29128?width=167&height=94,diff domain
+388,https://images.wsj.net/im-29128?width=198&height=112,diff domain
+389,https://images.wsj.net/im-29128?width=480&height=270,diff domain
+390,https://images.wsj.net/im-29128?width=512&height=288,diff domain
+391,https://images.wsj.net/im-29128?width=640&height=360,diff domain
+392,https://images.wsj.net/im-29128?width=960&height=540,diff domain
+382,https://images.wsj.net/im-29352?width=150&height=150,diff domain
+383,https://images.wsj.net/im-29352?width=3000&height=3000,diff domain
+370,https://images.wsj.net/im-32665?width=150&height=150,diff domain
+371,https://images.wsj.net/im-32665?width=3000&height=3000,diff domain
+361,https://images.wsj.net/im-32666?width=115&height=65,diff domain
+362,https://images.wsj.net/im-32666?width=120&height=68,diff domain
+369,https://images.wsj.net/im-32666?width=1280&height=720,diff domain
+363,https://images.wsj.net/im-32666?width=167&height=94,diff domain
+364,https://images.wsj.net/im-32666?width=198&height=112,diff domain
+365,https://images.wsj.net/im-32666?width=480&height=270,diff domain
+366,https://images.wsj.net/im-32666?width=512&height=288,diff domain
+367,https://images.wsj.net/im-32666?width=640&height=360,diff domain
+368,https://images.wsj.net/im-32666?width=960&height=540,diff domain
+394,https://images.wsj.net/im-83637?width=150&height=150,diff domain
+395,https://images.wsj.net/im-83637?width=3000&height=3000,diff domain
+230,https://itunes.apple.com/us/app/the-wall-street-journal./id364387007?mt=8,diff domain
+20,https://knewz.com/,diff domain
+397,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_115x65.jpg,diff domain
+405,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_1280x720.jpg,diff domain
+399,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_167x94.jpg,diff domain
+401,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_16x9still.jpg,diff domain
+398,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_16x9thumb.jpg,diff domain
+406,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_1920x1080.jpg,diff domain
+400,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_198x112.jpg,diff domain
+402,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_512x288.jpg,diff domain
+403,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_640x360.jpg,diff domain
+404,https://m.wsj.net/video/20200811/081120floydbodycam/081120floydbodycam_960x540.jpg,diff domain
+408,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_115x65.jpg,diff domain
+416,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_1280x720.jpg,diff domain
+410,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_167x94.jpg,diff domain
+412,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_16x9still.jpg,diff domain
+409,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_16x9thumb.jpg,diff domain
+417,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_1920x1080.jpg,diff domain
+411,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_198x112.jpg,diff domain
+413,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_512x288.jpg,diff domain
+414,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_640x360.jpg,diff domain
+415,https://m.wsj.net/video/20200812/081220risefallbrooksbrothers/081220risefallbrooksbrothers_960x540.jpg,diff domain
+350,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_115x65.jpg,diff domain
+358,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_1280x720.jpg,diff domain
+352,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_167x94.jpg,diff domain
+354,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_16x9still.jpg,diff domain
+351,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_16x9thumb.jpg,diff domain
+359,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_1920x1080.jpg,diff domain
+353,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_198x112.jpg,diff domain
+355,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_512x288.jpg,diff domain
+356,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_640x360.jpg,diff domain
+357,https://m.wsj.net/video/20200818/081220futurecities/081220futurecities_960x540.jpg,diff domain
+233,https://mansionglobal.com/,diff domain
+2,https://newscorp.com/business/dow-jones/,diff domain
+22,https://nypost.com/,diff domain
+234,https://pevc.dowjones.com,diff domain
+229,https://play.google.com/store/apps/details?id=wsj.reader_sp,diff domain
+246,https://s.wsj.net/img/meta/wsj_favicon-144x144.png,diff domain
+249,https://s.wsj.net/img/meta/wsj_favicon-32x32.png,diff domain
+248,https://s.wsj.net/img/meta/wsj_favicon-48x48.png,diff domain
+247,https://s.wsj.net/img/meta/wsj_favicon-96x96.png,diff domain
+251,https://s.wsj.net/media/wsj_apple-touch-icon-114x114.png,diff domain
+256,https://s.wsj.net/media/wsj_apple-touch-icon-120x120.png,diff domain
+250,https://s.wsj.net/media/wsj_apple-touch-icon-144x144.png,diff domain
+255,https://s.wsj.net/media/wsj_apple-touch-icon-152x152.png,diff domain
+254,https://s.wsj.net/media/wsj_apple-touch-icon-180x180.png,diff domain
+253,https://s.wsj.net/media/wsj_apple-touch-icon-57x57.png,diff domain
+258,https://s.wsj.net/media/wsj_apple-touch-icon-60x60.png,diff domain
+252,https://s.wsj.net/media/wsj_apple-touch-icon-72x72.png,diff domain
+257,https://s.wsj.net/media/wsj_apple-touch-icon-76x76.png,diff domain
+27,https://storyful.com/,diff domain
+225,https://twitter.com/WSJ,diff domain
+218,https://wsj.jobs,diff domain
+223,https://wsjshop.com/?mod=wsjfooter,diff domain
+0,https://www.barrons.com,diff domain
+262,https://www.checkout51.com/?utm_source=wsj&amp;utm_medium=digitalhousead&amp;utm_campaign=wsjspotlight,diff domain
+17,https://www.checkout51.com/?utm_source=wsj&utm_medium=digitalhousead&utm_campaign=wsjspotlight,diff domain
+222,https://www.djreprints.com,diff domain
+243,https://www.dowjones.com,diff domain
+3,https://www.dowjones.com/,diff domain
+232,https://www.dowjones.com/factiva,diff domain
+231,https://www.dowjones.com/newswires,diff domain
+268,https://www.dowjones.com/notice-ca-residents/?mod=WSJ,diff domain
+235,https://www.dowjones.com/risk-compliance,diff domain
+224,https://www.facebook.com/wsj,diff domain
+5,https://www.fnlondon.com/,diff domain
+8,https://www.getnewsmart.com/,diff domain
+18,https://www.harpercollins.com/,diff domain
+226,https://www.instagram.com/wsj/,diff domain
+21,https://www.makaan.com/,diff domain
+6,https://www.mansionglobal.com/,diff domain
+7,https://www.marketwatch.com,diff domain
+23,https://www.newsamerica.com/,diff domain
+24,https://www.proptiger.com,diff domain
+25,https://www.rea-group.com/,diff domain
+26,https://www.realtor.com,diff domain
+228,https://www.snapchat.com/discover/Wall-Street-Journal/4806310285,diff domain
+28,https://www.theaustralian.com.au,diff domain
+16,https://www.theaustralian.com.au/business,diff domain
+29,https://www.thesun.co.uk/,diff domain
+30,https://www.thetimes.co.uk,diff domain
+208,https://www.wsjmediakit.com,diff domain
+190,https://www.wsjplus.com/?mod=wsjfooter,diff domain
+236,https://www.wsjwine.com,diff domain
+227,https://www.youtube.com/user/WSJDigitalNetwork,diff domain
+51,https://blogs.wsj.com/economics/,not in formula RIP
+106,https://blogs.wsj.com/moneybeat/,not in formula RIP
+166,https://blogs.wsj.com/puzzle/,not in formula RIP
+52,https://blogs.wsj.com/washwire/,not in formula RIP
+197,https://buy.wsj.com/amenitysales/?mod=wsjfooter,not in formula RIP
+210,https://classifieds.wsj.com,not in formula RIP
+211,https://classifieds.wsj.com/ad/Business-For-Sale-Ads,not in formula RIP
+213,https://classifieds.wsj.com/advertise/careers/,not in formula RIP
+209,https://classifieds.wsj.com/advertise/real-estate-commercial/,not in formula RIP
+212,https://classifieds.wsj.com/advertise/real-estate-residential/,not in formula RIP
+272,https://cn.wsj.com/zh-hans,not in formula RIP
+274,https://cn.wsj.com/zh-hant,not in formula RIP
+11,https://conferences.wsj.com/,not in formula RIP
+198,https://conferences.wsj.com/?mod=wsjfooter,not in formula RIP
+270,https://customercenter.wsj.com,not in formula RIP
+200,https://customercenter.wsj.com/contact,not in formula RIP
+199,https://customercenter.wsj.com/home,not in formula RIP
+221,https://customercenter.wsj.com/register,not in formula RIP
+194,https://education.wsj.com/?mod=wsjfooter,not in formula RIP
+195,https://education.wsj.com/students/?mod=wsjfooter,not in formula RIP
+59,https://graphics.wsj.com/wsjnbcpoll/,not in formula RIP
+196,https://highschool.wsj.com/?mod=wsjfooter,not in formula RIP
+273,https://jp.wsj.com/,not in formula RIP
+269,https://member.wsj.com/,not in formula RIP
+9,https://newsplus.wsj.com,not in formula RIP
+191,https://subscribe.wsj.com/membership,not in formula RIP
+192,https://subscription.wsj.com/wsj-com-wall-street-journal/?mod=wsjfooter,not in formula RIP
+261,https://video-api.wsj.com/api-video/audio/css/audioplayer.min.css,not in formula RIP
+260,https://video-api.wsj.com/api-video/player/v3/css/video.min.css,not in formula RIP
+216,https://wsj.com/partner,not in formula RIP
+193,https://www.subscription.wsj.com/corporate/?mod=wsjfooter,not in formula RIP
+14,https://www.wsj.com,not in formula RIP
+31,https://www.wsj.com/,not in formula RIP
+189,https://www.wsj.com/404,not in formula RIP
+215,https://www.wsj.com/articles/about-the-newsroom-1539110913?mod=wsjfooter,not in formula RIP
+180,https://www.wsj.com/articles/after-reopening-notre-dame-to-move-classes-online-due-to-coronavirus-spike-11597784400?mod=error_page,not in formula RIP
+178,https://www.wsj.com/articles/men-urged-to-limit-alcohol-to-one-drink-a-day-amid-new-concerns-11597688916?mod=error_page,not in formula RIP
+179,https://www.wsj.com/articles/postmaster-general-dejoy-to-testify-before-senate-panel-friday-11597758378?mod=error_page,not in formula RIP
+214,https://www.wsj.com/coupons,not in formula RIP
+33,https://www.wsj.com/digital-print-edition?mod=wsjheader,not in formula RIP
+98,https://www.wsj.com/graphics/billion-dollar-club/,not in formula RIP
+65,https://www.wsj.com/graphics/econsurvey/,not in formula RIP
+170,https://www.wsj.com/houseoftheday,not in formula RIP
+58,https://www.wsj.com/livecoverage/campaign-wire-election-2020  ,not in formula RIP
+259,https://www.wsj.com/manifest.json,not in formula RIP
+108,https://www.wsj.com/market-data,not in formula RIP
+112,https://www.wsj.com/market-data/bonds,not in formula RIP
+111,https://www.wsj.com/market-data/commodities,not in formula RIP
+110,https://www.wsj.com/market-data/currencies,not in formula RIP
+113,https://www.wsj.com/market-data/mutualfunds-etfs,not in formula RIP
+265,https://www.wsj.com/market-data/quotes/bond/BX/TMUBMUSD10Y,not in formula RIP
+266,https://www.wsj.com/market-data/quotes/fx/USDJPY,not in formula RIP
+267,https://www.wsj.com/market-data/quotes/index/DJIA,not in formula RIP
+264,https://www.wsj.com/market-data/quotes/index/HK/HSI,not in formula RIP
+263,https://www.wsj.com/market-data/quotes/index/JP/NIK,not in formula RIP
+109,https://www.wsj.com/market-data/stocks,not in formula RIP
+219,https://www.wsj.com/masthead?mod=wsjfooter,not in formula RIP
+220,https://www.wsj.com/news/archive/?mod=wsjfooter,not in formula RIP
+123,https://www.wsj.com/news/author/andy-kessler,not in formula RIP
+95,https://www.wsj.com/news/author/christopher-mims,not in formula RIP
+121,https://www.wsj.com/news/author/daniel-henninger,not in formula RIP
+122,https://www.wsj.com/news/author/holman-w-jenkinsjr,not in formula RIP
+119,https://www.wsj.com/news/author/james-freeman,not in formula RIP
+128,https://www.wsj.com/news/author/jason-l-riley,not in formula RIP
+96,https://www.wsj.com/news/author/joanna-stern,not in formula RIP
+129,https://www.wsj.com/news/author/joseph-c.-sternberg,not in formula RIP
+97,https://www.wsj.com/news/author/julie-jargon,not in formula RIP
+130,https://www.wsj.com/news/author/kimberley-a.-strassel,not in formula RIP
+127,https://www.wsj.com/news/author/mary-anastasia-ogrady,not in formula RIP
+126,https://www.wsj.com/news/author/peggy-noonan,not in formula RIP
+118,https://www.wsj.com/news/author/sadanand-dhume,not in formula RIP
+125,https://www.wsj.com/news/author/walter-russell-mead,not in formula RIP
+120,https://www.wsj.com/news/author/william-a-galston,not in formula RIP
+124,https://www.wsj.com/news/author/william-mcgurn,not in formula RIP
+67,https://www.wsj.com/news/business,not in formula RIP
+74,https://www.wsj.com/news/business/consumer-products,not in formula RIP
+71,https://www.wsj.com/news/business/defense-aerospace,not in formula RIP
+75,https://www.wsj.com/news/business/energy-oil-gas,not in formula RIP
+77,https://www.wsj.com/news/business/financial-services,not in formula RIP
+78,https://www.wsj.com/news/business/food-tobacco,not in formula RIP
+79,https://www.wsj.com/news/business/health-industry,not in formula RIP
+80,https://www.wsj.com/news/business/hotels-casinos,not in formula RIP
+81,https://www.wsj.com/news/business/industrial-services,not in formula RIP
+48,https://www.wsj.com/news/business/law-legal,not in formula RIP
+68,https://www.wsj.com/news/business/management,not in formula RIP
+82,https://www.wsj.com/news/business/media-marketing,not in formula RIP
+83,https://www.wsj.com/news/business/natural-resources,not in formula RIP
+84,https://www.wsj.com/news/business/retail-industry,not in formula RIP
+76,https://www.wsj.com/news/business/small-business-marketing,not in formula RIP
+72,https://www.wsj.com/news/business/transportation,not in formula RIP
+85,https://www.wsj.com/news/cfo-journal,not in formula RIP
+86,https://www.wsj.com/news/cio-journal,not in formula RIP
+87,https://www.wsj.com/news/cmo-today,not in formula RIP
+167,https://www.wsj.com/news/collection/far-and-away-09e79c31,not in formula RIP
+217,https://www.wsj.com/news/column/corrections?mod=wsjfooter,not in formula RIP
+45,https://www.wsj.com/news/economy,not in formula RIP
+90,https://www.wsj.com/news/experience-report,not in formula RIP
+91,https://www.wsj.com/news/heard-on-the-street,not in formula RIP
+202,https://www.wsj.com/news/how-to-guides?mod=wsjfooter,not in formula RIP
+36,https://www.wsj.com/news/latest-headlines?mod=wsjheader,not in formula RIP
+54,https://www.wsj.com/news/latest/journalreport,not in formula RIP
+152,https://www.wsj.com/news/life-arts,not in formula RIP
+153,https://www.wsj.com/news/life-arts/arts,not in formula RIP
+155,https://www.wsj.com/news/life-arts/automotive,not in formula RIP
+154,https://www.wsj.com/news/life-arts/books,not in formula RIP
+163,https://www.wsj.com/news/life-arts/fashion,not in formula RIP
+156,https://www.wsj.com/news/life-arts/food-cooking-drink,not in formula RIP
+157,https://www.wsj.com/news/life-arts/health-wellness,not in formula RIP
+158,https://www.wsj.com/news/life-arts/ideas,not in formula RIP
+159,https://www.wsj.com/news/life-arts/reading-retreating,not in formula RIP
+162,https://www.wsj.com/news/life-arts/sports,not in formula RIP
+164,https://www.wsj.com/news/life-arts/travel,not in formula RIP
+88,https://www.wsj.com/news/logistics-report,not in formula RIP
+165,https://www.wsj.com/news/magazine,not in formula RIP
+173,https://www.wsj.com/news/magazine/art-design,not in formula RIP
+176,https://www.wsj.com/news/magazine/culture,not in formula RIP
+172,https://www.wsj.com/news/magazine/fashion,not in formula RIP
+175,https://www.wsj.com/news/magazine/food,not in formula RIP
+174,https://www.wsj.com/news/magazine/travel,not in formula RIP
+101,https://www.wsj.com/news/markets,not in formula RIP
+102,https://www.wsj.com/news/markets/bonds,not in formula RIP
+73,https://www.wsj.com/news/markets/real-estate-commercial,not in formula RIP
+103,https://www.wsj.com/news/markets/stocks,not in formula RIP
+107,https://www.wsj.com/news/markets/wealth-adviser,not in formula RIP
+117,https://www.wsj.com/news/opinion,not in formula RIP
+50,https://www.wsj.com/news/politics,not in formula RIP
+160,https://www.wsj.com/news/realestate,not in formula RIP
+89,https://www.wsj.com/news/risk-compliance-journal,not in formula RIP
+204,https://www.wsj.com/news/rss-news-and-feeds?mod=wsjfooter,not in formula RIP
+161,https://www.wsj.com/news/science,not in formula RIP
+70,https://www.wsj.com/news/tech/future-of-everything,not in formula RIP
+69,https://www.wsj.com/news/technology,not in formula RIP
+38,https://www.wsj.com/news/types/africa-news,not in formula RIP
+135,https://www.wsj.com/news/types/art-review,not in formula RIP
+39,https://www.wsj.com/news/types/asia-news,not in formula RIP
+131,https://www.wsj.com/news/types/bookshelf,not in formula RIP
+40,https://www.wsj.com/news/types/canada-news,not in formula RIP
+41,https://www.wsj.com/news/types/china-news,not in formula RIP
+143,https://www.wsj.com/news/types/commentary-u-s,not in formula RIP
+141,https://www.wsj.com/news/types/cultural-commentary,not in formula RIP
+138,https://www.wsj.com/news/types/dance-review,not in formula RIP
+57,https://www.wsj.com/news/types/election-2020,not in formula RIP
+42,https://www.wsj.com/news/types/europe-news,not in formula RIP
+140,https://www.wsj.com/news/types/exhibition-review,not in formula RIP
+132,https://www.wsj.com/news/types/film-review,not in formula RIP
+144,https://www.wsj.com/news/types/future-view,not in formula RIP
+43,https://www.wsj.com/news/types/latin-america-news,not in formula RIP
+145,https://www.wsj.com/news/types/letters,not in formula RIP
+136,https://www.wsj.com/news/types/masterpiece,not in formula RIP
+44,https://www.wsj.com/news/types/middle-east-news,not in formula RIP
+137,https://www.wsj.com/news/types/music-review,not in formula RIP
+150,https://www.wsj.com/news/types/notable-quotable,not in formula RIP
+139,https://www.wsj.com/news/types/opera-review,not in formula RIP
+104,https://www.wsj.com/news/types/personal-finance,not in formula RIP
+142,https://www.wsj.com/news/types/review-outlook-u-s,not in formula RIP
+133,https://www.wsj.com/news/types/television-review,not in formula RIP
+146,https://www.wsj.com/news/types/the-saturday-interview,not in formula RIP
+134,https://www.wsj.com/news/types/theater-review,not in formula RIP
+47,https://www.wsj.com/news/us,not in formula RIP
+49,https://www.wsj.com/news/us/greater-new-york,not in formula RIP
+37,https://www.wsj.com/news/world,not in formula RIP
+151,https://www.wsj.com/newsletters#opinion,not in formula RIP
+201,https://www.wsj.com/newsletters/?mod=wsjfooter,not in formula RIP
+53,https://www.wsj.com/noted,not in formula RIP
+239,https://www.wsj.com/policy/copyright-policy,not in formula RIP
+240,https://www.wsj.com/policy/data-policy,not in formula RIP
+271,https://www.wsj.com/policy/legal-policies,not in formula RIP
+241,https://www.wsj.com/policy/subscriber-agreement,not in formula RIP
+92,https://www.wsj.com/pro/artificial-intelligence,not in formula RIP
+61,https://www.wsj.com/pro/bankruptcy,not in formula RIP
+12,https://www.wsj.com/pro/centralbanking,not in formula RIP
+93,https://www.wsj.com/pro/cybersecurity,not in formula RIP
+62,https://www.wsj.com/pro/privateequity,not in formula RIP
+63,https://www.wsj.com/pro/strategic-intelligence,not in formula RIP
+64,https://www.wsj.com/pro/venturecapital,not in formula RIP
+105,https://www.wsj.com/questions/money?mod=markets,not in formula RIP
+13,https://www.wsj.com/video/,not in formula RIP
+94,https://www.wsj.com/video/browse/business,not in formula RIP
+66,https://www.wsj.com/video/browse/business/economy,not in formula RIP
+114,https://www.wsj.com/video/browse/business/markets,not in formula RIP
+181,https://www.wsj.com/video/browse/editor-picks,not in formula RIP
+168,https://www.wsj.com/video/browse/life-culture,not in formula RIP
+169,https://www.wsj.com/video/browse/life-culture/arts-and-entertainment,not in formula RIP
+60,https://www.wsj.com/video/browse/news/politics-and-campaign,not in formula RIP
+55,https://www.wsj.com/video/browse/news/us-news,not in formula RIP
+46,https://www.wsj.com/video/browse/news/world-news,not in formula RIP
+149,https://www.wsj.com/video/browse/opinion,not in formula RIP
+99,https://www.wsj.com/video/browse/tech,not in formula RIP
+360,https://www.wsj.com/video/cities-after-covid-more-tech-health-and-open-spaces/318B2B94-5856-48AE-A126-16CEE371D513.html,not in formula RIP
+184,https://www.wsj.com/video/cities-after-covid-more-tech-health-and-open-spaces/318B2B94-5856-48AE-A126-16CEE371D513.html?mod=error_page,not in formula RIP
+407,https://www.wsj.com/video/police-body-camera-footage-reveals-new-details-of-george-floyd-killing/18E43BDB-F4B9-4396-821C-0E72F7251B60.html,not in formula RIP
+183,https://www.wsj.com/video/police-body-camera-footage-reveals-new-details-of-george-floyd-killing/18E43BDB-F4B9-4396-821C-0E72F7251B60.html?mod=error_page,not in formula RIP
+418,https://www.wsj.com/video/series/rise-and-fall/brooks-brothers-from-buttoned-up-to-stripped-down/DBAADC9C-DA27-4C72-8070-99E184593DE8,not in formula RIP
+182,https://www.wsj.com/video/series/rise-and-fall/brooks-brothers-from-buttoned-up-to-stripped-down/DBAADC9C-DA27-4C72-8070-99E184593DE8?mod=error_page,not in formula RIP
+171,https://www.wsj.com/video/subject/mansion,not in formula RIP
+205,https://www.wsj.com/video?mod=wsjfooter,not in formula RIP
+34,https://www.wsj.com/video?mod=wsjheader,not in formula RIP
+206,https://www.wsj.com/watchlist/?mod=wsjfooter,not in formula RIP
+203,https://www.wsj.com/watchlist/news?mod=wsjfooter,not in formula RIP

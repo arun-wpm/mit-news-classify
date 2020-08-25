@@ -1,0 +1,2 @@
+,newsurl,newsrule
+0,https://www.axios.com/politics-policy/black-lives-matter-movement,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"

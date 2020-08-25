@@ -1,0 +1,62 @@
+,nonnewsurl,blackrule
+22,https://freebeacon.com/feed/the-free-beacon-podcast/,^.*podcast.*$
+26,https://freebeacon.com/feed/the-sub-beacon-podcast/,^.*podcast.*$
+43,https://freebeacon.com/podcasts,^.*podcast.*$
+23,https://freebeacon.com/podcasts/bernie-battles-biden-pocahontas-surrenders-and-symone-sanders-brings-it/,^.*podcast.*$
+25,https://freebeacon.com/podcasts/dems-self-immolate-sanders-marches-on-and-roger-stone-looks-for-a-pardon/,^.*podcast.*$
+27,https://freebeacon.com/podcasts/greyhound-collapsing-windows-and-j-pod/,^.*podcast.*$
+29,https://freebeacon.com/podcasts/hamilton-the-founders-ranked-and-sonnys-hatred-of-musicals/,^.*podcast.*$
+28,https://freebeacon.com/podcasts/showgirls-ms-pac-man-and-ice-cream-trucks/,^.*podcast.*$
+24,https://freebeacon.com/podcasts/south-carolina-political-trolling-and-government-approved-panic/,^.*podcast.*$
+42,https://freebeacon.com/privacy-policy/,^.*privacy-policy.*$
+44,#,diff domain
+60,"data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAaCAYAAAAue6XIAAABAklEQVRYhe3XP0qDQRCH4UcNIgr+qzyChZX2VnYWnkGxS2+VwlN4DRWUFIqeQBu1yRmCqGAgiqwMJNXWIfNB3m6HYXmLZX6zSilbpZTLUsqw5CS8rsJzrpRyg0P5uQ3ZIRYbIPszj15VzkkvZNv4SC4afu14BnFYxR4Wqrbp84cnfI1lG8F8Y0xnshOkhSWcj4JhOaHjAHfohOwFjquWXOxgM6bBOzaSywaDeLP9qpyTfsh2IneTi0YwnI1DYRsHWKnaps83HvE2S7BJMZOdFK3RxWvYTbwiPuMzZPdxjfWqLQ+xfB/FNHgZxVl2Xhv3Ybyvyjl5CNlTdPGbVDK8ujj5B/qT66yorDWAAAAAAElFTkSuQmCC",diff domain
+47,fonts.googleapis.com,diff domain
+52,fonts.googleapis.com/css?family=Roboto%3A700%2C800%7CMontserrat%3A400%2C500%2C700%2C300i%2C400i%7CLora%3A400%2C500%2C700%2C300i%2C400i&#038;ver=4.9.5,diff domain
+9,https://facebook.com/freebeacon,diff domain
+45,https://gmpg.org/xfn/11,diff domain
+8,https://twitter.com/freebeacon,diff domain
+10,https://www.instagram.com/washingtonfreebeacon/,diff domain
+6,https://www.swagright.com/collections/washington-free-beacon,diff domain
+11,https://www.youtube.com/user/WashingtonFreeBeacon,diff domain
+48,s.w.org,diff domain
+7,http://freebeacon.com/newsletter,not in formula RIP
+12,https://freebeacon.com/,not in formula RIP
+0,https://freebeacon.com/2020-election/,not in formula RIP
+32,https://freebeacon.com/2020-election/michelle-obama-arms-scandal/,not in formula RIP
+38,https://freebeacon.com/about/,not in formula RIP
+36,https://freebeacon.com/author/adam-kredo/,not in formula RIP
+16,https://freebeacon.com/author/alex-nester/,not in formula RIP
+18,https://freebeacon.com/author/andrew-stiles/,not in formula RIP
+15,https://freebeacon.com/author/charles-lehman/,not in formula RIP
+14,https://freebeacon.com/author/chrissyclark/,not in formula RIP
+13,https://freebeacon.com/author/collin-anderson/,not in formula RIP
+31,https://freebeacon.com/author/elizabeth-matamoros/,not in formula RIP
+30,https://freebeacon.com/author/graham-piro/,not in formula RIP
+19,https://freebeacon.com/author/jack-beyrer/,not in formula RIP
+35,https://freebeacon.com/author/kevin-daley/,not in formula RIP
+21,https://freebeacon.com/author/matt/,not in formula RIP
+34,https://freebeacon.com/author/paul-crookston/,not in formula RIP
+20,https://freebeacon.com/author/rutz/,not in formula RIP
+37,https://freebeacon.com/author/stephen-gutowski/,not in formula RIP
+5,https://freebeacon.com/columns/,not in formula RIP
+50,https://freebeacon.com/comments/feed/,not in formula RIP
+1,https://freebeacon.com/courts/,not in formula RIP
+49,https://freebeacon.com/feed/,not in formula RIP
+51,https://freebeacon.com/home/feed/,not in formula RIP
+39,https://freebeacon.com/masthead/,not in formula RIP
+2,https://freebeacon.com/national-security/,not in formula RIP
+4,https://freebeacon.com/parody/,not in formula RIP
+17,https://freebeacon.com/parody/anderson-cooper-pillow-video/,not in formula RIP
+33,https://freebeacon.com/parody/bernie-sanders-smooth-head/,not in formula RIP
+3,https://freebeacon.com/tag/media/,not in formula RIP
+41,https://freebeacon.com/terms-of-use/,not in formula RIP
+40,https://freebeacon.com/topics/,not in formula RIP
+59,https://freebeacon.com/wp-json,not in formula RIP
+54,https://freebeacon.com/wp-json/,not in formula RIP
+57,https://freebeacon.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffreebeacon.com%2F,not in formula RIP
+58,https://freebeacon.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffreebeacon.com%2F&#038;format=xml,not in formula RIP
+46,https://freebeacon.com/xmlrpc.php,not in formula RIP
+55,https://freebeacon.com/xmlrpc.php?rsd,not in formula RIP
+56,https://s3.freebeacon.com/inc/wlwmanifest.xml,not in formula RIP
+53,https://s4.freebeacon.com/thm/freebeacon/dist/main.css?ver=2.0.24,not in formula RIP

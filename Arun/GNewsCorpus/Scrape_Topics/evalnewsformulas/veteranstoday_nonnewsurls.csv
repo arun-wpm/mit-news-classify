@@ -1,0 +1,159 @@
+,nonnewsurl,blackrule
+157,https://www.veteranstoday.com/wp-content/uploads/2017/08/cropped-ww1-d-167-dead-1-180x180.jpg,^.*.jpg.*$
+156,https://www.veteranstoday.com/wp-content/uploads/2017/08/cropped-ww1-d-167-dead-1-192x192.jpg,^.*.jpg.*$
+155,https://www.veteranstoday.com/wp-content/uploads/2017/08/cropped-ww1-d-167-dead-1-32x32.jpg,^.*.jpg.*$
+75,https://www.veteranstoday.com/wp-content/uploads/2017/10/114x114.png,^.*.png.*$
+73,https://www.veteranstoday.com/wp-content/uploads/2017/10/120x120.png,^.*.png.*$
+76,https://www.veteranstoday.com/wp-content/uploads/2017/10/144x144.png,^.*.png.*$
+74,https://www.veteranstoday.com/wp-content/uploads/2017/10/152x152.png,^.*.png.*$
+72,https://www.veteranstoday.com/wp-content/uploads/2017/10/76x76.png,^.*.png.*$
+71,https://www.veteranstoday.com/wp-content/uploads/2017/10/vt16X16.png,^.*.png.*$
+28,https://www.veteranstoday.com/comment-policy/,^.*/comment-policy/$
+6,#,diff domain
+24,#login-form,diff domain
+126,0.gravatar.com,diff domain
+112,1.bp.blogspot.com,diff domain
+128,1.gravatar.com,diff domain
+113,2.bp.blogspot.com,diff domain
+127,2.gravatar.com,diff domain
+114,3.bp.blogspot.com,diff domain
+115,4.bp.blogspot.com,diff domain
+129,ad.doubleclick.net,diff domain
+108,adservice.google.com,diff domain
+117,ajax.aspnetcdn.com,diff domain
+81,ajax.cloudflare.com,diff domain
+85,ajax.googleapis.com,diff domain
+116,ajax.microsoft.com,diff domain
+91,api.pinterest.com,diff domain
+86,apis.google.com,diff domain
+111,bp.blogspot.com,diff domain
+125,c.disquscdn.com,diff domain
+78,cdn.onesignal.com,diff domain
+92,cdnjs.cloudflare.com,diff domain
+132,cm.g.doubleclick.net,diff domain
+119,code.jquery.com,diff domain
+94,connect.facebook.net,diff domain
+80,contextual.media.net,diff domain
+98,disqus.com,diff domain
+77,fonts.googleapis.com,diff domain
+84,fonts.gstatic.com,diff domain
+123,github.githubassets.com,diff domain
+87,google-analytics.com,diff domain
+130,googleads.g.doubleclick.net,diff domain
+70,https://fonts.googleapis.com/css?family=Amatic%20SC%7CMerriweather%7CRoboto%20Slab%7CMontserrat%7CLato%7CItalianno%7CPT%20Sans%7CPT%20Sans%20Narrow%7CRaleway%7CCrafty%20Girls%7CRoboto%7COpen%20Sans%7CSchoolbell%7CGreat%20Vibes%7CDroid%20Sans%7CPoppins%7COswald%7CVarela%20Round%7CRoboto%20Condensed%7CFira%20Sans%7CLora%7CSignika%7CCabin%7CArimo%7CDroid%20Serif%7CArvo%7CRubik%7COpen%20Sans%3A300italic%2C400%2C400italic%2C600%2C600italic%2C700%7CRoboto%3A300%2C400%2C400italic%2C500%2C500italic%2C700%2C900&#038;display=swap,diff domain
+0,https://www.facebook.com/Veterans-Today-Network-VT-103477264523405,diff domain
+33,https://www.hireveterans.com,diff domain
+2,https://www.reddit.com/user/veteranstodaynetwork,diff domain
+4,https://www.twitter.com/veteranstoday,diff domain
+29,https://www.veteransnewsreport.com/events,diff domain
+5,https://www.youtube.com/channel/UC2Vba5-IAh9kxID8ExsikFw,diff domain
+82,maps.googleapis.com,diff domain
+83,maps.gstatic.com,diff domain
+109,pagead2.googlesyndication.com,diff domain
+93,pixel.wp.com,diff domain
+97,platform.instagram.com,diff domain
+101,platform.linkedin.com,diff domain
+95,platform.twitter.com,diff domain
+122,player.vimeo.com,diff domain
+124,referrer.disqus.com,diff domain
+104,s.gravatar.com,diff domain
+103,s0.wp.com,diff domain
+118,s3.amazonaws.com,diff domain
+134,s3.buysellads.com,diff domain
+100,s7.addthis.com,diff domain
+99,sitename.disqus.com,diff domain
+89,ssl.google-analytics.com,diff domain
+120,stackpath.bootstrapcdn.com,diff domain
+133,stats.buysellads.com,diff domain
+131,stats.g.doubleclick.net,diff domain
+105,stats.wp.com,diff domain
+96,syndication.twitter.com,diff domain
+110,tpc.googlesyndication.com,diff domain
+121,use.fontawesome.com,diff domain
+102,w.sharethis.com,diff domain
+79,widgets.outbrain.com,diff domain
+88,www.google-analytics.com,diff domain
+106,www.googletagmanager.com,diff domain
+107,www.googletagservices.com,diff domain
+90,youtube.com,diff domain
+55,http://veteranstoday.com/category/armed-forces/,not in formula RIP
+32,https://www.veteranstoday.com/,not in formula RIP
+57,https://www.veteranstoday.com/2018/01/05/winston-churchills-darkest-hour/#comments,not in formula RIP
+56,https://www.veteranstoday.com/2018/01/07/review-the-jesuit-order-as-a-synagogue-of-jews-part-one/#comments,not in formula RIP
+60,https://www.veteranstoday.com/2018/01/22/thorough-search-for-land-mines-unearth-ancient-byzantine-mosaics/#respond,not in formula RIP
+59,https://www.veteranstoday.com/2018/04/08/proof-intel-drop-trump-bolton-behind-syria-chemical-attacks-confirmed/#comments,not in formula RIP
+65,https://www.veteranstoday.com/2019/08/10/epstein-not-dead-on-his-way-to-israel-or-now-in-the-presidential-suite-in-the-deep-underground-military-base-dumb-at-area-51-we-do-not-make-this-shit-up/#comments,not in formula RIP
+61,https://www.veteranstoday.com/2019/09/01/murdered-for-speaking-out-last-words-of-david-goldberg-warning-of-mass-murder-of-americans/#comments,not in formula RIP
+63,https://www.veteranstoday.com/2019/10/29/exclusive-russia-says-bagdadi-killing-faked-by-us-part-of-new-move-against-the-region-by-deep-state/#comments,not in formula RIP
+62,https://www.veteranstoday.com/2020/04/02/facing-us-bio-warfare-an-open-letter-to-president-trump-from-the-people-of-the-world/#comments,not in formula RIP
+58,https://www.veteranstoday.com/2020/08/09/breathtaking-case-closed-infrared-video-reveals-details-of-israeli-nuclear-missile/#comments,not in formula RIP
+54,https://www.veteranstoday.com/2020/08/14/israeli-uae-peace-deal-marks-tectonic-shift-in-middle-eastern-balance-of-power/#comments,not in formula RIP
+53,https://www.veteranstoday.com/2020/08/15/pentagon-esper-beirut-may-be-an-attack-we-made-a-mistake/#comments,not in formula RIP
+52,https://www.veteranstoday.com/2020/08/16/is-customs-and-border-protection-a-rogue-agency-some-say-they-might-be/#respond,not in formula RIP
+51,https://www.veteranstoday.com/2020/08/16/israel-bombing-gaza-too-while-lebanons-president-agrees-to-surrender-after-nuclear-attack-on-beirut/#comments,not in formula RIP
+40,https://www.veteranstoday.com/2020/08/17/covid-censor/#comments,not in formula RIP
+43,https://www.veteranstoday.com/2020/08/17/epstein-brought-14-year-old-to-mar-a-lago-for-pedophile-party-and-trump-meeting/#comments,not in formula RIP
+47,https://www.veteranstoday.com/2020/08/17/intercept-white-house-plants-trumptard-conspiracy-theorists-among-reporters-in-briefing-room/#respond,not in formula RIP
+50,https://www.veteranstoday.com/2020/08/17/polish-psychological-operations-unit-on-guard-of-democracy-in-belarus/#comments,not in formula RIP
+49,https://www.veteranstoday.com/2020/08/17/rain-of-rockets-hits-us-forces-in-iraq-israeli-uae-peace-deal-crumbles-days-after-its-announcement/#comments,not in formula RIP
+45,https://www.veteranstoday.com/2020/08/17/tucson-update-an-assassinated-judge-death-threat-cases-clinton-obama-epa-holder-burke/#comments,not in formula RIP
+36,https://www.veteranstoday.com/2020/08/18/crocodile-tears-human-tears-microscopically-similar/#respond,not in formula RIP
+37,https://www.veteranstoday.com/2020/08/18/trump-rule-for-transgender-health-care-blocked/#respond,not in formula RIP
+25,https://www.veteranstoday.com/about-vt/,not in formula RIP
+41,https://www.veteranstoday.com/author/alexis/,not in formula RIP
+44,https://www.veteranstoday.com/author/atruerag/,not in formula RIP
+38,https://www.veteranstoday.com/author/barrett,not in formula RIP
+39,https://www.veteranstoday.com/author/barrett/,not in formula RIP
+35,https://www.veteranstoday.com/author/carol/,not in formula RIP
+46,https://www.veteranstoday.com/author/dean/,not in formula RIP
+42,https://www.veteranstoday.com/author/editor/,not in formula RIP
+34,https://www.veteranstoday.com/author/gordonduff/,not in formula RIP
+64,https://www.veteranstoday.com/author/robertsteele/,not in formula RIP
+48,https://www.veteranstoday.com/author/southfront/,not in formula RIP
+16,https://www.veteranstoday.com/category/armed-forces/,not in formula RIP
+8,https://www.veteranstoday.com/category/government-and-politics/,not in formula RIP
+7,https://www.veteranstoday.com/category/government-and-politics/election-2020/,not in formula RIP
+9,https://www.veteranstoday.com/category/history/,not in formula RIP
+10,https://www.veteranstoday.com/category/investigations/,not in formula RIP
+11,https://www.veteranstoday.com/category/investigations/911-and-terror-war/,not in formula RIP
+12,https://www.veteranstoday.com/category/investigations/gordon-duff-files/,not in formula RIP
+13,https://www.veteranstoday.com/category/life/,not in formula RIP
+14,https://www.veteranstoday.com/category/life/medical-health/,not in formula RIP
+15,https://www.veteranstoday.com/category/life/science/,not in formula RIP
+17,https://www.veteranstoday.com/category/vt-radio/,not in formula RIP
+18,https://www.veteranstoday.com/category/vt-radio/false-flag-weekly-news/,not in formula RIP
+19,https://www.veteranstoday.com/category/vt-radio/speaking-truth-to-empire/,not in formula RIP
+20,https://www.veteranstoday.com/category/vt-radio/truth-jihad/,not in formula RIP
+21,https://www.veteranstoday.com/category/wars/,not in formula RIP
+22,https://www.veteranstoday.com/category/wars/trade-wars/,not in formula RIP
+23,https://www.veteranstoday.com/category/world-global/,not in formula RIP
+31,https://www.veteranstoday.com/cdn-cgi/l/email-protection#03707673736c7177437566776671626d702d79666d676670682d606c6e,not in formula RIP
+66,https://www.veteranstoday.com/cdn-cgi/l/email-protection#394a4c4949564b4d794f5c4d5c4b58574a4d565d5840175a5654,not in formula RIP
+1,https://www.veteranstoday.com/cdn-cgi/l/email-protection#d5a6a0a5a5baa7a195a3b0a1b0a7b4bba6fbafb0bbb1b0a6befbb6bab8,not in formula RIP
+67,https://www.veteranstoday.com/cdn-cgi/l/email-protection#d7a4a2a7a7b8a5a397a1b2a3b2a5b6b9a4f9adb2b9b3b2a4bcf9b4b8ba,not in formula RIP
+135,https://www.veteranstoday.com/comments/feed/,not in formula RIP
+30,https://www.veteranstoday.com/contact/,not in formula RIP
+27,https://www.veteranstoday.com/disclosures/,not in formula RIP
+26,https://www.veteranstoday.com/editorial-board/,not in formula RIP
+3,https://www.veteranstoday.com/feed/,not in formula RIP
+141,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/easyazon-pro/components/popovers/resources/popovers-4.0.25.css,not in formula RIP
+144,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/js_composer/assets/css/js_composer.min-6.1.css,not in formula RIP
+143,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/tablepress/css/default.min-1.12.css,not in formula RIP
+148,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/td-cloud-library/assets/css/tdb_less_front-fd01b606eadffe2d142186a0c798c0e3.css,not in formula RIP
+147,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/td-composer/legacy/Newspaper/assets/css/td_legacy_main-06b336994ca75a046358a0c0d15ebaa5.css,not in formula RIP
+142,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/td-composer/td-multi-purpose/style-06b336994ca75a046358a0c0d15ebaa5.css,not in formula RIP
+140,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/ultimate-author-box-lite/css/font-awesome.min-1.1.0.css,not in formula RIP
+138,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/ultimate-author-box-lite/css/frontend-1.1.0.css,not in formula RIP
+139,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/plugins/ultimate-author-box-lite/css/uab-responsive-1.1.0.css,not in formula RIP
+146,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/themes/Newspaper-child/style-9.7.1c.css,not in formula RIP
+145,https://www.veteranstoday.com/wp-content/cache/busting/1/wp-content/themes/Newspaper/style-9.7.1.css,not in formula RIP
+137,https://www.veteranstoday.com/wp-content/plugins/shortcode-imdb/includes/css/style.css?v=4.6&#038;,not in formula RIP
+69,https://www.veteranstoday.com/wp-content/themes/Newspaper-child/custom.css,not in formula RIP
+136,https://www.veteranstoday.com/wp-includes/css/dist/block-library/style.min.css,not in formula RIP
+152,https://www.veteranstoday.com/wp-includes/wlwmanifest.xml,not in formula RIP
+149,https://www.veteranstoday.com/wp-json/,not in formula RIP
+153,https://www.veteranstoday.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.veteranstoday.com%2F,not in formula RIP
+154,https://www.veteranstoday.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.veteranstoday.com%2F&#038;format=xml,not in formula RIP
+150,https://www.veteranstoday.com/wp-json/wp/v2/pages/466622,not in formula RIP
+68,https://www.veteranstoday.com/xmlrpc.php,not in formula RIP
+151,https://www.veteranstoday.com/xmlrpc.php?rsd,not in formula RIP

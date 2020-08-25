@@ -1,0 +1,135 @@
+,nonnewsurl,blackrule
+121,http://www.truthdig.com/android-chrome-192x192.png,^.*.png.*$
+118,http://www.truthdig.com/apple-touch-icon.png,^.*.png.*$
+122,http://www.truthdig.com/favicon-16x16.png,^.*.png.*$
+120,http://www.truthdig.com/favicon-194x194.png,^.*.png.*$
+119,http://www.truthdig.com/favicon-32x32.png,^.*.png.*$
+117,https://www.truthdig.com/wp-content/uploads/2018/01/cropped-truthdig_td_favicon512-180x180.png,^.*.png.*$
+116,https://www.truthdig.com/wp-content/uploads/2018/01/cropped-truthdig_td_favicon512-192x192.png,^.*.png.*$
+115,https://www.truthdig.com/wp-content/uploads/2018/01/cropped-truthdig_td_favicon512-32x32.png,^.*.png.*$
+106,https://www.truthdig.com/wp-content/uploads/2019/10/truthdig_logo.png,^.*.png.*$
+98,https://www.truthdig.com/privacy-policy/,^.*privacy-policy.*$
+80,,diff domain
+2,#,diff domain
+99,#tab-modalLogin-0,diff domain
+100,#tab-modalLogin-1,diff domain
+101,#tab-modalLogin-2,diff domain
+104,#wrapper,diff domain
+108,ads.vidoomy.com,diff domain
+72,http://www.facebook.com/Truthdig,diff domain
+88,https://climatenewsnetwork.net/renewable-energy-could-power-the-world-by-2050/,diff domain
+133,https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap,diff domain
+73,https://twitter.com/Truthdig,diff domain
+71,https://www.cafepress.com/truthdig,diff domain
+87,https://www.commondreams.org/news/2020/03/13/shock-doctrine-press-conference-trump-bails-out-oil-industry-not-us-families,diff domain
+74,https://www.instagram.com/truthdig/,diff domain
+109,s.w.org,diff domain
+107,www.google.com,diff domain
+70,http://freshstore.truthdig.com/,not in formula RIP
+130,http://www.truthdig.com/assets/images/sprite.svg#arrow--left-thin,not in formula RIP
+129,http://www.truthdig.com/assets/images/sprite.svg#arrow--right-thin,not in formula RIP
+62,http://www.truthdig.com/cartoons,not in formula RIP
+41,http://www.truthdig.com/group/ear-to-the-ground/,not in formula RIP
+57,http://www.truthdig.com/multimedia,not in formula RIP
+27,http://www.truthdig.com/opinion,not in formula RIP
+123,http://www.truthdig.com/safari-pinned-tab.svg,not in formula RIP
+55,http://www.truthdig.com/scrapbook,not in formula RIP
+49,http://www.truthdig.com/td-originals,not in formula RIP
+61,http://www.truthdig.com/videos,not in formula RIP
+102,https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=https%3A%2F%2Fwww.truthdig.com%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dtruthdig_glogin&client_id=1089531985036-6t4bg23g0p2qv0qci1etcnnup32cmm4q.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=online&approval_prompt=auto,not in formula RIP
+0,https://www.truthdig.com,not in formula RIP
+105,https://www.truthdig.com/,not in formula RIP
+4,https://www.truthdig.com/?bucket=activism,not in formula RIP
+5,https://www.truthdig.com/?bucket=belief-religion,not in formula RIP
+6,https://www.truthdig.com/?bucket=economy-business,not in formula RIP
+7,https://www.truthdig.com/?bucket=education,not in formula RIP
+8,https://www.truthdig.com/?bucket=environment,not in formula RIP
+9,https://www.truthdig.com/?bucket=health,not in formula RIP
+10,https://www.truthdig.com/?bucket=history,not in formula RIP
+11,https://www.truthdig.com/?bucket=immigration,not in formula RIP
+12,https://www.truthdig.com/?bucket=international,not in formula RIP
+13,https://www.truthdig.com/?bucket=justice,not in formula RIP
+14,https://www.truthdig.com/?bucket=labor,not in formula RIP
+15,https://www.truthdig.com/?bucket=lgbtq,not in formula RIP
+16,https://www.truthdig.com/?bucket=media,not in formula RIP
+17,https://www.truthdig.com/?bucket=military,not in formula RIP
+18,https://www.truthdig.com/?bucket=national-u-s-a,not in formula RIP
+75,https://www.truthdig.com/?bucket=opinion,not in formula RIP
+19,https://www.truthdig.com/?bucket=politics,not in formula RIP
+20,https://www.truthdig.com/?bucket=prison,not in formula RIP
+21,https://www.truthdig.com/?bucket=race,not in formula RIP
+22,https://www.truthdig.com/?bucket=science-technology,not in formula RIP
+23,https://www.truthdig.com/?bucket=social-issues,not in formula RIP
+24,https://www.truthdig.com/?bucket=sports,not in formula RIP
+25,https://www.truthdig.com/?bucket=surveillance,not in formula RIP
+77,https://www.truthdig.com/?bucket=td-originals,not in formula RIP
+26,https://www.truthdig.com/?bucket=women,not in formula RIP
+93,https://www.truthdig.com/about-us/,not in formula RIP
+95,https://www.truthdig.com/advertise/,not in formula RIP
+111,https://www.truthdig.com/api/,not in formula RIP
+113,https://www.truthdig.com/api/oembed/1.0/embed?url=https%3A%2F%2Fwww.truthdig.com%2F,not in formula RIP
+114,https://www.truthdig.com/api/oembed/1.0/embed?url=https%3A%2F%2Fwww.truthdig.com%2F&#038;format=xml,not in formula RIP
+112,https://www.truthdig.com/api/wp/v2/pages/266991,not in formula RIP
+50,https://www.truthdig.com/articles/,not in formula RIP
+89,https://www.truthdig.com/articles/port-of-last-call/,not in formula RIP
+78,https://www.truthdig.com/author/,not in formula RIP
+32,https://www.truthdig.com/author/amy_goodman/,not in formula RIP
+29,https://www.truthdig.com/author/bill_blum/,not in formula RIP
+30,https://www.truthdig.com/author/bill_boyarsky/,not in formula RIP
+33,https://www.truthdig.com/author/chris_hedges/,not in formula RIP
+37,https://www.truthdig.com/author/dsjursen/,not in formula RIP
+67,https://www.truthdig.com/author/jeff_danziger/,not in formula RIP
+31,https://www.truthdig.com/author/juan_cole/,not in formula RIP
+66,https://www.truthdig.com/author/mark_fiore/,not in formula RIP
+68,https://www.truthdig.com/author/mike_luckovich/,not in formula RIP
+65,https://www.truthdig.com/author/mr_fish/,not in formula RIP
+35,https://www.truthdig.com/author/nomi_prins/,not in formula RIP
+38,https://www.truthdig.com/author/paul_street/,not in formula RIP
+36,https://www.truthdig.com/author/robert_scheer/,not in formula RIP
+34,https://www.truthdig.com/author/sonali_kolhatkar/,not in formula RIP
+90,https://www.truthdig.com/books,not in formula RIP
+79,https://www.truthdig.com/cartoons/,not in formula RIP
+84,https://www.truthdig.com/cartoons/martian-tp/,not in formula RIP
+83,https://www.truthdig.com/cartoons/maybe-stop-talking/,not in formula RIP
+85,https://www.truthdig.com/cartoons/modern-love/,not in formula RIP
+81,https://www.truthdig.com/cartoons/quarantine-bridge/,not in formula RIP
+82,https://www.truthdig.com/cartoons/second-term/,not in formula RIP
+76,https://www.truthdig.com/cartoons/social-distancing-usa/,not in formula RIP
+86,https://www.truthdig.com/cartoons/world-signs-off/,not in formula RIP
+63,https://www.truthdig.com/category/animations/,not in formula RIP
+43,https://www.truthdig.com/category/book-excerpt/,not in formula RIP
+44,https://www.truthdig.com/category/book-review/,not in formula RIP
+28,https://www.truthdig.com/category/columns/,not in formula RIP
+45,https://www.truthdig.com/category/film-review/,not in formula RIP
+64,https://www.truthdig.com/category/holiday-animation/,not in formula RIP
+39,https://www.truthdig.com/category/humor/,not in formula RIP
+46,https://www.truthdig.com/category/in-the-news/,not in formula RIP
+59,https://www.truthdig.com/category/live-at-truthdig/,not in formula RIP
+48,https://www.truthdig.com/category/poetry/,not in formula RIP
+60,https://www.truthdig.com/category/scheer-intelligence/,not in formula RIP
+47,https://www.truthdig.com/category/visual-arts/,not in formula RIP
+97,https://www.truthdig.com/contact/,not in formula RIP
+54,https://www.truthdig.com/dig/,not in formula RIP
+94,https://www.truthdig.com/events/,not in formula RIP
+91,https://www.truthdig.com/global-voices,not in formula RIP
+56,https://www.truthdig.com/global-voices/,not in formula RIP
+42,https://www.truthdig.com/group/arts-and-culture/,not in formula RIP
+53,https://www.truthdig.com/group/arts-and-culture/?bucket=td-originals,not in formula RIP
+52,https://www.truthdig.com/group/ear-to-the-ground/?bucket=td-originals,not in formula RIP
+51,https://www.truthdig.com/group/opinion/?bucket=td-originals,not in formula RIP
+96,https://www.truthdig.com/jobs/,not in formula RIP
+3,https://www.truthdig.com/news/,not in formula RIP
+40,https://www.truthdig.com/opinion,not in formula RIP
+58,https://www.truthdig.com/photo-essays/,not in formula RIP
+92,https://www.truthdig.com/politics,not in formula RIP
+124,https://www.truthdig.com/rss-2,not in formula RIP
+1,https://www.truthdig.com/subscribe/,not in formula RIP
+69,https://www.truthdig.com/td-audio/,not in formula RIP
+110,https://www.truthdig.com/wp-content/themes/am2/assets/build/main.min.css?ver=1.0.48,not in formula RIP
+132,https://www.truthdig.com/wp-content/themes/am2/assets/images/sprite.svg#arrow--up,not in formula RIP
+125,https://www.truthdig.com/wp-content/themes/am2/assets/images/sprite.svg#icon--search,not in formula RIP
+126,https://www.truthdig.com/wp-content/themes/am2/assets/images/sprite.svg#social--facebook,not in formula RIP
+131,https://www.truthdig.com/wp-content/themes/am2/assets/images/sprite.svg#social--googleplus,not in formula RIP
+128,https://www.truthdig.com/wp-content/themes/am2/assets/images/sprite.svg#social--instagram,not in formula RIP
+127,https://www.truthdig.com/wp-content/themes/am2/assets/images/sprite.svg#social--twitter,not in formula RIP
+103,https://www.truthdig.com/wp-login.php?action=lostpassword,not in formula RIP

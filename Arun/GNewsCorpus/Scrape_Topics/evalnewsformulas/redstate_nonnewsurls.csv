@@ -1,0 +1,71 @@
+,nonnewsurl,blackrule
+51,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/android-chrome-192x192.png,^.*.png.*$
+43,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-114x114.png,^.*.png.*$
+44,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-120x120.png,^.*.png.*$
+45,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-144x144.png,^.*.png.*$
+46,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-152x152.png,^.*.png.*$
+47,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-180x180.png,^.*.png.*$
+39,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-57x57.png,^.*.png.*$
+40,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-60x60.png,^.*.png.*$
+41,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-72x72.png,^.*.png.*$
+42,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/apple-touch-icon-76x76.png,^.*.png.*$
+48,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/favicon-16x16.png,^.*.png.*$
+49,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/favicon-32x32.png,^.*.png.*$
+50,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/favicon-96x96.png,^.*.png.*$
+34,ad.doubleclick.net,diff domain
+36,c.amazon-adsystem.com,diff domain
+66,c0.wp.com,diff domain
+25,cdnjs.cloudflare.com,diff domain
+26,fonts.googleapis.com,diff domain
+12,http://townhall.com/tipsheet/bethbaumann/2020/08/18/schumer-says-trump-divided-the-country-yet-he-waged-a-war-on-conservatives-n2574620,diff domain
+15,https://bearingarms.com/,diff domain
+10,https://bearingarms.com/cam-e/2020/08/17/phillys-gun-turn-in-didnt-make-a-dent-in-weekend-shootings/,diff domain
+58,https://c0.wp.com/c/5.5/wp-includes/css/dist/block-library/style.min.css,diff domain
+56,https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js,diff domain
+55,https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js,diff domain
+14,https://hotair.com/,diff domain
+68,https://media.townhall.com/_townhall/resources/css/capturator/capturator.css?v=510027018,diff domain
+22,https://media.townhall.com/townhall/privacypolicy/TermsofUse.htm,diff domain
+18,https://pjmedia.com/,diff domain
+11,https://pjmedia.com/election/stacey-lennox/2020/08/18/why-was-bernie-sanders-campaigning-for-donald-trump-at-the-democratic-convention-n805336,diff domain
+23,https://salemmedia.com/ccpa-sale-opt-out/,diff domain
+24,https://salemmedia.com/townhall-media-ccpa-privacy-notice-for-california-residents/,diff domain
+21,https://salemmedia.com/townhall-media-privacy-policy/,diff domain
+60,https://static.townhall.com/dist/css/font-awesome/5/bundle.min.css,diff domain
+13,https://townhall.com/,diff domain
+16,https://twitchy.com/,diff domain
+6,https://twitter.com/alexparker1984,diff domain
+5,https://www.facebook.com/alexparker1984/?eid=ARB8SemEi-h29YPegh9oPW8KOcKqjydi69IDKI2GxKTrLXzNLU-2gZHLnZrw3b7uTGDvF09NV5lKeltc,diff domain
+27,ib.adnxs.com,diff domain
+29,media.townhall.com,diff domain
+33,pagead2.googlesyndication.com,diff domain
+31,prebid.adnxs.com,diff domain
+54,s.w.org,diff domain
+35,securepubads.g.doubleclick.net,diff domain
+30,static.townhall.com,diff domain
+37,townhallmedia-d.openx.net,diff domain
+32,www.google-analytics.com,diff domain
+28,www.googletagservices.com,diff domain
+17,http://www.redstate.com/,not in formula RIP
+19,https://townhallmedia.com/?utm_source=redstate.com&utm_medium=link,not in formula RIP
+0,https://www.redstate.com,not in formula RIP
+52,https://www.redstate.com/,not in formula RIP
+1,https://www.redstate.com/authors/,not in formula RIP
+2,https://www.redstate.com/diaries-list/,not in formula RIP
+9,https://www.redstate.com/diary/heartlandinstitute/2020/08/18/thanks-to-green-energy-mandates-california%e2%80%99s-electric-grid-is-near-collapse/,not in formula RIP
+7,https://www.redstate.com/mike_miller/2020/08/18/gingrich-3-reasons-why-biden-harris-dream-will-%e2%80%98quickly-become-a-nightmare%e2%80%99-for-dems/,not in formula RIP
+20,https://www.redstate.com/newsletters/,not in formula RIP
+53,https://www.redstate.com/page/2/,not in formula RIP
+8,https://www.redstate.com/sections/front-page-stories/,not in formula RIP
+4,https://www.redstate.com/vip/,not in formula RIP
+3,https://www.redstate.com/wordpress/wp-admin/edit.php?post_type=diary,not in formula RIP
+65,https://www.redstate.com/wordpress/wp-includes/wlwmanifest.xml,not in formula RIP
+64,https://www.redstate.com/wordpress/xmlrpc.php?rsd,not in formula RIP
+62,https://www.redstate.com/wp-content/plugins/TH-subscriptions/dist/css/subscriptions.min.css?ver=2.2.1,not in formula RIP
+59,https://www.redstate.com/wp-content/plugins/yith-infinite-scrolling/assets/css/frontend.css?ver=1.3.0,not in formula RIP
+61,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/dist/css/style.min.css?ver=2.4.1,not in formula RIP
+69,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/dist/js/scripts.min.js?ver=2.4.1,not in formula RIP
+57,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/fonts/icomoon.woff?xw4tvs,not in formula RIP
+38,https://www.redstate.com/wp-content/themes/redstate-desktop-2017/images/favicon/favicon.ico,not in formula RIP
+63,https://www.redstate.com/wp-json/,not in formula RIP
+67,www.redstate.com/wp-json/subscriptions/v1/,not in formula RIP

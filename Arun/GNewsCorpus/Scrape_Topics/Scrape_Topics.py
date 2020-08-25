@@ -1,10 +1,12 @@
 from bs4 import BeautifulSoup
 from itntools import strip_url
+from newspaper import Article
 import csv
 import requests
 import pycountry
 import time
 import re
+import pandas as pd
 
 WAIT = 5 # stall time so google doesn't block me ;-;
 
@@ -73,91 +75,108 @@ def query_gurl(url):
         print(">> " + url[0])
     return articles
 
-def filter_article_urls(tup):
-    urls = tup[0]
-    domain = tup[1]
-    common_formula = [
-        r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9a-z.\/_?=&-]+$", #cnn, antiwar, breitbart, thecanary, cnbc, commondreams, consortiumnews, dailycaller, democracynow, economist, forbes
-                                                                   #thegrayzone
-        r"^.*\/(style|travel)\/article\/[0-9a-z.\/-]*$", #cnn
-        r"^.*-[0-9]{15}.html$", #aljazeera
-        r"^.*spectator.(org|co\.uk)/[0-9a-z\/]+-[0-9a-z\/-]{10,}$", #spectator
-        r"^.*\/[0-9]{4}\/[0-9]{2}\/[0-9a-z.\/_?=-]{4,}$", #americanthinker, defenseone, eff, jacobinmag, lewrockwell, nationalreview
-        r"^.*\/[0-9a-f]{32}$", #apnews
-        r"^.*\/[0-9a-z-]*[0-9]{8,10}[a-z]*$", #bbc, businessinsider
-        r"^.*\/[0-9a-z-]*[0-9]{4}-[0-9]{1,2}$", #businessinsider
-        r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$", #businessinsider, buzzfeednews, fivethirtyeight, foreignaffairs, foxnews, theguardian, infowars, nbcnews (merge with spectator? too broad?)
-        r"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/[0-9]{7}$", #globalresearch
-        r"^.*\/news\/[0-9a-z-]{10,}\/", #cbsnews
-        r"^.*\/[0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{7}\/[0-9A-Za-z.\/-]+$", #dailykos (merge with cnn+?)
-        r"^.*koreaherald.com/view.php\?ud=[0-9]{14}$", #koreaherald
-        r"^.*\/[0-9a-z-]{10,}\/[0-9]{6}\/", #mintpressnews
-        r"^.*\/[0-9]{4}\/[0-9]{4}\/c[0-9]{5}-[0-9]{7}.html$", #people.cn
-        r"^.*\/article\/[0-9a-z\/-]+-id[0-9A-Z]{11}" #reuters
-    ]
+def filter_article_urls(tup, file='newsurlpatterns.csv'):
     common_blacklist = [
-        r"^.*.png.*$", #thecanary, motherjones
-        r"^.*.jpg.*$", #infowars
-        r"^.*privacy-policy.*$", #spectator, cbsnews
-        r"^.*commons-community-guidelines$", #commondreams
-        r"^.*contact-us.*$", #consortiumnews
-        r"^theconversation.com/institutions/.*$", #theconversation
-        r"^theconversation.com/us/partners/.*$", #theconversation
-        r"^theconversation.com/profiles/.*$", #theconversation
-        r"^(podcasts|itunes).apple.com/.*$", #dailycaller
+        r"^.*.png.*$",  # thecanary, motherjones
+        r"^.*.jpg.*$",  # infowars
+        r"^.*privacy-policy.*$",  # spectator, cbsnews
+        r"^.*commons-community-guidelines$",  # commondreams
+        r"^.*contact-us.*$",  # consortiumnews
+        r"^https?://theconversation.com/institutions/.*$",  # theconversation
+        r"^https?://theconversation.com/us/partners/.*$",  # theconversation
+        r"^https?://theconversation.com/profiles/.*$",  # theconversation
+        r"^(podcasts|itunes).apple.com/.*$",  # dailycaller
         # r"^.*facebook.com/.*$", #aljazeera, americanthinker, ap
         # r"^.*twitter.com/.*$", #aljazeera, ap
         # r"^.*snapchat.com/.*$", #nbcnews
         # r"^.*plus.google.com/.*$", #breitbart
-        r"^mailto:.*$", #ap
-        r"^.*/aboutus/.*$", #aljazeera
-        r"^.*/terms-of-service/.*$", #spectator
-        r"^spectator.org/category/.*$", #spectator
-        r"^.*/about-breitbart-news.pdf$", #breitbart
+        r"^mailto:.*$",  # ap
+        r"^.*/aboutus/.*$",  # aljazeera
+        r"^.*/terms-of-service/.*$",  # spectator
+        r"^spectator.org/category/.*$",  # spectator
+        r"^.*/about-breitbart-news.pdf$",  # breitbart
         # r"^coverageContainer/.*$", #cnn
-        r"^.*/comment-policy/$", #consortiumnews
-        r"^.*/frequently-asked-questions$", #economist
-        r"^.*brand-use-policy$", #eff
-        r"^.*rss-feed.*$", #fivethirtyeight
-        r"^.*cookies-policy.*$", #fivethirtyeight
-        r"^.*career-opportunities.*$", #foreignaffairs
-        r"^.*my.*account.*$", #foreignaffairs
-        r"^.*foxnews.com/category/.*$", #foxnews
-        r"^.*mobile-and-tablet$", #theguardian
-        r"www.lewrockwell.com/books-resources/murray-n-rothbard-library-and-resources/", #lewrockwell
-        r"^.*podcast.*$", #nationalreview
-        r"^.*disable.*ad.*blocker.*$", #slate
+        r"^.*/comment-policy/$",  # consortiumnews
+        r"^.*/frequently-asked-questions$",  # economist
+        r"^.*brand-use-policy$",  # eff
+        r"^.*rss-feed.*$",  # fivethirtyeight
+        r"^.*cookies-policy.*$",  # fivethirtyeight
+        r"^.*career-opportunities.*$",  # foreignaffairs
+        r"^.*my.*account.*$",  # foreignaffairs
+        r"^.*foxnews.com/category/.*$",  # foxnews
+        r"^.*mobile-and-tablet$",  # theguardian
+        r"www.lewrockwell.com/books-resources/murray-n-rothbard-library-and-resources/",  # lewrockwell
+        # r"^.*podcast.*$",  # too restrictive, if the news is about a podcast, it registers as not news
+        # nationalreview  # https://www.usatoday.com/story/entertainment/celebrities/2020/08/18/michelle-obama-brother-reveals-first-thoughts-barack-podcast/5584158002/
+        r"^.*disable.*ad.*blocker.*$",  # slate
         r"^./category/.*$",
     ]
+
+    newsurlpatterns = pd.read_csv(file)
+
+    urls = tup[0]
+    domain = tup[1]
+    common_formula = newsurlpatterns[newsurlpatterns['url'].str.contains(domain)]['pattern']
+
+    if len(common_formula) == 0 or common_formula.isna().any():
+        common_formula = set(newsurlpatterns['pattern'])
+        common_formula = {f for f in common_formula if pd.notna(f)}
+
+    newsurls_df = pd.DataFrame(columns=['newsurl', 'newsrule'])
+    nonnewsurls_df = pd.DataFrame(columns=['nonnewsurl', 'blackrule'])
+
     filtered = []
     for url in urls:
         if domain not in url:
+            nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': 'diff domain'}, ignore_index=True)
             continue
         blacklisted = False
         for formula in common_blacklist:
             if re.match(formula, url) is not None:
                 blacklisted = True
+                nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': formula},
+                                                       ignore_index=True)
                 break
         if not blacklisted:
+            commonformula = False
+
             for formula in common_formula:
+                formula = formula[2:-1]
                 if re.match(formula, url) is not None:
+                    newsurls_df = newsurls_df.append({'newsurl': url, 'newsrule': formula}, ignore_index=True)
                     filtered.append(url)
+                    commonformula = True
                     break
-    return filtered
+            if not commonformula:
+                nonnewsurls_df = nonnewsurls_df.append({'nonnewsurl': url, 'blackrule': 'not in formula RIP'},
+                                                       ignore_index=True)
+
+    newsurls_df.sort_values(by=['newsrule', 'newsurl'], inplace=True)
+    nonnewsurls_df.sort_values(by=['blackrule', 'nonnewsurl'], inplace=True)
+
+    # newsurls_df.to_csv(domain.split(sep='.')[0] + '_newsurls.csv')
+    # nonnewsurls_df.to_csv(domain.split(sep='.')[0] + '_nonnewsurls.csv')
+
+    return filtered #, newsurls_df, nonnewsurls_df
+
 
 def query_newsurl(url, domain=""):
     #strategy: finding all href=\\?\"[^\"]*\\?\"
     if (domain == ""):
-        domain = "/".join(url.split('/')[:3]) + '/'
+        domain = "/".join(url.split('/')[:3]) + '/' # in the format of 'https://www.economist.com/'
     
     common_search = [r"href=\\?\"[^\" ]*\\?\"", r"href=\\?\'[^\' ]*\\?\'", r"\"uri\":\"[^\" ]*\"", r"\"url\":\"[^\" ]*\""]
     # search = "href"
     # print("Querying at " + url)
 
     # print(url)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'html.parser')
-    links = soup.find_all('a') + soup.find_all('div')
+    # page = requests.get(url)
+    # soup = BeautifulSoup(page.text, 'html.parser')
+    art = Article(url)
+    art.download()
+    soup = BeautifulSoup(art.html, 'html.parser')
+
+    links = soup.find_all('a', href=True) + soup.find_all('div', href=True)  # added href = True
     links = [link.get('href') for link in links]
     hrefs = []
     for href in links:
@@ -176,19 +195,21 @@ def query_newsurl(url, domain=""):
                 hrefs.append(domain + href[1:])
             else:
                 # print(href)
-                hrefs.append(href)
+                hrefs.append(domain + href)
 
-    # scripts = soup.find_all('script')
+    # scripts = soup.find_all('script')  # TODO matches might be a repeat of links
     matches = []
     search = '|'.join(common_search)
-    matches.extend(re.findall(search, page.text))
+    # matches.extend(re.findall(search, page.text))
+    matches.extend(re.findall(search, art.html))
+
     # for script in scripts:
         # print(script.string)
         # print(re.search(search, str(script.string)))
         # matches.extend(re.findall(search, str(script.string)))
     for match in matches:
         # print("match:" + match)
-        match = match.replace('\\\"', '\"')
+        match = match.replace('\\\"', '\"')  # print('\\\"') leads to this: \"
         match = match.replace('\\/', '/')
         # print(match)
         match = re.split(r'\"|\'', match)[-2]
@@ -208,7 +229,7 @@ def query_newsurl(url, domain=""):
                 hrefs.append(domain + match[1:])
             else:
                 # print(match)
-                hrefs.append(match)
+                hrefs.append(domain + match)
     
     hrefs = list(dict.fromkeys(hrefs)) # remove duplicates
 

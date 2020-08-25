@@ -1,0 +1,85 @@
+,nonnewsurl,blackrule
+66,https://www.factcheck.org/android-icon-192x192.png,^.*.png.*$
+61,https://www.factcheck.org/apple-icon-114x114.png,^.*.png.*$
+62,https://www.factcheck.org/apple-icon-120x120.png,^.*.png.*$
+63,https://www.factcheck.org/apple-icon-144x144.png,^.*.png.*$
+64,https://www.factcheck.org/apple-icon-152x152.png,^.*.png.*$
+65,https://www.factcheck.org/apple-icon-180x180.png,^.*.png.*$
+57,https://www.factcheck.org/apple-icon-57x57.png,^.*.png.*$
+58,https://www.factcheck.org/apple-icon-60x60.png,^.*.png.*$
+59,https://www.factcheck.org/apple-icon-72x72.png,^.*.png.*$
+60,https://www.factcheck.org/apple-icon-76x76.png,^.*.png.*$
+69,https://www.factcheck.org/favicon-16x16.png,^.*.png.*$
+67,https://www.factcheck.org/favicon-32x32.png,^.*.png.*$
+68,https://www.factcheck.org/favicon-96x96.png,^.*.png.*$
+32,https://www.factcheck.org/about/contact-us/,^.*contact-us.*$
+9,#,diff domain
+80,#factcheck-logo,diff domain
+40,#fc-carousel,diff domain
+0,#main,diff domain
+71,code.jquery.com,diff domain
+5,http://factcheckdotorg.tumblr.com/,diff domain
+50,http://www.flackcheck.org/,diff domain
+53,https://accessibility.web-resources.upenn.edu/get-help,diff domain
+54,https://fonts.googleapis.com/css?family=Merriweather|Barlow+Semi+Condensed:500,diff domain
+81,https://giving.aws.cloud.upenn.edu/?fastStart=simpleForm&#038;program=ANS&#038;fund=602014,diff domain
+83,https://giving.aws.cloud.upenn.edu/?fastStart=simpleForm&amp;program=ANS&amp;fund=602014,diff domain
+7,https://giving.aws.cloud.upenn.edu/?fastStart=simpleForm&program=ANS&fund=602014,diff domain
+82,https://giving.aws.cloud.upenn.edu/fund?fastStart=simpleForm&#038;program=ANS&#038;fund=602014,diff domain
+17,https://giving.aws.cloud.upenn.edu/fund?fastStart=simpleForm&program=ANS&fund=602014,diff domain
+55,https://gmpg.org/xfn/11,diff domain
+3,https://www.twitter.com/factcheckdotorg,diff domain
+72,s.w.org,diff domain
+73,assets.factcheck.org,not in formula RIP
+75,https://assets.factcheck.org/wp-content/plugins/social-pug/assets/css/style-frontend-pro.css?ver=2.7.2,not in formula RIP
+76,https://assets.factcheck.org/wp-content/themes/factcheckstrap/css/child-theme.min.css?ver=1.0.4,not in formula RIP
+74,https://assets.factcheck.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.4,not in formula RIP
+2,https://www.facebook.com/factcheck.org,not in formula RIP
+8,https://www.factcheck.org,not in formula RIP
+1,https://www.factcheck.org/,not in formula RIP
+25,https://www.factcheck.org/about/our-mission/,not in formula RIP
+24,https://www.factcheck.org/archives/,not in formula RIP
+10,https://www.factcheck.org/articles/,not in formula RIP
+44,https://www.factcheck.org/ask-factcheck/ask-us-a-question/,not in formula RIP
+15,https://www.factcheck.org/askfactcheck/,not in formula RIP
+16,https://www.factcheck.org/askscicheck/,not in formula RIP
+30,https://www.factcheck.org/awards/,not in formula RIP
+52,https://www.factcheck.org/copyright-policy/,not in formula RIP
+36,https://www.factcheck.org/factcheck-mailbag/,not in formula RIP
+13,https://www.factcheck.org/fake-news/,not in formula RIP
+4,https://www.factcheck.org/feed/,not in formula RIP
+34,https://www.factcheck.org/hot-topics/,not in formula RIP
+21,https://www.factcheck.org/issue/climate-change/,not in formula RIP
+47,https://www.factcheck.org/issue/health-watch/,not in formula RIP
+23,https://www.factcheck.org/issue/russia-investigation/,not in formula RIP
+22,https://www.factcheck.org/issue/ukraine/,not in formula RIP
+70,https://www.factcheck.org/manifest.json,not in formula RIP
+48,https://www.factcheck.org/newsfeed-defenders/,not in formula RIP
+49,https://www.factcheck.org/on-the-air,not in formula RIP
+35,https://www.factcheck.org/on-the-air/,not in formula RIP
+27,https://www.factcheck.org/our-funding/,not in formula RIP
+26,https://www.factcheck.org/our-process/,not in formula RIP
+28,https://www.factcheck.org/our-staff/,not in formula RIP
+41,https://www.factcheck.org/page/2/,not in formula RIP
+42,https://www.factcheck.org/page/3/,not in formula RIP
+43,https://www.factcheck.org/page/469/,not in formula RIP
+38,https://www.factcheck.org/party-lines/,not in formula RIP
+20,https://www.factcheck.org/person/bernie-sanders/,not in formula RIP
+18,https://www.factcheck.org/person/donald-trump/,not in formula RIP
+19,https://www.factcheck.org/person/joe-biden/,not in formula RIP
+45,https://www.factcheck.org/players-guide/2020/,not in formula RIP
+51,https://www.factcheck.org/privacy/,not in formula RIP
+37,https://www.factcheck.org/quiz-archive/,not in formula RIP
+31,https://www.factcheck.org/request-a-correction/,not in formula RIP
+12,https://www.factcheck.org/scicheck/,not in formula RIP
+33,https://www.factcheck.org/search/,not in formula RIP
+46,https://www.factcheck.org/subscribe,not in formula RIP
+6,https://www.factcheck.org/subscribe/,not in formula RIP
+39,https://www.factcheck.org/tag/2018-election/,not in formula RIP
+14,https://www.factcheck.org/tag/2020-election/,not in formula RIP
+11,https://www.factcheck.org/the-factcheck-wire/,not in formula RIP
+29,https://www.factcheck.org/undergraduate-fellows/,not in formula RIP
+79,https://www.factcheck.org/wp-includes/wlwmanifest.xml,not in formula RIP
+77,https://www.factcheck.org/wp-json/,not in formula RIP
+56,https://www.factcheck.org/xmlrpc.php,not in formula RIP
+78,https://www.factcheck.org/xmlrpc.php?rsd,not in formula RIP

@@ -1,0 +1,52 @@
+,nonnewsurl,blackrule
+43,assets.newrepublic.com/assets/favicons/android-chrome-192x192.png,^.*.png.*$
+35,assets.newrepublic.com/assets/favicons/apple-touch-icon-114x114.png,^.*.png.*$
+36,assets.newrepublic.com/assets/favicons/apple-touch-icon-120x120.png,^.*.png.*$
+37,assets.newrepublic.com/assets/favicons/apple-touch-icon-144x144.png,^.*.png.*$
+38,assets.newrepublic.com/assets/favicons/apple-touch-icon-152x152.png,^.*.png.*$
+39,assets.newrepublic.com/assets/favicons/apple-touch-icon-180x180.png,^.*.png.*$
+31,assets.newrepublic.com/assets/favicons/apple-touch-icon-57x57.png,^.*.png.*$
+32,assets.newrepublic.com/assets/favicons/apple-touch-icon-60x60.png,^.*.png.*$
+33,assets.newrepublic.com/assets/favicons/apple-touch-icon-72x72.png,^.*.png.*$
+34,assets.newrepublic.com/assets/favicons/apple-touch-icon-76x76.png,^.*.png.*$
+44,assets.newrepublic.com/assets/favicons/favicon-16x16.png,^.*.png.*$
+41,assets.newrepublic.com/assets/favicons/favicon-194x194.png,^.*.png.*$
+40,assets.newrepublic.com/assets/favicons/favicon-32x32.png,^.*.png.*$
+42,assets.newrepublic.com/assets/favicons/favicon-96x96.png,^.*.png.*$
+8,https://newrepublic.com/podcasts,^.*podcast.*$
+27,#,diff domain
+1,#main,diff domain
+0,https://browsehappy.com/,diff domain
+28,https://mailchi.mp/61665a30a33b/tnrdaily,diff domain
+49,https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&amp;src_code=99,diff domain
+9,https://tnr-reg.onecount.net/onecount/form/display.php?id=65b62084-2a9e-41e3-a826-9069eec96f50&src_code=99,diff domain
+50,https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=NRD&amp;cds_page_id=242949&amp;cds_response_key=I0FNRFTR,diff domain
+18,https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=NRD&cds_page_id=242949&cds_response_key=I0FNRFTR,diff domain
+24,https://www.facebook.com/newrepublic/,diff domain
+26,https://www.instagram.com/newrepublic/,diff domain
+25,https://www.twitter.com/newrepublic/,diff domain
+47,assets.newrepublic.com/assets/favicons/favicon.ico,not in formula RIP
+45,assets.newrepublic.com/assets/favicons/manifest.json,not in formula RIP
+46,assets.newrepublic.com/assets/favicons/safari-pinned-tab.svg,not in formula RIP
+48,assets.newrepublic.com/assets/newmain-321bf4b039bf1dc6605e.css,not in formula RIP
+19,https://advertise.newrepublic.com/,not in formula RIP
+2,https://newrepublic.com/,not in formula RIP
+4,https://newrepublic.com/apocalypse-soon,not in formula RIP
+12,https://newrepublic.com/authors/adam-weinstein,not in formula RIP
+13,https://newrepublic.com/authors/alex-shephard,not in formula RIP
+14,https://newrepublic.com/authors/evan-kindley,not in formula RIP
+15,https://newrepublic.com/authors/jc-pan,not in formula RIP
+10,https://newrepublic.com/authors/kate-aronoff,not in formula RIP
+16,https://newrepublic.com/authors/libby-watson,not in formula RIP
+17,https://newrepublic.com/authors/osita-nwanevu,not in formula RIP
+11,https://newrepublic.com/authors/walter-shapiro,not in formula RIP
+6,https://newrepublic.com/critical-mass,not in formula RIP
+7,https://newrepublic.com/magazine,not in formula RIP
+22,https://newrepublic.com/pages/about#jobs,not in formula RIP
+23,https://newrepublic.com/pages/contact,not in formula RIP
+30,https://newrepublic.com/pages/privacy,not in formula RIP
+20,https://newrepublic.com/pages/subscriber-services,not in formula RIP
+29,https://newrepublic.com/pages/terms-and-conditions,not in formula RIP
+5,https://newrepublic.com/sold-short,not in formula RIP
+21,https://newrepublic.com/tags/press-release,not in formula RIP
+3,https://newrepublic.com/the-soapbox,not in formula RIP

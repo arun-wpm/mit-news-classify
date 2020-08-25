@@ -1,0 +1,210 @@
+,nonnewsurl,blackrule
+176,https://assets.axios.com/203e9f932cc97836ac2ff4c6c982676c.png,^.*.png.*$
+166,https://static.axios.com/img/axios-site/favicon-32x32.png,^.*.png.*$
+114,https://www.axios.com/podcast-opioids-pandemic-lawsuits-1ccd0764-6cc2-42e3-b3c6-970560697a86.html,^.*podcast.*$
+188,https://www.axios.com/podcast-opioids-pandemic-lawsuits-1ccd0764-6cc2-42e3-b3c6-970560697a86.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,^.*podcast.*$
+57,https://www.axios.com/podcasts,^.*podcast.*$
+0,#maincontent,diff domain
+117,https://about.usps.com/newsroom/national-releases/2020/0818-postmaster-general-louis-dejoy-statement.htm,diff domain
+165,https://cdn.ampproject.org/v0.js,diff domain
+85,https://coronavirus.jhu.edu/map.html,diff domain
+95,https://m.youtube.com/watch?v=t3JnRq0fUVo,diff domain
+109,https://news.nd.edu/news/notre-dame-enacts-two-weeks-of-remote-instruction/,diff domain
+139,https://news.yahoo.com/fbi-documents-conspiracy-theories-terrorism-160000507.html,diff domain
+155,https://twitter.com/SawyerHackett/status/1295433510933626885,diff domain
+157,https://twitter.com/briebriejoy/status/1293618745907322880,diff domain
+156,https://twitter.com/julito77/status/1295427432871329793,diff domain
+96,https://twitter.com/kylegriffin1/status/1295863157018198016?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet,diff domain
+98,https://web.archive.org/web/20080403153628/http://men.style.com/gq/blogs/gqeditors/2008/03/caps-font-var-1.html,diff domain
+132,https://www.bloomberg.com/news/articles/2020-08-12/russia-ditches-the-dollar-for-bulk-of-its-exports-to-china,diff domain
+113,https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf,diff domain
+159,https://www.nbcnews.com/politics/meet-the-press/poll-more-voters-acknowledge-symptoms-racism-disagree-about-its-causes-n1234363,diff domain
+144,https://www.newswhip.com/,diff domain
+141,https://www.nytimes.com/2020/08/04/opinion/qanon-conspiracy-theory-arg.html,diff domain
+97,https://www.youtube.com/watch?v=Dy2geGCO3gY,diff domain
+200,https://www.youtube.com/watch?v=oYZvj7uUsgw&amp;feature=youtu.be,diff domain
+148,https://www.youtube.com/watch?v=oYZvj7uUsgw&feature=youtu.be,diff domain
+168,https://images.axios.com,not in formula RIP
+135,https://link.axios.com/click/21237027.395459/aHR0cHM6Ly93d3cubmJjbmV3cy5jb20vcG9saXRpY3MvbWVldC10aGUtcHJlc3MvYmlkZW4tcmVtYWlucy1haGVhZC10cnVtcC1uYXRpb25hbGx5LWV2ZS1jb252ZW50aW9ucy1uYmMtbmV3cy13c2otbjEyMzY4NzM_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPW5ld3NsZXR0ZXJfYXhpb3NhbSZzdHJlYW09dG9w/5d8a19e2fbd297461c3ce0b1B5ac484f1,not in formula RIP
+133,https://link.axios.com/click/21237949.35074/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjAtMDgtMTIvcnVzc2lhLWRpdGNoZXMtdGhlLWRvbGxhci1mb3ItYnVsay1vZi1pdHMtZXhwb3J0cy10by1jaGluYT91dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249bmV3c2xldHRlcl9heGlvc21hcmtldHMmc3RyZWFtPWJ1c2luZXNz/5cee9cc47e55544e860fbf4eCbff46120,not in formula RIP
+167,https://static.axios.com,not in formula RIP
+172,https://static.axios.com/fonts/axios-site/atiza/atizatext-bold-webfont.woff2,not in formula RIP
+173,https://static.axios.com/fonts/axios-site/atiza/atizatext-regular-webfont.woff2,not in formula RIP
+174,https://static.axios.com/fonts/axios-site/atiza/atizatext-regularitalic-webfont.woff2,not in formula RIP
+170,https://static.axios.com/fonts/axios-site/nb_international_pro_book.woff2,not in formula RIP
+171,https://static.axios.com/fonts/axios-site/nb_international_pro_light.woff2,not in formula RIP
+169,https://static.axios.com/fonts/axios-site/nb_international_pro_regular.woff2,not in formula RIP
+175,https://www.axios.com,not in formula RIP
+1,https://www.axios.com/,not in formula RIP
+76,https://www.axios.com/2020-attention-tracker-library-3c8f61f3-a64c-4473-ac32-3ea76d525770.html,not in formula RIP
+77,https://www.axios.com/2020-election-candidates-social-media-63fd3617-3d17-4790-8180-b35bc7aca51f.html,not in formula RIP
+48,https://www.axios.com/about,not in formula RIP
+49,https://www.axios.com/advertise,not in formula RIP
+89,https://www.axios.com/americas-coronavirus-response-people-of-color-c0768d8b-436e-411f-a003-686954a9af0c.html,not in formula RIP
+59,https://www.axios.com/aoc-speech-joe-biden-democratic-national-convention-038e414e-1347-461a-a3d2-c6ac6884bcf0.html,not in formula RIP
+56,https://www.axios.com/app,not in formula RIP
+94,https://www.axios.com/authors/Alexi_McCammond,not in formula RIP
+123,https://www.axios.com/authors/Barak_Ravid,not in formula RIP
+111,https://www.axios.com/authors/atreene,not in formula RIP
+120,https://www.axios.com/authors/baebrahimian,not in formula RIP
+152,https://www.axios.com/authors/baker,not in formula RIP
+118,https://www.axios.com/authors/cbrown,not in formula RIP
+92,https://www.axios.com/authors/dlawle01,not in formula RIP
+129,https://www.axios.com/authors/drabouin,not in formula RIP
+103,https://www.axios.com/authors/epandey,not in formula RIP
+115,https://www.axios.com/authors/hnichols,not in formula RIP
+162,https://www.axios.com/authors/jknutson,not in formula RIP
+145,https://www.axios.com/authors/jonathanswan,not in formula RIP
+126,https://www.axios.com/authors/kbaker,not in formula RIP
+136,https://www.axios.com/authors/kdaly,not in formula RIP
+149,https://www.axios.com/authors/miriam,not in formula RIP
+134,https://www.axios.com/authors/mtalev,not in formula RIP
+142,https://www.axios.com/authors/neal,not in formula RIP
+78,https://www.axios.com/authors/newsdesk,not in formula RIP
+116,https://www.axios.com/authors/orionrummler,not in formula RIP
+108,https://www.axios.com/authors/rayesh,not in formula RIP
+143,https://www.axios.com/authors/sara,not in formula RIP
+101,https://www.axios.com/authors/uperano,not in formula RIP
+110,https://www.axios.com/authors/zbasu,not in formula RIP
+153,https://www.axios.com/axios-ipsos-coronavirus-index-in-person-campaigning-50124c22-1163-4a6e-b45a-af1acc7ca337.html,not in formula RIP
+203,https://www.axios.com/axios-ipsos-coronavirus-index-in-person-campaigning-50124c22-1163-4a6e-b45a-af1acc7ca337.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+161,https://www.axios.com/bernie-sanders-joe-biden-democratic-convention-03504440-978a-4b15-9000-0212585f08e6.html,not in formula RIP
+207,https://www.axios.com/bernie-sanders-joe-biden-democratic-convention-03504440-978a-4b15-9000-0212585f08e6.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+84,https://www.axios.com/beto-orourke-biden-trump-texas-296f6c1f-ac5e-4791-91c7-d14c08660a44.html,not in formula RIP
+107,https://www.axios.com/biden-fundraiser-series-tom-hanks-7641d7b6-4cdd-42b9-8cd9-f983f58c4098.html,not in formula RIP
+185,https://www.axios.com/biden-fundraiser-series-tom-hanks-7641d7b6-4cdd-42b9-8cd9-f983f58c4098.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+60,https://www.axios.com/biden-nomination-security-guard-new-york-times-384aee8f-47ee-4165-a907-a47741bcd5e7.html,not in formula RIP
+83,https://www.axios.com/bill-clinton-dnc-speech-4c34ae9c-836c-4111-b601-91f5139d7ce3.html,not in formula RIP
+189,https://www.axios.com/bill-clinton-dnc-speech-4c34ae9c-836c-4111-b601-91f5139d7ce3.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+62,https://www.axios.com/bill-clinton-joe-biden-democratic-convention-294fca74-f2db-4362-a634-e9a017863be5.html,not in formula RIP
+69,https://www.axios.com/california-newsom-emergency-wildfires-9ff7d630-e06d-4190-a541-853b733b5152.html,not in formula RIP
+50,https://www.axios.com/careers,not in formula RIP
+71,https://www.axios.com/cdc-lifts-travel-warning-bermuda-testing-coronavirus-dd09cb47-5bff-4ebe-a932-0d359ca053a3.html,not in formula RIP
+158,https://www.axios.com/chad-wolf-systemic-racism-police-965d5a1b-7be6-4d78-8cc5-fc82641a7f8c.html,not in formula RIP
+205,https://www.axios.com/chad-wolf-systemic-racism-police-965d5a1b-7be6-4d78-8cc5-fc82641a7f8c.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+72,https://www.axios.com/cindy-john-mccain-joe-biden-convention-8c724216-dae5-4925-9273-cb9f986287ec.html,not in formula RIP
+181,https://www.axios.com/cindy-john-mccain-joe-biden-convention-8c724216-dae5-4925-9273-cb9f986287ec.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+70,https://www.axios.com/colin-powell-endorse-biden-2020-c2e12496-242f-4b87-b3bf-2f5d925ccac5.html,not in formula RIP
+180,https://www.axios.com/colin-powell-endorse-biden-2020-c2e12496-242f-4b87-b3bf-2f5d925ccac5.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+55,https://www.axios.com/contact,not in formula RIP
+68,https://www.axios.com/coronavirus-latest-developments-8b8990c4-6762-494a-8ee0-5091746bda9b.html,not in formula RIP
+64,https://www.axios.com/coronavirus-latest-news-quick-highlights-57a186a3-7547-45bf-852a-83019849d8d5.html,not in formula RIP
+178,https://www.axios.com/coronavirus-latest-news-quick-highlights-57a186a3-7547-45bf-852a-83019849d8d5.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+73,https://www.axios.com/coronavirus-older-women-workers-color-62646d6e-04e3-496d-a60c-2c159f94fcc9.html,not in formula RIP
+75,https://www.axios.com/coronavirus-recession-early-retirements-099ee9b5-73f3-46d6-947d-c4ed23df20de.html,not in formula RIP
+183,https://www.axios.com/coronavirus-recession-early-retirements-099ee9b5-73f3-46d6-947d-c4ed23df20de.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+105,https://www.axios.com/coronavirus-recession-older-workers-7f9bd827-9e85-4f1f-b4e3-c2324ca4823a.html,not in formula RIP
+184,https://www.axios.com/coronavirus-recession-older-workers-7f9bd827-9e85-4f1f-b4e3-c2324ca4823a.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+67,https://www.axios.com/coronavirus-west-virginia-first-case-ac32ce6d-5523-4310-a219-7d1d1dcb6b44.html,not in formula RIP
+81,https://www.axios.com/day-1-convention-tv-ratings-down-2016-c7ac7cfd-e74a-4bd6-9bde-e2fdbd8ca3b6.html,not in formula RIP
+80,https://www.axios.com/democratic-national-convention-racial-justice-2540bfb4-6707-4bc2-a592-8c43461cf6fc.html,not in formula RIP
+197,https://www.axios.com/democratic-national-convention-racial-justice-2540bfb4-6707-4bc2-a592-8c43461cf6fc.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+99,https://www.axios.com/dnc-republicans-kasich-3ae266b3-24d8-49e7-9ff9-4acfad42b29f.html,not in formula RIP
+79,https://www.axios.com/dnc-schedule-joe-biden-kamala-harris-dashboard-7ccc68ad-5df0-4531-a8e2-eb8a18c63feb.html,not in formula RIP
+177,https://www.axios.com/dnc-schedule-joe-biden-kamala-harris-dashboard-7ccc68ad-5df0-4531-a8e2-eb8a18c63feb.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+16,https://www.axios.com/economy-business,not in formula RIP
+19,https://www.axios.com/economy-business/jobs,not in formula RIP
+17,https://www.axios.com/economy-business/media,not in formula RIP
+21,https://www.axios.com/economy-business/retail,not in formula RIP
+18,https://www.axios.com/economy-business/stock-market,not in formula RIP
+22,https://www.axios.com/economy-business/trade-war,not in formula RIP
+20,https://www.axios.com/economy-business/transportation,not in formula RIP
+35,https://www.axios.com/energy-environment,not in formula RIP
+37,https://www.axios.com/energy-environment/alternative-energy,not in formula RIP
+36,https://www.axios.com/energy-environment/climate-change,not in formula RIP
+39,https://www.axios.com/energy-environment/electric-vehicles,not in formula RIP
+38,https://www.axios.com/energy-environment/oil-companies,not in formula RIP
+51,https://www.axios.com/events,not in formula RIP
+100,https://www.axios.com/gop-john-kasich-joe-biden-democratic-convention-3f3cda4a-c2da-4b7b-8407-a662aff62a35.html,not in formula RIP
+52,https://www.axios.com/hbo,not in formula RIP
+23,https://www.axios.com/health,not in formula RIP
+25,https://www.axios.com/health/affordable-care-act,not in formula RIP
+3,https://www.axios.com/health/coronavirus,not in formula RIP
+24,https://www.axios.com/health/health-care-costs,not in formula RIP
+26,https://www.axios.com/health/medicare-for-all,not in formula RIP
+28,https://www.axios.com/health/public-health,not in formula RIP
+27,https://www.axios.com/health/vaping,not in formula RIP
+124,https://www.axios.com/israel-uae-deal-f-35-fighter-jet-netanyahu-denies-4927964d-8a81-41db-8cf3-189cfb6b2ab6.html,not in formula RIP
+194,https://www.axios.com/israel-uae-deal-f-35-fighter-jet-netanyahu-denies-4927964d-8a81-41db-8cf3-189cfb6b2ab6.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+63,https://www.axios.com/jimmy-carter-joe-biden-democratic-convention-39ba17fc-fd92-452e-8e7c-9ad713e4e758.html,not in formula RIP
+154,https://www.axios.com/julian-castro-latino-voters-2020-elections-a76e492c-56ce-429b-b3ca-339d16c7ff55.html,not in formula RIP
+204,https://www.axios.com/julian-castro-latino-voters-2020-elections-a76e492c-56ce-429b-b3ca-339d16c7ff55.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+82,https://www.axios.com/kamala-harris-joe-biden-social-media-ca3e1ed4-f2e2-4b30-ac01-150a08ab89fb.html,not in formula RIP
+199,https://www.axios.com/kamala-harris-joe-biden-social-media-ca3e1ed4-f2e2-4b30-ac01-150a08ab89fb.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+58,https://www.axios.com/laura-loomer-floridas-21st-district-gop-primary-6972d221-d95a-4b78-a0fc-8da48dd18fd3.html,not in formula RIP
+53,https://www.axios.com/legal,not in formula RIP
+54,https://www.axios.com/legal/ccpa,not in formula RIP
+160,https://www.axios.com/michelle-obama-joe-biden-democratic-convention-0479a161-5f67-4b18-937d-cfa0b3b329a0.html,not in formula RIP
+206,https://www.axios.com/michelle-obama-joe-biden-democratic-convention-0479a161-5f67-4b18-937d-cfa0b3b329a0.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+91,https://www.axios.com/michigan-state-university-online-fall-semester-coronavirus-4b09922f-ddf9-4b91-896f-710aaca70272.html,not in formula RIP
+66,https://www.axios.com/military-uprising-mali-president-keita-arrested-d83cdc21-10cb-40a4-8df2-f8bea76c211b.html,not in formula RIP
+179,https://www.axios.com/military-uprising-mali-president-keita-arrested-d83cdc21-10cb-40a4-8df2-f8bea76c211b.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+87,https://www.axios.com/mypillow-ceo-anderson-cooper-coronavirus-cure-c32cae55-5f52-46d7-bbed-9e5402a2784e.html,not in formula RIP
+2,https://www.axios.com/newsletters,not in formula RIP
+104,https://www.axios.com/newsletters/axios-atwork,not in formula RIP
+121,https://www.axios.com/newsletters/axios-china,not in formula RIP
+130,https://www.axios.com/newsletters/axios-markets,not in formula RIP
+146,https://www.axios.com/newsletters/axios-sneak-peek,not in formula RIP
+150,https://www.axios.com/newsletters/axios-space,not in formula RIP
+127,https://www.axios.com/newsletters/axios-sports,not in formula RIP
+93,https://www.axios.com/newsletters/axios-world,not in formula RIP
+90,https://www.axios.com/notre-dame-cancels-classes-coronavirus-a7bd3249-f757-44a9-baf8-fb4de0bbefa3.html,not in formula RIP
+186,https://www.axios.com/notre-dame-cancels-classes-coronavirus-a7bd3249-f757-44a9-baf8-fb4de0bbefa3.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+4,https://www.axios.com/politics-policy,not in formula RIP
+6,https://www.axios.com/politics-policy/conventions,not in formula RIP
+5,https://www.axios.com/politics-policy/donald-trump,not in formula RIP
+7,https://www.axios.com/politics-policy/election,not in formula RIP
+9,https://www.axios.com/politics-policy/immigration,not in formula RIP
+8,https://www.axios.com/politics-policy/policymaking,not in formula RIP
+88,https://www.axios.com/postmaster-general-suspending-changes-63e1a3ad-e562-4d13-8109-678635b7ea52.html,not in formula RIP
+190,https://www.axios.com/postmaster-general-suspending-changes-63e1a3ad-e562-4d13-8109-678635b7ea52.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+74,https://www.axios.com/primary-elections-florida-wyoming-alaska-2020-0aa75ebd-352f-415c-bb92-62594fbddcea.html,not in formula RIP
+182,https://www.axios.com/primary-elections-florida-wyoming-alaska-2020-0aa75ebd-352f-415c-bb92-62594fbddcea.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+140,https://www.axios.com/qanon-congress-adam-kinzinger-90242dda-db51-48cb-a1ca-00b49fce0128.html,not in formula RIP
+102,https://www.axios.com/qanon-nominees-congress-gop-8086ed21-b7d3-46af-9016-d132e65ba801.html,not in formula RIP
+137,https://www.axios.com/qanon-video-game-cbbacb1e-969c-4f07-93cd-69e41bc6feeb.html,not in formula RIP
+198,https://www.axios.com/qanon-video-game-cbbacb1e-969c-4f07-93cd-69e41bc6feeb.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+163,https://www.axios.com/republicans-not-voting-for-trump-in-2020-9e2f02fa-0f36-418d-bedd-ed53181dd99c.html,not in formula RIP
+208,https://www.axios.com/republicans-not-voting-for-trump-in-2020-9e2f02fa-0f36-418d-bedd-ed53181dd99c.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+61,https://www.axios.com/ross-spano-florida-scott-franklin-lakeland-house-1e998749-b7c3-435d-9456-280afd412a04.html,not in formula RIP
+40,https://www.axios.com/science,not in formula RIP
+42,https://www.axios.com/science/extreme-weather,not in formula RIP
+41,https://www.axios.com/science/space,not in formula RIP
+112,https://www.axios.com/senate-intelligence-russia-interference-971619a8-a806-470a-9de6-1416220ab35b.html,not in formula RIP
+187,https://www.axios.com/senate-intelligence-russia-interference-971619a8-a806-470a-9de6-1416220ab35b.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+86,https://www.axios.com/sp500-stock-record-high-pandemic-f75cd236-b23e-4397-8e08-1eabaf7d9383.html,not in formula RIP
+191,https://www.axios.com/sp500-stock-record-high-pandemic-f75cd236-b23e-4397-8e08-1eabaf7d9383.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+151,https://www.axios.com/spacex-2020-banner-year-9efdd32c-edde-4f9a-ac42-292fb3534241.html,not in formula RIP
+202,https://www.axios.com/spacex-2020-banner-year-9efdd32c-edde-4f9a-ac42-292fb3534241.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+43,https://www.axios.com/sports,not in formula RIP
+128,https://www.axios.com/sports-without-fans-audience-neymar-champions-027483ae-d063-47e3-8ffd-48f48655f89e.html,not in formula RIP
+195,https://www.axios.com/sports-without-fans-audience-neymar-champions-027483ae-d063-47e3-8ffd-48f48655f89e.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+45,https://www.axios.com/sports/ncaa,not in formula RIP
+44,https://www.axios.com/sports/nfl-nba-mlb-nhl,not in formula RIP
+47,https://www.axios.com/sports/olympics,not in formula RIP
+46,https://www.axios.com/sports/sports-betting,not in formula RIP
+10,https://www.axios.com/technology,not in formula RIP
+15,https://www.axios.com/technology/automation-and-ai,not in formula RIP
+11,https://www.axios.com/technology/big-tech,not in formula RIP
+13,https://www.axios.com/technology/data-privacy,not in formula RIP
+12,https://www.axios.com/technology/misinformation,not in formula RIP
+14,https://www.axios.com/technology/surveillance,not in formula RIP
+106,https://www.axios.com/the-aging-childless-future-21f9ae39-bf77-4777-8df2-64dc96e8277b.html,not in formula RIP
+164,https://www.axios.com/top/2020/8/17,not in formula RIP
+147,https://www.axios.com/trump-biden-ad-mental-fitness-92e5aa42-d742-4b16-910a-f3d948e019c8.html,not in formula RIP
+201,https://www.axios.com/trump-biden-ad-mental-fitness-92e5aa42-d742-4b16-910a-f3d948e019c8.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+125,https://www.axios.com/uae-foreign-minister-interview-israel-deal-5d064ed8-559c-46e3-85c0-9632fda13063.html,not in formula RIP
+122,https://www.axios.com/us-china-trade-bright-spot-da1f9797-1559-4aba-b968-eaa22f7eebd0.html,not in formula RIP
+193,https://www.axios.com/us-china-trade-bright-spot-da1f9797-1559-4aba-b968-eaa22f7eebd0.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+131,https://www.axios.com/us-dollar-euro-value-reserve-currency-918a7a7c-b974-42e2-b1f0-dcbcdbb7b929.html,not in formula RIP
+196,https://www.axios.com/us-dollar-euro-value-reserve-currency-918a7a7c-b974-42e2-b1f0-dcbcdbb7b929.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+138,https://www.axios.com/wayfair-child-trafficking-conspiracy-theory-ae1fde42-818d-4dab-9d18-9d53f08a00a0.html,not in formula RIP
+65,https://www.axios.com/who-young-people-drive-coronavirus-79ae1d80-82bd-4d74-b869-97d3c143c720.html,not in formula RIP
+119,https://www.axios.com/women-social-safety-net-coronavirus-740a2147-2ded-44bd-a605-893c9d48b27d.html,not in formula RIP
+192,https://www.axios.com/women-social-safety-net-coronavirus-740a2147-2ded-44bd-a605-893c9d48b27d.html?utm_campaign=organic&amp;utm_medium=socialshare&amp;utm_source=facebook,not in formula RIP
+29,https://www.axios.com/world,not in formula RIP
+30,https://www.axios.com/world/china,not in formula RIP
+32,https://www.axios.com/world/iran,not in formula RIP
+34,https://www.axios.com/world/israel,not in formula RIP
+31,https://www.axios.com/world/north-korea,not in formula RIP
+33,https://www.axios.com/world/russia,not in formula RIP

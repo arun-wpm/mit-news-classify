@@ -1,0 +1,67 @@
+,nonnewsurl,blackrule
+56,http://www.salon.com/apple-touch-icon.png,^.*.png.*$
+58,http://www.salon.com/favicon-16x16.png,^.*.png.*$
+57,http://www.salon.com/favicon-32x32.png,^.*.png.*$
+3,,diff domain
+41,2020/08/16/amateur-astronomy-trend-pandemic-comet-neowise/,diff domain
+38,2020/08/16/ham-and-cheese-pastry-galette-hot-pocket-recipe/,diff domain
+39,2020/08/16/lovecraft-country-review-hbo-/,diff domain
+40,2020/08/16/what-is-qanon-a-not-so-brief-introduction-to-the-conspiracy-theory-thats-eating-america/,diff domain
+34,2020/08/17/being-undocumented-during-the-pandemic-i-feel-we-have-no-voice/,diff domain
+35,2020/08/17/kanye-west-mental-illness-donda-west-bipolar-disorder/,diff domain
+37,2020/08/17/ramy-youssef-hulu-emmys/,diff domain
+36,2020/08/17/rose-mcgowan-on-why-she-revealed-sexual-misconduct-allegations-against-alexander-payne-it-was-time_partner/,diff domain
+33,2020/08/17/the-ellen-degeneres-show-ousts-three-top-producers_partner/,diff domain
+32,2020/08/18/911-call-transcript-shows-the-results-of-tucker-carlsons-threats-to-reporters_partner/,diff domain
+43,2020/08/18/covid-victims-daughter-at-dnc-dads-only-preexisting-condition-was-trusting-donald-trump_partner/,diff domain
+31,2020/08/18/dejoy-donated-big-to-gop-senators-up-for-re-election-theyre-still-silent-on-usps/,diff domain
+17,2020/08/18/democratic-insider-simon-rosenberg-trump-is-being-coached-by-putin-to-seize-power/,diff domain
+18,2020/08/18/dncs-first-night-was-claustrophobic-and-grim-a-compelling-mirror-of-life-in-america/,diff domain
+28,2020/08/18/fox-news-host-chris-wallace-suggests-peaceful-transition-of-power-may-not-happen-if-trump-loses_partner/,diff domain
+25,2020/08/18/fridge-wars-chef-and-my-fridge-cooking-show-quarantine/,diff domain
+21,2020/08/18/how-the-pandemic-is-straining-our-friendships/,diff domain
+27,2020/08/18/james-clyburn-to-fox-and-friends-host-dont-blame-every-black-person-for-some-exception-to-the-rule_partner/,diff domain
+30,2020/08/18/jared-kushner-dismisses-hysterical-reports-calls-170000-coronavirus-deaths-a-success-story/,diff domain
+16,2020/08/18/postmaster-general-louis-dejoy-donated-big-to-gop-trump--his-wife-got-ambassador-post/,diff domain
+42,2020/08/18/ppe-shortage-could-last-years-experts-warn_partner/,diff domain
+23,2020/08/18/sen-lindsey-grahams-seat-moves-further-within-democratic-rival-jaime-harrisons-reach-analysis/,diff domain
+29,2020/08/18/the-pesticide-that-caused-bee-colonies-to-collapse-is-killing-birds-now/,diff domain
+24,2020/08/18/the-recession-is-creating-another-generation-gap/,diff domain
+15,2020/08/18/the-syndicate-marijuana-smuggling-podcast-chris-walker/,diff domain
+20,2020/08/18/this-is-what-collusion-looks-like-gop-led-senate-report-far-more-devastating-than-mueller-probe/,diff domain
+26,2020/08/18/trump-donor-louis-dejoy-suspending-changes-to-us-postal-service-until-after-the-election_partner/,diff domain
+22,2020/08/18/trump-rages-that-fox-news-has-changed-as-network-hosts-praise-michelle-obamas-great-speech/,diff domain
+19,2020/08/18/we-all-know-trump-wants-to-use-the-usps-to-rig-the-election-heres-how-hell-do-it/,diff domain
+63,https://connector-script.uselaterpay.com,diff domain
+45,https://flipboard.com/@Salon,diff domain
+62,https://global.proper.io,diff domain
+13,https://twitter.com/Salon,diff domain
+12,https://www.facebook.com/salon/,diff domain
+46,https://www.instagram.com/salonofficial/,diff domain
+47,https://www.youtube.com/user/SalonDotCom,diff domain
+0,http://www.salon.com/,not in formula RIP
+11,http://www.salon.com/about,not in formula RIP
+49,http://www.salon.com/about/contact,not in formula RIP
+54,http://www.salon.com/about/dmca,not in formula RIP
+50,http://www.salon.com/about/policy,not in formula RIP
+48,http://www.salon.com/about/staff,not in formula RIP
+51,http://www.salon.com/about/tos,not in formula RIP
+52,http://www.salon.com/archive,not in formula RIP
+6,http://www.salon.com/category/culture,not in formula RIP
+5,http://www.salon.com/category/economy-and-innovation,not in formula RIP
+8,http://www.salon.com/category/food,not in formula RIP
+9,http://www.salon.com/category/life-stories,not in formula RIP
+4,http://www.salon.com/category/news-and-politics,not in formula RIP
+7,http://www.salon.com/category/science-and-health,not in formula RIP
+65,http://www.salon.com/design/assets/main.css?rev=bd5774941083a9241db92b0e91b6b89c5b566cc1,not in formula RIP
+59,http://www.salon.com/favicon.ico,not in formula RIP
+53,http://www.salon.com/premium?source=footer-link,not in formula RIP
+2,http://www.salon.com/premium?source=user-dropdown-link,not in formula RIP
+1,http://www.salon.com/profile,not in formula RIP
+64,http://www.salon.com/search/,not in formula RIP
+10,http://www.salon.com/tv,not in formula RIP
+14,https://getpocket.com/explore/salon.com,not in formula RIP
+60,https://media.salon.com,not in formula RIP
+61,https://mediaproxy.salon.com,not in formula RIP
+44,https://www.reddit.com/domain/salon.com/,not in formula RIP
+55,https://www.salon.com/,not in formula RIP
