@@ -1,0 +1,4 @@
+,newsurl,newsrule
+2,https://freedom.press/news/computer-crime-supreme-court-freedom-press-foundation-and-others-weigh-upcoming-cfaa-case/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+1,https://freedom.press/news/dhs-agents-are-suspected-attacking-or-injuring-least-30-journalists-portland/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+0,https://freedom.press/news/draconian-national-security-law-already-muzzling-hong-kongs-journalists/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"

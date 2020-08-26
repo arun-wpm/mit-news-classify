@@ -1,0 +1,103 @@
+,nonnewsurl,blackrule
+68,https://www.vox.com/ezra-klein-show-podcast,^.*podcast.*$
+67,https://www.vox.com/land-of-the-giants-podcast,^.*podcast.*$
+13,https://www.vox.com/pages/podcasts,^.*podcast.*$
+66,https://www.vox.com/podcasts,^.*podcast.*$
+64,https://www.vox.com/podcasts/2020/8/17/21371853/hannah-gadsby-nanette-douglas-cancel-culture-free-speech-neurodiversity-twitter,^.*podcast.*$
+0,#content,diff domain
+96,#icon-facebook,diff domain
+101,#icon-hamburger,diff domain
+100,#icon-norgie-down,diff domain
+98,#icon-rss,diff domain
+99,#icon-search,diff domain
+95,#icon-twitter,diff domain
+97,#icon-youtube,diff domain
+4,http://bit.ly/voxyoutube,diff domain
+92,https://cdn.vox-cdn.com/community_logos/52517/voxv.png,diff domain
+87,https://cdn.vox-cdn.com/shared_fonts/unison/vox/webfonts/baltoweb-bold.woff2,diff domain
+86,https://cdn.vox-cdn.com/shared_fonts/unison/vox/webfonts/baltoweb-bolditalic.woff2,diff domain
+85,https://cdn.vox-cdn.com/shared_fonts/unison/vox/webfonts/baltoweb-book.woff2,diff domain
+84,https://cdn.vox-cdn.com/shared_fonts/unison/vox/webfonts/baltoweb-bookitalic.woff2,diff domain
+89,https://cdn.vox-cdn.com/shared_fonts/unison/vox/webfonts/harriet_display_black.woff2,diff domain
+88,https://cdn.vox-cdn.com/shared_fonts/unison/vox/webfonts/harriet_text_regular_italic.woff2,diff domain
+93,https://cdn.vox-cdn.com/uploads/hub/sbnu_logo_minimal/441/touch_icon_iphone_retina_1000_yellow.755.png,diff domain
+33,https://itunes.apple.com/us/podcast/today-explained/id1346207297?mt=2,diff domain
+83,https://jobs.voxmedia.com,diff domain
+90,https://match.adsrvr.org/track/rid?ttd_pid=gs8reto\u0026fmt=json,diff domain
+53,https://podcasts.apple.com/us/podcast/reset/id1479107698,diff domain
+76,https://status.voxmedia.com,diff domain
+2,https://twitter.com/voxdotcom,diff domain
+3,https://www.facebook.com/Vox,diff domain
+34,https://www.stitcher.com/podcast/stitcher/today-explained,diff domain
+54,https://www.stitcher.com/podcast/vox/reset,diff domain
+81,https://www.voxmedia.com,diff domain
+41,https://www.voxmedia.com/careers,diff domain
+75,https://www.voxmedia.com/legal/accessibility,diff domain
+72,https://www.voxmedia.com/legal/cookie-policy,diff domain
+51,https://www.voxmedia.com/legal/privacy-notice,diff domain
+71,https://www.voxmedia.com/legal/terms-of-use,diff domain
+74,https://www.voxmedia.com/pages/licensing,diff domain
+82,https://www.voxmedia.com/vox-advertising,diff domain
+49,http://www.vox.com/users/Joe%20Yerardi,not in formula RIP
+1,https://www.vox.com/,not in formula RIP
+70,https://www.vox.com/archives,not in formula RIP
+38,https://www.vox.com/authors/aaron-ross-coleman,not in formula RIP
+59,https://www.vox.com/authors/aaron-rupar,not in formula RIP
+37,https://www.vox.com/authors/adam-clark-estes,not in formula RIP
+44,https://www.vox.com/authors/aja-romano,not in formula RIP
+39,https://www.vox.com/authors/alex-ward,not in formula RIP
+50,https://www.vox.com/authors/alexia-fernandez-campbell,not in formula RIP
+31,https://www.vox.com/authors/andrew-prokop,not in formula RIP
+26,https://www.vox.com/authors/anna-north,not in formula RIP
+56,https://www.vox.com/authors/cameron-peters,not in formula RIP
+32,https://www.vox.com/authors/constance-grady,not in formula RIP
+30,https://www.vox.com/authors/danush-parvaneh,not in formula RIP
+62,https://www.vox.com/authors/david-roberts,not in formula RIP
+36,https://www.vox.com/authors/dylan,not in formula RIP
+61,https://www.vox.com/authors/dylan-scott,not in formula RIP
+27,https://www.vox.com/authors/ella-nilsen,not in formula RIP
+43,https://www.vox.com/authors/emily-stewart,not in formula RIP
+63,https://www.vox.com/authors/emily-vanderwerff,not in formula RIP
+55,https://www.vox.com/authors/ezra-klein,not in formula RIP
+25,https://www.vox.com/authors/fabiola-cineas,not in formula RIP
+57,https://www.vox.com/authors/ian-millhiser,not in formula RIP
+29,https://www.vox.com/authors/jen-kirby,not in formula RIP
+48,https://www.vox.com/authors/kelsey-piper,not in formula RIP
+60,https://www.vox.com/authors/lois-parshley-2,not in formula RIP
+65,https://www.vox.com/authors/luke-winkie,not in formula RIP
+58,https://www.vox.com/authors/matthew-yglesias,not in formula RIP
+28,https://www.vox.com/authors/nicole-narea,not in formula RIP
+45,https://www.vox.com/authors/rebecca-jennings,not in formula RIP
+46,https://www.vox.com/authors/sean-illing,not in formula RIP
+42,https://www.vox.com/authors/terry-nguyen,not in formula RIP
+35,https://www.vox.com/authors/vox-staff,not in formula RIP
+40,https://www.vox.com/authors/zack-beauchamp,not in formula RIP
+23,https://www.vox.com/business-and-finance,not in formula RIP
+77,https://www.vox.com/contact,not in formula RIP
+73,https://www.vox.com/contact#donotsell,not in formula RIP
+78,https://www.vox.com/contact#tip,not in formula RIP
+6,https://www.vox.com/coronavirus-covid19,not in formula RIP
+16,https://www.vox.com/culture,not in formula RIP
+21,https://www.vox.com/energy-and-environment,not in formula RIP
+15,https://www.vox.com/explainers,not in formula RIP
+12,https://www.vox.com/first-person,not in formula RIP
+10,https://www.vox.com/future-perfect,not in formula RIP
+20,https://www.vox.com/identities,not in formula RIP
+79,https://www.vox.com/masthead,not in formula RIP
+52,https://www.vox.com/newsletters,not in formula RIP
+7,https://www.vox.com/open-sourced,not in formula RIP
+80,https://www.vox.com/pages/about-us,not in formula RIP
+24,https://www.vox.com/pages/support-now,not in formula RIP
+17,https://www.vox.com/policy-and-politics,not in formula RIP
+8,https://www.vox.com/recode,not in formula RIP
+94,https://www.vox.com/rss/front-page/index.xml,not in formula RIP
+5,https://www.vox.com/rss/index.xml,not in formula RIP
+18,https://www.vox.com/science-and-health,not in formula RIP
+91,https://www.vox.com/style/community/441/group/24015/da228060a4dbe4fd53a8d50353d8bf77/chorus.css,not in formula RIP
+22,https://www.vox.com/technology,not in formula RIP
+9,https://www.vox.com/the-goods,not in formula RIP
+11,https://www.vox.com/the-highlight,not in formula RIP
+69,https://www.vox.com/today-explained,not in formula RIP
+47,https://www.vox.com/users/vivianmlee,not in formula RIP
+14,https://www.vox.com/videos,not in formula RIP
+19,https://www.vox.com/world,not in formula RIP

@@ -1,0 +1,13 @@
+,newsurl,newsrule
+2,http://conservativereview.com/news/horowitz-coronavirus-hospitalizations-lowest-levels-pandemic-exit-strategy,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+5,http://conservativereview.com/news/horowitz-immoral-war-hydroxychloroquine,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+1,http://conservativereview.com/news/horowitz-trump-appointed-judge-idaho-cant-block-men-competing-womens-sports,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+3,http://conservativereview.com/news/new-zealand-delays-election-one-month-citing-covid-19-concerns,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+4,http://conservativereview.com/news/taxpayer-funded-66-million-chicago-pandemic-hospital-closed-treating-just-38-patients,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+0,https://www.conservativereview.com/elections/2020-presidential-candidates/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+9,https://www.conservativereview.com/news/horowitz-cdc-25-young-adults-seriously-considered-suicide-lockdown/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+8,https://www.conservativereview.com/news/horowitz-congressman-discovers-coronavirus-shutdown-check-sent-norwegian-citizen-norway/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+6,https://www.conservativereview.com/news/horowitz-coronavirus-hospitalizations-lowest-levels-pandemic-exit-strategy/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+11,https://www.conservativereview.com/news/horowitz-kansas-health-officials-present-manipulated-deceptive-chart-mislead-public-mask-effectiveness/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+10,https://www.conservativereview.com/news/horowitz-panic-toll-new-survey-shows-greater-mental-health-crisis-us-countries/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"
+7,https://www.conservativereview.com/news/horowitz-teen-accused-killing-man-horrific-knockout-frederick-fair-gets-zero-prison-time-just-anger-management/,"^.*\/[0-9a-z-]+-[0-9a-z-]{20,}\/?$"

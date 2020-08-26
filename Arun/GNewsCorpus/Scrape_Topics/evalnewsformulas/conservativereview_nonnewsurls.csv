@@ -1,0 +1,71 @@
+,nonnewsurl,blackrule
+36,https://www.conservativereview.com/wp-content/themes/cr/favicon-180x180.png,^.*.png.*$
+35,https://www.conservativereview.com/wp-content/themes/cr/favicon-192x192.png,^.*.png.*$
+34,https://www.conservativereview.com/wp-content/themes/cr/favicon-32x32.png,^.*.png.*$
+33,https://www.conservativereview.com/wp-content/themes/cr/images/apple-touch-icon-114x114.png,^.*.png.*$
+32,https://www.conservativereview.com/wp-content/themes/cr/images/apple-touch-icon-72x72.png,^.*.png.*$
+31,https://www.conservativereview.com/wp-content/themes/cr/images/apple-touch-icon.png,^.*.png.*$
+29,http://conservativereview.com/contact-us,^.*contact-us.*$
+26,http://conservativereview.com/privacy-policy,^.*privacy-policy.*$
+6,#,diff domain
+40,cdn.datatables.net,diff domain
+39,code.jquery.com,diff domain
+41,fonts.googleapis.com,diff domain
+28,http://shop.crtv.com/,diff domain
+60,https://cdn.datatables.net/v/dt/dt-1.10.18/r-2.2.2/datatables.min.css?ver=4.9.10-2.0.2.201903141137,diff domain
+56,https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C700%2C400italic%7CRoboto%3A300%2C300i%2C700%7CRoboto+Condensed%3A400%2C700&#038;ver=4.9.10,diff domain
+20,https://podcasts.apple.com/us/podcast/ep-217-thicc-wonder-woman-dc-goes-fat-acceptance/id1438476672?i=1000488221909,diff domain
+19,https://podcasts.apple.com/us/podcast/ep-289-2020-election-part-1-the-issue-of-abortion/id1359249098?i=1000488343501,diff domain
+16,https://podcasts.apple.com/us/podcast/ep-700-rep-thomas-massie-laments-150-days-to-flatten/id1065050908?i=1000488054863#new_tab,diff domain
+13,https://podcasts.apple.com/us/podcast/ep-701-coronavirus-battle-lines-drawn-rationality-vs/id1065050908?i=1000488154150#new_tab,diff domain
+18,https://podcasts.apple.com/us/podcast/ep-702-the-immoral-war-on-hydroxychloroquine/id1065050908?i=1000488408144,diff domain
+10,https://podcasts.apple.com/us/podcast/ep-702-the-immoral-war-on-hydroxychloroquine/id1065050908?i=1000488408144#new_tab,diff domain
+17,https://podcasts.apple.com/us/podcast/herd-immunity-vs-herd-mentality-guest-bob-vander-plaats/id481087877?i=1000488403883,diff domain
+67,https://storage.googleapis.com/conservativereview/2018/01/cropped-cropped-cr_favicon_512x512-150x150.png,diff domain
+68,https://storage.googleapis.com/conservativereview/2018/01/cropped-cropped-cr_favicon_512x512-300x300.png,diff domain
+23,https://twitter.com/CR,diff domain
+3,https://www.blazetv.com,diff domain
+22,https://www.facebook.com/pages/Conservative-Review/475549362567960,diff domain
+1,https://www.theblaze.com/Podcasts,diff domain
+14,https://www.theblaze.com/news/biden-nationwide-mask-mandate-trump#new_tab,diff domain
+9,https://www.theblaze.com/news/chicago-pandemic-hospital-66-million-38-patients#new_tab,diff domain
+12,https://www.theblaze.com/news/chicago-riots-police-video-lightfoot-peaceful-protests#new_tab,diff domain
+11,https://www.theblaze.com/news/chris-wallace-calls-out-joe-biden-for-employing-basement-strategy-the-damnedest-thing-ive-ever-seen#new_tab,diff domain
+8,https://www.theblaze.com/news/ready-new-zealand-delays-election-citing-covid-concerns#new_tab,diff domain
+15,https://www.theblaze.com/news/ready-nycs-annual-9-11-tribute-in-light-memorial-canceled-over-concern-workers-might-get-covid#new_tab,diff domain
+21,https://www.youtube.com/channel/UCEn2XzowruUIsqs09iSFRiA,diff domain
+69,netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css,diff domain
+42,s.w.org,diff domain
+0,http://conservativereview.com/,not in formula RIP
+7,http://conservativereview.com/?s=,not in formula RIP
+24,http://conservativereview.com/about-conservative-review,not in formula RIP
+5,http://conservativereview.com/election/2018/senate,not in formula RIP
+25,http://conservativereview.com/faq,not in formula RIP
+27,http://conservativereview.com/terms-of-use,not in formula RIP
+37,https://www.conservativereview.com/,not in formula RIP
+2,https://www.conservativereview.com/scorecard/,not in formula RIP
+4,https://www.conservativereview.com/top-25/,not in formula RIP
+45,https://www.conservativereview.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1,not in formula RIP
+43,https://www.conservativereview.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=2.0.2,not in formula RIP
+46,https://www.conservativereview.com/wp-content/plugins/cr_api/public/css/cr_api-public.css?ver=1.0.1,not in formula RIP
+47,https://www.conservativereview.com/wp-content/plugins/cr_ticker/public/css/cr_ticker-public.css?ver=11162018,not in formula RIP
+48,https://www.conservativereview.com/wp-content/plugins/guerrillas-author-box/style.css?ver=20160209,not in formula RIP
+49,https://www.conservativereview.com/wp-content/plugins/gxm_mailchimp/public/css/gxm_mailchimp.css?ver=1.0.0,not in formula RIP
+52,https://www.conservativereview.com/wp-content/plugins/post-grid/assets/frontend/css/font-awesome.min.css?ver=4.9.10,not in formula RIP
+51,https://www.conservativereview.com/wp-content/plugins/post-grid/assets/frontend/css/owl.carousel.css?ver=4.9.10,not in formula RIP
+50,https://www.conservativereview.com/wp-content/plugins/post-grid/assets/frontend/css/style-new.css?ver=4.9.10,not in formula RIP
+53,https://www.conservativereview.com/wp-content/plugins/post-grid/assets/frontend/css/style-woocommerce.css?ver=4.9.10,not in formula RIP
+55,https://www.conservativereview.com/wp-content/plugins/post-grid/assets/global/css/style.layout.css?ver=4.9.10,not in formula RIP
+54,https://www.conservativereview.com/wp-content/plugins/post-grid/assets/global/css/style.skins.css?ver=4.9.10,not in formula RIP
+44,https://www.conservativereview.com/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css?ver=5.3.0,not in formula RIP
+61,https://www.conservativereview.com/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css?ver=6.2,not in formula RIP
+57,https://www.conservativereview.com/wp-content/themes/cr/css/font-awesome.min.css?ver=4.7.0,not in formula RIP
+59,https://www.conservativereview.com/wp-content/themes/cr/css/jqvmap.1.5.1.css?ver=4.9.10-2.0.2.201903141137,not in formula RIP
+58,https://www.conservativereview.com/wp-content/themes/cr/css/style.css?ver=4.9.10-2.0.2.201903141137,not in formula RIP
+30,https://www.conservativereview.com/wp-content/themes/cr/images/favicon.ico,not in formula RIP
+64,https://www.conservativereview.com/wp-includes/wlwmanifest.xml,not in formula RIP
+62,https://www.conservativereview.com/wp-json/,not in formula RIP
+65,https://www.conservativereview.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.conservativereview.com%2F,not in formula RIP
+66,https://www.conservativereview.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.conservativereview.com%2F&#038;format=xml,not in formula RIP
+63,https://www.conservativereview.com/xmlrpc.php?rsd,not in formula RIP
+38,www.conservativereview.com,not in formula RIP

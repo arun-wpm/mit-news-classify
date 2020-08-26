@@ -1,0 +1,98 @@
+,nonnewsurl,blackrule
+89,https://www.wired.com/images/logos/wired.png,^.*.png.*$
+13,https://www.wired.com/podcasts/,^.*podcast.*$
+4,#,diff domain
+94,aax.amazon-adsystem.com,diff domain
+83,http://www.condenast.com/online-behavioral-advertising-oba-and-how-to-opt-out-of-oba/#clickheretoreadmoreaboutonlinebehavioraladvertising(oba),diff domain
+81,http://www.condenast.com/privacy-policy#privacypolicy,diff domain
+82,http://www.condenast.com/privacy-policy#privacypolicy-california,diff domain
+62,http://www.twitter.com/wired,diff domain
+64,http://www.youtube.com/wired,diff domain
+91,https://cdn.cookielaw.org/opt-out/otCCPAiab.js,diff domain
+90,https://cdn.cookielaw.org/scripttemplates/otSDKStub.js,diff domain
+65,https://instagram.com/wired,diff domain
+93,https://mb.moatads.com,diff domain
+63,https://pinterest.com/wired,diff domain
+20,https://policies.google.com/privacy,diff domain
+21,https://policies.google.com/terms,diff domain
+92,https://securepubads.g.doubleclick.net,diff domain
+80,https://www.condenast.com/user-agreement/,diff domain
+61,https://www.facebook.com/wired,diff domain
+3,https://subscribe.wired.com/subscribe/splits/wired/WIR_FAILSAFE?source=HCL_WIR_GLOBAL_NAVBAR_FAILSAFE_0,not in formula RIP
+2,https://subscribe.wired.com/subscribe/splits/wired/WIR_FAILSAFE?source=HCL_WIR_MOBILE_NAVBAR_FAILSFE_0,not in formula RIP
+49,https://subscribe.wired.com/subscribe/splits/wired/WIR_FAILSAFE?source=HCL_WIR_MPU_FAILSAFE_0,not in formula RIP
+95,https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&amp;amp;cds_mag_code=WIR&amp;amp;id=1423757547774&amp;amp;lsid=50431012277019467&amp;amp;vid=1,not in formula RIP
+72,https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&amp;cds_mag_code=WIR&amp;id=1423757547774&amp;lsid=50431012277019467&amp;vid=1,not in formula RIP
+75,https://wired.com/coupons,not in formula RIP
+84,https://www.wired.com,not in formula RIP
+0,https://www.wired.com/,not in formula RIP
+29,https://www.wired.com/2014/07/absurd-creature-of-the-week-pistol-shrimp#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+71,https://www.wired.com/about/accessibility-help/,not in formula RIP
+70,https://www.wired.com/about/faq/,not in formula RIP
+73,https://www.wired.com/about/feedback/,not in formula RIP
+69,https://www.wired.com/about/press/,not in formula RIP
+79,https://www.wired.com/about/rss_feeds/,not in formula RIP
+78,https://www.wired.com/about/wired-jobs/,not in formula RIP
+1,https://www.wired.com/account/sign-in/,not in formula RIP
+24,https://www.wired.com/author/andy-greenberg/,not in formula RIP
+27,https://www.wired.com/author/brian-barrett/,not in formula RIP
+42,https://www.wired.com/author/daniel-modlin/,not in formula RIP
+50,https://www.wired.com/author/daniel-oberhaus/,not in formula RIP
+22,https://www.wired.com/author/david-zipper/,not in formula RIP
+43,https://www.wired.com/author/gilad-edelman/,not in formula RIP
+25,https://www.wired.com/author/grace-huckins/,not in formula RIP
+48,https://www.wired.com/author/jeffrey-van-camp/,not in formula RIP
+47,https://www.wired.com/author/jess-grey/,not in formula RIP
+40,https://www.wired.com/author/jon-stokes/,not in formula RIP
+26,https://www.wired.com/author/julian-chokkattu/,not in formula RIP
+23,https://www.wired.com/author/matt-simon/,not in formula RIP
+45,https://www.wired.com/author/peter-rubin/,not in formula RIP
+39,https://www.wired.com/author/victoria-turk-wired-uk/,not in formula RIP
+51,https://www.wired.com/category/backchannel,not in formula RIP
+5,https://www.wired.com/category/backchannel/,not in formula RIP
+54,https://www.wired.com/category/business,not in formula RIP
+6,https://www.wired.com/category/business/,not in formula RIP
+60,https://www.wired.com/category/business/artificial-intelligence,not in formula RIP
+14,https://www.wired.com/category/business/artificial-intelligence/,not in formula RIP
+58,https://www.wired.com/category/culture,not in formula RIP
+7,https://www.wired.com/category/culture/,not in formula RIP
+52,https://www.wired.com/category/gear,not in formula RIP
+8,https://www.wired.com/category/gear/,not in formula RIP
+55,https://www.wired.com/category/ideas,not in formula RIP
+9,https://www.wired.com/category/ideas/,not in formula RIP
+16,https://www.wired.com/category/magazine/,not in formula RIP
+59,https://www.wired.com/category/science,not in formula RIP
+10,https://www.wired.com/category/science/,not in formula RIP
+53,https://www.wired.com/category/security,not in formula RIP
+11,https://www.wired.com/category/security/,not in formula RIP
+17,https://www.wired.com/category/wiredinsider/,not in formula RIP
+18,https://www.wired.com/coupons,not in formula RIP
+85,https://www.wired.com/css/161c60bae032dae0f5be.app-shell.css,not in formula RIP
+86,https://www.wired.com/css/bfbc2c1a6d72e63a7acd.homepage.css,not in formula RIP
+88,https://www.wired.com/feed/rss,not in formula RIP
+96,https://www.wired.com/fonts/fonts.css,not in formula RIP
+46,https://www.wired.com/gallery/best-gaming-headsets/,not in formula RIP
+87,https://www.wired.com/manifest.json,not in formula RIP
+36,https://www.wired.com/most-popular,not in formula RIP
+38,https://www.wired.com/most-recent/,not in formula RIP
+19,https://www.wired.com/newsletter,not in formula RIP
+15,https://www.wired.com/newsletter/,not in formula RIP
+76,https://www.wired.com/newsletter?sourceCode=HeaderAndFooter,not in formula RIP
+41,https://www.wired.com/review/ratio-eight-coffee-maker/,not in formula RIP
+74,https://www.wired.com/securedrop/,not in formula RIP
+68,https://www.wired.com/sitemap/,not in formula RIP
+30,https://www.wired.com/story/9-apps-smartphone-security#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+28,https://www.wired.com/story/a-radical-new-model-of-the-brain-illuminates-its-wiring#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+35,https://www.wired.com/story/bill-gates-on-covid-most-us-tests-are-completely-garbage#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+56,https://www.wired.com/story/french-feminism-karens/,not in formula RIP
+31,https://www.wired.com/story/lovecraft-country-essay#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+44,https://www.wired.com/story/lovecraft-country-essay/,not in formula RIP
+34,https://www.wired.com/story/opinion-the-dark-virality-of-a-hollywood-blood-harvesting-conspiracy#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+32,https://www.wired.com/story/plaintext-qanon-has-infiltrated-the-hollywood-rumor-mill#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+33,https://www.wired.com/story/tired-of-gmail-try-a-privacy-first-email-provider#intcid=_wired-homepage-right-rail_ec4a7eb5-6fc6-422d-b88d-8d95f844349c_popular4-1,not in formula RIP
+66,https://www.wired.com/subscribe/,not in formula RIP
+57,https://www.wired.com/tag/coronavirus,not in formula RIP
+37,https://www.wired.com/video,not in formula RIP
+12,https://www.wired.com/video/,not in formula RIP
+67,https://www.wired.com/wired-advertising/,not in formula RIP
+77,https://www.wired.com/wired-staff/,not in formula RIP

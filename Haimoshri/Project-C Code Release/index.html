@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project-C Code Release</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<h1>MIT News Classifier</h1>
+		<h2>Overview</h2>
+		<section class="overview-desc">
+				The MIT News Classification model was developed as a part of a Machine Learning (Natural Language Project) project for Summer 2020.
+				It is available as a downloadable package and helps to classify news articles to predefined categories.
+		</section>
+
+		<h2>How to Install</h2>
+		<p>Just run the following command in your terminal:</p>
+		<section class = "pip-install">
+			pip install mit-news-classify
+		</section>
+
+		<h2>At a Glance</h2>
+		<p>The package consists of several modules that can utilised to compute tags, embeddings, categories, etc.</p>
+		<section class="tfidf">
+				<p>from mitnewsclassify import tfidf</p>
+				<p>
+					tfidf.gettags("This is a news article about Obama.") <br>
+					>>> ['finances', 'politics and government', 'united states politics and government', 'united states international relations', 'elections',
+					'presidents and presidency (us)', 'presidential elections (us)', 'election issues', 'presidential election of 2008'] <br>
+				</p>
+				<p>
+					tfidf.getfeatures("This is a news article about Obama.") <br>
+					>>> < tf.Tensor: shape=(1, 500), dtype=float32, numpy=
+	array([[0.        , 1.8183131 , 0.21203047, 0.27006385, 0.26371786,
+	        1.5700228 , 0.3895859 , 1.5511193 , 1.7421103 , 1.180634  ,
+	        ..., 0.16174953, 1.0825144 , 0.3891487 , 0.        ]],
+	      dtype=float32) > <br>
+				</p>
+		</section>
+
+		<section class="tfidfbi">
+			<p>from mitnewsclassify import tfidf_bi</p>
+			<p>
+				tfidf_bi.gettags("This is a news article about Obama.") <br>
+				>>> <br>
+			</p>
+			<p>
+				tfidf_bi.getfeatures("This is a news article about Obama.") <br>
+				>>> <br>
+			</p>
+
+		</section>
+
+		<section class="doc2vec">
+		</section>
+
+		<section class="gpt2">
+		</section>
+
+		<section class="distilbert">
+		</section>
+
+		<h2>How to Use</h2>
+		<section>
+
+		</section>
+
+		<h2>Code Details</h2>
+		<section>
+
+		</section>
+
+		<h2>FAQ</h2>
+		<section>
+
+		</section>
+	</main>
+	<article class="link">
+		<h2>Link</h2>
+	</article>
+</body>
+</html>

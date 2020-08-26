@@ -1,0 +1,127 @@
+,nonnewsurl,blackrule
+114,"https://images.jpost.com/image/upload/f_auto,fl_lossy/Icons/PNG/favicon-76.png",^.*.png.*$
+26,breaking-news/joe-biden-formally-nominated-as-2020-us-democratic-presidential-candidate-639152,diff domain
+28,breaking-news/mali-president-resigns-following-detention-by-mutinying-soldiers-639146,diff domain
+27,breaking-news/vmexico-reports-more-than-5500-new-confirmed-coronavirus-cases-639147,diff domain
+107,http://jbstv.org/,diff domain
+125,http://www.bankhapoalim.com/?refferer=Jpost&amp;subject=hp,diff domain
+121,http://www.bankhapoalim.com/?refferer=Jpost&amp;subject=hp&amp;utm_source=Jpost%20Buttons&amp;utm_campaign=Bank%20Hapoalim%20sidebar&amp;utm_medium=sidebar-vertical,diff domain
+111,http://www.bankhapoalim.com/?refferer=Jpost&subject=hp,diff domain
+46,http://www.bankhapoalim.com/?refferer=Jpost&subject=hp&utm_source=Jpost%20Buttons&utm_campaign=Bank%20Hapoalim%20sidebar&utm_medium=sidebar-vertical,diff domain
+124,http://www.danhotels.com/JerusalemHotels/?utm_source=jpost&amp;utm_medium=referral&amp;utm_content=footer&amp;utm_campaign=jpost-dan,diff domain
+108,http://www.danhotels.com/JerusalemHotels/?utm_source=jpost&utm_medium=referral&utm_content=footer&utm_campaign=jpost-dan,diff domain
+82,http://www.jpostlite.co.il/,diff domain
+110,http://www.kkl.org.il/eng/,diff domain
+109,http://www.personasmedia.co.il/,diff domain
+119,"https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900&display=swap",diff domain
+118,"https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap",diff domain
+89,https://jpost.activehosted.com/f/4,diff domain
+1,https://twitter.com/Jerusalem_Post,diff domain
+112,https://www.danielchen.co.il/,diff domain
+49,https://www.dhgate.com/,diff domain
+45,https://www.excelhighschool.com/,diff domain
+2,https://www.facebook.com/TheJerusalemPost,diff domain
+7,https://www.israeldefense.co.il/en/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%99%D7%99%D7%91%D7%A8%D7%98%D7%A7,diff domain
+80,https://www.ivritalk.com/?aff=JPostIcon,diff domain
+44,https://www.ivritalk.com/?aff=jposticon,diff domain
+122,https://www.jpostlite.co.il?utm_source=Jpost%20Buttons&amp;utm_campaign=Jpost%20Lite%20sidebar&amp;utm_medium=sidebar-vertical,diff domain
+47,https://www.jpostlite.co.il?utm_source=Jpost%20Buttons&utm_campaign=Jpost%20Lite%20sidebar&utm_medium=sidebar-vertical,diff domain
+86,https://www.maariv.co.il/,diff domain
+68,https://www.youtube.com/channel/UCLLLdCANnMAdMyrXdYbSlxg,diff domain
+51,international,diff domain
+83,http://marchoftheliving.jpost.com,not in formula RIP
+42,http://realestate.jpost.com/,not in formula RIP
+79,https://conferences.jpost.com/conference/diplomatic2019/2019-11-21/about,not in formula RIP
+78,https://conferences.jpost.com/conference/newyorkconference2020/home,not in formula RIP
+84,https://congress.jpost.com/global-kabbalat-shabbat/,not in formula RIP
+4,https://congress.jpost.com/jp-annualconf/,not in formula RIP
+85,https://landingpage.jpost.com/genesis/genesis.aspx,not in formula RIP
+117,https://m.jpost.com/,not in formula RIP
+92,https://members.jpost.com/LandedPages/hebrew.aspx,not in formula RIP
+88,https://members.jpost.com/ulpanonline/ulpanonlinehome.aspx,not in formula RIP
+87,https://payments.jpost.com/paywall/paywallpersonaldetails,not in formula RIP
+22,https://realestate.jpost.com/,not in formula RIP
+113,https://www.jpost.com,not in formula RIP
+6,https://www.jpost.com/,not in formula RIP
+25,https://www.jpost.com/Breaking-News,not in formula RIP
+116,https://www.jpost.com/Content/css_1024?v=e8c0PKsOg6lDc5MduaDy32YsgsuHD7qS_Bolucc-X3E1,not in formula RIP
+115,https://www.jpost.com/Content/css_1280?v=53YjgmgLEKr79i8hTDgibLOVsKNzbQcMJ2Ie7Vs8D8w1,not in formula RIP
+48,https://www.jpost.com/Israeli-Life-In-Docs,not in formula RIP
+105,https://www.jpost.com/LandedPages/Conferences,not in formula RIP
+91,https://www.jpost.com/LandedPages/Subscribe.aspx,not in formula RIP
+5,https://www.jpost.com/PayWalllogin?returnUrl=%2F,not in formula RIP
+97,https://www.jpost.com/PromoContent,not in formula RIP
+98,https://www.jpost.com/PromoContent/12-Reasons-To-Keep-A-Himalayan-Salt-Lamp-In-Every-Room-Of-The-House-443379,not in formula RIP
+102,https://www.jpost.com/PromoContent/5-Best-Cash-Counting-Machines-For-2016-442612,not in formula RIP
+103,https://www.jpost.com/PromoContent/5-Best-Commercial-Zero-Turn-Mowers-For-2016-442346,not in formula RIP
+100,https://www.jpost.com/PromoContent/5-Best-Heavy-Duty-Commercial-Carpet-Cleaners-For-2016-441544,not in formula RIP
+99,https://www.jpost.com/PromoContent/6-Best-undercounter-ice-makers-reviewed-for-2016-441249,not in formula RIP
+104,https://www.jpost.com/PromoContent/Finance/19-Senior-Discounts-You-Did-Not-Know-About-602349,not in formula RIP
+101,https://www.jpost.com/PromoContent/The-Top-10-Best-Reviewed-Paper-Shredders-442604,not in formula RIP
+93,https://www.jpost.com/RSS/,not in formula RIP
+96,https://www.jpost.com/Special-Content,not in formula RIP
+72,https://www.jpost.com/advertise,not in formula RIP
+12,https://www.jpost.com/american-politics,not in formula RIP
+20,https://www.jpost.com/archaeology,not in formula RIP
+94,https://www.jpost.com/articlearchive/listarticlearchive.aspx,not in formula RIP
+30,https://www.jpost.com/author/aaron-reich,not in formula RIP
+41,https://www.jpost.com/author/anna-ahronheim,not in formula RIP
+54,https://www.jpost.com/author/benjamin-weinthal,not in formula RIP
+56,https://www.jpost.com/author/celia-jean,not in formula RIP
+59,https://www.jpost.com/author/donna-rachel-edmunds,not in formula RIP
+34,https://www.jpost.com/author/emily-schrader,not in formula RIP
+50,https://www.jpost.com/author/gil-hoffman,not in formula RIP
+64,https://www.jpost.com/author/hannah-brown,not in formula RIP
+58,https://www.jpost.com/author/jerusalem-post-staff,not in formula RIP
+32,https://www.jpost.com/author/jpost-editorial,not in formula RIP
+40,https://www.jpost.com/author/lahav-harkov,not in formula RIP
+123,https://www.jpost.com/author/leo-giosu&#232;,not in formula RIP
+67,https://www.jpost.com/author/leo-giosuè,not in formula RIP
+31,https://www.jpost.com/author/maayan-jaffe-hoffman,not in formula RIP
+63,https://www.jpost.com/author/pascale-perez-rubin,not in formula RIP
+35,https://www.jpost.com/author/ronald-s-lauder,not in formula RIP
+38,https://www.jpost.com/author/rossella-tercatin,not in formula RIP
+53,https://www.jpost.com/author/sarah-chemla,not in formula RIP
+39,https://www.jpost.com/author/seth-j-frantzman,not in formula RIP
+36,https://www.jpost.com/author/susan-hattis-rolef,not in formula RIP
+52,https://www.jpost.com/author/tovah-lazaroff,not in formula RIP
+61,https://www.jpost.com/author/tzvi-joffre,not in formula RIP
+29,https://www.jpost.com/author/yaakov-katz,not in formula RIP
+33,https://www.jpost.com/author/yedidia-z-stern,not in formula RIP
+37,https://www.jpost.com/author/yonah-jeremy-bob,not in formula RIP
+24,https://www.jpost.com/breaking-news,not in formula RIP
+55,https://www.jpost.com/business-and-innovation/health-and-science,not in formula RIP
+57,https://www.jpost.com/business-and-innovation/jpost-tech,not in formula RIP
+8,https://www.jpost.com/coronavirus,not in formula RIP
+18,https://www.jpost.com/cybertech,not in formula RIP
+13,https://www.jpost.com/diaspora,not in formula RIP
+21,https://www.jpost.com/diaspora/antisemitism,not in formula RIP
+62,https://www.jpost.com/food-recipes,not in formula RIP
+17,https://www.jpost.com/health-science,not in formula RIP
+120,https://www.jpost.com/ifcj?utm_source=jpost&amp;utm_medium=website&amp;utm_campaign=ifcj&amp;utm_content=homepage,not in formula RIP
+43,https://www.jpost.com/ifcj?utm_source=jpost&utm_medium=website&utm_campaign=ifcj&utm_content=homepage,not in formula RIP
+10,https://www.jpost.com/international,not in formula RIP
+9,https://www.jpost.com/israel-news,not in formula RIP
+60,https://www.jpost.com/israel-news/culture,not in formula RIP
+81,https://www.jpost.com/jerusalem-report,not in formula RIP
+76,https://www.jpost.com/jpost-jobs,not in formula RIP
+19,https://www.jpost.com/jpost-tech,not in formula RIP
+15,https://www.jpost.com/judaism,not in formula RIP
+16,https://www.jpost.com/kabbalah,not in formula RIP
+70,https://www.jpost.com/landedpages/aboutus.aspx,not in formula RIP
+77,https://www.jpost.com/landedpages/canceledsubscryber.aspx,not in formula RIP
+106,https://www.jpost.com/landedpages/conferenceproductionservices.aspx,not in formula RIP
+75,https://www.jpost.com/landedpages/contract.pdf,not in formula RIP
+71,https://www.jpost.com/landedpages/feedback.aspx,not in formula RIP
+69,https://www.jpost.com/landedpages/jpostapps.aspx,not in formula RIP
+0,https://www.jpost.com/landedpages/jpostnewsletterandjpostalert.aspx,not in formula RIP
+90,https://www.jpost.com/landedpages/newsticker.aspx,not in formula RIP
+74,https://www.jpost.com/landedpages/privacypolicy.aspx,not in formula RIP
+73,https://www.jpost.com/landedpages/termsofservice.aspx,not in formula RIP
+3,https://www.jpost.com/magazineprint/digitallibrary,not in formula RIP
+95,https://www.jpost.com/magazineprint/digitallibrary.aspx,not in formula RIP
+11,https://www.jpost.com/middle-east,not in formula RIP
+65,https://www.jpost.com/omg,not in formula RIP
+14,https://www.jpost.com/opinion,not in formula RIP
+23,https://www.jpost.com/premium,not in formula RIP
+66,https://www.jpost.com/special-content,not in formula RIP

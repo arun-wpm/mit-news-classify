@@ -1,0 +1,110 @@
+,nonnewsurl,blackrule
+60,https://www.pbs.org/newshour/support/friends-of-the-newshour?utm_source=newshour%20additional%20page&utm_medium=png,^.*.png.*$
+34,https://www.pbs.org/newshour/about/contact-us,^.*contact-us.*$
+2,https://www.pbs.org/newshour/podcasts,^.*podcast.*$
+68,https://www.pbs.org/about/pbs-privacy-policy/,^.*privacy-policy.*$
+69,https://www.pbs.org/newshour/subscribe#rss-feeds,^.*rss-feed.*$
+47,,diff domain
+96,#arrow-right,diff domain
+94,#icon-audio,diff domain
+97,#icon-bell,diff domain
+103,#icon-calendar,diff domain
+98,#icon-check,diff domain
+93,#icon-close,diff domain
+95,#icon-email,diff domain
+101,#icon-eye,diff domain
+104,#icon-facebook,diff domain
+91,#icon-play,diff domain
+102,#icon-record,diff domain
+108,#icon-rss,diff domain
+105,#icon-twitter,diff domain
+106,#icon-youtube,diff domain
+92,#logo,diff domain
+107,#logo-inverted,diff domain
+100,#pbs-vote-2020,diff domain
+99,#pbs-vote-2020-grey,diff domain
+76,fonts.googleapis.com,diff domain
+74,googletagmanager.com,diff domain
+75,googletagservices.com,diff domain
+56,http://www.mutualofamerica.com/,diff domain
+10,https://artscanvas.org,diff domain
+53,https://cpb.org,diff domain
+90,https://d3i6fh83elv35t.cloudfront.net/newshour/app/themes/pbs-newshour/assets/dist/app.css?v=1597774483,diff domain
+84,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/apple-touch-icon.png,diff domain
+86,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/favicon-16x16.png,diff domain
+85,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/favicon-32x32.png,diff domain
+89,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/favicon.ico,diff domain
+87,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/manifest.json,diff domain
+88,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/safari-pinned-tab.svg,diff domain
+80,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/ios/AppIcon57x57.png,diff domain
+82,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/ios/AppIcon57x57@2x.png,diff domain
+81,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/ios/AppIcon72x72.png,diff domain
+83,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/ios/AppIcon72x72@2x.png,diff domain
+79,https://d3i6fh83elv35t.cloudfront.net/static/assets/images/ios/favicon.ico,diff domain
+31,https://studentreportinglabs.org/,diff domain
+62,https://twitter.com/NewsHour,diff domain
+51,https://www.bnsf.com/,diff domain
+52,https://www.consumercellular.com/pbs,diff domain
+71,https://www.cpb.org/,diff domain
+61,https://www.facebook.com/newshour,diff domain
+54,https://www.fidelity.com/,diff domain
+55,https://www.jnj.com/?utm_source=google&utm_medium=cpc&utm_campaign=GO-USA-ENG-PS-Corporate+Equity-BC-EX-RN-BRAND_GENERAL&utm_content=J%26J+-+General+-+E&utm_term=johnson+and+johnson&ds_rl=1262818&gclid=EAIaIQobChMImJCKl9fl6QIVwp-zCh3eIQClEAAYASAAEgJaTfD_BwE&gclsrc=aw.ds,diff domain
+57,https://www.raymondjames.com/,diff domain
+58,https://www.womensvote100.org/,diff domain
+63,https://www.youtube.com/user/PBSNewsHour,diff domain
+48,https://www.youtube.com/watch?v=3sLdeoA_k_U,diff domain
+39,https://www.youtube.com/watch?v=3sLdeoA_k_U&feature=youtu.be,diff domain
+46,https://www.youtube.com/watch?v=8ZlRD23XHbA,diff domain
+40,https://www.youtube.com/watch?v=DFfw0-vE-7I&feature=youtu.be,diff domain
+45,https://www.youtube.com/watch?v=N53r58ku_CU ,diff domain
+73,static.chartbeat.com,diff domain
+59,http://www.pbs.org/cgi-registry/sitemembershiplink.cgir,not in formula RIP
+0,https://www.pbs.org/newshour/,not in formula RIP
+33,https://www.pbs.org/newshour/about,not in formula RIP
+35,https://www.pbs.org/newshour/about/funders,not in formula RIP
+50,https://www.pbs.org/newshour/about/judy-woodruff,not in formula RIP
+67,https://www.pbs.org/newshour/about/newshour-west,not in formula RIP
+9,https://www.pbs.org/newshour/arts,not in formula RIP
+11,https://www.pbs.org/newshour/arts/poetry,not in formula RIP
+21,https://www.pbs.org/newshour/author/paul-solman,not in formula RIP
+16,https://www.pbs.org/newshour/brief,not in formula RIP
+19,https://www.pbs.org/newshour/economy,not in formula RIP
+20,https://www.pbs.org/newshour/economy/making-sense,not in formula RIP
+29,https://www.pbs.org/newshour/education,not in formula RIP
+42,https://www.pbs.org/newshour/elections-2020/,not in formula RIP
+41,https://www.pbs.org/newshour/elections-2020/democratic-national-convention,not in formula RIP
+49,https://www.pbs.org/newshour/elections-2020/democratic-national-convention#convetion-schedule,not in formula RIP
+32,https://www.pbs.org/newshour/extra/,not in formula RIP
+64,https://www.pbs.org/newshour/features/coronavirus/us/,not in formula RIP
+12,https://www.pbs.org/newshour/features/now-read-this/,not in formula RIP
+72,https://www.pbs.org/newshour/feeds/rss/headlines,not in formula RIP
+27,https://www.pbs.org/newshour/health,not in formula RIP
+37,https://www.pbs.org/newshour/jobs,not in formula RIP
+4,https://www.pbs.org/newshour/latest,not in formula RIP
+38,https://www.pbs.org/newshour/live,not in formula RIP
+13,https://www.pbs.org/newshour/nation,not in formula RIP
+5,https://www.pbs.org/newshour/politics,not in formula RIP
+66,https://www.pbs.org/newshour/press-releases,not in formula RIP
+22,https://www.pbs.org/newshour/science,not in formula RIP
+3,https://www.pbs.org/newshour/subscribe,not in formula RIP
+36,https://www.pbs.org/newshour/support,not in formula RIP
+70,https://www.pbs.org/newshour/support/friends-of-the-newshour?utm_source=newshour%20support%20page&utm_medium=redbutton,not in formula RIP
+25,https://www.pbs.org/newshour/tag/basic-research,not in formula RIP
+43,https://www.pbs.org/newshour/tag/dnc-2020,not in formula RIP
+15,https://www.pbs.org/newshour/tag/essays,not in formula RIP
+26,https://www.pbs.org/newshour/tag/invention,not in formula RIP
+28,https://www.pbs.org/newshour/tag/long-term-care,not in formula RIP
+7,https://www.pbs.org/newshour/tag/politics-monday,not in formula RIP
+14,https://www.pbs.org/newshour/tag/race-matters,not in formula RIP
+44,https://www.pbs.org/newshour/tag/rnc-2020,not in formula RIP
+24,https://www.pbs.org/newshour/tag/sciencescope,not in formula RIP
+6,https://www.pbs.org/newshour/tag/shields-and-brooks,not in formula RIP
+8,https://www.pbs.org/newshour/tag/supreme-court,not in formula RIP
+30,https://www.pbs.org/newshour/tag/teachers-lounge,not in formula RIP
+23,https://www.pbs.org/newshour/tag/the-leading-edge,not in formula RIP
+65,https://www.pbs.org/newshour/tv-schedule,not in formula RIP
+1,https://www.pbs.org/newshour/video,not in formula RIP
+17,https://www.pbs.org/newshour/world,not in formula RIP
+18,https://www.pbs.org/newshour/world/agents-for-change,not in formula RIP
+77,image.pbs.org,not in formula RIP
+78,jaws.pbs.org,not in formula RIP

@@ -1,0 +1,41 @@
+,nonnewsurl,blackrule
+10,https://www.metaculus.com/privacy-policy/,^.*privacy-policy.*$
+12,mailto:feedback@metaculus.com,^mailto:.*$
+4,#,diff domain
+13,d3s0w6fek99l5b.cloudfront.net/static/icon120.25e2650c1081.png,diff domain
+17,d3s0w6fek99l5b.cloudfront.net/static/icon128.5159aa57f610.png,diff domain
+14,d3s0w6fek99l5b.cloudfront.net/static/icon180.37a5e9d49ae7.png,diff domain
+16,d3s0w6fek99l5b.cloudfront.net/static/icon192.5eaccecf6428.png,diff domain
+15,d3s0w6fek99l5b.cloudfront.net/static/icon32.05c1050030b5.png,diff domain
+18,d3s0w6fek99l5b.cloudfront.net/static/metaculus.bac3f43d90a3.css,diff domain
+1,https://www.patreon.com/metaculus,diff domain
+0,https://www.metaculus.com/,not in formula RIP
+26,https://www.metaculus.com/api2/questions/1090/,not in formula RIP
+34,https://www.metaculus.com/api2/questions/1446/,not in formula RIP
+33,https://www.metaculus.com/api2/questions/1638/,not in formula RIP
+22,https://www.metaculus.com/api2/questions/1688/,not in formula RIP
+29,https://www.metaculus.com/api2/questions/3369/,not in formula RIP
+36,https://www.metaculus.com/api2/questions/3445/,not in formula RIP
+25,https://www.metaculus.com/api2/questions/3790/,not in formula RIP
+31,https://www.metaculus.com/api2/questions/3806/,not in formula RIP
+28,https://www.metaculus.com/api2/questions/3912/,not in formula RIP
+20,https://www.metaculus.com/api2/questions/4657/,not in formula RIP
+38,https://www.metaculus.com/api2/questions/4761/,not in formula RIP
+35,https://www.metaculus.com/api2/questions/4808/,not in formula RIP
+27,https://www.metaculus.com/api2/questions/4918/,not in formula RIP
+23,https://www.metaculus.com/api2/questions/4952/,not in formula RIP
+32,https://www.metaculus.com/api2/questions/5042/,not in formula RIP
+37,https://www.metaculus.com/api2/questions/5045/,not in formula RIP
+24,https://www.metaculus.com/api2/questions/5047/,not in formula RIP
+30,https://www.metaculus.com/api2/questions/5052/,not in formula RIP
+21,https://www.metaculus.com/api2/questions/5053/,not in formula RIP
+19,https://www.metaculus.com/api2/questions/935/,not in formula RIP
+5,https://www.metaculus.com/help/faq/,not in formula RIP
+8,https://www.metaculus.com/help/prediction-resources/,not in formula RIP
+6,https://www.metaculus.com/news/,not in formula RIP
+3,https://www.metaculus.com/questions/categories/,not in formula RIP
+39,https://www.metaculus.com/questions/rss/,not in formula RIP
+9,https://www.metaculus.com/questions/track-record/,not in formula RIP
+2,https://www.metaculus.com/rankings/,not in formula RIP
+11,https://www.metaculus.com/terms-of-use/,not in formula RIP
+7,https://www.metaculus.com/tutorials/,not in formula RIP

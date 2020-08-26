@@ -1,0 +1,41 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+main {
+  grid-column: 2;
+}
+
+h2 {
+  color: rgb(66, 135, 245);
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: rgb(66, 135, 245);
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.link {
+  grid-column: 1;
+  grid-row: 1;
+  position: sticky;
+}
+
+.pip-install {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.tfidf, .tfidfbi, .doc2vec, .gpt2, .distilbert {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

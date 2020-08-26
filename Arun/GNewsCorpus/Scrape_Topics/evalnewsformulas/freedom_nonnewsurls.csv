@@ -1,0 +1,34 @@
+,nonnewsurl,blackrule
+28,https://freedom.press/static/icons/android-chrome-192x192.png,^.*.png.*$
+25,https://freedom.press/static/icons/apple-touch-icon.png,^.*.png.*$
+29,https://freedom.press/static/icons/favicon-16x16.png,^.*.png.*$
+27,https://freedom.press/static/icons/favicon-194x194.png,^.*.png.*$
+26,https://freedom.press/static/icons/favicon-32x32.png,^.*.png.*$
+21,https://freedom.press/privacy-policy/,^.*privacy-policy.*$
+5,http://twitter.com/FreedomofPress,diff domain
+18,https://archivethe.news/,diff domain
+22,https://creativecommons.org/licenses/by/4.0/,diff domain
+6,https://facebook.com/FreedomofthePressFoundation,diff domain
+19,https://guardianproject.github.io/haven/,diff domain
+16,https://pressfreedomtracker.us,diff domain
+11,https://pressfreedomtracker.us/,diff domain
+15,https://securedrop.org,diff domain
+12,https://securedrop.org/,diff domain
+17,https://securethe.news,diff domain
+20,https://twitter.com/foiafeed,diff domain
+14,https://www.vox.com/2020/7/2/21309902/china-national-security-law-hong-kong-protests-us-sanctions,diff domain
+0,https://freedom.press/,not in formula RIP
+4,https://freedom.press/about/,not in formula RIP
+3,https://freedom.press/contact/,not in formula RIP
+1,https://freedom.press/donate/,not in formula RIP
+8,https://freedom.press/news/,not in formula RIP
+13,https://freedom.press/news/feed/,not in formula RIP
+10,https://freedom.press/projects/,not in formula RIP
+7,https://freedom.press/search,not in formula RIP
+32,https://freedom.press/static/CACHE/css/5577bed8f8ba.css,not in formula RIP
+23,https://freedom.press/static/icons/favicon.ico,not in formula RIP
+30,https://freedom.press/static/icons/manifest.json,not in formula RIP
+24,https://freedom.press/static/icons/mask-icon.svg,not in formula RIP
+31,https://freedom.press/static/icons/safari-pinned-tab.svg,not in formula RIP
+9,https://freedom.press/training/,not in formula RIP
+2,https://store.freedom.press,not in formula RIP
