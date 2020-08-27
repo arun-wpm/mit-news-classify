@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mit-news-classify", # Replace with your own username
-    version="0.8",
+    version="0.8.1",
     author="Arun Wongprommoon",
     author_email="arunwpm@mit.edu",
     description="A news classification tool developed for Improve the News, a project by Max Tegmark",

@@ -50,7 +50,9 @@ def download(model=None):
         "/data/distilbert/labels_dict_distilbert.csv":"https://www.dropbox.com/s/1l5hdzfz7xoqgaq/labels_dict_distilbert.csv?dl=1",
         "/data/distilbert/nyt-theme-tags.csv":"https://www.dropbox.com/s/omgstbndd3xl4cy/nyt-theme-tags.csv?dl=1",
         # ensemble model
-
+        "/data/quadsemble/model_ensemble.h5":"https://www.dropbox.com/s/pay4tvp6n2ffyhm/model_ensemble.h5?dl=1",
+        "/data/quadsemble/labelsdict.p":"https://www.dropbox.com/s/smrsyx96hf9nt9d/labelsdict.p?dl=1",
+        "/data/quadsemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/rprkzildvux9jjw/nyt-theme-tags.csv?dl=1",
         # trisemble model
 
         # quadsemble model
