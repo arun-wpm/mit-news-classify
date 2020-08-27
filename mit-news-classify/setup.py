@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="mit-news-classify", # Replace with your own username
-    version="0.8.1",
+    version="0.8.2",
     author="Arun Wongprommoon",
     author_email="arunwpm@mit.edu",
     description="A news classification tool developed for Improve the News, a project by Max Tegmark",

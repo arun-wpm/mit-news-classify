@@ -50,11 +50,13 @@ def download(model=None):
         "/data/distilbert/labels_dict_distilbert.csv":"https://www.dropbox.com/s/1l5hdzfz7xoqgaq/labels_dict_distilbert.csv?dl=1",
         "/data/distilbert/nyt-theme-tags.csv":"https://www.dropbox.com/s/omgstbndd3xl4cy/nyt-theme-tags.csv?dl=1",
         # ensemble model
-        "/data/quadsemble/model_ensemble.h5":"https://www.dropbox.com/s/pay4tvp6n2ffyhm/model_ensemble.h5?dl=1",
-        "/data/quadsemble/labelsdict.p":"https://www.dropbox.com/s/smrsyx96hf9nt9d/labelsdict.p?dl=1",
-        "/data/quadsemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/rprkzildvux9jjw/nyt-theme-tags.csv?dl=1",
+        "/data/ensemble/model_ensemble.h5":"https://www.dropbox.com/s/pay4tvp6n2ffyhm/model_ensemble.h5?dl=1",
+        "/data/ensemble/labelsdict.p":"https://www.dropbox.com/s/smrsyx96hf9nt9d/labelsdict.p?dl=1",
+        "/data/ensemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/rprkzildvux9jjw/nyt-theme-tags.csv?dl=1",
         # trisemble model
-
+        "/data/trisemble/model_trisemble.h5":"https://www.dropbox.com/s/ygu51990diy61fy/model_trisemble.h5?dl=1",
+        "/data/trisemble/labelsdict.p":"https://www.dropbox.com/s/9r2v169d2npbj9v/labelsdict.p?dl=1",
+        "/data/trisemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/652kf8edq438bbo/nyt-theme-tags.csv?dl=1",
         # quadsemble model
         "/data/quadsemble/model_quadsemble.h5":"https://www.dropbox.com/s/ng94kufjtobl3uw/model_quadsemble.h5?dl=1",
         "/data/quadsemble/labelsdict.p":"https://www.dropbox.com/s/sv14u7mwe2wnn49/labelsdict.p?dl=1",
