@@ -61,6 +61,10 @@ def download(model=None):
         "/data/quadsemble/model_quadsemble.h5":"https://www.dropbox.com/s/ng94kufjtobl3uw/model_quadsemble.h5?dl=1",
         "/data/quadsemble/labelsdict.p":"https://www.dropbox.com/s/sv14u7mwe2wnn49/labelsdict.p?dl=1",
         "/data/quadsemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/m94w28knnv2gcq9/nyt-theme-tags.csv?dl=1",
+        # pentasemble model
+        "/data/pentasemble/model_pentasemble.h5":"https://www.dropbox.com/s/jfyh18rmt36hqs5/model_pentasemble.h5?dl=1",
+        "/data/pentasemble/labelsdict.p":"https://www.dropbox.com/s/orl0npue7zgtzzh/labelsdict.p?dl=1",
+        "/data/pentasemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/1wdq5rs1dqu3bh6/nyt-theme-tags.csv?dl=1",
     }
 
     # get package directory
@@ -82,6 +86,7 @@ def download(model=None):
         "/data/ensemble",
         "/data/trisemble",
         "/data/quadsemble",
+        "/data/pentasemble",
     ]
     for dir in dirs:
         if (model is None or model == dir.split("/")[-1]):

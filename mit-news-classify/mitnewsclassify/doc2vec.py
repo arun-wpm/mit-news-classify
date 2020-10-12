@@ -18,7 +18,6 @@ from gensim.utils import tokenize
 import traceback
 import csv
 import pickle
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 def loadcsv(filename):
     with open(filename, newline='') as f: 
@@ -98,6 +97,10 @@ def getfeatures(txt):
     # print(mat)
 
     return features
+
+def free():
+    global doc2vec_model
+    del doc2vec_model
 
 if __name__ == "__main__":
     while True:

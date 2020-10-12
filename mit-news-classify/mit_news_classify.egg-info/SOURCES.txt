@@ -13,6 +13,7 @@ mitnewsclassify/download.py
 mitnewsclassify/ensemble.py
 mitnewsclassify/gpt2.py
 mitnewsclassify/gpt_model.py
+mitnewsclassify/pentasemble.py
 mitnewsclassify/quadsemble.py
 mitnewsclassify/tfidf.py
 mitnewsclassify/tfidf_bi.py

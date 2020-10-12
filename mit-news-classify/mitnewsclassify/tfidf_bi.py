@@ -104,6 +104,14 @@ def getfeatures(txt):
 
     return features
 
+def free():
+    global model
+    del model
+    global cntVecr
+    del cntVecr
+    global tfmer
+    del tfmer
+
 if __name__ == "__main__":
     while True:
         txt = input("Enter text: ")

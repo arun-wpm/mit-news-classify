@@ -11,9 +11,6 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import load_model
 
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
-from gensim.utils import tokenize
-
 import torch
 import numpy as np
 from transformers import DistilBertModel, DistilBertTokenizer
@@ -21,7 +18,6 @@ from transformers import DistilBertModel, DistilBertTokenizer
 import traceback
 import csv
 import pickle
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = torch.device(device)
@@ -30,19 +26,24 @@ def loadcsv(filename):
     with open(filename, newline='') as f: 
         return list(csv.reader(f))
 
-tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-cased")
-bert = DistilBertModel.from_pretrained('distilbert-base-cased').to(device)
+tokenizer = None
+bert = None
 ld = None
 id2tag = {}
 
 def initialize( ldloc = 'labels_dict_distilbert.csv', #name of the labels dictionary
                 id2tagloc = 'nyt-theme-tags.csv' #name of the conversion table from tag id to tag name for NYTcorpus
                 ):
+    global tokenizer
+    global bert
     global ld
     global id2tag
 
     # warning
     print("WARNING This model will consume a lot of memory, which can render your computer unusable. Please make sure that you have sufficient memory!")
+
+    tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-cased")
+    bert = DistilBertModel.from_pretrained('distilbert-base-cased').to(device)
 
     # get package directory
     pwd = os.path.dirname(os.path.abspath(__file__))
@@ -69,15 +70,22 @@ def initialize( ldloc = 'labels_dict_distilbert.csv', #name of the labels dictio
 def getfeatures(txt):
     if (ld is None):
         initialize()
-    encoded_dict = tokenizer([txt], add_special_tokens=True, pad_to_max_length=True, max_length=300, return_tensors="pt", return_attention_mask=True)
-    result = encoded_dict['input_ids']
-    attention_mask = encoded_dict['attention_mask']
-    output = bert(input_ids=encoded_dict['input_ids'].to(device), attention_mask=encoded_dict['attention_mask'].to(device))
-    output = torch.mean(output[0], 1).detach()
-    vec1 = output.cpu()
+    with torch.no_grad():
+        encoded_dict = tokenizer([txt], add_special_tokens=True, pad_to_max_length=True, max_length=300, return_tensors="pt", return_attention_mask=True)
+        result = encoded_dict['input_ids']
+        attention_mask = encoded_dict['attention_mask']
+        output = bert(input_ids=encoded_dict['input_ids'].to(device), attention_mask=encoded_dict['attention_mask'].to(device))
+        output = torch.mean(output[0], 1).detach()
+        vec1 = output.cpu()
     # print(vec1)
 
     return vec1
+
+def free():
+    global tokenizer
+    del tokenizer
+    global bert
+    del bert
 
 if __name__ == "__main__":
     while True:

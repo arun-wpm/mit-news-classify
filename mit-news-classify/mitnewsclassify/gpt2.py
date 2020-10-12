@@ -12,9 +12,6 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import load_model
 
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
-from gensim.utils import tokenize
-
 import torch
 import numpy as np
 from transformers import GPT2Tokenizer, GPT2Model
@@ -22,7 +19,6 @@ from transformers import GPT2Tokenizer, GPT2Model
 import traceback
 import csv
 import pickle
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = torch.device(device)
@@ -32,9 +28,8 @@ def loadcsv(filename):
         return list(csv.reader(f))
 
 model = None
-tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-tokenizer.pad_token = "[PAD]"
-gptmodel = GPT2Model.from_pretrained('gpt2').to(device)
+tokenizer = None
+gptmodel = None
 ld = None
 id2tag = {}
 
@@ -43,12 +38,17 @@ def initialize( modelfile="gpt_0.5.pth", #Jamie's model
                 id2tagloc = 'nyt-theme-tags.csv' #name of the conversion table from tag id to tag name for NYTcorpus
                 ):
     global model
-    global doc2vec
+    global tokenizer
+    global gptmodel
     global ld
     global id2tag
 
     # warning
     print("WARNING This model will consume a lot of memory, which can render your computer unusable. Please make sure that you have sufficient memory!")
+
+    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    tokenizer.pad_token = "[PAD]"
+    gptmodel = GPT2Model.from_pretrained('gpt2').to(device)
 
     # get package directory
     pwd = os.path.dirname(os.path.abspath(__file__))
@@ -82,12 +82,13 @@ def initialize( modelfile="gpt_0.5.pth", #Jamie's model
 def getfeatures(txt):
     if (model is None):
         initialize()
-    encoded_dict = tokenizer([txt], add_special_tokens=True, padding="max_length", truncation=True, max_length=1024, return_tensors="pt", return_attention_mask=True)
-    result = encoded_dict['input_ids']
-    attention_mask = encoded_dict['attention_mask']
-    output = gptmodel(input_ids=encoded_dict['input_ids'].to(device), attention_mask=encoded_dict['attention_mask'].to(device))
-    output = output[0][:,-1,:].detach()
-    vec1 = output.cpu()
+    with torch.no_grad():
+        encoded_dict = tokenizer([txt], add_special_tokens=True, padding="max_length", truncation=True, max_length=1024, return_tensors="pt", return_attention_mask=True)
+        result = encoded_dict['input_ids']
+        attention_mask = encoded_dict['attention_mask']
+        output = gptmodel(input_ids=encoded_dict['input_ids'].to(device), attention_mask=encoded_dict['attention_mask'].to(device))
+        output = output[0][:,-1,:].detach()
+        vec1 = output.cpu()
     # print(vec1)
 
     return vec1
@@ -108,6 +109,14 @@ def gettags(txt):
     # print(tags)
 
     return tags
+
+def free():
+    global model
+    del model
+    global tokenizer
+    del tokenizer
+    global gptmodel
+    del gptmodel
 
 if __name__ == "__main__":
     while True:
