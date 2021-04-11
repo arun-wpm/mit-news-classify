@@ -5,20 +5,15 @@ Created Thursday June 11 2020 16:32 +0700
 """
 import os
 
-from mitnewsclassify import download
+from mitnewsclassify import download, utils
 
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import load_model
 
 import traceback
-import csv
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-
-def loadcsv(filename):
-    with open(filename, newline='') as f: 
-        return list(csv.reader(f))
 
 model = None
 cntVecr = None
@@ -52,7 +47,7 @@ def initialize( modelfile="model_2500_500_50.h5",
     print("Model...")
     
     # initialize the count vectorizer
-    vocab = loadcsv(pwd + vocabfile)
+    vocab = utils.loadcsv(pwd + vocabfile)
     vocab = [x[0] for x in vocab] # extra layer of list that we don't want here
     cntVecr = CountVectorizer(vocabulary=vocab)
     print("Count Vectorizer...")
@@ -65,8 +60,8 @@ def initialize( modelfile="model_2500_500_50.h5",
     # initialize the matrix index -> tag id file and the tag id -> tag name file
     with open(pwd + ldloc, "rb") as ldin:
         ld = pickle.load(ldin)
-    # ld = loadcsv(pwd + ldloc)
-    id2tag_table = loadcsv(pwd + id2tagloc)
+    # ld = utils.loadcsv(pwd + ldloc)
+    id2tag_table = utils.loadcsv(pwd + id2tagloc)
     for row in id2tag_table:
         if row == []:
             continue

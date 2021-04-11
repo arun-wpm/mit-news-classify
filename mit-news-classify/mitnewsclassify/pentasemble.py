@@ -5,7 +5,7 @@ Created Tuesday October 6 2020 22:14 +0700
 """
 import os
 
-from mitnewsclassify import download
+from mitnewsclassify import download, utils
 
 import tensorflow as tf
 import numpy as np
@@ -14,13 +14,8 @@ from tensorflow.keras.models import load_model
 from torch.cuda import empty_cache, memory_summary
 
 import traceback
-import csv
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-
-def loadcsv(filename):
-    with open(filename, newline='') as f: 
-        return list(csv.reader(f))
 
 model = None
 ld = None
@@ -53,8 +48,8 @@ def initialize( modelfile="model_pentasemble.h5",
     # initialize the matrix index -> tag id file and the tag id -> tag name file
     with open(pwd + ldloc, "rb") as ldin:
         ld = pickle.load(ldin)
-    # ld = loadcsv(pwd + ldloc)
-    id2tag_table = loadcsv(pwd + id2tagloc)
+    # ld = utils.loadcsv(pwd + ldloc)
+    id2tag_table = utils.loadcsv(pwd + id2tagloc)
     for row in id2tag_table:
         if row == []:
             continue

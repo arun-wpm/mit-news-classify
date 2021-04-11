@@ -5,7 +5,7 @@ Created Wednesday August 19 2020 18:56 +0700
 """
 import os
 
-from mitnewsclassify import download
+from mitnewsclassify import download, utils
 from mitnewsclassify.gpt_model import GPTModel
 
 import tensorflow as tf
@@ -17,15 +17,10 @@ import numpy as np
 from transformers import GPT2Tokenizer, GPT2Model
 
 import traceback
-import csv
 import pickle
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = torch.device(device)
-
-def loadcsv(filename):
-    with open(filename, newline='') as f: 
-        return list(csv.reader(f))
 
 model = None
 tokenizer = None
@@ -70,9 +65,9 @@ def initialize( modelfile="gpt_0.5.pth", #Jamie's model
     # initialize the matrix index -> tag id file and the tag id -> tag name file
     # with open(pwd + ldloc, "rb") as ldin:
         # ld = pickle.load(ldin)
-    ld = loadcsv(pwd + ldloc)
+    ld = utils.loadcsv(pwd + ldloc)
     ld = {int(row[0]):row[1] for row in ld}
-    id2tag_table = loadcsv(pwd + id2tagloc)
+    id2tag_table = utils.loadcsv(pwd + id2tagloc)
     for row in id2tag_table:
         if row == []:
             continue

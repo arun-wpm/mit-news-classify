@@ -5,7 +5,7 @@ Created Wednesday August 19 2020 18:56 +0700
 """
 import os
 
-from mitnewsclassify import download
+from mitnewsclassify import download, utils
 
 import tensorflow as tf
 from tensorflow import keras
@@ -16,15 +16,10 @@ import numpy as np
 from transformers import DistilBertModel, DistilBertTokenizer
 
 import traceback
-import csv
 import pickle
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = torch.device(device)
-
-def loadcsv(filename):
-    with open(filename, newline='') as f: 
-        return list(csv.reader(f))
 
 tokenizer = None
 bert = None
@@ -58,9 +53,9 @@ def initialize( ldloc = 'labels_dict_distilbert.csv', #name of the labels dictio
     # initialize the matrix index -> tag id file and the tag id -> tag name file
     # with open(pwd + ldloc, "rb") as ldin:
         # ld = pickle.load(ldin)
-    ld = loadcsv(pwd + ldloc)
+    ld = utils.loadcsv(pwd + ldloc)
     ld = {int(row[0]):row[1] for row in ld}
-    id2tag_table = loadcsv(pwd + id2tagloc)
+    id2tag_table = utils.loadcsv(pwd + id2tagloc)
     for row in id2tag_table:
         if row == []:
             continue

@@ -5,7 +5,7 @@ Created Wednesday August 19 2020 17:46 +0700
 """
 import os
 
-from mitnewsclassify import download
+from mitnewsclassify import download, utils
 
 import numpy as np
 import tensorflow as tf
@@ -16,12 +16,7 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from gensim.utils import tokenize
 
 import traceback
-import csv
 import pickle
-
-def loadcsv(filename):
-    with open(filename, newline='') as f: 
-        return list(csv.reader(f))
 
 model = None
 ld = None
@@ -61,8 +56,8 @@ def initialize( modelfile="model_1200_800_40.h5",
     # initialize the matrix index -> tag id file and the tag id -> tag name file
     with open(pwd + ldloc, "rb") as ldin:
         ld = pickle.load(ldin)
-    # ld = loadcsv(pwd + ldloc)
-    id2tag_table = loadcsv(pwd + id2tagloc)
+    # ld = utils.loadcsv(pwd + ldloc)
+    id2tag_table = utils.loadcsv(pwd + id2tagloc)
     for row in id2tag_table:
         if row == []:
             continue
