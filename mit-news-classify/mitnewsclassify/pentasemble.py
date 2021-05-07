@@ -56,6 +56,18 @@ def initialize( modelfile="model_pentasemble.h5",
         id2tag[row[1]] = row[2]
     print("Miscellaneous...")
 
+def getprob(txt):
+    if (model is None):
+        initialize()
+    vec0 = tfidf.getfeatures(txt)
+    vec0 = np.concatenate((vec0, tfidf_bi.getfeatures(txt)), axis=1)
+    # print(vec0)
+
+    mat = model.predict(vec0)
+    # print(mat)
+
+    return mat
+
 def gettags(txt):
     from mitnewsclassify import gpt2
     vec0r = gpt2.getfeatures(txt)

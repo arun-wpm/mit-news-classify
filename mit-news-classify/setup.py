@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="mit-news-classify", # Replace with your own username
-    version="0.9.2.1",
+    version="0.9.3",
     author="Arun Wongprommoon",
     author_email="arunwpm@mit.edu",
     description="A news classification tool developed for Improve the News, a project by Max Tegmark",
@@ -16,7 +16,7 @@ setuptools.setup(
     install_requires=[
         'tensorflow>=2.1',
         'sklearn',
-        'gensim',
+        'gensim==3.8.3',
         'transformers',
         'torch',
         'numpy',

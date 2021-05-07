@@ -24,14 +24,14 @@ def download(model=None):
     # maybe in the future allow for downloading only some models?
     urls = {
         # tfidf model
-        "/data/tfidf/model_2500_500_50.h5":"https://www.dropbox.com/s/cf37niebcuj6i8i/model_2500_500_50.h5?dl=1",
+        "/data/tfidf/model_2500_500_50.h5":"https://www.dropbox.com/s/2t1bxjv7j4ssbaf/model_2500_500_50.h5?dl=1",
         "/data/tfidf/small_vocab_20.csv":"https://www.dropbox.com/s/v8ytgdeumwpw4g7/small_vocab_20.csv?dl=1",
         "/data/tfidf/tfmer_20.p":"https://www.dropbox.com/s/y46i525tzmf0hqx/tfmer_20.p?dl=1",
-        '/data/tfidf/labelsdict_20.p':"https://www.dropbox.com/s/8c64ogjl82hz536/labelsdict_20.p?dl=1",
+        '/data/tfidf/labelsdict_20.p':"https://www.dropbox.com/s/ioqoxawd5ekdl7c/labelsdict_20.p?dl=1",
         '/data/tfidf/nyt-theme-tags.csv':"https://www.dropbox.com/s/kvf34v0ecnc7lgc/nyt-theme-tags.csv?dl=1",
         # tfidf_bi model
         "/data/tfidf_bi/model_2000_500_50.h5":"https://www.dropbox.com/s/8j7dwpl8k1trcol/model_2000_500_50.h5?dl=1",
-        "/data/tfidf_bi/small_vocab_bi_20.csv":"https://www.dropbox.com/s/r9q5fmds0n5ujh2/small_vocab_bi_20.csv?dl=1",
+        "/data/tfidf_bi/small_vocab_bi_20.csv":"https://www.dropbox.com/s/ke2j923ryjriqeo/small_vocab_bi_20.csv?dl=1",
         "/data/tfidf_bi/tfmer_bi_20.p":"https://www.dropbox.com/s/tbdji109vtvdotm/tfmer_bi_20.p?dl=1",
         '/data/tfidf_bi/labelsdict_bi_20.p':"https://www.dropbox.com/s/20hx0oav37wf1ly/labelsdict_bi_20.p?dl=1",
         '/data/tfidf_bi/nyt-theme-tags.csv':"https://www.dropbox.com/s/4b1d8ej25af8j6q/nyt-theme-tags.csv?dl=1",
@@ -44,21 +44,21 @@ def download(model=None):
         "/data/doc2vec/nyt-theme-tags.csv":"https://www.dropbox.com/s/sa2s8u4fyzeap5a/nyt-theme-tags.csv?dl=1",
         # gpt2 model
         "/data/gpt2/gpt_0.5.pth":"https://www.dropbox.com/s/r1icj5ytplfhuj0/gpt_0.5.pth?dl=1",
-        "/data/gpt2/labels_dict_gpt.csv":"https://www.dropbox.com/s/hbxs4hp5v2y2i96/labels_dict_gpt.csv?dl=1",
+        "/data/gpt2/labels_dict_gpt.csv":"https://www.dropbox.com/s/vgtbf48q8deza9l/labels_dict_gpt.csv?dl=1",
         "/data/gpt2/nyt-theme-tags.csv":"https://www.dropbox.com/s/c1wts9knu3htzch/nyt-theme-tags.csv?dl=1",
         # distilbert model
-        "/data/distilbert/labels_dict_distilbert.csv":"https://www.dropbox.com/s/1l5hdzfz7xoqgaq/labels_dict_distilbert.csv?dl=1",
+        "/data/distilbert/labels_dict_distilbert.csv":"https://www.dropbox.com/s/tjnmd7z0uljaeg1/labels_dict_distilbert.csv?dl=1",
         "/data/distilbert/nyt-theme-tags.csv":"https://www.dropbox.com/s/omgstbndd3xl4cy/nyt-theme-tags.csv?dl=1",
         # ensemble model
         "/data/ensemble/model_ensemble.h5":"https://www.dropbox.com/s/pay4tvp6n2ffyhm/model_ensemble.h5?dl=1",
         "/data/ensemble/labelsdict.p":"https://www.dropbox.com/s/smrsyx96hf9nt9d/labelsdict.p?dl=1",
         "/data/ensemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/rprkzildvux9jjw/nyt-theme-tags.csv?dl=1",
         # trisemble model
-        "/data/trisemble/model_trisemble.h5":"https://www.dropbox.com/s/ygu51990diy61fy/model_trisemble.h5?dl=1",
+        "/data/trisemble/model_trisemble.h5":"https://www.dropbox.com/s/gbgu53xetkfeiuk/model_trisemble.h5?dl=1",
         "/data/trisemble/labelsdict.p":"https://www.dropbox.com/s/9r2v169d2npbj9v/labelsdict.p?dl=1",
         "/data/trisemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/652kf8edq438bbo/nyt-theme-tags.csv?dl=1",
         # quadsemble model
-        "/data/quadsemble/model_quadsemble.h5":"https://www.dropbox.com/s/ng94kufjtobl3uw/model_quadsemble.h5?dl=1",
+        "/data/quadsemble/model_quadsemble.h5":"https://www.dropbox.com/s/p1jfocex3dqhrc9/model_quadsemble.h5?dl=1",
         "/data/quadsemble/labelsdict.p":"https://www.dropbox.com/s/sv14u7mwe2wnn49/labelsdict.p?dl=1",
         "/data/quadsemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/m94w28knnv2gcq9/nyt-theme-tags.csv?dl=1",
         # pentasemble model
