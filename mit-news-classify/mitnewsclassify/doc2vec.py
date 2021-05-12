@@ -26,7 +26,8 @@ id2tag = {}
 def initialize( modelfile="model_1200_800_40.h5", 
                 doc2vecfile="doc2vec_model",
                 ldloc = 'labelsdict.p', #name of the labels dictionary
-                id2tagloc = 'nyt-theme-tags.csv' #name of the conversion table from tag id to tag name for NYTcorpus
+                id2tagloc = 'nyt-theme-tags.csv', #name of the conversion table from tag id to tag name for NYTcorpus
+                google=False # whether to use the model trained on our google dataset or the original nyt annotated corpus dataset
                 ):
     global model
     global doc2vec_model
@@ -38,11 +39,11 @@ def initialize( modelfile="model_1200_800_40.h5",
 
     # get package directory
     pwd = os.path.dirname(os.path.abspath(__file__))
-    pwd += "/data/doc2vec/"
+    pwd += "/data/doc2vec/" if google == False else "/gdata/doc2vec/"
     if (not os.path.isdir(pwd)):
         answer = input("The model files have not been downloaded and the methods will not work. Would you like to download them? [y/n] ")
         if answer == 'y':
-            download.download('doc2vec')
+            download.download('doc2vec', google)
 
     print("Initializing...")
     # initialize the trained model
@@ -64,9 +65,9 @@ def initialize( modelfile="model_1200_800_40.h5",
         id2tag[row[1]] = row[2]
     print("Miscellaneous...")
 
-def gettags(txt):
+def gettags(txt, google=False):
     if (model is None):
-        initialize()
+        initialize(google=google)
     vec1 = doc2vec_model.infer_vector(list(tokenize(txt)))
     # print(vec1)
 
@@ -81,9 +82,9 @@ def gettags(txt):
 
     return tags
 
-def getfeatures(txt):
+def getfeatures(txt, google=False):
     if (model is None):
-        initialize()
+        initialize(google=google)
     vec1 = doc2vec_model.infer_vector(list(tokenize(txt)))
     # print(vec1)
 

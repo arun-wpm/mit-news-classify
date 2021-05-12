@@ -57,12 +57,30 @@ def initialize( modelfile="model_pentasemble.h5",
     print("Miscellaneous...")
 
 def getprob(txt):
-    if (model is None):
-        initialize()
-    vec0 = tfidf.getfeatures(txt)
-    vec0 = np.concatenate((vec0, tfidf_bi.getfeatures(txt)), axis=1)
+    from mitnewsclassify import gpt2
+    vec0r = gpt2.getfeatures(txt)
+    # print(memory_summary())
+
+    from mitnewsclassify import distilbert
+    vec0r = np.concatenate((vec0r, distilbert.getfeatures(txt)), axis=1)
+    # print(memory_summary())
+
+    from mitnewsclassify import doc2vec
+    vec0m = doc2vec.getfeatures(txt)
+    # print(memory_summary())
+
+    from mitnewsclassify import tfidf, tfidf_bi
+    vec0l = tfidf.getfeatures(txt)
+    vec0l = np.concatenate((vec0l, tfidf_bi.getfeatures(txt)), axis=1)
+    # print(memory_summary())
+
+    vec0 = np.concatenate((vec0l, vec0m, vec0r), axis=1) #workaround for tf not being able to free gpu memory
+
     # print(vec0)
 
+    if (model is None):
+        initialize()
+    # print(memory_summary())
     mat = model.predict(vec0)
     # print(mat)
 

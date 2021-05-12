@@ -27,7 +27,8 @@ ld = None
 id2tag = {}
 
 def initialize( ldloc = 'labels_dict_distilbert.csv', #name of the labels dictionary
-                id2tagloc = 'nyt-theme-tags.csv' #name of the conversion table from tag id to tag name for NYTcorpus
+                id2tagloc = 'nyt-theme-tags.csv', #name of the conversion table from tag id to tag name for NYTcorpus
+                google=False # whether to use the model trained on our google dataset or the original nyt annotated corpus dataset
                 ):
     global tokenizer
     global bert
@@ -42,11 +43,11 @@ def initialize( ldloc = 'labels_dict_distilbert.csv', #name of the labels dictio
 
     # get package directory
     pwd = os.path.dirname(os.path.abspath(__file__))
-    pwd = pwd + "/data/distilbert/"
+    pwd += "/data/distilbert/" if google == False else "/gdata/distilbert/"
     if (not os.path.isdir(pwd)):
         answer = input("The model files have not been downloaded and the methods will not work. Would you like to download them? [y/n] ")
         if answer == 'y':
-            download.download('distilbert')
+            download.download('distilbert', google)
 
     print("Initializing...")
     
@@ -62,9 +63,9 @@ def initialize( ldloc = 'labels_dict_distilbert.csv', #name of the labels dictio
         id2tag[row[1]] = row[2]
     print("Miscellaneous...")
 
-def getfeatures(txt):
+def getfeatures(txt, google=False):
     if (ld is None):
-        initialize()
+        initialize(google=google)
     with torch.no_grad():
         encoded_dict = tokenizer([txt], add_special_tokens=True, pad_to_max_length=True, max_length=300, return_tensors="pt", return_attention_mask=True)
         result = encoded_dict['input_ids']
@@ -83,6 +84,4 @@ def free():
     del bert
 
 if __name__ == "__main__":
-    while True:
-        txt = input("Enter text: ")
-        gettags(txt)
+    pass

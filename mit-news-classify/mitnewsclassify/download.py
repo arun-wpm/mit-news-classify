@@ -1,4 +1,5 @@
 import os
+import urllib
 from urllib.request import urlretrieve
 from tqdm import tqdm
 
@@ -19,7 +20,7 @@ class TqdmUpTo(tqdm):
             self.total = tsize
         self.update(b * bsize - self.n)  # will also set self.n = b * bsize
 
-def download(model=None):
+def download(model=None, google=False):
     # downloading from dropbox
     # maybe in the future allow for downloading only some models?
     urls = {
@@ -67,15 +68,61 @@ def download(model=None):
         "/data/pentasemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/1wdq5rs1dqu3bh6/nyt-theme-tags.csv?dl=1",
     }
 
+    gurls = {
+        # tfidf model
+        "/gdata/tfidf/model_2500_500_50.h5":"https://www.dropbox.com/s/va0fns5mcavtpda/model_2500_500_50.h5?dl=1",
+        "/gdata/tfidf/small_vocab_20.csv":"https://www.dropbox.com/s/oltdxb9jagt346y/small_vocab_20.csv?dl=1",
+        "/gdata/tfidf/tfmer_20.p":"https://www.dropbox.com/s/36h7fhufsmfx0dj/tfmer_20.p?dl=1",
+        '/gdata/tfidf/labelsdict_20.p':"https://www.dropbox.com/s/93j1i1pj0oehesp/labelsdict_20.p?dl=1",
+        '/gdata/tfidf/nyt-theme-tags.csv':"https://www.dropbox.com/s/ndp06c3d834ywyp/nyt-theme-tags.csv?dl=1",
+        # tfidf_bi model
+        "/gdata/tfidf_bi/model_2000_500_50.h5":"https://www.dropbox.com/s/pkgu29v0krh6swf/model_2000_500_50.h5?dl=1",
+        "/gdata/tfidf_bi/small_vocab_bi_20.csv":"https://www.dropbox.com/s/4aqrq69dbha4slc/small_vocab_bi_20.csv?dl=1",
+        "/gdata/tfidf_bi/tfmer_bi_20.p":"https://www.dropbox.com/s/7xpri4qx5irow0p/tfmer_bi_20.p?dl=1",
+        '/gdata/tfidf_bi/labelsdict_bi_20.p':"https://www.dropbox.com/s/9fepm04580mw65h/labelsdict_bi_20.p?dl=1",
+        '/gdata/tfidf_bi/nyt-theme-tags.csv':"https://www.dropbox.com/s/n2jb4kdfbtq6eqv/nyt-theme-tags.csv?dl=1",
+        # doc2vec model
+        "/gdata/doc2vec/model_1200_800_40.h5":"https://www.dropbox.com/s/lzrti4x485ik751/model_1200_800_40.h5?dl=1",
+        "/gdata/doc2vec/doc2vec_model":"https://www.dropbox.com/s/jip9eywghoq6osj/doc2vec_model?dl=1",
+        "/gdata/doc2vec/doc2vec_model.trainables.syn1neg.npy":"https://www.dropbox.com/s/iva9oo993vrots8/doc2vec_model.trainables.syn1neg.npy?dl=1",
+        "/gdata/doc2vec/doc2vec_model.wv.vectors.npy":"https://www.dropbox.com/s/cm5ytiej587s1m8/doc2vec_model.wv.vectors.npy?dl=1",
+        "/gdata/doc2vec/labelsdict.p":"https://www.dropbox.com/s/b312d3cxgxc4fqs/labelsdict.p?dl=1",
+        "/gdata/doc2vec/nyt-theme-tags.csv":"https://www.dropbox.com/s/a0zzwnkn6bugmhf/nyt-theme-tags.csv?dl=1",
+        # gpt2 model
+        # "/data/gpt2/gpt_0.5.pth":"https://www.dropbox.com/s/r1icj5ytplfhuj0/gpt_0.5.pth?dl=1",
+        # "/data/gpt2/labels_dict_gpt.csv":"https://www.dropbox.com/s/vgtbf48q8deza9l/labels_dict_gpt.csv?dl=1",
+        # "/data/gpt2/nyt-theme-tags.csv":"https://www.dropbox.com/s/c1wts9knu3htzch/nyt-theme-tags.csv?dl=1",
+        # distilbert model
+        "/gdata/distilbert/labels_dict_distilbert.csv":"https://www.dropbox.com/s/c1kps71rb12qeyi/labels_dict_distilbert.csv?dl=1",
+        "/gdata/distilbert/nyt-theme-tags.csv":"https://www.dropbox.com/s/sbv57m5d69uzagl/nyt-theme-tags.csv?dl=1",
+        # ensemble model
+        "/gdata/ensemble/model_ensemble.h5":"https://www.dropbox.com/s/4yefrdwp2wk4ln4/model_ensemble.h5?dl=1",
+        "/gdata/ensemble/labelsdict.p":"https://www.dropbox.com/s/0t25fdbff78u7eh/labelsdict.p?dl=1",
+        "/gdata/ensemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/swuwh9yq2m0tsiy/nyt-theme-tags.csv?dl=1",
+        # trisemble model
+        "/gdata/trisemble/model_trisemble.h5":"https://www.dropbox.com/s/kmkri9kupviiohx/model_trisemble.h5?dl=1",
+        "/gdata/trisemble/labelsdict.p":"https://www.dropbox.com/s/q6zh3eb663bjez3/labelsdict.p?dl=1",
+        "/gdata/trisemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/q6keehvp6o5qlyo/nyt-theme-tags.csv?dl=1",
+        # quadsemble model
+        "/gdata/quadsemble/model_quadsemble.h5":"https://www.dropbox.com/s/d2iu7xhevvon6wz/model_quadsemble.h5?dl=1",
+        "/gdata/quadsemble/labelsdict.p":"https://www.dropbox.com/s/0vcav8g2cwmih2k/labelsdict.p?dl=1",
+        "/gdata/quadsemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/i1p5miapu4ugw1g/nyt-theme-tags.csv?dl=1",
+        # pentasemble model
+        # "/data/pentasemble/model_pentasemble.h5":"https://www.dropbox.com/s/jfyh18rmt36hqs5/model_pentasemble.h5?dl=1",
+        # "/data/pentasemble/labelsdict.p":"https://www.dropbox.com/s/orl0npue7zgtzzh/labelsdict.p?dl=1",
+        # "/data/pentasemble/nyt-theme-tags.csv":"https://www.dropbox.com/s/1wdq5rs1dqu3bh6/nyt-theme-tags.csv?dl=1",
+    }
+
     # get package directory
     pwd = os.path.dirname(os.path.abspath(__file__))
     print("Package directory: " + pwd)
 
     # make directories as needed
+    datadir = "/data" if google == False else "/gdata"
     try:
-        os.mkdir(pwd + "/data")
+        os.mkdir(pwd + datadir)
     except FileExistsError:
-        print(pwd + "/data" + " directory already exists, some other models downloaded. Continuing...")
+        print(pwd + datadir + " directory already exists, some other models downloaded. Continuing...")
     
     dirs = [
         "/data/tfidf",
@@ -88,7 +135,19 @@ def download(model=None):
         "/data/quadsemble",
         "/data/pentasemble",
     ]
-    for dir in dirs:
+    gdirs = [
+        "/gdata/tfidf",
+        "/gdata/tfidf_bi",
+        "/gdata/doc2vec",
+        "/gdata/gpt2",
+        "/gdata/distilbert",
+        "/gdata/ensemble",
+        "/gdata/trisemble",
+        "/gdata/quadsemble",
+        "/gdata/pentasemble",
+    ]
+    focusdir = dirs if google == False else gdirs
+    for dir in focusdir:
         if (model is None or model == dir.split("/")[-1]):
             try:
                 os.mkdir(pwd + dir)
@@ -96,7 +155,8 @@ def download(model=None):
                 print(pwd + dir + " directory already exists... perhaps you already downloaded the data? Overwriting...")
 
     # download the files
-    for sink, source in urls.items():
+    focusurls = urls if google == False else gurls
+    for sink, source in focusurls.items():
         if (model is None or model == sink.split("/")[-2]):
             print("Downloading " + sink + " from " + source)
             try:
